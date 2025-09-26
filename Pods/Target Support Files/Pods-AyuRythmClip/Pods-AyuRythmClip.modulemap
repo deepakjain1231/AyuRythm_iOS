@@ -1,0 +1,6 @@
+module Pods_AyuRythmClip {
+  umbrella header "Pods-AyuRythmClip-umbrella.h"
+
+  export *
+  module * { export * }
+}
