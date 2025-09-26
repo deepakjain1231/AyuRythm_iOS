@@ -351,6 +351,34 @@
                   startingLineNumber = "29"
                   endingLineNumber = "29">
                </Location>
+               <Location
+                  uuid = "496CA8B3-0F95-401E-85CF-A5182C4784A6 - 73a8fb7a2bcb9718"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in AyuRythm.FavouritesViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "AyuRythm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Documents/HOUR%20ON%20EARTH%20PROJECTS/ayurythm_ios/HourOnEarth/HourOnEarth/Favourites/FavouritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30">
+               </Location>
+               <Location
+                  uuid = "496CA8B3-0F95-401E-85CF-A5182C4784A6 - b2378c884d0aeded"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Owned To Guaranteed&gt; of function signature specialization &lt;Arg[0] = [Closure Propagated : closure #1 () -&gt; () in AyuRythm.FavouritesViewController.viewWillAppear(Swift.Bool) -&gt; (), Argument Types : [AyuRythm.FavouritesViewController]&gt; of AyuRythm.FavouritesViewController.getFavFromServer(completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "AyuRythm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Documents/HOUR%20ON%20EARTH%20PROJECTS/ayurythm_ios/HourOnEarth/HourOnEarth/Favourites/FavouritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -392,6 +420,34 @@
                   moduleName = "AyuRythm"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/deepak/Documents/HOUR%20ON%20EARTH%20PROJECTS/AyuRythm_iOS/AyuRythm_iOS/HourOnEarth/Favourites/FavouritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30">
+               </Location>
+               <Location
+                  uuid = "C496ADAE-46BD-44B5-9D5C-2EC04E974922 - 73a8fb7a2bcb9718"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in AyuRythm.FavouritesViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "AyuRythm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Documents/HOUR%20ON%20EARTH%20PROJECTS/ayurythm_ios/HourOnEarth/HourOnEarth/Favourites/FavouritesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30">
+               </Location>
+               <Location
+                  uuid = "C496ADAE-46BD-44B5-9D5C-2EC04E974922 - b2378c884d0aed8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Owned To Guaranteed&gt; of function signature specialization &lt;Arg[0] = [Closure Propagated : closure #1 () -&gt; () in AyuRythm.FavouritesViewController.viewWillAppear(Swift.Bool) -&gt; (), Argument Types : [AyuRythm.FavouritesViewController]&gt; of AyuRythm.FavouritesViewController.getFavFromServer(completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "AyuRythm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Documents/HOUR%20ON%20EARTH%20PROJECTS/ayurythm_ios/HourOnEarth/HourOnEarth/Favourites/FavouritesViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -580,6 +636,48 @@
                   moduleName = "AyuRythm"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/deepak/Documents/HOUR%20ON%20EARTH%20PROJECTS/AyuRythm_iOS/AyuRythm_iOS/HourOnEarth/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "598"
+                  endingLineNumber = "598">
+               </Location>
+               <Location
+                  uuid = "FBF0A450-4548-4250-9F26-7B384B340353 - 2eb8eefd27dbd0d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in AyuRythm.AppDelegate.callAPIforVimeoExtracter(vimeo_url: Swift.String, current_view: __C.UIViewController, completion: (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "AyuRythm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Documents/HOUR%20ON%20EARTH%20PROJECTS/ayurythm_ios/HourOnEarth/HourOnEarth/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "599"
+                  endingLineNumber = "599">
+               </Location>
+               <Location
+                  uuid = "FBF0A450-4548-4250-9F26-7B384B340353 - 90c76a6c8b72b1ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[2] = Dead, Arg[3] = Owned To Guaranteed, Arg[4] = Owned To Guaranteed&gt; of function signature specialization &lt;Arg[2] = [Closure Propagated : closure #1 (Swift.Bool, Swift.String) -&gt; () in AyuRythm.ARWellnessPlanActivityModel.extractVimeoURL(current_vc: Swift.Optional&lt;__C.UIViewController&gt;, completion: Swift.Optional&lt;(Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;AyuRythm.ARPlayerItem&gt;) -&gt; ()&gt;) -&gt; (), Argument Types : [AyuRythm.ARWellnessPlanActivityModelSwift.Optional&lt;@escaping @callee_guaranteed (@in_guaranteed Swift.Optional&lt;Foundation.URL&gt;, @guaranteed Swift.Optional&lt;AyuRythm.ARPlayerItem&gt;) -&gt; ()&gt;]&gt; of AyuRythm.AppDelegate.callAPIforVimeoExtracter(vimeo_url: Swift.String, current_view: __C.UIViewController, completion: (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "AyuRythm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Documents/HOUR%20ON%20EARTH%20PROJECTS/ayurythm_ios/HourOnEarth/HourOnEarth/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "598"
+                  endingLineNumber = "598">
+               </Location>
+               <Location
+                  uuid = "FBF0A450-4548-4250-9F26-7B384B340353 - aad8e09a8856dc4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[2] = Dead, Arg[3] = Owned To Guaranteed&gt; of function signature specialization &lt;Arg[2] = [Closure Propagated : closure #1 (Swift.Bool, Swift.String) -&gt; () in AyuRythm.YogaDetailViewController.loadVideo(url: Swift.String) -&gt; (), Argument Types : [AyuRythm.YogaDetailViewController]&gt; of AyuRythm.AppDelegate.callAPIforVimeoExtracter(vimeo_url: Swift.String, current_view: __C.UIViewController, completion: (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "AyuRythm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Documents/HOUR%20ON%20EARTH%20PROJECTS/ayurythm_ios/HourOnEarth/HourOnEarth/AppDelegate.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "598"
