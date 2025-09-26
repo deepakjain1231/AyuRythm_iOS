@@ -1,0 +1,1 @@
+../../../Target Support Files/IQKeyboardManagerSwift-library/IQKeyboardManagerSwift-library-umbrella.h
