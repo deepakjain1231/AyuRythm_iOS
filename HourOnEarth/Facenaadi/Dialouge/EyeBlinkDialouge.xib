@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EyeBlinkDialouge" customModule="AyuRythm" customModuleProvider="target">
+            <connections>
+                <outlet property="lbl_subtitle" destination="Did-gE-FEM" id="Gc9-Ws-o7e"/>
+                <outlet property="lbl_title" destination="hvx-Np-Wik" id="NhQ-Fu-LaO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view_Inner_Top" destination="9Wa-Mo-kJE" id="keQ-wk-p5g"/>
+                <outlet property="view_Main" destination="DCK-Zs-5D2" id="gAU-J7-gOi"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCK-Zs-5D2">
+                    <rect key="frame" x="25" y="252.66666666666663" width="343" height="372"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Wa-Mo-kJE">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="100"/>
+                            <color key="backgroundColor" name="buttonColor_darkGreen"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="WxK-dJ-EL1"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oyq-57-Qvu">
+                            <rect key="frame" x="121.66666666666666" y="50.000000000000028" width="100" height="100"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye_blinking_animation_by_minemech20000_d9qaqwi 1" translatesAutoresizingMaskIntoConstraints="NO" id="tS9-HI-MRX">
+                                    <rect key="frame" x="15" y="15" width="70" height="70"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="tS9-HI-MRX" secondAttribute="height" multiplier="1:1" id="mVd-nD-d3M"/>
+                                        <constraint firstAttribute="height" constant="70" id="rQS-En-Ncf"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.97254901960784312" green="0.95686274509803915" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="tS9-HI-MRX" firstAttribute="centerY" secondItem="oyq-57-Qvu" secondAttribute="centerY" id="6WM-vA-Mb5"/>
+                                <constraint firstAttribute="height" constant="100" id="8tU-c4-IFx"/>
+                                <constraint firstAttribute="width" secondItem="oyq-57-Qvu" secondAttribute="height" multiplier="1:1" id="p3O-0C-qxR"/>
+                                <constraint firstItem="tS9-HI-MRX" firstAttribute="centerX" secondItem="oyq-57-Qvu" secondAttribute="centerX" id="xfT-q3-HV3"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                    <real key="value" value="50"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blink Eyes to Begin Test!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvx-Np-Wik">
+                            <rect key="frame" x="22" y="166.00000000000003" width="299" height="27.333333333333343"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To start the test, just blink your eyes. The assessment begins automatically upon detecting your blink." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Did-gE-FEM">
+                            <rect key="frame" x="30" y="211.33333333333334" width="283" height="65.666666666666657"/>
+                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8nI-dy-Msg" customClass="UIControl">
+                            <rect key="frame" x="25" y="302" width="293" height="48"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Begin Now" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cty-b5-Ait">
+                                    <rect key="frame" x="25" y="13" width="243" height="22"/>
+                                    <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="buttonColor_darkGreen"/>
+                            <constraints>
+                                <constraint firstItem="cty-b5-Ait" firstAttribute="centerY" secondItem="8nI-dy-Msg" secondAttribute="centerY" id="0pi-7Z-4Av"/>
+                                <constraint firstItem="cty-b5-Ait" firstAttribute="centerX" secondItem="8nI-dy-Msg" secondAttribute="centerX" id="J16-EL-5Wv"/>
+                                <constraint firstAttribute="height" constant="48" id="X6c-hJ-yp5"/>
+                                <constraint firstItem="cty-b5-Ait" firstAttribute="leading" secondItem="8nI-dy-Msg" secondAttribute="leading" constant="25" id="tMN-Jb-GOl"/>
+                                <constraint firstAttribute="trailing" secondItem="cty-b5-Ait" secondAttribute="trailing" constant="24.999999999999943" id="z9N-GL-RRP"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                    <real key="value" value="12"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btn_Close_Action:" destination="-1" eventType="touchUpInside" id="be4-Dw-bdb"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.97254901959999995" green="0.95686274510000002" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="Did-gE-FEM" firstAttribute="top" secondItem="hvx-Np-Wik" secondAttribute="bottom" constant="18" id="4BR-D3-sZ2"/>
+                        <constraint firstAttribute="bottom" secondItem="8nI-dy-Msg" secondAttribute="bottom" constant="22" id="7fK-6T-sDm"/>
+                        <constraint firstItem="Did-gE-FEM" firstAttribute="leading" secondItem="DCK-Zs-5D2" secondAttribute="leading" constant="30" id="H5G-JY-jAX"/>
+                        <constraint firstItem="hvx-Np-Wik" firstAttribute="leading" secondItem="DCK-Zs-5D2" secondAttribute="leading" constant="22" id="NvV-jT-6AO"/>
+                        <constraint firstItem="8nI-dy-Msg" firstAttribute="top" secondItem="Did-gE-FEM" secondAttribute="bottom" constant="25" id="UfL-Gj-u9j"/>
+                        <constraint firstItem="8nI-dy-Msg" firstAttribute="leading" secondItem="DCK-Zs-5D2" secondAttribute="leading" constant="25" id="g7k-C9-TJf"/>
+                        <constraint firstItem="9Wa-Mo-kJE" firstAttribute="top" secondItem="DCK-Zs-5D2" secondAttribute="top" id="h7D-u1-wF0"/>
+                        <constraint firstItem="9Wa-Mo-kJE" firstAttribute="leading" secondItem="DCK-Zs-5D2" secondAttribute="leading" id="hY0-8e-CzG"/>
+                        <constraint firstItem="8nI-dy-Msg" firstAttribute="centerX" secondItem="DCK-Zs-5D2" secondAttribute="centerX" id="kdb-Wh-6sV"/>
+                        <constraint firstAttribute="trailing" secondItem="hvx-Np-Wik" secondAttribute="trailing" constant="22" id="owr-TW-ZcE"/>
+                        <constraint firstItem="hvx-Np-Wik" firstAttribute="top" secondItem="oyq-57-Qvu" secondAttribute="bottom" constant="16" id="psX-N6-P32"/>
+                        <constraint firstAttribute="trailing" secondItem="Did-gE-FEM" secondAttribute="trailing" constant="30" id="qf0-qG-uSr"/>
+                        <constraint firstItem="oyq-57-Qvu" firstAttribute="top" secondItem="9Wa-Mo-kJE" secondAttribute="bottom" constant="-50" id="qp5-nb-ldV"/>
+                        <constraint firstAttribute="trailing" secondItem="9Wa-Mo-kJE" secondAttribute="trailing" id="wWM-NS-Mto"/>
+                        <constraint firstItem="oyq-57-Qvu" firstAttribute="centerX" secondItem="9Wa-Mo-kJE" secondAttribute="centerX" id="wvj-64-OQ6"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                            <real key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DCK-Zs-5D2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="439-LD-YUg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DCK-Zs-5D2" secondAttribute="trailing" constant="25" id="oeX-Ox-iRk"/>
+                <constraint firstItem="DCK-Zs-5D2" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="tx4-TQ-NCg"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="eye_blinking_animation_by_minemech20000_d9qaqwi 1" width="76" height="57"/>
+        <namedColor name="buttonColor_darkGreen">
+            <color red="0.0039215686274509803" green="0.57647058823529407" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

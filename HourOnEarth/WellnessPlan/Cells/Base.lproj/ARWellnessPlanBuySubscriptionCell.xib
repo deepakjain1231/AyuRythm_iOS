@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ARWellnessPlanBuySubscriptionCell" rowHeight="206" id="KGk-i7-Jjw" customClass="ARWellnessPlanBuySubscriptionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="480"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="G9q-uc-Z8k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="480"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ROm-G7-fne">
+                                <rect key="frame" x="20" y="0.0" width="335" height="49.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Unlock unlimited access" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BkI-NB-QfD">
+                                        <rect key="frame" x="50" y="0.0" width="235.5" height="24.5"/>
+                                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="754" text="To discover daily diet plans" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGf-WQ-DQD">
+                                        <rect key="frame" x="77.5" y="32.5" width="180" height="17"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_diet_subscription" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-9c-buB">
+                                <rect key="frame" x="20" y="75.5" width="335" height="251.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vgv-9c-buB" secondAttribute="height" multiplier="4:3" id="AeJ-cu-3Vw"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Pat-VV-amP">
+                                <rect key="frame" x="20" y="353" width="335" height="107"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get your personalized diet and exercise plan with unlimited access" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6F-rh-XHE">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="47"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhA-bz-14t">
+                                        <rect key="frame" x="0.0" y="63" width="335" height="44"/>
+                                        <color key="backgroundColor" name="buttonColor_darkGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="GQv-M1-cAa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Subscribe Now">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <state key="selected" title="Resume Subscription"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="20" right="20"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="G9q-uc-Z8k" secondAttribute="trailing" id="1fk-Iv-4lW"/>
+                    <constraint firstItem="G9q-uc-Z8k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7jK-Ac-sjF"/>
+                    <constraint firstItem="G9q-uc-Z8k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="aTb-2r-rC6"/>
+                    <constraint firstAttribute="bottom" secondItem="G9q-uc-Z8k" secondAttribute="bottom" id="wiQ-Vo-lnO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageIV" destination="vgv-9c-buB" id="9av-qb-bRT"/>
+                <outlet property="lbl_sub_title" destination="HGf-WQ-DQD" id="XKe-2E-h5N"/>
+                <outlet property="subscribeNowBtn" destination="jhA-bz-14t" id="yMX-PN-SBp"/>
+            </connections>
+            <point key="canvasLocation" x="152.89855072463769" y="164.0625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_diet_subscription" width="250" height="250"/>
+        <namedColor name="buttonColor_darkGreen">
+            <color red="0.0039215686274509803" green="0.57647058823529407" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

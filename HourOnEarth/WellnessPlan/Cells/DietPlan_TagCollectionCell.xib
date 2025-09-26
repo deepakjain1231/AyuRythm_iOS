@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DietPlan_TagCollectionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="261" height="117"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="261" height="117"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rg2-89-blg">
+                        <rect key="frame" x="0.0" y="0.0" width="261" height="117"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zuz-Cd-gHn">
+                                <rect key="frame" x="12" y="6" width="237" height="105"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zuz-Cd-gHn" firstAttribute="top" secondItem="Rg2-89-blg" secondAttribute="top" constant="6" id="Kzb-tW-38N"/>
+                            <constraint firstItem="zuz-Cd-gHn" firstAttribute="leading" secondItem="Rg2-89-blg" secondAttribute="leading" constant="12" id="Nts-HI-xXF"/>
+                            <constraint firstAttribute="bottom" secondItem="zuz-Cd-gHn" secondAttribute="bottom" constant="6" id="bLI-8D-fIY"/>
+                            <constraint firstAttribute="trailing" secondItem="zuz-Cd-gHn" secondAttribute="trailing" constant="12" id="nzl-1q-sKf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth1">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor1">
+                                <color key="value" white="0.85999999999999999" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Rg2-89-blg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="QPy-Fl-Y16"/>
+                <constraint firstAttribute="bottom" secondItem="Rg2-89-blg" secondAttribute="bottom" id="bJw-tk-fE2"/>
+                <constraint firstAttribute="trailing" secondItem="Rg2-89-blg" secondAttribute="trailing" id="kMy-H6-VuD"/>
+                <constraint firstItem="Rg2-89-blg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="w2n-c9-e7F"/>
+            </constraints>
+            <size key="customSize" width="261" height="117"/>
+            <connections>
+                <outlet property="lbl_Tag" destination="zuz-Cd-gHn" id="ZgR-cl-8Rq"/>
+                <outlet property="view_Base" destination="Rg2-89-blg" id="q2q-mQ-Uhv"/>
+            </connections>
+            <point key="canvasLocation" x="300" y="43.309859154929576"/>
+        </collectionViewCell>
+    </objects>
+</document>

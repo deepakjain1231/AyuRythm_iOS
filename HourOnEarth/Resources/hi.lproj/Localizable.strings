@@ -1,0 +1,1359 @@
+/*
+  Localise.strings
+  HourOnEarth
+
+  Created by Ayu on 15/07/20.
+  Copyright © 2020 AyuRythm. All rights reserved.
+*/
+
+// Common
+"Done" = "Done";
+"Ok" = "ठीक है";
+"Complete Now" = "अभी पूरा करें";
+"No" = "नहीं";
+"Yes" = "हाँ";
+"Cancel" = "निरस्त करें";
+"Error" = "त्रुटि";
+"NEXT" = "अगला";
+"KNOW MORE" = "और जानिए";
+"Strength/Energy Index" = "शक्ति / ऊर्जा सूचक";
+"Metabolic Index" = "पाचन शक्ति सूचक";
+"Emotional/Stress Index" = "भावनात्मक / तनाव सूचक";
+"Take Photo" = "फोटो लें";
+"Choose From Library" = "समूह से चुनें";
+"Choose Option" = "विकल्प चुनें";
+
+// Registration
+"OTP timed out! Please try again!" = "ओटीपी का समय ख़त्म हुआ! कृपया पुन: प्रयास करें!";
+"User Already Exists" = "यूजर पहले से है।";
+"Verifying OTP..." = "OTP सत्यापित हो रहा है ...";
+"OTP will be send to your mobile through SMS..." = "OTP एसएमएस के जरिए आपके मोबाइल पर आएगा ...";
+"Please enter username." = "कृपया यूजर का नाम लिखें।";
+"Please enter password." = "कृप्या पास्वर्ड लिखें।";
+"Please enter mobile number." = "कृपया मोबाइल नंबर लिखें।";
+"Please enter email." = "कृपया ईमेल पता लिखें।";
+"Verify OTP" = "OTP सत्यापित हो रहा है ...";
+"Forgot Password?" = "पासवर्ड भूल गए?";
+"Please verify if the mobile number is correct" = "यदि मोबाइल नंबर सही है, तो कृपया सत्यापित करें।";
+"Failed to validate OTP, please try again." = "OTP को मान्य करने में विफल, कृपया पुनः प्रयास करें।";
+"Failed to send OTP, Please try again" = "OTP भेजने में विफल, कृपया पुनः प्रयास करें।";
+"Failed to register user" = "उपयोगकर्ता को रजिस्टर करने में विफल।";
+"Please enter confirm password." = "कृपया सत्यापित पासवर्ड लिखें।";
+"Please enter same password and confirm password." = "कृपया एक ही पासवर्ड डालें और पासवर्ड की पुष्टि करें।";
+"Please enter date of birth." = "कृपया जन्म तिथि लिखें।";
+"Please select gender." = "कृपया लिंग चुनें।";
+"Please enter 10 digits mobile number." = "कृपया 10 अंकों का मोबाइल नंबर दर्ज करें।";
+"Please enter valid mobile number." = "कृपया वैध मोबाइल नंबर दर्ज करें।";
+"Please enter valid email." = "कृपया वैध ईमेल लिखें।";
+"Ft" = "फ़ीट";
+"ft" = "फ़ीट";
+"Cm" = "सेंटीमीटर";
+"cm" = "सेंटीमीटर";
+"Weight" = "वजन";
+"Lbs" = "पाउंड्स";
+"lbs" = "पाउंड्स";
+"Kgs" = "किलोग्राम";
+"kg" = "किलोग्राम";
+
+//Sparshna
+"your data updated succesfully" = "आपका डेटा सफलतापूर्वक अपडेट किया गया।";
+
+//Generic Pranayam
+"Step" = "चरण";
+
+//Sparshna Result
+"Value" = "मूल्यांक";
+"What does this mean?" = "इसका क्या मतलब है?";
+"Your Vata is aggravated" = "आपका वात बढ़ा हुआ है। ";
+"Your Pitta is aggravated" = "आपका पित्त बढ़ा हुआ है। ";
+"Your Kapha is aggravated" = "आपका कफ बढ़ा हुआ है। ";
+"You are in balance" = "आप संतुलन में हैं।";
+"Congratulations! You have achieved the dosha balance as per your Prakriti.\nPlease follow the  recommendations to maintain the healthy lifestyle and balance." = "बधाइयाँ! आपने अपनी प्रकृति के अनुसार दोश संतुलन प्राप्त कर लिया है। स्वस्थ जीवनशैली और संतुलन बनाए रखने के लिए सुझावों का निरंतर का पालन करें।";
+"Your Current State" = "आपकी वर्तमान स्थिति";
+"How fast your pulse beats, measured as high/medium/low." = "आपकी नाड़ी की धड़कन की उच्च/मध्यम/निम्न के रूप में, गति मापी जाती है।";
+"Subjective pressure felt on physician’s fingers when blood vessel is full.\nClassified as high/medium/low." = "रक्त वाहिका भरी होने पर चिकित्सक की अंगुलियों पर महसूस आत्मपरक दबाव। \nउच्च / मध्यम / निम्न, प्रवाह के रूप में वर्गीकृत।";
+"Subjective pressure felt on physician’s fingers when blood vessel is empty.\nClassified as high/medium/low." = "रक्त वाहिका खाली होने पर चिकित्सक की अंगुलियों पर महसूस आत्मपरक दबाव। \nउच्च / मध्यम / निम्न, प्रवाह के रूप में वर्गीकृत।";
+"Subjective pressure felt on physician’s finger.\nClassified as weak/moderate/strong." = "चिकित्सक की अंगुलियों पर महसूस आत्मपरक दबाव।\nकमजोर / मध्यम / मजबूत के रूप में वर्गीकृत।";
+"Subjective hardness of radial artery felt by physician.\nClassified as soft/moderately hard/hard/brittle." = "चिकित्सक द्वारा महसूस की गई दीप्तिमान धमनी की आत्मपरक कठोरता।\nकोमल / मध्यम रूप में कठिन / भंगुर, में वर्गीकृत।";
+"Hamsa: Gentle and gracefully moving pulse\nSubjective feeling of how the pulse is moving.\nClassified as slow and shallow/smooth and moderate/fast and strong." = "हंस: कोमल और सुंदरता से चलने वाली नाड़ी\nनाड़ी कैसे चल रही है, इसका आत्मपरक अनुभव।\nधीमी और उथली / निर्विघ्ऩ और मध्यम / तेज और मजबूत, में वर्गीकृत।";
+"Rhythm or stability of pulse." = "नाड़ी की लय या स्थिरता।";
+"Measure of the amount of oxygen-carrying hemoglobin in the blood relative to the amount of hemoglobin not carrying oxygen." = "ऑक्सीजन नहीं ले जाने वाले हीमोग्लोबिन की मात्रा के सापेक्ष रक्त में ऑक्सीजन ले जाने वाले हीमोग्लोबिन की मात्रा का मापन।";
+"Measure of body fat based on height and weight (kgs/sqm) that applies to adult men and women." = "महिलाओं और पुरुषों पर लागू होने वाली लम्बाई और वजन (किलोग्राम / वर्गमीटर) के आधार पर शरीर में वसा का मापन।";
+"Calories burnt by an individual’s body at rest." = "निश्चल स्थिति में एक व्यक्ति के शरीर द्वारा जलाई जाने वाली कैलोरी की मात्रा।";
+"Correlates to heart rate" =  "हृदय की धड़कन की गति से संबद्ध";
+"Vega" = "वेग";
+"Above 120" = "120 से ऊपर";
+"Below 90" = "90 से नीचे";
+"Akruti Matra" = "आकृति मात्रा";
+"Correlates to systolic BP" = "सिस्टोलिक बीपी से संबद्ध";
+"Above 80" = "80 से ऊपर";
+"Below 70" = "70 से नीचे";
+"Below 60" = "60 से नीचे";
+"Akruti Tanaav" = "आकृति तनाव";
+"Correlates to diastolic BP" = "डायस्टोलिक बीपी से संबद्ध";
+"Above 40" = "40 से ऊपर";
+"Below 30" = "30 से नीचे";
+"Bala" = "बल";
+"Correlates to pulse pressure" = "पल्स प्रेशर से संबद्ध";
+"Below 210" = "210 से नीचे";
+"Above 310" = "310 से ऊपर";
+"Correlates to stiffness index" = "स्टिफनेस इंडेक्स से संबद्ध ";
+"Kathinya" = "काठिन्य";
+"Correlates to pulse morphology" = "पल्स मॉर्फोलॉजी से संबद्ध";
+"Gati" = "गति";
+"Hamsa" = "हंस";
+"Manduka" = "मंडूक";
+"Sarpa" = "सर्प";
+"Low" = "कम";
+"Medium" = "मध्यम";
+"Normal" = "सामान्य";
+"Underweight" = "अल्प-भार";
+"Overweight" = "अधिक-भार";
+"Obese" = "स्थूल";
+
+//Generic Kriya
+"Read Less" = "कम पढ़ें";
+"Read More" = "और पढ़ें";
+
+//Guest Login
+"Google sign in failed" = "गूगल साइन इन विफल रहा";
+"Please provide other information and continue" = "कृपया अन्य जानकारी प्रदान करें और जारी रखें";
+"Authentication failed." = "प्रमाणीकरण विफल हो गया";
+
+//Meditation Favourable
+"Getting meditation recommendations..." = "ध्यान के सुझाव प्राप्त कर रहे हैं ... ";
+
+//More
+"Are you sure, you want to Logout?" = "क्या आप लॉग आउट करना चाहते हैं?";
+"Kapha" = "कफ";
+"KAPHA" = "कफ";
+"Kapha governs all structure and lubrication in the mind and body. It controls weight, growth, lubrication for the joints and lungs, and formation of all the 7 tissues - nutritive fluids, blood, fat, muscles, bones, marrow and reproductive tissues." = "कफ मन और शरीर में सभी संरचना और स्नेहन को नियंत्रित करता है। यह वजन, वृद्धि, जोड़ों और फेफड़ों के लिए स्नेहन, और सभी 7 ऊतकों, पोषक तरल पदार्थ, रक्त, वसा, मांसपेशियों, हड्डियों, मज्जा और प्रजनन ऊतक, के गठन को नियंत्रित करता है।";
+"Pitta" = "पित्त";
+"PITTA" = "पित्त";
+"Pitta governs all heat, metabolism and transformation in the mind and body. It controls how we digest foods, how we metabolize our sensory perceptions, and how we discriminate between right and wrong. Pitta governs the important digestive \"agnis\" or fires of the body." = "पित्त मन और शरीर में सभी गर्मी, चयापचय और परिवर्तन को नियंत्रित करता है। यह नियंत्रित करता है कि हम खाद्य पदार्थों को कैसे पचाते हैं, हम अपनी संवेदी धारणाओं को कैसे चयापचय करते हैं, और कैसे हम सही और गलत के बीच भेदभाव करते हैं। पित्त शरीर के महत्वपूर्ण पाचन \"अग्निस \" या आग को नियंत्रित करता है।";
+"Vata" = "वात";
+"VATA" = "वात";
+"Vata governs all movement in the mind and body. It controls blood flow, elimination of wastes, breathing and the movement of thoughts across the mind. Since Pitta and Kapha cannot move without it, Vata is considered the leader of the three Ayurvedic Principles in the body. It's very important to keep Vata in good balance." = "वात, मन और शरीर में सभी गति को नियंत्रित करता है। यह रक्त प्रवाह, अपशिष्टों को समाप्त करने, सांस लेने और दिमाग में विचारों की आवाजाही को नियंत्रित करता है। क्योंकि पित्त और कफ इसके बिना नहीं चल सकते, इसलिए वात को शरीर के तीन आयुर्वेदिक सिद्धांतों में अग्रणी माना जाता है। वात को अच्छे संतुलन में रखना बहुत महत्वपूर्ण है।";
+
+//My PlanV2
+"Search Yoga..." = "योगासन ढूंढे.....";
+
+//Prakriti
+"No questions found" = "कोई प्रश्न नहीं मिला";
+"Your Ideal State" = "आपकी आदर्श अवस्था";
+"You are tridoshic" = "आप त्रिदोषी हैं ";
+"Although quite rare, some individuals have all 3 doshas in more or less equal strengths. They are categorized as tridoshic or Vata-Pitta-Kapha type individuals. With this naturally balanced Prakriti or dosha type, they are more likely to find a harmonious balance in life and can be meditative, fit, healthy, and emotionally stable.\n\nThis balance characterizes almost every aspect of life. Tridoshic individuals tend to be of a medium build and frame, with a pleasant disposition and sharp minds that can still find mental peace. The only scenario in which problems arise is when such individuals go against their basic nature throwing their doshas out of balance. Disorders that are associated with the aggravated dosha then begin to surface. For example, aggravation of Vata can give rise to problems like digestive and sleep disorders, while aggravation of Kapha could cause problems with excess body weight and depression." = "हालांकि काफी दुर्लभ है, किन्तु कुछ व्यक्तियों में, लगभग समान मात्रा में सभी 3 दोष होते हैं। उन्हें त्रिदोषिक या वात-पित्त-कफ प्रकार के व्यक्तियों के रूप में वर्गीकृत किया गया है। इस स्वाभाविक रूप से संतुलित प्रकृति या दोष प्रकार के साथ, वे जीवन में एक सामंजस्यपूर्ण संतुलन पाने की अधिक संभावना रखते हैं और ध्यान, शारीरिक योग्यता, स्वस्थता और भावनात्मक रूप से स्थिर हो सकते हैं। \n \n यह संतुलन जीवन के लगभग हर पहलू की विशेषता है। त्रिदोशिक व्यक्ति एक मध्यम निर्माण और ढांचे के होते हैं, एक सुखद स्वभाव और तेज दिमाग के साथ जो अभी भी मानसिक शांति पा सकते हैं।एकमात्र परिदृश्य, जिसमें समस्याएं उत्पन्न होती हैं जब व्यक्ति अपनी बुनियादी प्रकृति के खिलाफ जाता हैं, अत: दोषिक संतुलन खो देते हैं। अव्यवस्थित दोष के साथ जुड़े विकार तब सतह पर आने लगते हैं। उदाहरण के लिए, वात का बढ़ना, पाचन और नींद की गड़बड़ी जैसी समस्याओं को जन्म दे सकता है, जबकि कफ की वृद्धि शरीर के अतिरिक्त वजन और अवसाद के साथ समस्याएं पैदा कर सकती है।";
+
+"The Kapha-Vata combination type is perhaps the most interesting because of the opposing nature of the 2 doshas that are in predominance – Kapha and Vata. While Kapha dosha gives rise to a desire for stability, order, and routine, Vata triggers more creative pursuits and a more enthusiastic and chaotic approach to life. This strange combination can give rise to serious internal conflicts, leading to plenty of frustration at times.\n\nPhysically, individuals in the Kapha-Vata category can show significant variation being either small or delicately built, tall and slender, or more athletic and with a bigger frame. Kapha-Vata individuals also have greater vulnerability to a number of health conditions, including poor digestion with problems like bloating and constipation. Kapha-Vata individuals also have conflicting emotions, alternating between being laidback and anxious, as well as sleeping excessively or poorly. They also have a higher risk of stone formation, loss of focus, depression, and other disorders. This makes balancing dosha levels critical, as this is essential to mitigate the risk of poor health." = "2 दोषों के विरोधी स्वभाव के कारण कफ-वात संयोजन प्रकार शायद सबसे दिलचस्प है जो मुख्य रूप से हैं - कफ और वात। जबकि कफ दोश स्थिरता, आदेश और दिनचर्या की इच्छा को जन्म देता है, वात अधिक रचनात्मक गतिविधियों और जीवन के लिए एक अधिक उत्साही और अराजक दृष्टिकोण को सक्रीय करता है। यह अजीब संयोजन गंभीर आंतरिक संघर्षों को जन्म दे सकता है, जो कई बार हताशा का कारण बनता है। \n \n शारीरिक रूप से, कफ-वात श्रेणी के व्यक्ति काफ़ी भिन्नता दिखा सकते हैं, ये या तो छोटे या नाजुक रूप से निर्मित, या लंबे और पतले, या अधिक पुष्ट और बड़े ढांचे वाले हो सकते हैं। कफ-वात व्यक्तियों में कई स्वास्थ्य संबंधी समस्याओं का भी अधिक खतरा होता हैं, जिनमें सूजन और कब्ज जैसी समस्याएं होती हैं। कफ-वात व्यक्तियों में परस्पर विरोधी भावनाएँ भी होती हैं, जो अलौकिक और चिंतित होने के साथ-साथ अत्यधिक या खराब नींद का कारण भी होती हैं। उन्हें पथरी, एकाग्रता की हानि, अवसाद और अन्य विकारों का खतरा भी अधिक होता है। यह दोष स्तर को संतुलित रखना और महत्वपूर्ण बना देता है, क्योंकि यह खराब स्वास्थ्य के जोखिम को कम करने के लिए आवश्यक है।";
+
+"Vata-Kapha Precription Text" = "2 दोषों के विरोधी स्वभाव के कारण वात-कफ संयोजन प्रकार शायद सबसे दिलचस्प है जो मुख्य रूप से हैं - वात और कफ। जबकि वात दोश स्थिरता, आदेश और दिनचर्या की इच्छा को जन्म देता है, कफ अधिक रचनात्मक गतिविधियों और जीवन के लिए एक अधिक उत्साही और अराजक दृष्टिकोण को सक्रीय करता है। यह अजीब संयोजन गंभीर आंतरिक संघर्षों को जन्म दे सकता है, जो कई बार हताशा का कारण बनता है। \n \n शारीरिक रूप से, वात-कफ श्रेणी के व्यक्ति काफ़ी भिन्नता दिखा सकते हैं, ये या तो छोटे या नाजुक रूप से निर्मित, या लंबे और पतले, या अधिक पुष्ट और बड़े ढांचे वाले हो सकते हैं। वात-कफ व्यक्तियों में कई स्वास्थ्य संबंधी समस्याओं का भी अधिक खतरा होता हैं, जिनमें सूजन और कब्ज जैसी समस्याएं होती हैं। वात-कफ व्यक्तियों में परस्पर विरोधी भावनाएँ भी होती हैं, जो अलौकिक और चिंतित होने के साथ-साथ अत्यधिक या खराब नींद का कारण भी होती हैं। उन्हें पथरी, एकाग्रता की हानि, अवसाद और अन्य विकारों का खतरा भी अधिक होता है। यह दोष स्तर को संतुलित रखना और महत्वपूर्ण बना देता है, क्योंकि यह खराब स्वास्थ्य के जोखिम को कम करने के लिए आवश्यक है।";
+
+"Kapha-Pitta prescription_Text" = "कफ-पित्त प्रकार के व्यक्तियों में कफ और पित्त दोष समान शक्ति में होते हैं। इन व्यक्तियों में दृढ़ इच्छाशक्ति होती है और यह स्पष्ट लक्ष्य-केंद्रित प्रकृति के साथ अधिक केंद्रित होते हैं। साथ ही साथ, वे कुछ हद तक शांत स्वभाव के साथ संतुलित होते हैं। \n शारीरिक रूप से, कफ-पित्त प्रकार के व्यक्तियों में एक बहुत ही आकर्षक या मजबूत ढांचा होता है और अगर ये अपनी खुराक संतुलन में रखते हैं तो अपेक्षाकृत अच्छे स्वास्थ्य का आनंद लेते हैं। संतुलित व्यक्तियों में, कफ की उग्र ऊर्जा को पित्त द्वारा जमीन से जोड़ कर और संतुलित किया जाता है। इसका मतलब यह है कि इस दोष प्रकार के व्यक्तियों को जीवन में पाचन स्वास्थ्य समस्याओं का अनुभव होने की संभावना कम होती है, क्योंकि उनके पास अग्नि या पाचन अग्नि की पूर्ण शक्ति होती है। दुर्भाग्य से, कई लोग इसे महत्व नही देते हैं और अपने अच्छे भाग्य का दुरुपयोग करते हैं, अस्वास्थ्यकर जीवनशैली की ओर झुकाव करते हैं, अधिक भोजन और कम व्यायाम करते हैं। नतीजतन, मोटापे और सम्बंधित स्वास्थ्य की समस्याएं हो सकती हैं। \n कफ-पित्त प्रकार हालांकि आम तौर पर स्वस्थ होते हैं, पर भारी पसीने के परिणामस्वरूप होने वाले त्वचा रोग और शरीर की गंध की समस्याओं का ख़तरा हो सकता हैं।";
+
+"Pitta-Kapha type individuals have both Pitta and Kapha doshas in close to equal strength. These individuals have strong willpower and are more focused, with a clear goal-oriented nature. At the same time, they tend to be balanced with a somewhat relaxed nature.\nPhysically, Pitta-Kapha type individuals have a rather stocky or robust frame and they also enjoy relatively good health if they keep their doshas in balance. In balanced individuals, the fiery energy of pitta is kept grounded and balanced by Kapha. This means that individuals in this dosha type are less likely to experience digestive health problems early in life, as they have the perfect strength of Agni or digestive fire. Unfortunately, many tend to take this for granted and abuse their good fortune, leaning towards unhealthy lifestyles, overeating and under-exercising. As a result, problems with obesity and associated health risks may surface.\nPitta-Kapha types although generally healthy, may also be vulnerable to skin diseases and body odour problems that result from heavy perspiration." = "पित्त-कफ प्रकार के व्यक्तियों में पित्त और कफ दोष समान शक्ति में होते हैं। इन व्यक्तियों में दृढ़ इच्छाशक्ति होती है और यह स्पष्ट लक्ष्य-केंद्रित प्रकृति के साथ अधिक केंद्रित होते हैं। साथ ही साथ, वे कुछ हद तक शांत स्वभाव के साथ संतुलित होते हैं। \n शारीरिक रूप से, पित्त-कफ प्रकार के व्यक्तियों में एक बहुत ही आकर्षक या मजबूत ढांचा होता है और अगर ये अपनी खुराक संतुलन में रखते हैं तो अपेक्षाकृत अच्छे स्वास्थ्य का आनंद लेते हैं। संतुलित व्यक्तियों में, पित्त की उग्र ऊर्जा को कफ द्वारा जमीन से जोड़ कर और संतुलित किया जाता है। इसका मतलब यह है कि इस दोष प्रकार के व्यक्तियों को जीवन में पाचन स्वास्थ्य समस्याओं का अनुभव होने की संभावना कम होती है, क्योंकि उनके पास अग्नि या पाचन अग्नि की पूर्ण शक्ति होती है। दुर्भाग्य से, कई लोग इसे महत्व नही देते हैं और अपने अच्छे भाग्य का दुरुपयोग करते हैं, अस्वास्थ्यकर जीवनशैली की ओर झुकाव करते हैं, अधिक भोजन और कम व्यायाम करते हैं। नतीजतन, मोटापे और सम्बंधित स्वास्थ्य की समस्याएं हो सकती हैं। \n पित्त-कफ प्रकार हालांकि आम तौर पर स्वस्थ होते हैं, पर भारी पसीने के परिणामस्वरूप होने वाले त्वचा रोग और शरीर की गंध की समस्याओं का ख़तरा हो सकता हैं।";
+
+"Pitta-Vata precription_Text" = "पित्त-वात संयोजन प्रकार के व्यक्तियों में पित्त और वात दोष दोनों एक निकटता से मेल खाते हैं। इस दोष प्रकार के व्यक्तियों को अपने स्वास्थ्य के प्रबंधन के लिए एक संयोजन दृष्टिकोण की आवश्यकता होती है। वे आम तौर पर रचनात्मक होते हैं, लेकिन भीतर आवेगी और परस्पर विरोधी भी हो सकते हैं। नतीजतन, वे अक्सर खुद को अत्यधिक दबाव में रखते हैं, जिससे निराशा और जलन हो सकती है। \n \n शारीरिक रूप से, पित्त-वात प्रकार के व्यक्तियों का मध्यम कद होता है और आमतौर पर काफी फुर्तीले होते हैं। उनका दोष संयोजन कुछ विशिष्ट स्वास्थ्य चिंताओं को पैदा कर सकता है क्योंकि गति के लिए वात की गुणवत्ता पित्त के गुणों को बढ़ा सकती है। यह व्यक्तियों को कब्ज से लेकर दस्त, अपच और नाराज़गी से लेकर सूजन संबंधी विकारों और पेप्टिक अल्सर तक पाचन संबंधी विकारों के लिए अधिक संवेदनशील बनाता है। पित्त-वात व्यक्ति दर्द, नींद विकार, भावनात्मक बहिर्वाह, त्वचा की जलन, आदि से पीड़ित होने की भी अधिक संभावना रखते हैं। इसलिए एक पित्त-वात के लिए एक अच्छा स्वास्थ्य और मनोदशा बनाए रखने के लिए संतुलित दिनचर्या महत्वपूर्ण है।";
+
+"Vata-Pitta combination type individuals have both Vata and Pitta dosha in a closely matching strength. Individuals of this dosha type require a combination approach to managing their health. They are generally creative, but can also be impulsive and conflicted within. As a result, they often put themselves under excessive pressure, which can lead to disappointment and burnout.\n\nPhysically, Vata-Pitta type individuals have a medium stature and are usually quite agile. Their dosha combination can create some specific health concerns as the quality of Vata for movement can exacerbate or accentuate the qualities of Pitta. This makes individuals more vulnerable to digestive disorders at varying ends of the spectrum, from constipation to diarrhoea, indigestion and heartburn to inflammatory disorders and peptic ulcers. They are also more likely to be afflicted with aches and pains, sleep disorders, emotional outbursts, skin irritation, and so on. A Vata-Pitta balancing routine is therefore vital to maintaining good health and wellbeing." = "वात-पित्त संयोजन प्रकार के व्यक्तियों में वात और पित्त दोष दोनों एक निकटता से मेल खाते हैं। इस दोष प्रकार के व्यक्तियों को अपने स्वास्थ्य के प्रबंधन के लिए एक संयोजन दृष्टिकोण की आवश्यकता होती है। वे आम तौर पर रचनात्मक होते हैं, लेकिन भीतर आवेगी और परस्पर विरोधी भी हो सकते हैं। नतीजतन, वे अक्सर खुद को अत्यधिक दबाव में रखते हैं, जिससे निराशा और जलन हो सकती है। \n \n शारीरिक रूप से, वात-पित्त प्रकार के व्यक्तियों का मध्यम कद होता है और आमतौर पर काफी फुर्तीले होते हैं। उनका दोष संयोजन कुछ विशिष्ट स्वास्थ्य चिंताओं को पैदा कर सकता है क्योंकि गति के लिए वात की गुणवत्ता पित्त के गुणों को बढ़ा सकती है। यह व्यक्तियों को कब्ज से लेकर दस्त, अपच और नाराज़गी से लेकर सूजन संबंधी विकारों और पेप्टिक अल्सर तक पाचन संबंधी विकारों के लिए अधिक संवेदनशील बनाता है। वात-पित्त्त व्यक्ति दर्द, नींद विकार, भावनात्मक बहिर्वाह, त्वचा की जलन, आदि से पीड़ित होने की भी अधिक संभावना रखते हैं। इसलिए एक वात-पित्त के लिए एक अच्छा स्वास्थ्य और मनोदशा बनाए रखने के लिए संतुलित दिनचर्या महत्वपूर्ण है।";
+
+"Spontaneous\nEnthusiastic\nCreative\nFlexible\nEnergetic" = "स्वतःस्फूर्त \n उत्साही \n रचनात्मक \n लचीला \n ऊर्जावान";
+"Vata individuals generally have a light and creative disposition, with high levels of enthusiasm. Such individuals are also likely to be more active but may be easily distracted or forgetful.\n\nVata individuals also tend to share certain physical traits, usually falling into ends of the spectrum, being either small statured or large. They are also likely to be of a more slender build, with small, but sharp eyes. Warmer and sunnier climates are more attractive to Vata individuals as they are more prone to circulatory disorders.\n\nDosha imbalances in someone with a Vata constitution will increase vulnerability to specific types of health conditions like anxiety, sleep disorders, arthritis, and joint disease." = "वात व्यक्तियों का आम तौर पर एक हल्का और रचनात्मक स्वभाव होता है, जिसमें उच्च स्तर का उत्साह होता है। ऐसे व्यक्ति अधिक सक्रिय होने की भी संभावना रखते हैं, लेकिन आसानी से विचलित या भुलक्कड़ हो सकते हैं। \n \n ये लोग कुछ भौतिक लक्षणों जो की वर्ण-पट के अंतिम सिरों पे होता है, जैसे की या तो यह बहुत छोटे और बहुत लम्बे होते हैं। वे छोटी, लेकिन तेज आंखों के साथ अधिक पतले होते हैं। गर्म जलवायु वात व्यक्तियों के लिए अधिक आकर्षक हैं क्योंकि वे संचार विकारों के लिए अधिक प्रवण हैं। \n\nवात संविधान के व्यक्ति में दोष असंतुलन चिंता, नींद विकार, गठिया और संयुक्त रोग जैसे विशिष्ट प्रकार की स्वास्थ्य स्थितियों के लिए भेद्यता बढ़ाता है।";
+
+"Intellectual\nFocused\nPrecise\nDirect\nPassionate" = "बौद्धिक\nकेंद्रित\nसटीक\nप्रत्यक्ष\nआवेशपूर्ण ";
+"Pitta individuals tend to have greater mental clarity, focus, and retention. Pitta type individuals are highly competitive and enjoy outdoor activities. Physically, pitta type individuals tend to be of average stature, but of a more stocky or muscular build. They are also likely to have medium-sized eyes with a more penetrating gaze.\n\nBalancing pitta levels is vital for their wellbeing as pitta individuals are vulnerable to intense bouts of anger, especially when hungry, and they are also more likely to feel stressed and suffer from sleep disorders. Imbalances in dosha levels will make pitta type people more susceptible to inflammatory conditions like gastritis, peptic or intestinal ulcers, as well as inflammatory skin conditions like eczema." = "पित्त व्यक्तियों में अधिक मानसिक स्पष्टता, ध्यान और प्रतिधारण होता है। पित्त प्रकार के व्यक्ति अत्यधिक प्रतिस्पर्धी होते हैं और बाहरी गतिविधियों का आनंद लेते हैं। शारीरिक रूप से, पित्त प्रकार के व्यक्ति औसत कद के होते हैं, लेकिन अधिक स्टिकी या मजबूत मांसपेशियों के लिए जाने जाते हैं। वे अधिक मर्मस्पर्शी टकटकी के साथ मध्यम आकार की आँखें रखते हैं। \n \n \n पित्त संतुलन का स्तर उनके भलाई के लिए महत्वपूर्ण है क्योंकि पित्त व्यक्ति क्रोध के तीव्र वेग के प्रति संवेदनशील होते हैं, खासकर उन्हें जब भूख लगती है, और उन्हें किसी भी बात का बुरा लग जाने की अधिक संभावना होती है तनाव और नींद की बीमारी से पीड़ित होते हैं।दोष के स्तर में असंतुलन पित्त प्रकार के लोगों को जठरशोथ, पेप्टिक या आंतों के अल्सर, साथ ही साथ एक्जिमा जैसी भड़काऊ त्वचा की स्थिति के लिए अतिसंवेदनशील बनाता है।";
+
+"Calm\nThoughtful\nLoving\nEnjoys life\nComfortable\nwith routine" = "शांत \nविचारशील \nस्नेही \nजीवन का आनंद लेता है \nआरामदायक \nनियमित अनुयायी";
+"Kapha type individuals are usually calm and composed, with great potential for multi-tasking. They are usually more disciplined and often have higher levels of empathy and patience. They have a natural proclivity for routine and order.\n\nPhysically, individuals with a Kapha constitution are more likely to be well built, with large attractive eyes. They are more likely to be endowed with smooth skin, a clear complexion, and beautiful lips. Unfortunately, Kapha types are vulnerable to overeating and sedentary patterns, as well as oversleeping. This can make it quite a struggle to maintain a healthy body weight and stay in shape.\n\nFailing to balance Kapha levels can exacerbate unhealthy behaviours, increasing the risk for depression and metabolic syndrome disorders like obesity, heart disease, and diabetes." = "कफ प्रकार के व्यक्ति आमतौर पर शांत और रचित होते हैं, और बहु-प्रतिभा के धनी होते हैं। वे आमतौर पर अधिक अनुशासित होते हैं और अक्सर सहानुभूति और धैर्य में उच्च स्तर के होते हैं। उनके पास दिनचर्या और व्यवस्था के लिए एक स्वाभाविक समीपता है। \n \n शारीरिक रूप से, कफ संविधान वाले व्यक्तियों को बड़ी आकर्षक आंखों के साथ,अच्छी तरह से गधित शरीर वाले होते है। वे चिकनी त्वचा, एक स्पष्ट रंग और सुंदर होंठ के साथ संपन्न होने की अधिक संभावना रखते हैं। दुर्भाग्य से, कफ प्रकार के व्यक्ति को अधिक खाने और निष्क्रिय जीवनशैली के साथ, अधिक निद्रा की समस्या हो सकती हैं। यह एक स्वस्थ शरीर के वजन को बनाए रखने और आकार में बने रहने के लिए काफी संघर्ष कर सकते हैं। \n\nकफ के स्तरों को संतुलित करने में असफल होने से अस्वास्थ्यकर व्यवहार बढ़ सकता है, जिससे अवसाद और चयापचय विकारों के लक्षणों, जैसे की मोटापा, हृदय रोग और मधुमेह, का जोखिम बढ़ सकता है।";
+
+//Sparshna Test
+"1. Determination of SpO2 and heart-rate using smartphone camera. READ MORE\n" = "1. स्मार्टफोन कैमरा का उपयोग कर SpO2 और हृदय गति का निर्धारण। अधिक पढ़ें\n";
+"2. A novel application for the detection of an irregular pulse using an iPhone 4S in patients with atrial fibrillation. READ MORE\n" = "2. धमनी फिब्रिलेशन वाले रोगियों में एक iPhone 4S का उपयोग करके अनियमित पल्स का पता लगाने के लिए एक अभूतपूर्व अनुप्रयोग। अधिक पढ़ें\n";
+"3. Blood Pressure estimation using Photoplethysmography with telemedicine application. READ MORE\n" = "3. टेलीमेडिसिन अनुप्रयोग के साथ फोटोप्लेथीस्मोग्राफी का उपयोग करके रक्तचाप का अनुमान। अधिक पढ़ें\n";
+"4. An exploratory clinical study to determine the utility of Heart Rate variability analysis in the assessment of dosha imbalance. READ MORE\n" = "4. दोष असंतुलन  के मूल्यांकन में ह्रदय गति परिवर्तनशीलता विश्लेषण की उपयोगिता निर्धारित करने के लिए एक खोजपूर्ण नैदानिक ​​अध्ययन। अधिक पढ़ें\n";
+
+// Profile
+"Notifications" = "सूचनाएँ";
+"Change Password" = "पासवर्ड बदलें";
+"Please enter same password" = "कृपया एक ही पासवर्ड डालें";
+"Password changed successfully" = "पासवर्ड सफलतापूर्वक बदला गया";
+
+// Certificates
+"Certificates" = "प्रमाण पत्र";
+//"SVYASA and HealthCare Global Hospitals" = "SVYASA और हेल्थकेयर ग्लोबल हॉस्पिटल्स ";
+//"NIRAAMAYA" = "निरामया";
+
+// Play List
+"Lists" = "सूचियाँ";
+"List" = "सूची";
+
+// Filter
+"RECOMMENDATIONS BASED ON:" = "आधारित सुझाव:";
+"LEVELS:" = "स्तर:";
+"TAGS:" = "लाभ:";
+"Prakriti" = "प्रकृति";
+"Vikriti" = "विकृति";
+
+// Yoga
+"Yogasanas" = "योगासन";
+"Yoga" = "योग";
+"Meditation" = "ध्यान";
+"Pranayama" = "प्राणायाम";
+"Mudras" = "मुद्रा";
+"Kriyas" = "क्रिया";
+"Prakriti/Vikriti" = "प्रकृति/विकृति ";
+"Mudra" = "मुद्रा";
+"Kriya" = "क्रिया";
+"Precautions" = "पूर्वविधान";
+"Benefits" = "लाभ";
+"Steps" = "चरण";
+"Preparation" = "तैयारी";
+"Successfully added to your favourite list." = "सफलतापूर्वक आपकी पसंदीदा सूची में जोड़ा गया.";
+"Added" = "जोड़ा गया";
+"Removed" = "हटाया गया";
+"Successfully removed from your favourite list." = "आपकी पसंदीदा सूची से सफलतापूर्वक निकाल दिया गया।";
+
+// For You
+"Food" = "खाद्य पदार्थ ";
+
+// Side Menu
+"My Profile" = "मेरी प्रोफाइल";
+"How it Works" = "ऍप की कार्यप्रणाली";
+"Apple Health" = "एप्पल हेल्थ";
+"Terms of Usage" = "नियम और शर्तें";
+"Privacy Policy" = "गोपनीयता नीति";
+"Rate the App" = "ऍप को रेट करें";
+"About Us" = "हमारे बारे में";
+"Contact Us" = "हमसे संपर्क करें";
+"Change Language" = "भाषा चयन करें";
+"Logout" = "लॉगआउट";
+"Please register first to view your profile." = "कृपया अपना प्रोफ़ाइल देखने के लिए पहले रजिस्टर करें। ";
+"Please register first to view your Notification." = "कृपया अपनी अधिसूचना देखने के लिए पहले रजिस्टर करें।";
+"Please register first to Link with Social Media." = "कृपया Social Media से लिंक करने के लिए पहले रजिस्टर करें।";
+"Please register first to sync Apple Health." = "कृपया एप्पल हेल्थ को सिंक करने के लिए पहले रजिस्टर करें।";
+"Healthkit date update successfully!." = "हेल्थकिट तिथि सफलतापूर्वक अपडेट की गई!";
+"Please register first to view your Change Password." = "कृपया अपना परिवर्तित पासवर्ड देखने के लिए पहले रजिस्टर करें।";
+"Are you sure you want to logout?" = "क्या आप लॉग आउट करना चाहते हैं?";
+"Failed to update details." = "विवरण अपडेट करने में विफल।";
+"Terms & Conditions" = "नियम एवं शर्तें";
+"Message" = "संदेश";
+
+// Contact Us
+"Please enter subject." = "कृपया विषय लिखें।";
+"Please enter description." = "कृपया विवरण लिखें।";
+"Please register first to contact us." = "कृपया हमसे संपर्क करने के लिए पहले रजिस्टर करें।";
+"Thank you for contacting us." = "हमसे संपर्क करने के लिए धन्यवाद।";
+
+// ReTest
+"Take a deep breath and be patient. We hate to take you through these many questions but we would like to ascertain that we have every detail of your body’s dosha assessed, so that better lifestyle suggestion for wellness, disease prevention, long life and recovery from any ailment, can be presented to you, tailored! We would like to be precise, when it comes to your health assessment!" = "गहरी सांस लें और धैर्य रखें। हम आपसे कई प्रश्न पूछने के लिए क्षमाप्रार्थी हैं, लेकिन हम यह चाहते हैं कि आपके शरीर के दोष का आकलन करने के लिए हमारे पास हर विवरण है, ताकि समग्र स्वस्थता कल्याण, बीमारी की रोकथाम, लंबे जीवन और किसी भी बीमारी से उबरने के लिए बेहतर जीवनशैली का सुझाव आपको, आप ही के अनुरूप, प्रस्तुत किया जा सके! जब आपके स्वास्थ्य मूल्यांकन की बात आती है तो हम पूर्णतया निश्चित और सटीक होना चाहते हैं!";
+
+// Shop
+"Featured Products" = "प्रदर्शित उत्पाद";
+"Recommended for You" = "आपके लिए सुझाव";
+
+// Home Remedies
+"Home Remedies" = "घरेलू उपचार";
+"Search" = "ढूंढें";
+"Search Remedy" = "उपचार ढूंढें";
+"Please complete Vikriti Prashna also to help us assess your current state better" = "कृपया विकृति प्रश्नावली को भी पूरा करें ताकि हम आपकी वर्तमान स्थिति का बेहतर आंकलन कर सकें";
+"Please complete Vikriti Sparshna also to help us give you better recommendations" = " कृपया विकृति स्पर्शन को भी पूरा करें ताकि हम आपको बेहतर सुझाव दे सकें। ";
+"Balanced Kapha means good energy, strength and stamina." = "संतुलित कफ का अर्थ है अच्छी ऊर्जा, शक्ति और सहनशक्ति।";
+"Balanced Pitta means good appetite, digestion and absorption." = "संतुलित पित्त का मतलब अच्छी भूख, पाचन और अवशोषण है।";
+"Balanced Vata means enthusiastic, calm, happy and imaginative." = "संतुलित वात का अर्थ है उत्साही, शांत, प्रसन्न और कल्पनाशील।";
+"Your Vata and Pitta are aggravated. We will help calm your Vata first before managing your Pitta." = "आपके वात और पित्त बढे हुए हैं। हम आपके पित्त को प्रबंधित करने से पहले आपके वात को शांत करने में सहायता करेंगे।";
+"Your Vata and Kapha are aggravated. We will help calm your Vata first before pacifying your Kapha." = "आपके वात और कफ बढे हुए हैं। हम आपके कफ को प्रबंधित करने से पहले आपके वात को शांत करने में सहायता करेंगे।";
+"Your Pitta and Kapha are aggravated. We will pacify your Pitta first before managing your Kapha." = "आपके पित्त और कफ बढे हुए हैं। हम आपके कफ को प्रबंधित करने से पहले आपके पित्त को शांत करने में सहायता करेंगे।";
+"Your Vata is aggravated. Use our personalised recommendations to calm yourself" = "आपका वात बढ़ा हुआ है। बढे हुए वात को शांत करने के लिए हमारे द्वारा दिए गए व्यक्तिगत सुझावों का पालन करें।";
+"Your Pitta is aggravated. Use our personalised recommendations to balance your metabolism." = "आपका पित्त बढ़ा हुआ है। बढे हुए पित्त को शांत करने के लिए हमारे द्वारा दिए गए व्यक्तिगत सुझावों का पालन करें।";
+"Your Kapha is aggravated. Use our personalised recommendations to improve your energy, strength and vitality." = "आपका कफ बढ़ा हुआ है। अपनी ऊर्जा, शक्ति और जीवन शक्ति में सुधार करने के लिए हमारे व्यक्तिगत सुझावों का उपयोग करें।";
+"Congratulations! You have reached the balance. Here are some recommendations to stay in balance." = "बधाइयाँ! आप संतुलन में पहुँच चुके हैं। संतुलन में रहने के लिए यहां कुछ सुझाव दिए गए हैं।";
+"Congratulations! You have reached the balance." = "बधाइयाँ! आप संतुलन में पहुँच चुके हैं।";
+"INSTRUCTIONS" = "निर्देश";
+"Increased" = "बढ़ा हुआ";
+"Decreased" = "घटा हुआ";
+"Please complete your assessment or Register now to view recommendations" = "वैयक्तिकृत सुझाव देखने के लिए कृपया अपना आंकलन पूरा करें या रजिस्टर करें";
+"Please complete your Prakriti and Vikriti assessment to view recommendations" = "वैयक्तिकृत सुझाव देखने के लिए कृपया अपना प्रकृति और विकृति आंकलन पूरा करें ";
+"Please complete your Prakriti assessment to view recommendations" = "वैयक्तिकृत सुझाव देखने के लिए कृपया अपना प्रकृति आंकलन पूरा करें";
+"Please complete your Prakriti assessment to view prakriti history" = "प्रकृति इतिहास देखने के लिए कृपया अपना प्रकृति आंकलन पूरा करें";
+"Please complete your Vikriti assessment to view recommendations" = "वैयक्तिकृत सुझाव देखने के लिए कृपया अपना विकृति आंकलन पूरा करें ";
+"Please Register now to view Favourites section" = "स्वरुचि सूची देखने के लिए कृपया अभी रजिस्टर करें।";
+"1. All questions must be answered\n\n2. It can be fun to do the questionnaire alongside someone who knows you well\n\n3. Important: We are establishing your core nature so please consider how you were as a child, as well as now\n\n4. If you have difficulty deciding, choose the answer that best represents how you have been for the majority of your life\n\n5. The choices given are relative with the characteristics of the places you have lived\n\n6. You can pause and come back anytime" = "1. सभी प्रश्नों का उत्तर देना आवश्यक है। \n\n2. यह प्रश्नावली पूर्ण करने के लिए आपको अपने किसी जानकार व्यक्ति का सहयोग लेने के लिए प्रेरित किया जाता है, जो आपको बचपन से जानता हो। \n\n3. महत्त्वपूर्ण: हम आपकी मूल शारीरिक संरचना को स्थापित कर रहे हैं, आपसे अनुरोध है कि हर प्रश्न का उत्तर, आप अपने बचपन में कैसे थे , यह ध्यान में रख कर दें। \n\n4. यदि आपको प्रश्नों के उत्तर देने में कठिनाई होती है तो कृपया उस विकल्प को चुनें, जो आपके जीवन के अधिकांश हिस्से का सबसे अच्छा प्रतिनिधित्व करता है। \n\n5. दिए गए विकल्प उन स्थानों की विशेषताओं के सापेक्ष हैं जहाँ आप रह चुके हैं। \n\n6. आप किसी भी समय इस आंकलन को रोक सकते हैं और पुनः यहीं से प्रारम्भ कर सकते हैं।";
+"We start with the Naadi Pariksha \nor Pulse Diagnosis to discover your Kapha, Pitta and Vata imbalances or your Vikriti (Current You)" = "हम आपके कफ, पित्त और वात, में असंतुलन या आपकी विकृति (वर्तमान में आप) का आंकलन करने के लिए नाड़ी परिक्षण \n या पल्स डायग्नोसिस के साथ शुरू करते हैं।";
+"By proceeding with registration, login and using our app, you agree to our Terms and Conditions and Privacy Policy." = "रजिस्ट्रेशन के साथ आगे बढ़ कर, लॉगिन और हमारे ऍप का उपयोग करके, आप हमारे नियमों और शर्तों, और गोपनीयता नीति से सहमत हैं।";
+
+// Measurement
+"Please enter height" = "अपना कद भरे";
+"Please enter weight" = "अपना वजन भरे ";
+"Please enter your Date of Birth" = "कृपया अपनी जन्मतिथि भरे ";
+"You didn't answer current question." = "आपने वर्तमान प्रश्न का उत्तर नहीं दिया।";
+"Please retake the test and answer as accurately as possible." = "कृपया परीक्षण का यथासंभव उपयुक्त उत्तर दें";
+
+// Slide Show
+"Let's Start!" = "प्रारंभ करें";
+"The Ideal You (Prakriti)" = "वास्तविकता में आप (प्रकृति)";
+"When you are born, your body and mind is uniquely configured to be at peace with the environment. It is the most ideal state for you to live in." = "आप जब जन्म लेते हैं, तो आपके शरीर और दिमाग का, पर्यावरण के साथ शांति से रहने के लिए विशिष्ट रूप से निर्माण किया जाता है। यह विशिष्ट रूप आपकी जीवनशैली के लिए आदर्शमय है। ";
+"The Current You (Vikriti)" = "वर्तमान में आप (विकृति)";
+"But, with age, climate and lifestyle choices, this balance gets disturbed and you will not be in the ideal state anymore." = "लेकिन, उम्र, जलवायु और जीवनशैली विकल्पों के साथ, यह संतुलन बिगड़ जाता है और आप आदर्श स्थिति में नहीं रह पाते हैं।";
+"The Rejuvenated You" = "कायाकल्पित आप";
+"Using principles of ayurveda and state of the art research, we accurately assess your imbalance and provide a highly personalised plan to help you reach your ideal state." = "आयुर्वेद के सिद्धांतों और अत्याधुनिक अनुसंधान का उपयोग करते हुए, हम आपके असंतुलन का सही आकलन करते हैं और आपको आपकी आदर्श स्थिति तक पहुंचने में मदद करने के लिए अत्यधिक व्यक्तिगत सुझाव प्रदान करते हैं।";
+
+// Lets Start
+"Hi!" = "नमस्ते!";
+"We need some information to personalise this app for you" = "हमें आपके लिए इस ऍप को निजीकृत करने के लिए कुछ जानकारी चाहिए।";
+"Already have an account?" = "क्या आपका अकाउंट पहले से है?";
+"Login" = "लॉग इन करें";
+"in" = "इंच";//(Inches short form)
+"m" = "मीटर"; //(meter)
+
+// Registration
+"Welcome" = "स्वागत है";
+"Enter your name here" = "यहाँ अपना नाम लिखें ";
+"Continue" = "जारी रखें";
+"Female" = "महिला";
+"Male" = "पुरुष";
+"Height" = "लम्बाई";
+"Weight" = "वजन";
+"Date of Birth" = "जन्मतिथि ";
+"Autofill with Apple Health" = "एप्पल हेल्थ से स्वतः लें";
+"Failed to login." = "लॉगिन करने में विफल।";
+"Welcome Back!" = "पुनः स्वागत है!";
+"Invalid Referral Code" = "अमान्य रेफरल कोड";
+"Please check the code you entered and try again" = "कृपया आपके द्वारा दर्ज कोड की जाँच करें और पुनः प्रयास करें";
+"Don’t have an account?" = "क्या आपका अकाउंट नहीं है?";
+"Sign Up" = "साइन अप करें";
+"Please register first to view your result history." = "अपना परिणाम इतिहास देखने के लिए कृपया पहले रजिस्टर करें। ";
+"You can turn on healthkit permissions from setting => Health => Data Access & Devices => AyuRythm App and Turn All Categories On" = "आप सेटिंग से Healthkit अनुमतियाँ on सकते हैं =>setting => Health => Data Access & Devices => AyuRythm App और सभी श्रेणियों को on करें";
+"Go To" = "आगे चुनें";
+
+"sparshna_subTitle" = "हम आपके वर्तमान असंतुलन का आंकलन करने के लिए निम्न विधि का उपयोग करते हैं";
+"sparshna_step1" = "चरण 1\nआपके मोबाइल फोन के कैमरे पर रखी गई उंगली से आपके रक्त की छवियों की श्रृंखला ली जाती है। प्रतिबिंब के रंग घटकों से, SpO2 और फोटोप्लेथिस्मोग्राम (PPG) प्राप्त होता है। (सन्दर्भ 1)";
+"sparshna_step2" = "चरण 2\nपीपीजी से, हार्ट रेट (सन्दर्भ 1), रिदम (सन्दर्भ 2), सिस्टोलिक बीपी (सन्दर्भ 3), डायस्टोलिक बीपी (सन्दर्भ 3), पल्स प्रेशर (सन्दर्भ 3), आर्टेरिअल स्टिफनेस (सन्दर्भ 3) और पल्स मॉर्फोलॉजी (सन्दर्भ 4) को उच्च-मध्यम-निम्न में वर्गीकृत करके निकला गया है।\n(किसी भी मापदंड का पूर्ण मान प्रदर्शित नहीं किया गया है।)";
+"sparshna_step3" = "चरण 3\nउपरोक्त उच्च-मध्यम-निम्न मानों को आयुर्वेदिक जैविक सूचकों में रूपांतरित किया जाता है, जिनका नाम है: वेग (हृदय गति से संबंधित), ताल (सहसंबंधी) रिदम), आकृति मात्रा (सिस्टोलिक बीपी से संबंधित), आकृति तनाव (डायस्टोलिक बीप से संबंधित), बल (पल्स प्रेशर से संबंधित), काठिन्य (आर्टेरिअल स्टिफनेस) और गती (पीपीजी फ्रीक्वेंसी स्पेक्ट्रम)।";
+"sparshna_step4" = "चरण 4\nभारित आयुर्वेदिक मापदंडों का औसत, आयुर्वेदिक दोष असंतुलन (सन्दर्भ 4) में परिवर्तित किया जाता है और आपका समग्र असंतुलन प्रदर्शित किया जाता है।";
+"sparshna_disclimer" = "अस्वीकरण: यह विधि केवल आयुर्वेदिक समग्र स्वस्थता कल्याण के सुझावों के लिए विकसित की गई है। परिणामों की व्याख्या, निदान या उपचार के लिए उपयोग नहीं किया जाना चाहिए।";
+"sparshna_reference" = "संदर्भ:";
+
+"We use the following method to arrive at your current imbalance:\nStep 1. Your mobile phone camera takes series of images from the finger placed on the camera. From the colour components of reflection, SpO2 and photoplethysmogram (PPG) is derived. (ref. 1)\n\nStep 2. From PPG, Heart Rate (ref. 1), Rhythm (ref. 2), Systolic BP (ref. 3), Diastolic BP (ref. 3), Pulse Pressure (ref. 3) , Arterial Stiffness (ref. 3) and Pulse Morphology (ref. 4) is classified in high-medium-low. \nNo absolute value of any parameter is displayed.\n\nStep 3. High-Medium-Low values of the above said seven parameters are converted to Ayurvedic bio markers, namely: Vega (correlates to Heart Rate), Tala (correlates to Rhythm) , Akriti Matra (correlates to Systolic BP), Akriti Tanaav (correlates to Diastolic BP), Bala (correlates to Pulse Pressure), Kathinya (Arterial Stiffness) and Gati (PPG frequency spectrum).\n\nStep 4. Weighted average of the Ayurvedic parameters is converted to Ayurvedic dosha imbalance (ref 4) and your overall imbalance is displayed. \n\nDISCLAIMER: This method is developed for Ayurvedic holistic wellness recommendations only. The results should not be interpreted or used for diagnostics or treatment. \n\nReferences:" = "हम आपके वर्तमान असंतुलन का आंकलन करने के लिए निम्न विधि का उपयोग करते हैं: \n चरण 1. आपके मोबाइल फोन के कैमरे पर रखी गई उंगली से आपके रक्त की छवियों की श्रृंखला ली जाती है। प्रतिबिंब के रंग घटकों से, SpO2 और फोटोप्लेथिस्मोग्राम (PPG) प्राप्त होता है। (सन्दर्भ 1) \n \n चरण 2. पीपीजी से, हार्ट रेट (सन्दर्भ 1), रिदम (सन्दर्भ 2), सिस्टोलिक बीपी (सन्दर्भ 3), डायस्टोलिक बीपी (सन्दर्भ 3), पल्स प्रेशर (सन्दर्भ 3), आर्टेरिअल स्टिफनेस (सन्दर्भ 3) और पल्स मॉर्फोलॉजी (सन्दर्भ 4) को उच्च-मध्यम-निम्न में वर्गीकृत करके निकला गया है। \nकिसी भी मापदंड का पूर्ण मान प्रदर्शित नहीं किया गया है। \n \n चरण 3. उपरोक्त उच्च-मध्यम-निम्न मानों को आयुर्वेदिक जैविक सूचकों में रूपांतरित किया जाता है, जिनका नाम है: वेग (हृदय गति से संबंधित), ताल (सहसंबंधी) रिदम), आकृति मात्रा (सिस्टोलिक बीपी से संबंधित), आकृति तनाव (डायस्टोलिक बीप से संबंधित), बल (पल्स प्रेशर से संबंधित), काठिन्य (आर्टेरिअल स्टिफनेस) और गती (पीपीजी फ्रीक्वेंसी स्पेक्ट्रम)। \n \n चरण 4. भारित आयुर्वेदिक मापदंडों का औसत, आयुर्वेदिक दोष असंतुलन (सन्दर्भ 4) में परिवर्तित किया जाता है और आपका समग्र असंतुलन प्रदर्शित किया जाता है। \n \nअस्वीकरण: यह विधि केवल आयुर्वेदिक समग्र स्वस्थता कल्याण के सुझावों के लिए विकसित की गई है। परिणामों की व्याख्या, निदान या उपचार के लिए उपयोग नहीं किया जाना चाहिए। \n \n संदर्भ:";
+
+// Shop
+"Coming Soon" = "शीघ्र आ रहा है ";
+"To Checkout the Demo, Click on the Below Button" = "डेमो चेक करने के लिए, नीचे बटन पर क्लिक करें";
+"CLICK HERE" = "यहाँ क्लिक करें";
+"Shop" = "खरीदें";
+
+// My Home
+"Your Wellness Index" = "स्वस्थता सूचकांक";
+"Retest" = "पुनः परिक्षण";
+"Your Pita and Kapha are out of balance. We will pacify your metabolism( Pita ) first before building energy ( Kapha)" = "आपका पित्त और कफ संतुलन से बाहर हैं। ऊर्जा (कफ) बढ़ाने से पहले हम आपके चयापचय (पित्त) को शांत करेंगे ";
+"PRASHNA" = "प्रश्न";
+"Differential Diagnosis" = "विभेदक निदान";
+//"PRAKRITI | THE IDEAL ME" = "प्रकृति | वास्तविकता में आप";
+//"VIKRITI | THE CURRENT ME" = "विकृति | वर्तमान में आप";
+"SPARSHNA" = "स्पर्शन";
+"Naadi Pariksha / Pulse Diagnosis" = "नाड़ी परीक्षा / पल्स डायग्नोसिस ";
+"YOUR RESULTS" = "आपका परिणाम";
+"Today" = "आज";
+"Welcome!" = "स्वागत है!";
+"Please complete the remaining test to view your wellness index and recommendations" = "अपने स्वस्थता सूचकांक और सुझावों को देखने के लिए शेष परीक्षण पूरा करें ";
+"Register to save your results" = "अपने परिणाम सहेजने के लिए रजिस्टर करें";
+"Register Now" = "अभी रजिस्टर करें";
+"VIEW DETAILS" = "विवरण देखें";
+"Your Wellness Summary" = "आपकी स्वस्थता का सारांश";
+"Register to save your results and view personalised plans" = "अपने परिणामों को सहेजने और व्यक्तिगत सुझावों को देखने के लिए रजिस्टर करें";
+"PAUSE" = "रोकें";
+"Question -" = "प्रश्न -";
+"Question" = "प्रश्न";
+"PREVIOUS" = "पिछला";
+
+// My Progress
+"My Progress" = "मेरी प्रगति";
+"Results" = "परिणाम";
+"Sparshna" = "स्पर्शन";
+"Naadi Pariksha/Pulse Diagnosis" = "नाड़ी परीक्षा / पल्स डायग्नोसिस";
+"I have read and understood that this method is only for Ayurvedic wellness and should not be interpreted or used for diagnosis or treatment." = "मैंने पढ़ लिया है और समझ लिया है कि यह विधि केवल आयुर्वेदिक स्वस्थता के लिए है और इसका निदान या उपचार के लिए उपयोग नहीं किया जाना चाहिए। ";
+"Don’t show this again" = "इसे पुनः न दिखाएँ।";
+"Let’s Start" = "प्रारंभ करें";
+
+// Profile
+"Submit" = "जमा करें";
+"Subject" = "विषय";
+"AyuRythm is the world's first completely digital solution for personalized holistic wellness based on Ayurvedic principles. Our solution works on any smartphone.\n\nAyuRythm's patent-pending technology and approval from leading Ayurvedic doctors makes our solution a one-stop for all wellness needs. It assesses the user's ideal and current body type based on a one-time response to 30 questions followed by daily 30-second pulse diagnostic test using your mobile phone camera. Based on the tests, the application makes personalized recommendations on ideal yoga, pranayama, food, spa and herbal.\n\nThe solution comes integrated with a market place where users have a choice to purchase product and services to further their wellness goals." = "आयुर्वेदिक सिद्धांतों के आधार पर वैयक्तिक समग्र स्वस्थता के लिए AyuRythm विश्व का पहला पूरी तरह से डिजिटल समाधान है। यह समाधान किसी भी स्मार्टफोन पर काम करता है। \n \nAyuRythm की पेटेंट-लंबित प्रौद्योगिक, और प्रमुख आयुर्वेदिक चिकित्सकों द्वारा अनुमोदित, इस  समाधान को सभी स्वस्थता कल्याण आवश्यकताओं के लिए एकमात्र विकल्प बनाता है। यह आपके मोबाइल फोन कैमरे का उपयोग करके और प्रतिदिन 30-सेकंड का नाड़ी परीक्षण एवम 30 प्रश्नों के उत्तर के आधार पर, आपके आदर्श और वर्तमान शरीर के प्रकार का आंकलन करता है। परीक्षणों के आधार पर, यह ऍप आपको आदर्श योग, प्राणायाम, आहार, ध्यान, क्रिया, मुद्रा और आयुर्वेदिक पूरक औषधियों पर व्यक्तिगत सुझाव देता है। \n \nसमाधान एक मार्केट प्लेस के साथ एकीकृत है जहां आपको अपने स्वस्थता कल्याण लक्ष्यों को आगे बढ़ाने के लिए उत्पाद और सेवाएं खरीदने का विकल्प दिया जाता है।";
+
+// Favourites
+"Favourites" = "स्वरुचि";
+//"English" = "इंग्लिश";
+"Hindi" = "हिंदी";
+
+// My Plan
+"Set yoga alarm" = "योगासन अलार्म सेट करें ";
+"Ideal time for you to do yoga is in the evening" = "आपके लिए योगासन करने का आदर्श समय शाम का है";
+"Save" = "सहेजें";
+"SKIP" = "छोड़ें";
+"SUBMIT" = "सब्मिट करें";
+"Questions Skipped" = "छोड़े गए प्रश्न";
+"Oops!" = "ओह!";
+"Email ID" = "ईमेल ID";
+"Phone Number" = "फ़ोन नंबर";
+
+"Either finger wasn't placed accurately or you are not well rested before taking results." = "आपकी उंगली कैमरे पर अनुचित ढंग से रखी गयी है, या आप पूर्णतः विश्रामित नहीं हैं।";
+"Success" = "सफल हुआ";
+"Updated successfully" = "अपडेट सफल हुआ ";
+"Failed to update user details." = "यूजर का विवरण अपडेट करने में विफल।";
+"For You" = "आपके लिए";
+"Result History" = "परिणाम इतिहास";
+"Link with Social Media" = "Social Media से लिंक करें";
+"Edit Profile" = "प्रोफ़ाइल संपादित करें";
+"Mark all as Read" = "सबकुछ पढ़ा हुआ मार्क करें";
+"DR. VAIDYA's" = "DR. VAIDYA's";
+"Back" = "पीछे";
+"Sparshna Instructions" = "स्पर्शन निर्देश";
+"We will be measuring your blood flow.\n\n- Please place your finger palm on the front camera of your phone pointing away from your face \n\n- The screen will turn red when the camera is covered properly \n\n- Ensure that you are in a brightly lit area/room" = "हम आपके रक्त प्रवाह को मापेंगे। \n \n- कृपया अपने फ़ोन के फ्रंट कैमरे पर अपनी उंगली या हथेली रखें, जो आपके चेहरे से दूर हो \n- कैमरा ठीक से कवर होने पर स्क्रीन लाल हो जाएगी - सुनिश्चित करें कि आप एक उज्ज्वल रोशनी वाले क्षेत्र / कमरे में हैं";
+"Pulse Diagnosis" = "नाड़ी परीक्षा";
+"We will be measuring your blood flow.\n\nPlace your finger/palm on the back camera of your phone, covering the flash,\nand then press continue.\n\nEnsure you are in a brightly lit area\nbefore starting the test\n\nThe screen will turn red when finger/palm is placed correctly" = "हम आपके रक्त प्रवाह को मापेंगे। \n\nअपने फ़ोन के बैक कैमरे पर अपनी उंगली / हथेली को फ्लॅश को कवर करते हुए रखें, \nऔर 30 सेकंड के लिए ऐसे ही रहने दें। \nयदि आपने उंगली / हथेली को सही तरह से रखा हुआ है तो आपके फ़ोन की स्क्रीन लाल हो जाएगी।";
+"Nadi Pariksha" = "नाड़ी परीक्षा";
+"Please enter the verification code " = "कृपया सत्यापन कोड लिखें  ";
+"Please enter the verification code \nsent to %@%@" = "कृपया %@%@ पर भेजें गए सत्यापन कोड को दर्ज़ करें";
+"Didn’t receive a code?" = "क्या कोड प्राप्त नहीं हुआ?";
+"Sign in" = "साइन इन ";
+"attempts left" = "प्रयास बाक़ी हैं";
+"Verify" = "सत्यापित करें";
+
+"Your Vata and Pitta are aggravated." = "आपके वात और पित्त बढे हुए हैं।";
+"We will help calm your Vata first before managing your Pitta." = "हम आपके पित्त को प्रबंधित करने से पहले आपके वात को शांत करने में सहायता करेंगे।";
+"Your Vata and Kapha are aggravated." = "आपके वात और कफ बढे हुए हैं।";
+"We will help calm your Vata first before pacifying your Kapha." = "हम आपके कफ को प्रबंधित करने से पहले आपके वात को शांत करने में सहायता करेंगे।";
+"Your Pitta and Kapha are aggravated." = "आपके पित्त और कफ बढे हुए हैं।";
+"We will pacify your Pitta first before managing your Kapha." = "हम आपके कफ को प्रबंधित करने से पहले आपके पित्त को शांत करने में सहायता करेंगे।";
+"Your Vata is aggravated." = "आपका वात बढ़ा हुआ है।";
+"Use our personalised recommendations to calm yourself." = "अपने बढे हुए दोष को शांत करने के लिए हमारे द्वारा दिए गए व्यक्तिगत सुझावों का पालन करें।";
+"Your Pitta is aggravated." = "आपका पित्त बढ़ा हुआ है।";
+"Use our personalised recommendations to balance your metabolism." = "अपने बढे हुए दोष को शांत करने के लिए हमारे द्वारा दिए गए व्यक्तिगत सुझावों का पालन करें।";
+"Your Kapha is aggravated." = "आपका कफ बढ़ा हुआ है।";
+"Use our personalised recommendations to improve your energy, strength and vitality." = "अपनी ऊर्जा, शक्ति और जीवन शक्ति में सुधार करने के लिए हमारे व्यक्तिगत सुझावों का उपयोग करें।";
+"Congratulations!" = "बधाइयाँ!";
+"You have reached the balance. Here are some recommendations to stay in balance." = "आप संतुलन में पहुँच चुके हैं। संतुलन में रहने के लिए यहां कुछ सुझाव दिए गए हैं।";
+"You have reached the balance." = "आप संतुलन में पहुँच चुके हैं।";
+"Last Assessment: " = "पिछला आंकलन ";
+"Last Assessment" = "पिछला आंकलन";
+"Test Now" = "अब परीक्षण करें";
+"Oxygen Saturation" = "ऑक्सीजन संतृप्ति";
+"Variation History" = "असंतुलन इतिहास";
+"SpO2 or Oxygen Saturation History" = "SpO2 या ऑक्सीजन संतृप्ति इतिहास";
+"Sorry! No Data! \n Please complete the assessments to view data!" = "माफ़ कीजिए! कोई डेटा उपलब्ध नहीं है! \n डेटा देखने के लिए आंकलन पूरा करें!";
+"See More" = "और देखें";
+"Day" = "दिवस";
+"Week" = "सप्ताह";
+"Month" = "महीना";
+"Year" = "साल";
+"Difference between Prakriti and Vikriti " = "प्रकृति एवम विकृति का दोशांतर ";
+"Oxygen Saturation History" = "ऑक्सीजन संतृप्ति इतिहास";
+"Food" = "आहार";
+"Ideal You" = "आदर्श ";
+"Current You" = "वर्तमान ";
+"Tips for Balancing" = "संतुलन के लिए युक्तियाँ";
+"TIPS FOR BALANCING" = "संतुलन के लिए युक्तियाँ";
+"• Vigorous regular exercise, a little each day \n• Warm temperatures \n• Fresh fruits, vegetables and legumes \n• Favour pungent, bitter, astringent tastes and light, dry and warm foods \n• Reduce heavy, oily, cold foods and sweet, sour and salty tastes \n• Seek out variety and new experiences \n• Stay warm in cold, damp weather \n• Early to bed, early to rise" = "• असरकारक नियमित व्यायाम, प्रत्येक दिन धीरे धीरे बढ़ायें \n• गर्म तापमान \n• ताजे फल, सब्जियां और फलियां \n• तीखे, कड़वे, कसैले स्वाद और हल्के, सूखे और गर्म खाद्य पदार्थ की मात्रा बढ़ायें \n• भारी, तैलीय, ठंडे खाद्य पदार्थ और मीठा, खट्टा और नमकीन स्वाद कम करें \n• भांति भांति के नए अनुभव प्राप्त करें\n• नम और ठन्डे मौसम में गर्म रहें,  \n• जल्दी सोयें और जल्दी उठें ";
+"Kapha Governs" = "नियंत्रित करता है";
+"KAPHA GOVERNS" = "नियंत्रित करता है";
+"Pitta Governs" = "नियंत्रित करता है ";
+"PITTA GOVERNS" = "नियंत्रित करता है ";
+"Vata Governs" = "नियंत्रित करता है";
+"VATA GOVERNS" = "नियंत्रित करता है";
+"• Moisture for nose, mouth, eyes and brain \n• Sense of taste, which is essential for good digestion \n• Moisture of the stomach lining for good digestion \n• Protects the heart, strong muscles, healthy lungs \n• Lubrication of the joints, soft and supple skin" = "• नाक, मुंह, आंख और मस्तिष्क के लिए नमी \n• स्वाद की भावना, जो अच्छे पाचन के लिए आवश्यक है \n• अच्छे पाचन के लिए पेट की नमी \n• दिल, मजबूत मांसपेशियों, स्वस्थ फेफड़ों की रक्षा करता है \n• जोड़ों की चिकनाई, मुलायम और कोमल त्वचा";
+"Out of Balance" = "असंतुलन के प्रभाव";
+"OUT OF BALANCE" = "असंतुलन के प्रभाव";
+"• Sinus congestion, poor sense of smell \n• Poor sense of taste, food cravings due to lack of fulfillment \n• Impaired digestion, poor absorption \n• Lethargy, respiratory problems, lower back pain \n• Weight gain, oily skin, loose or painful joints" = "• साइनस का कंजेशन, गंधहीनता  \n• स्वादहीनता, और भोजन की कमी के कारण भूख लगना \n• अस्वस्थ पाचन शक्ति, खराब अवशोषण \n• सुस्ती, श्वसन संबंधी समस्याएं और पीठ के निचले हिस्से में दर्द \n• वजन बढ़ना, तैलीय त्वचा, ढीले या दर्दनाक जोड़ ";
+"• Keep cool. Avoid hot temperatures and food. \n• Favor cool, heavy, dry foods and sweet, bitter and astringent tastes. \n• Reduce pungent, sour, salty tastes and warm, oily and light foods. \n• Moderation; don't overwork. \n• Allow for leisure time. \n• Regular mealtimes, especially lunch at noon. \n• Abhyanga (ayurvedic oil massage) with a cooling oil such as coconut." = "• शांत स्वभाव रखें। गर्म तापमान और गर्म आहार से बचें। \n• शीतल, भारी, सूखे खाद्य पदार्थ जैसे मीठे, कड़वे और कसैले स्वाद को अपनाएँ। \n• तीखे, खट्टे, नमकीन स्वाद और गर्म, तैलीय और हल्के खाद्य पदार्थों को कम करें। \n• संयम बरतें, अत्यधिक कार्य न करें। \n• आराम करें और आसान कार्य करें। \n• नियमित रूप से आहार, विशेष रूप से दोपहर का आहार समय से करें। \n• अभ्यंग (आयुर्वेदिक तेल की मालिश) नारियल जैसे ठंडे तेल के साथ।  ";
+"• Functioning of the eyes \n• Healthy glow of the skin \n• Desire, drive, decisiveness, spirituality \n• Digestion, assimilation, metabolism for healthy nutrients and tissues \n• Healthy, toxin-free blood." = "• आँखों की कार्य पद्धति बनाये रखना \n• त्वचा को स्वस्थ एवं दीप्तिमान रखना \n• इच्छा, एकाग्रता, निर्णायकता, आध्यात्मिकता बनाये रखना \n• पाचन, आत्मसात, स्वस्थ पोषक तत्वों और ऊतकों के लिए चयापचय रखना \n• स्वस्थ, विष मुक्त रक्त रखना";
+"• Bloodshot eyes, poor vision \n• Skin rashes, acne \n• Demanding, perfectionist, workaholic \n• Acid stomach \n• Early graying, anger, toxins in blood" = "• रक्तमय आँखें, खराब दृष्टि \n• त्वचा पर चकत्ते, मुँहासे \n• जिद्दी, पूर्णतावादी, काम में डूबे रहने वाले \n• अम्लीय पेट \n• रक्त में विषाक्तता, क्रोध, बाल जल्दी सफ़ेद होना";
+"• Abhyanga (daily ayurvedic massage with sesame oil) \n• Warm temperatures. \n• Warm, cooked foods (less raw foods) \n• Early bedtimes, lots of rest \n• Favor warm, oily, heavy foods and sweet, sour, and salty tastes. \n• Reduce light, dry, cold foods and pungent, bitter and astringent tastes. \n• Avoid stimulants \n• Regular, daily elimination \n• Stay warm in cold, windy weather" = "• अभ्यंग (तिल के तेल के साथ दैनिक आयुर्वेदिक मालिश) \n• गर्म तापमान \n• गर्म, पके हुए खाद्य पदार्थ (कच्चे खाद्य पदार्थ कम) \n• शीघ्रशयन, अधिक आराम \n• गर्म, तैलीय, भारी खाद्य पदार्थ और मीठा, खट्टा, नमकीन स्वाद अनुकूल \n• हल्के, सूखे, ठंडे खाद्य पदार्थ और तीखे, कड़वे और कसैले स्वाद को कम करें \n• उत्तेजक पदार्थों से बचें \n• दैनिक उन्मूलन, नियमित रूप से, \n• ठंडी और तेज हवाओं के मौसम में गर्म रहें";
+"• The senses, creative thinking, reasoning, enthusiasm \n• Quality of voice, memory, movements of thought \n• Movement of food through digestive tract \n• Elimination of wastes, sexual function, menstrual cycle \n• Blood flow, heart rhythm, perspiration, sense of touch" = "• इन्द्रियां, रचनात्मक सोच, तर्क, उत्साह \n• आवाज की गुणवत्ता, स्मृति, विचारबद्धता \n• पाचन तंत्र के माध्यम से आहार का अवसरण  \n• अवशेष का उन्मूलन, यौन कार्य, मासिक धर्म चक्र \n• रक्त प्रवाह, हृदय की लय, पसीना, स्पर्श की अनुभूति";
+"• Worries, overactive mind, sleep problems, difficulty breathing \n• Dry cough, sore throats, earaches, general fatigue. \n• Slow or rapid digestion, gas, intestinal cramps, poor assimilation, weak tissues. \n• Intestinal cramps, menstrual problems, lower back pain, irregularity, diarrhea, constipation, gas \n• Dry or rough skin, nervousness, shakiness, poor blood flow, stress-related problems" = "• चिंता, अति सक्रिय मन, नींद की समस्याएं, सांस लेने में कठिनाई \n• सूखी खांसी, गले में खराश, कान का दर्द, सामान्य थकान \n• धीमा या तीव्र पाचन, गैस, आंतों में ऐंठन, खराब आत्मसात, कमजोर ऊतक  \n• आंतों में ऐंठन, मासिक धर्म की समस्या, पीठ के निचले हिस्से में दर्द, अनियमितता, दस्त, कब्ज, गैस \n• सूखी या खुरदरी त्वचा, घबराहट, सांवलापन, खराब रक्त प्रवाह, तनाव-संबंधित समस्याएं";
+"Tala" = "ताल";
+"Correlates to HRV" = "HRV से संबद्ध";
+"Regular" = "नियमित";
+"Irregular" = "अनियमित";
+"Basal metabolic rate" = "चयापचयी दर";
+"BMR" = "चयापचयी दर";
+"Body mass index" = "शारीरिक द्रव्यमान सूचक (BMI)";
+"BMI" = "BMI";
+"DISCLAIMER: These results are only for Ayurvedic wellness and should not be interpreted or used for diagnosis or treatment." = "DISCLAIMER: ये परिणाम केवल आयुर्वेदिक समग्र स्वस्थता कल्याण के लिए हैं और इसका निदान या उपचार के लिए व्याख्या या उपयोग नहीं किया जाना चाहिए।";
+"These results are only for Ayurvedic wellness and should not be interpreted or used for diagnosis or treatment." = "ये परिणाम केवल आयुर्वेदिक समग्र स्वस्थता कल्याण के लिए हैं और इसका निदान या उपचार के लिए व्याख्या या उपयोग नहीं किया जाना चाहिए।";
+"days ago" = "दिन पहले";
+"Eat" = "उपयोग करें";
+"Avoid" = "उपयोग ना करें";
+"Filters" = "फ़िल्टर";
+"Seasons" = "मौसम के";
+"Best time to eat" = "खाने का सबसे अच्छा समय";
+"Play Video" = "वीडियो चलाएं";
+"Beginner" = "शुरुआती";
+"Intermediate" = "मध्यवर्ती";
+"Advanced" = "उन्नत";
+"items" = "आइटम";
+"Reset" = "Reset";
+"Form incomplete" = "फॉर्म अधूरा";
+"Why do we need your Date of Birth?" = "हमें आपकी जन्म तिथि की आवश्यकता क्यों है?";
+"We use your age to calculate Kapha, Pitta and Vata based on Ayurvedic health parameters" = "हम आपकी आयु का उपयोग आयुर्वेदिक स्वास्थ्य मापदंडों के आधार पर कफ, पित्त और वात की गणना करने के लिए करते हैं";
+"Please check your network connectivity" = "कृपया अपनी नेटवर्क कनेक्टिविटी जांचें";
+
+// AyuSeeds
+"Complete Vikriti Prashna" = "विकृति प्रश्नावली पूरी करें";
+"Refer a friend" = "मित्र को आमंत्रित करें";
+"Complete Sparshna" = "स्पर्शन परिक्षण करें";
+"Link your Social Media" = "अपने Social \nMedia को लिंक करें";
+"Earn 50 AyuSeeds by completing \nVikriti Prashna once a month" = "प्रतिमाह विकृति प्रश्न पूर्ण करें \nऔर 50 AyuSeeds अर्जित करें!";
+"You and your friend, get %@ AyuSeeds each, when they sign up using your code!" = "आप और आपके मित्र, दोनों को %@ AyuSeeds प्राप्त होंगे, आपका कोड उपयोग कर Sign up करते ही!";
+"Complete your Sparshna \ntest everyday and earn 25 AyuSeeds!" = "प्रतिदिन स्पर्शन परीक्षण पूर्ण करें \nऔर 25 AyuSeeds अर्जित करें!";
+"You have already earned the maximum Seeds for Sparshna today.\nPlease come back tomorrow to earn again." = "आप आज के स्पर्शना आंकलन के लिए AyuSeeds अर्जित कर चुके है।\nकृपया कल पुनः आकर AyuSeeds अर्जित करें।";
+"Completely for you, by you!\nAnd earn 10 AyuSeeds\n(For every list you make!)" = "पूर्णतः आपके लिए, आपके द्वारा!\nऔर 10 AyuSeeds प्राप्त करें\n(आपके द्वारा बनाई गई हर सूची के लिए!)";
+"Personalized holistic wellness assessment, recommendations and home remedies on AyuRythm App. Check out %@ and many more on the app." = "AyuRythm ऍप पर व्यैक्तिक समग्र स्वस्थता कल्याण आंकलन, व्यक्तिगत सुझाव और घरेलू उपचार प्राप्त करें। यह देखें %@ और ऍप पर और अधिक ऐसे ही समाधान देखें।";
+"Something went wrong with social login, please try after some time" = "सोशल लॉगिन में कुछ गलत हो गया है, कृपया कुछ समय बाद प्रयास करें";
+"The user has not signed in before or they have since signed out." = "यूज़र ने पहले साइन-इन नहीं किया है या साइन-आउट कर दिया गया है।";
+"Register using my code %@ on the AyuRythm App & get %@ AyuSeeds to unlock exclusive and curated content.\nPersonalized holistic wellness assessment, recommendations and home remedies on AyuRythm App. Check out this and many more on the app.\nDownload on the App Store: %@ \nDownload on the Play Store: %@" = "AyuRythm ऍप पर मेरे कोड %@ का उपयोग करके रजिस्टर करें और अनन्य एवम संग्रहित कंटेंट को अनलॉक करने के लिए %@ AyuSeeds प्राप्त करें। AyuRythm ऍप पर समग्र वैयक्तिक स्वस्थता कल्याण आंकलन, अनुशंसाएँ और घरेलू उपचार उपलब्ध हैं।\nऍप डाउनलोड करने के लिए,\nऍप स्टोर: %@ \nप्ले स्टोर: %@";
+
+"I just created my own list in AyuRythm!.\nCheck this out and many more on the app!" = "मैंने अभी AyuRythm में अपनी स्वयं की सूची बनाई है! \nइसे देखने के लिए ऍप डाउनलोड करें तथा और भी बहुत कुछ देखें!";
+"I just found a home remedy for %@ on AyuRythm app." = "AyuRythm ऍप पर मुझे आसानी से %@ का घरेलू उपचार मिल गया।";
+"I just did Naadi Pariksha to assess my current wellness state and various health parameters using AyuRythm app, in 30 seconds." = "AyuRythm ऍप पर मैंने नाड़ी परीक्षा द्वारा अपनी वर्तमान स्वस्थता स्थिति और अन्य स्वास्थ्य मापदंडों का आंकलन सिर्फ 30 सेकंड में किया है।";
+"I just did assessment to find my Prakriti (Ideal wellness state) on AyuRythm app." = "AyuRythm ऍप पर मैंने अपनी प्रकृति (आदर्श स्वस्थता स्थिति) का आंकलन किया।";
+
+"Personalized holistic wellness assessment, recommendations and home remedies at your fingertips!\n\nDownload AyuRythm now!\nDownload on the App Store: %@\nDownload on the Play Store: %@" = "व्यक्तिगत समग्र स्वस्थता कल्याण आंकलन, सुझाव और घरेलू उपचार अब आपकी उंगलियों पर!\n\nअभी AyuRythm ऍप डाउनलोड करें! \nAppStore से डाउनलोड करें : %@\nPlayStore से डाउनलोड करें: %@";
+
+"Personalized holistic wellness assessment, recommendations and home remedies at your fingertips!\n\nDownload AyuRythm now!\nUse my code %@ to get %@ AyuSeeds and unlock exclusive content.\nDownload on the App Store: %@\nDownload on the Play Store: %@" = "व्यक्तिगत समग्र स्वस्थता कल्याण आंकलन, सुझाव और घरेलू उपचार अब आपकी उंगलियों पर!\n\nअभी AyuRythm ऍप डाउनलोड करें!\n%@ AyuSeeds प्राप्त करने और अनन्य कन्टेंट को अनलॉक करने के लिए मेरे कोड %@ का उपयोग करें।\nAppStore से डाउनलोड करें : %@\nPlayStore से डाउनलोड करें: %@";
+
+"User cancelled login." = "यूज़र ने लॉगिन रद्द कर दिया है।";
+"Redeem & Unlock" = "रिडीम और अनलॉक";
+"Have a promo code?" = "क्या आपके पास प्रोमो कोड है?";
+"Enter promo code" = "प्रोमो कोड लिखें";
+"Promo code" = "प्रोमो कोड";
+"Redeem" = "रीडीम";
+"Content Locked!" = "कंटेंट अवरोधित!";
+"Use your seeds to unlock\nYou have %d points \n\nPoints needed to unlock:\n%d" = "अनलॉक करने के लिए अपने AyuSeeds का उपयोग करें,\nआपके पास %d AyuSeeds हैं,\n\nअनलॉक करने के लिए आवश्यक AyuSeeds: \n%d";
+"Application will restart for the language change to reflect in the app" = "भाषा परिवर्तित करने पर, ऍप पुनः शुरुआत से प्रारम्भ होगी।";
+"Prakriti History" = "प्रकृति इतिहास";
+
+//User Lists
+"Create a List" = "सूची बनायें";
+"User Lists" = "यूज़र्स सूचियां";
+"My Lists" = "मेरी सूचियाँ";
+"Lists" = "सूचियाँ";
+"List" = "सूची";
+"Delete" = "हटाएं";
+"Edit" = "संपादित करें";
+"Rename" = "नाम बदलें";
+"Add More" = "और अधिक जोड़ें";
+"Share" = "शेयर करें";
+"Name your List" = "अपनी सूची को नाम दे";
+"Give your list a memorable name" = "अपनी सूची को स्मरण रखने योग्य नाम दें";
+"List Name" = "सूची का नाम";
+"Please enter a valid list name" = "कृपया सूची को एक मान्य नाम दें";
+"Please select an item to delete" = "कृपया हटाने के लिए किसी एक आइटम का चयन करें ";
+"Rename your List" = "अपनी सूची का नाम बदलें";
+"New List Name" = "नई सूची का नाम";
+"Delete List" = "सूची हटाएँ";
+"Are you sure you want to delete this list?" = "क्या आप इस सूची को हटाना चाहते हैं?";
+"Updated Successfully" = "अपडेट सफल हुआ";
+
+"Failed to get My Lists." = "मेरी सूचियाँ प्राप्त करने में विफल।";
+"Failed to save My Lists." = "मेरी सूचियाँ सहेजने में विफल।";
+"Failed to rename the List." = "सूची का नाम बदलने में विफल।";
+"Failed to delete selected item." = "चयनित आइटम को हटाने में विफल।";
+"Failed to get My Lists Details." = "मेरी सूची विवरण प्राप्त करने में विफल।";
+
+"Items Added"="आइटम जोड़े गए";
+"A new version is available. Please update to continue." = "एक नया version उपलब्ध है। कृपया जारी रखने के लिए update करें।";
+"Update Later" = "बाद में update करें";
+"unlocked successfully, valid for 1 month" = "सफलतापूर्वक अनलॉक, 1 महीने के लिए वैध";
+"list created successfully" = "सूची सफलतापूर्वक बनाई गई";
+"Yoga" = "योगासन";
+"Pranayama" = "प्राणायाम";
+"Meditation" = "ध्यान";
+"Detailed results" = "विस्तृत परिणाम";
+
+"Wellness report" = "स्वस्थता विवरण";
+"Fail to get wellness report, please try after some time" = "Fail to get wellness report, please try after some time";
+
+
+//Survey
+"Enjoy your wellness journey" = "स्वस्थता कल्याण यात्रा का आनंद लें!";
+"Thank you for helping us tailor the app for you!\nEnjoy your journey to a balanced lifestyle :)" = "ऍप को आपकी प्राथमिकता के अनुसार निजीकृत करने में सहयोग के लिए धन्यवाद्!";
+"Cancel the customisation?\n\nYou can always come back and set your preferences at any time!" = "क्या आप प्राथमिकीकरण रद्द करना चाहते हैं? \n\nआप किसी भी समय वापस आ सकते हैं और अपनी प्राथमिकताएं निर्धारित कर सकते हैं!";
+"Are you sure, you want to clear your customisation?\n\nYou can always come back and set your preferences at any time!" = "क्या आप वाकई अपनी प्राथमिकताएं हटाना चाहते हैं? \n\nआप किसी भी समय वापस आ सकते हैं और अपनी प्राथमिकताएं निर्धारित कर सकते हैं!";
+"Notification permission is not granted, please enable it from settings" = "Notification permission is not granted, please enable it from settings";
+"Your wellness reminder" = "आपका स्वस्थता कल्याण रिमाइंडर";
+"Head to AyuRythm and check out your recommendations for the day!" = "कृपया AyuRythm ऍप खोलें एवम आज के स्वस्थता सुझाव देखें।";
+"Follow Your Rhythm!" = "अपनी लय का पालन करें!";
+"Let's start your wellness routine and move towards a balanced lifestyle." = "आइए आपकी स्वास्थ्य कल्याण दिनचर्या शुरू करें और एक संतुलित जीवनशैली की ओर बढ़ें।";
+"Hi %@!" = "नमस्ते %@!";
+"Next" = "अगला";
+"Begin" = "प्रारंभ करें";
+
+"Immunity" = "प्रतिरक्षा";
+"Digestion" = "पाचनक्रिया";
+"Stress Relief" = "तनाव से राहत";
+"Mindfulness" = "सचेतन";
+"Weight Loss" = "वजन घटाना";
+"Strength/Flexibility" = "शक्ति / लचीलापन";
+"Women's Health" = "महिलाओं का स्वास्थ";
+"Please select atleast one option to proceed" = "कृपया आगे बढ़ने के लिए कम से कम एक विकल्प चुनें";
+
+"Click Here" = "";
+"Click here to set your preferences" = "अपनी प्राथमिकताएँ निर्धारित करने\nके लिए यहाँ क्लिक करें";
+"\n\n\nClick here to show your last sparshna result" = "\n\n\nअपना विगत अवलोकन देखने के लिए यहाँ क्लिक करें";
+
+//Trainer
+"session" = "सत्र";
+"sessions" = "सत्र";
+"min each" = "मिनट";
+"About" = "परिचय";
+"Programs Offered" = "संकुल सूची";
+"Trainers" = "प्रशिक्षक"; //"प्रशिक्षकों";
+"Wellness Trainers" = "प्रशिक्षक";
+"Maximum number of session allowed per week is %@" = "अधिकतम सत्र प्रति सप्ताह % @";
+"Please select non-consecutive day" = "कृपया गैर-लगातार दिनों का चयन करें";
+"Your Location Usage" = "आपकी स्थानीय जानकारी का उपयोग";
+"We use this information to calculate the GST applicable on your order." = "हम आपके ऑर्डर पर लागू GST की गणना के लिए इस जानकारी का उपयोग करते हैं।";
+"Please indicate if you have any medical or health condition." = "अगर आपको कोई स्वास्थ्य समस्या है तो कृपया उल्लेख करें";
+"Please select your start date" = "आरंभ तिथि चुनें";
+"Please select days for session" = "कृपया दिनों का चयन करें";
+"Please choose %@ %@" = "कृपया %@ %@ चुनें";
+"days" = "दिन";
+"Days" = "दिन";
+"day" = "दिन";
+"Please select location" = "आपकी लोकेशन चुनें";
+"Please enter information for the trainer" = "कृपया प्रशिक्षक के लिए जानकारी का उल्लेख करें";
+"Please choose any %d %@ %@ of the week for your sessions" = "कृपया अपने सत्र के लिए सप्ताह के कोई भी %d %@ %@ चुनें";
+"non-consecutive" = "गैर-लगातार";
+"with" = "with";
+"Every " = "प्रत्येक ";
+"Total Due" = "कुल देय राशि ";
+"Failed to place order." = "ऑर्डर बुक करने में विफल।";
+"Calendar access was denied. Please enable it in app settings." = "कैलेंडर एक्सेस नहीं दिया गया था। कृपया इसे एप सेटिंग में सक्षम करें।";
+"Open Settings" = "सेटिंग्स खोलें";
+"Failed to sync events with calendar" = "कैलेंडर के साथ घटनाओं को सिंक्रनाइज़ करने में विफल";
+"Successfully sync events with calendar" = "कैलेंडर के साथ सफलतापूर्वक समन्वयित किया गया";
+"Failed to get my bookings." = "बुकिंग प्राप्त करने में विफल।";
+"My Bookings" = "मेरी बुकिंग";
+
+"Sunday" = "रविवार";
+"Monday" = "सोमवार";
+"Tuesday" = "मंगलवार";
+"Wednesday" = "बुधवार";
+"Thursday" = "गुरुवार";
+"Friday" = "शुक्रवार";
+"Saturday" = "शनिवार";
+
+"Karnataka" = "कर्नाटक";
+"Others" = "अन्य";
+
+"Herbs" = "जड़ी बूटी";
+"I just found a useful herb - %@ on AyuRythm app." = "AyuRythm ऍप पर मुझे आसानी से '%@' उपयोगी जड़ी बूटी मिल गई।";
+
+"Buy Coupons!" = "कूपन खरीदें!";
+"Fail to get coupons, please try after some time" = "कूपन प्राप्त करने में विफल, कृपया कुछ समय बाद प्रयास करें";
+
+"Total Due: " = "कुल देय राशि : ";
+"Buy Seeds" = "AyuSeeds खरीदें";
+"Redeem Seeds" = "रिडीम AyuSeeds";
+"Coupon code copied successfully" = "कूपन कोड सफलतापूर्वक कॉपी किया गया";
+
+"Referral Code copied successfully" = "रेफ़रल कोड सफलतापूर्वक कॉपी किया गया";
+"Refer Now" = "अभी रेफर करें";
+
+"BUY SEEDS & REDEEM" = "AyuSeeds खरीदें और रिडीम करें";
+"REDEEM SEEDS NOW" = "अभी AyuSeeds रिडीम करें";
+
+"Required Seeds: " = "AyuSeeds चाहिए : ";
+"Available Seeds: " = "AyuSeeds उपलब्ध : ";
+
+"Tap to see coupons!" = "कूपन देखने के लिए यहां क्लिक करें!";
+
+"Unable to capture data" = "डेटा कैप्चर करने में असमर्थ";
+"Probable cause finger not placed." = "संभावित कारण उंगली ठीक से नहीं रखी है।";
+
+"\nProbable causes: \n(1) Lighting not adequate or finger not placed\n(2) Measured under direct sunlight\n(3) Phone model not supported." = "\nसंभावित कारण: \n(1) अपर्याप्त प्रकाश या उंगली ठीक से नहीं रखी है।\n(2) सीधे सूर्य के प्रकाश के तहत मापा गया है।\n(3) फोन मॉडल समर्थित नहीं है।";
+
+"Fail to place buy AyuSeeds order, please try after some time" = "Fail to place buy AyuSeeds order, please try after some time";
+
+"Feature Unavailable" = "सुविधा अनुपलब्ध";
+"Sorry, this feature is currently not available in your country" = "क्षमा करें, यह सुविधा वर्तमान में आपके देश में उपलब्ध नहीं है";
+
+"Value : " = "मूल्यांक : ";
+"Section" = "अनुभाग";
+
+
+//Suryathon
+"Please enter the correct code" = "कृपया सही कोड दर्ज करें";
+"Suryathon by CCRYN\n\nTrack your Progress!" = "सुर्याथन - CCRYN द्वारा\n\nअपनी प्रगति देखें";
+"Great job!!\n\nHow many Surya Namaskars did you complete today?" = "सराहनीय!!\n\nआज आपने कितने सूर्य नमस्कार पूर्ण किये?";
+"How many Surya Namaskars did you complete today?" = "आज आपने कितने सूर्य नमस्कार पूर्ण किये?";
+"Please enter valid count value" = "कृपया मान्य संख्या दर्ज करें";
+"Suryathon Tracker" = "सुर्याथन का इतिहास";
+
+//GAMIFICATIONS
+
+"Healthy habits are rewarding!! Exercise, meditate or participate in contests to win exciting rewards. Personalized holistic wellness at your fingertips!\n\nDownload AyuRythm now!Use my code %@ to get %@ AyuSeeds and unlock exclusive content.\nDownload on the App Store: %@ \nDownload on the Play Store: %@" = "अच्छी आदतें लाभदायक हैं !! व्यायाम करें, ध्यान करें या प्रतियोगिताओं में भाग लें और रिवार्ड्स जीतें। व्यैक्तिक समग्र स्वस्थता अब आपकी उँगलियों पर! अभी AyuRythm ऍप डाउनलोड करें!\n\nAyuRythm ऍप पर मेरे कोड %@ का उपयोग करके रजिस्टर करें, और अनन्य एवम संगृहीत कंटेंट को अनलॉक करने के लिए %@ AyuSeeds प्राप्त करें।\nAppStore से डाउनलोड करें : %@ से डाउनलोड करें: %@";
+"Spent Seeds - %@ \nLifetime Seeds - %@" = "खर्च हुए Seeds - %@ \nलाइफटाइम Seeds  - %@";
+"Congratulations you’ve won" = "बधाई हो आप जीत गए हैं";
+"Earn AyuSeeds" = "AyuSeeds अर्जित करें";
+"Streaks" = "स्ट्रीक्स";
+"You can get exciting rewards while maintaining your daily streak.\n\n• Maintain your streak by doing sparshna\n• Reach new levels to claim\nexciting rewards" = "आप अपनी दैनिक स्ट्रीक को बनाए रखते हुए आकर्षक रिवार्ड्स प्राप्त कर सकते हैं!\n\n• स्पर्शना करके अपनी स्ट्रीक को बनाए रखें \n• आकर्षक रिवार्ड्स प्राप्त करने के लिए नए स्तरों पर पहुँचें";
+"Streak" = "स्ट्रीक";
+"Note : You’ll be droped to previous level if you miss sparshna for straight %d days." = "नोट : यदि आप सीधे %d दिन लगातार स्पर्शना नहीं करते हैं तो आप पिछले स्तर पे आ जायेंगे";
+"You begin the streak!" = "आप स्ट्रीक शुरू करें!";
+"You’re doing great" = "आप बहुत अच्छा कर रहे हैं!";
+"My Reward" = "मेरे रिवार्ड्स";
+"Code copied successfully" = "कोड सफलतापूर्वक कॉपी किया गया";
+"My Rewards" = "मेरे रिवार्ड्स";
+"Contests" = "कॉन्टेस्ट्स";
+"COMING SOON" = "जल्द आ रही है";
+"ENDING" = "समाप्त हो रही है";
+"ENDING SOON" = "जल्द ही खत्म हो रही है";
+"CONTEST EXPIRED" = "कांटेस्ट समाप्त हो गई है";
+"Do you really want to leave this contest?" = "क्या आप वास्तव में इस कांटेस्ट को छोड़ना चाहते हैं?";
+"Your progress will be reset, and you have to start this contest from beginning" = "आपकी प्रगति को रीसेट कर दिया जाएगा, और आपको यह कांटेस्ट पुनः प्रारम्भ करनी होगी";
+"Resume" = "पुनः आरम्भ करें";
+"Leave" = "छोड़ दें";
+"No questions found in this contest" = "इस कांटेस्ट में कोई प्रश्न नहीं मिला";
+"Do you really want to start over this contest?" = "क्या आप वाकई इस कॉन्टेस्ट को शुरू करना चाहते हैं?";
+"Your points will be reset.\nRedeem %d AyuSeeds to continue\nOr\nCome tomorrow and play for free" = "आपके पॉइंट्स रीसेट हो जाएंगे।\nजारी रखने के लिए %d AyuSeeds रिडीम करें। \nया\nकल आएं और फ्री में खेलें।";
+"Leaderboard" = "लीडरबोर्ड";
+"Play Now" = "अभी खेलें";
+"Play Again" = "पुनः खेलें";
+"Total participants : " = "कुल प्रतिभागी : ";
+"Me" = "मैं";
+"Expires in" = "में समाप्त होगा";
+"Expires in %@ %@" = "%@ %@ में समाप्त होगा";
+"Complete %0.f days streak to reach %@ level" = "%@ स्तर तक पहुंचने के लिए %0.f दिन की स्ट्रीक पूरी करें";
+
+"My rank: " = "मेरी रैंक: ";
+"Expired" = "समाप्त हो गई है";
+"Expires on: " = "को समाप्त हो रहा है: ";
+"Code: " = "कोड: ";
+"Steps to avail offer" = "ऑफ़र का लाभ उठाने के चरण";
+"Copy" = "कॉपी";
+"Subscribe" = "सदस्यता लें";
+"Offer details" = "ऑफ़र की जानकारी";
+"Score" = "स्कोर";
+"Play again" = "पुनः खेलें";
+
+"Winners" = "विजेता";
+"Check winners on %@" = "%@ को विजेता देखें";
+"Check winners" = "विजेता देखें";
+"Chance to win" = "जीतने का मौका";
+
+"Account Settings" = "अकाउंट सेटिंग्स";
+"Delete Account" = "अकाउंट हटाना";
+"This will delete all the records and information associated with the account. Data cannot be retrieved again." = "यह अकाउंट से जुड़े सभी रिकॉर्ड और जानकारी को हटा देगा। हटाए गए डेटा को फिर से प्राप्त नहीं किया जा सकता है।";
+"Are you sure you want to delete your account?" = "क्या आप इस अकाउंट को हटाने के लिए सुनिश्चित हैं?";
+"Account deleted successfully." = "अकाउंट सफलतापूर्वक हटाया गया।";
+
+"Rules" = "नियम";
+"Enter the contest." = "कॉन्टेस्ट में प्रवेश करें!";
+"Answer all the questions." = "सभी प्रश्नों के उत्तर दें!";
+"Earn points for each correct answer." = "प्रत्येक सही उत्तर के लिए अंक अर्जित करें!";
+"No points deducted for wrong answers." = "गलत उत्तरों के लिए कोई अंक नहीं काटा जाएगा!";
+"Win exciting rewards." = "आकर्षक रिवार्ड्स जीतें!";
+"You can enter this contest multiple times." = "आप इस कांटेस्ट में एक से अधिक बार भाग ले सकते हैं।";
+"Answer all questions correctly to be eligible for the lucky draw." = "लकी ड्रा के पात्र होने के लिए सभी प्रश्नों के सही उत्तर दें!";
+"Houronearth Creative Solutions Pvt. Ltd. explicitly attests that Apple is in no way involved as a sponsor of the competition and/or in its organization." = "Houronearth Creative Solutions Pvt Ltd स्पष्ट रूप से प्रमाणित करता है कि Apple किसी भी तरह से प्रतियोगिता के प्रायोजक के रूप में और/या उसकी कंपनी में शामिल नहीं है।";
+
+//Subscription
+
+"My Active Plan" = "सक्रिय प्लान";
+"Choose Plan" = "प्लान चुनें";
+"Welcome aboard" = "आपका स्वागत है";
+"Active Plans" = "सक्रिय प्लान";
+"Pause" = "रोकें";
+"Renew Now" = "अभी नवीनीकृत करें";
+"Resume Subscription" = "सदस्यता पुनः आरंभ करें";
+"Are you sure you want resume your subscription?" = "क्या आप वाकई अपनी सदस्यता पुनः आरंभ करना चाहते हैं?
+हाँ";
+"Success!" = "सफल हुआ!";
+"Something went wrong" = "कुछ गलत हो गया है";
+"Retry" = "Retry";
+"Hi %@, Need a break?" = "नमस्ते! %@, क्या आपको थोड़े आराम की जरूरत है?";
+"Please select pause date" = "कृपया विराम तिथि चुनें";
+"Please select resume date" = "कृपया पुनः आरंभ तिथि चुनें";
+"you can pause active subscription %@ %@, for a maximum of %@ %@ cumulatively." = "आप सदस्यता को %@ %@, कुल मिलाकर अधिकतम %@ %@ के लिए रोक सकते हैं";
+"time" = "बार";
+"times" = "बार";
+"Order Details" = "ऑर्डर की जानकारी";
+"Payment Details" = "भुगतान की जानकारी";
+"Retry" = "पुन: प्रयास करें";
+"Your active subscription will be paused" = "आपकी सक्रिय सदस्यता रोक दी जाएगी।";
+"1 month" = "1 महीना";
+"\nEXTRA!" = "\nअतिरिक्त!";
+"1 FREE" = "1 नि:शुल्क";
+"2 FREE" = "2 नि:शुल्क";
+"\nlive session!" = "\nलाइव सत्र!";
+"UNLOCK" = "अनलॉक";
+"\neverything" = "\nसब कुछ";
+"Months" = "महीने";
+"/month" = "/महीना";
+"(%@ at %@/month %@ off)" = "(%@ at %@/महीना %@ off)";
+"About this plan:" = "इस प्लान का विवरण:";
+"Please Note:" = "कृपया ध्यान दें:";
+"Fail to download receipt, please try after some time" = "रसीद डाउनलोड करने में विफल, कृपया कुछ समय बाद प्रयास करें";
+"Your transaction is successful" = "आपका भुगतान सफल रहा";
+
+//Pedometer
+
+"%@/%@\nsteps" = "%@/%@\nकदम";
+"Week %d, %d" = "सप्ताह %d, %d";
+"This Week" = "इस सप्ताह";
+"Week %d" = "सप्ताह %d";
+"This Month" = "इस महीना";
+"This Year" = "इस साल";
+"Year %@" = "साल %@";
+"Steps" = "कदम";
+"Set your goal" = "अपना लक्ष्य सेट करें";
+"Enter goal step counts" = "लक्ष्य कदम संख्या दर्ज करें";
+"Confirm" = "पुष्टि करें";
+"Please enter valid step count value" = "कृपया मान्य कदम गणना मान दर्ज करें";
+
+"No steps data found or check HealthKit Steps permissions from setting => Health => Data Access & Devices => AyuRythm App and Turn All Steps Categories On" = "कोई डेटा नहीं मिला या  HealthKit अनुमतियां जांचें सेटिंग => स्वास्थ्य => डेटा एक्सेस और डिवाइस => AyuRythm ऐप और सभी श्रेणियां चालू करें";
+
+//Wellness Plan
+"Plan for %@" = "%@ के लिए प्लान";
+"Tell us" = "हमें बताएँ";
+"Diet Plan" = "आहार का प्लान";
+"Suggestions" = "सुझाव";
+"Subscription required" = "सदस्यता आवश्यक है";
+"To change your diet plan preferences please subscribe" = "अपनी आहार की वरीयताओं को बदलने के लिए कृपया Subscribe करें";
+"Check Plans" = "प्लान देखें";
+
+
+
+//MARK: - AYUVERSE
+"Welcome to\nAyuVerse" = "में आपका स्वागत है\nAyuVerse";
+"rules" = "नियमों से";
+"I agree to the rules stated" = "मैं सहमत हूं नियमों से बताए गए";
+"Create" = "बनाएं";
+"Share your wellness\nexperiences with like\nminded people." = "अपने स्वस्थता अनुभवों को समान विचारधारा वाले लोगों के साथ साझा करें।";
+"Connect" = "जुड़ें";
+"Engage with people\ninterested in ayurvedic\nwellness" = "आयुर्वेदिक स्वास्थ्य में रुचि रखने वाले लोगों से संलग्न रहें";
+"Discover" = "खोजें";
+"Explore ayurvedic wellness\ncontent by experts and\nwellness enthusiasts." = "विशेषज्ञों और स्वस्थता के प्रति उत्साही लोगों द्वारा द्वारा साझा कॉन्टेंट का अन्वेषण करें।";
+"So what are you waiting for? Come join us in our Ayurveda community!" = "तो आप क्यों प्रतीक्षा कर रहे हैं? हमारे आयुर्वेद समुदाय में शामिल हों!";
+"Let’s Go!" = "आगे बढ़ें!";
+"Rules" = "नियम";
+"Accept & Continue" = "स्वीकार करें और जारी रखें & जारी रखें";
+"1. Please refrain from sharing private or confidential information\n\n2. Please be considerate to others and tolerant to alternate or opposing point of views\n\n3. When choosing users name or avatars do not choose anything that may be deemed inappropriate\n\n4. Be transparent especially if you are talking about brands or products. You should be open about who you work for and what you represent\n\n5. Be fair and respectful\n\n6. Do not give an impression of trolling. Even if you oppose a point of view, behave sensitively. Kindness and respect go a long way to create a robust and helpful community.\n\n7. AyuVerse is a community to discuss Ayurveda. Please do not post irrelevant messages.\n" = "1. कृपया निजी या गोपनीय जानकारी साझा न करें।\n\n2. कृपया दूसरों के प्रति विचारशील रहें और वैकल्पिक या विरोधी विचारों के प्रति सहिष्णु हों।\n\n3. नाम या अवतार चुनते समय ऐसा कुछ भी न चुनें जिसे अनुपयुक्त समझा जा सकता है।\n\n4. पारदर्शी रहें, खासकर यदि आप ब्रांड या उत्पादों के बारे में बात कर रहे हैं। आपको स्पष्ट होना चाहिए कि आप किसके लिए काम करते हैं और आप किसका प्रतिनिधित्व करते हैं।\n\n5. निष्पक्ष और सम्मानजनक रहें।\n\n6. ट्रोलिंग का आभास न दें। किसी दृष्टिकोण का विरोध करने पर भी संवेदनशील व्यवहार करें। एक मजबूत और मददगार समुदाय बनाने के लिए सहानुभूति और सम्मान बहुत महत्वपूर्ण है।\n\n7. AyuVerse आयुर्वेद पर चर्चा करने हेतु एक समुदाय है। कृपया अप्रासंगिक संदेश पोस्ट न करें।";
+
+"(Edited)" = "(संपादित)";
+"Post" = "पोस्ट";
+"Report" = "रिपोर्ट";
+"Feed" = "फीड";
+"Groups" = "समूह";
+"Q&A" = "प्रश्न-उत्तर";
+"Write something to post!" = "पोस्ट करने के लिए कुछ लिखें!";
+"Add media" = "मीडिया जोड़ो";
+"Content library" = "कॉन्टेंट संग्रह";
+"Write a comment" = "टिप्पणी लिखें";
+"Report Post" = "पोस्ट रिपोर्ट करें";
+"Report User" = "उपयोगकर्ता रिपोर्ट करें";
+"Create a Post" = "पोस्ट लिखें";
+"Update a Post" = "पोस्ट अपडेट करें";
+"What's on your mind? Write here..." = "आप क्या सोच रहे हैं? यहाँ लिखें";
+"Choose category" = "वर्ग चुने";
+"(Optional)" = "(वैकल्पिक)";
+"Upload media" = "मीडिया अपलोड करें";
+"Choose image from" = "से छवि चुनें";
+"Camera" = "कैमरा";
+"Photo library" = "चित्र पुस्तकालय";
+"Video library" = "वीडियो पुस्तकालय";
+"Add your reply..." = "अपना उत्तर जोड़ें...";
+
+"Delete Comment" = "टिप्पणी हटाएं";
+"Are you sure you want to delete this comment?" = "क्या आप वाकई इस टिप्पणी को हटाना चाहते हैं?";
+
+"Delete Post" = "पोस्ट को हटाएं";
+"Are you sure you want to delete this post?" = "क्या आप वाकई इस पोस्ट को हटाना चाहते हैं?";
+"Reply" = "जवाब दे";
+"View_reply" = "%@ उत्तर देखें";
+
+
+"Public" = "सार्वजनिक";
+"Private" = "निजी";
+"Create your group" = "अपना समूह बनाएँ";
+"Update Group" = "समूह को अपडेट करें";
+"Popular groups" = "लोकप्रिय समूह";
+"My groups" = "मेरे समूह";
+"View All" = "सभी को देखें";
+"Request to join" = "शामिल होने का अनुरोध करें";
+"Requested to join" = "शामिल होने का अनुरोध करें";
+"Join" = "जुड़िये";
+"Update" = "अपडेट";
+"Create a Group" = "अपना समूह बनाएँ";
+"What would you like to call your group?" = "आप अपने समूह का क्या नाम रखना चाहेंगे?";
+"Add title for your group..." = "अपने समूह का शीर्षक लिखें";
+"Add a breif description about your group..." = "अपने समूह के बारे में संक्षिप्त विवरण लिखें";
+"Group privacy" = "समूह गोपनीयता";
+"Add your group icon here" = "यहां समूह का चिह्न जोड़ें";
+"New posts" = "नई पोस्ट";
+"Member" = "सदस्य";
+"Members" = "सदस्य";
+"Requested" = "अनुरोध किया";
+"Please enter group name." = "कृपया शीर्षक दर्ज करें";
+"Please enter description." = "कृपया विवरण दर्ज करें";
+"Type how many users you want to join..." = "कितने लोग जुड़ सकते हैं।";
+"Privacy" = "गोपनीयता";
+"Cancel request" = "अनुरोध रद्द";
+"Accept all" = "सभी अनुरोध स्वीकार करें";
+"You have %@ spot left" = "आपके पास %@ स्थान शेष हैं";
+"No groups found!" = "कोई समूह नहीं मिला!";
+"Leave Group" = "समूह छोड़े";
+"Do you really want to leave?" = "क्या तुम सच में छोड़ना चाहते हो?";
+"Are you sure you want to leave this group?" = "क्या आप वाकई इस समूह को छोड़ना चाहते हैं?";
+"If you leave now, you’ll lose this post" = "यदि आप अभी छोड़ते हैं, तो आप इस पोस्ट को खो देंगे";
+"Delete Group" = "समूह हटाएं";
+"Do you really want to delete?" = "क्या आप वाकई हटाना चाहते हैं?";
+"Are you sure you want to delete this group?" = "क्या आप वाकई इस समूह को हटाना चाहते हैं?";
+"Admin" = "व्यवस्थापक";
+"Remove" = "हटाना";
+"Request" = "अनुरोध";
+"Join requests" = "शामिल होने के अनुरोधों की संख्या";
+
+//Q&A
+"Ask your question" = "अपना सवाल पूछें";
+"Popular questions" = "लोकप्रिय प्रश्न";
+"Latest questions" = "नवीनतम प्रश्न";
+"My answers" = "मेरे उत्तर";
+"My questions" = "मेरे प्रश्न";
+"Type your question here..." = "यहाँ अपना प्रश्न लिखें...";
+"Type your answer here..." = "अपना उत्तर यहां लिखें...";
+"Recommended categories" = "अनुशंसित श्रेणियां";
+"Answers received - " = "उत्तर प्राप्त - ";
+"Upvotes - " = "वोट दें - ";
+"Answers" = "उत्तर";
+"Report Answer" = "उत्तर रिपोर्ट करें";
+"Report Question" = "प्रश्न रिपोर्ट करें";
+"Asked by " = "प्रश्नकर्ता ";
+"Delete Question" = "प्रश्न हटाएं";
+"Delete Answer" = "उत्तर हटाएं";
+"Are you sure you want to delete this question?" = "क्या आप वाकई इस प्रश्न को हटाना चाहते हैं?";
+"Are you sure you want to delete this answer?" = "क्या आप वाकई इस उत्तर को हटाना चाहते हैं?";
+"start asking your questions." = "अपने प्रश्न पूछना शुरू करें!";
+
+
+
+
+//See More See Less
+"\\sSee More\\b" = "\\sऔर देखें\\b";
+"\\sSee Less\\b" = "\\sकम देखें\\b";
+
+"See More   " = "और देखें   ";
+"See Less   " = "कम देखें   ";
+
+//No Data
+"No posts found!" = "कोई पोस्ट नहीं मिली!";
+"All the post will appear here." = "सभी ग्रुप पोस्ट यहां दिखाई देंगे।";
+
+//No Comment
+"No comments found!" = "कोई टिप्पणी नहीं मिली!";
+"No comment text" = "सभी लोगों की टिप्पणियां यहां दिखाई देंगी.";
+
+"No results found!" = "कोई परिणाम नहीं मिला!";
+"We couldn’t find what you searched for.\nTry searching again." = "आपने जो खोजा वह हमें नहीं मिला।\nपुनः खोजने का प्रयास करें।";
+
+"No Questions found!" = "कोई प्रश्न नहीं मिला!";
+"No answer found!" = "कोई उत्तर नहीं मिला!";
+
+"Do you really want to remove this member?" = "क्या आप वाकई इस सदस्य को हटाना चाहते हैं?";
+"Are you sure you want to remove this member from your group?" = "क्या आप वाकई इस सदस्य को अपने समूह से हटाना चाहते हैं?";
+
+
+
+//INTRO SCREEN
+"intro_title_1" = "अपने वर्तमान संतुलन को मापें।";
+"intro_title_2" = "अपने आदर्श संतुलन को जानें।";
+"intro_title_3" = "दैनिक स्वास्थ्य अनुसूची";
+"intro_title_4" = "AyuVerse";
+"intro_title_5" = "दैनिक आहार योजना";
+
+"intro_description_1" = "आयुर्वेदिक सूचकांकों को शारीरिक, मानसिक और भावनात्मक स्थिति के लिए मापें।";
+"intro_description_2" = "अपने मानसिक-शारीरिक संतुलन के बारे में और अधिक जानने के लिए सरल MCQs का उत्तर दें।";
+"intro_description_3" = "अपने मानसिक-शारीरिक संतुलन पर आधारित व्यक्तिगत स्वास्थ्य अनुसूची।";
+"intro_description_4" = "आयुर्वेद की दुनिया में खोजें और लोगों से जुड़ें।";
+"intro_description_5" = "संपूर्ण व्यंजनों और विविध भोजन विकल्पों के साथ आयुर्वेदिक आहार योजनाओं का अन्वेषण करें";
+
+"LET'S START" = "चलिए शुरू करें।";
+
+//LOGIN SIGNUP SCREEN
+"LOG IN or SIGN UP" = "लॉग इन करें या साइन अप करें।";
+"Mobile number" = "मोबाइल नंबर";
+"Send OTP" = "OTP भेजें";
+"Or connect with" = "या जुड़ें";
+
+"verify_OTP" = "OTP सत्यापित करें।";
+"Please enter the OTP sent to" = "पर भेजी गई OTP को दर्ज करें";
+"Resend in" = "में फिर से भेजें।";
+"second_short" = "सेकंड";
+"didnt_receive_code" = "क्या कोड प्राप्त नहीं हुआ?";
+"resend_code" = "पुनः भेजें";
+
+//
+"we_value_your_privacy" = "हम आपकी गोपनीयता को महत्व देते हैं";
+"accept_and_continue" = "स्वीकार करें और जारी रखें";
+
+//Sign UP
+"privacy_value" = "नाड़ी परीक्षा के लिए, हमारे एल्गोरिदम के काम करने और आयुर्वेद के सिद्धांतों के आधार पर आपके स्वास्थ्य का बेहतर आंकलन देने के लिए आपकी सही उम्र (आपकी जन्मतिथि से), ऊंचाई, वजन और लिंग की आवश्यकता होती है।\n\nऔर आपकी स्वास्थ्य प्रोफ़ाइल बनाने के लिए, AyuRythm को आपके नाम और फ़ोन नंबर या ईमेल आईडी की आवश्यकता होती है, इसलिए आपका व्यक्तिगत डेटा कैप्चर और संग्रहीत किया जाता है।\n\nहालाँकि, आप ऍप में मेरी प्रोफ़ाइल -> अकाउंट सेटिंग में जाकर किसी भी समय अपनी प्रोफ़ाइल सदैव के लिए मिटा सकते हैं।";
+"enter_your_details" = "अपना विवरण दर्ज करें";
+"get_stated_enter_your_details" = "आरंभ करने के लिए, कृपया नीचे अपना विवरण दर्ज करें";
+"have_a_referral_code" = "क्या आपके पास रेफरल कोड है?";
+"let_s_begin" = "चलो शुरू करें";
+"or" = "या";
+"your_name" = "आपका नाम";
+"your_email" = "आपका ईमेल";
+"your_height" = "आपकी ऊंचाई";
+"your_weight" = "आपका वज़न";
+"your_birthday" = "आपका जन्मदिन";
+"Please enter your name" = "कृपया अपना नाम दर्ज करें।";
+
+"Discover your unique body\nbalance!" = "अपना अद्वितीय शारीरिक\nसंतुलन खोजें!";
+"Current\nBalance" = "वर्तमान\nसंतुलन";
+"Ideal\nBalance" = "आदर्श\nसंतुलन";
+"Body\nImbalance" = "शरीर का\nअसंतुलन";
+"ayurythm_helps_you_find_your_unique_body_balance_and_stay_healthy" = "AyuRythm आपको अपना अनूठा शारीरिक संतुलन खोजने और स्वस्थ रहने में मदद करता है।🍀";
+
+//Referral
+"Enter code here" = "यहाँ कोड दर्ज करें";
+"enter_referral_code" = "रेफरल कोड दर्ज करें";
+"referral_code_msg" = "यदि आपके पास रेफरल कोड है तो दर्ज करें और 500 AyuSeeds अर्जित करें";
+"referral_code_applied_successfully" = "रेफ़रल कोड सफलतापूर्वक लागू किया गया";
+
+
+
+//Language
+"continue_with_hindi" = "हिंदी में जारी रखें";
+"continue_with_english" = "Continue with English";
+
+// My Home
+"Wellness Index" = "स्वस्थता सूचकांक";
+"Last test -" = "अंतिम परीक्षण -";
+"Pulse Test" = "पल्स टेस्ट";
+"Pulse assessment" = "नाड़ी परीक्षण";
+"Current Balance" = "वर्तमान संतुलन";
+"Complete 30 second pulse assessment to get your current state." = "अपने स्वास्थ्य की वर्तमान स्थिति जानने के लिए 30 सेकंड में नाड़ी परीक्षण पूरा करें।";
+"Complete Questionnaire to compare result" = "परिणाम की तुलना करने के लिए प्रश्नावली को पूरा करें";
+"Ideal Balance" = "आदर्श संतुलन";
+"Questionnaire" = "प्रश्नावली";
+"Complete 30 questions to get personalized results." = "वैयक्तिकृत परिणाम प्राप्त करने के लिए 30 प्रश्न पूरे करें";
+"Complete 21 questions to get personalized results." = "वैयक्तिकृत परिणाम प्राप्त करने के लिए 21 प्रश्न पूरे करें";
+"Complete assessment to compare result" = "परिणाम की तुलना करने के लिए परीक्षण को पूरा करें";
+"Try Now" = "अभी प्रयास करें";
+"Today's goal" = "आज का लक्ष्य";
+"Wellness Assessment" = "स्वस्थता आंकलन";
+"Begin here" = "यहां से शुरू करें";
+"Test again" = "पुनः परीक्षण करें";
+"Prakriti | The Ideal Me" = "प्रकृति | आपकी वास्तविक शारीरिक संरचना";
+"Vikriti | The Current Me" = "विकृति | आपकी वर्तमान शारीरिक संरचना";
+"Naadi pariksha" = "नाड़ी परीक्षा";
+"30_second_pulse_assessment_to_get_personalized_results" = "वैयक्तिकृत परिणाम प्राप्त करने के लिए 30 सेकंड नाड़ी परीक्षण";
+"Pulse assessment\nfor current balance" = "वर्तमान संतुलन के लिए\nनाड़ी का आकलन";
+"Start by placing your finger on the back camera for 30 seconds." = "30 सेकंड के लिए अपनी अंगुली को पीछे वाले कैमरे पर रखकर प्रारंभ करें।";
+"Ensure you are in a\nbrightly lit area." = "सुनिश्चित करें कि आप अच्छी रोशनी वाले क्षेत्र में हैं।";
+"Screen brightness will\nincrease during the test." = "परीक्षण के दौरान स्क्रीन की चमक बढ़ जाएगी।";
+"see_how_it_works" = "देखें कि यह कैसे काम करता है";
+"start_the_assessment" = "मूल्यांकन शुरू करें";
+"What are your top goals?" = "आपके शीर्ष लक्ष्य क्या हैं?";
+"To further personalise your experience\nselect as many goal as you like" = "अपने अनुभव को और अधिक वैयक्तिकृत करने\nके लिए जितने चाहें उतने लक्ष्य चुनें";
+"Weight gain" = "वजन बढ़ाने के लिए";
+"No worries! You can always edit this later." = "कोई चिंता नहीं! आप इसे बाद में कभी भी संपादित कर सकते हैं।";
+"Wellness" = "स्वस्थता";
+"Flexibitity" = "";
+"How would you like to achieve?" = "आप कैसे हासिल करना चाहेंगे?";
+"To reach your goals, choose what you want\nto see in your feed." = "अपने लक्ष्य तक पहुंचने के लिए, वह चुनें जो\nआप अपने फ़ीड में देखना चाहते हैं।";
+"Let's Go" = "आगे बढ़ें!";
+
+"Personalized foods" = "वैयक्तिकृत खाद्य पदार्थ";
+"Curated ayurvedic products" = "क्यूरेटेड आयुर्वेदिक उत्पाद";
+"Personalized exercises" = "वैयक्तिकृत व्‍यायाम";
+"Daily Planner ( Dincharya)" = "दैनिक नियोजक (दिनचर्या)";
+"what am I doing wrong?" = "मैं क्या गलत कर रहा हूं?";
+
+"Your experience level with ayurveda" = "आयुर्वेद के साथ आपका अनुभव स्तर";
+"If you're new to Ayurveda ,we recommend starting with beginner" = "यदि आप आयुर्वेद के लिए नए हैं, तो हम शुरुआती\nस्तर के साथ शुरु करने की सलाह देते हैं";
+//SIde Menu
+"Log out" = "लॉग-आउट";
+
+"Beginner" = "शुरुआती";
+"Intermediate" = "मध्यवर्ती";
+"Advanced" = "उन्नत";
+"Select a suitable time to exercise daily" = "दैनिक व्यायाम करने के लिए उपयुक्त समय चुनें";
+"We'll send you a gentle reminder to exercise so you can start your day with energy." = "हम आपको व्यायाम करने के लिए एक रिमाइंडर भेजेंगे, ताकि आप अपने दिन की शुरुआत ऊर्जा के साथ कर सकें।";
+"Choose time" = "समय चुनें";
+"Repeat" = "दोहराएं";
+"Flexibility" = "लचीलापन";
+"Clear & Exit" = "रीसेट करें और वापस जाए";
+"Discover current balance" = "वर्तमान संतुलन का पता लगाएं";
+"Vikriti Questions" = "विक्रति प्रश्न";
+"Are you sure you want to close this test?" = "क्या आप इस प्रश्नावली को बंद करना चाहते हैं?";
+"Let's check your ideal\nbalance" = "आइए जानें आपका आदर्श\nसंतुलन";
+
+"ideal_balance_text_1" = "किसी ऐसे व्यक्ति के साथ प्रश्नावली करना मज़ेदार हो सकता है जो आपको अच्छी तरह से जानता हो";
+"ideal_balance_text_2" = "यदि आपको निर्णय लेने में कठिनाई होती है, तो वह उत्तर चुनें जो आपके जीवन के अधिकांश समय के लिए आपका सबसे अच्छा प्रतिनिधित्व करता हो";
+"ideal_balance_text_3" = "इन प्रश्नों का उत्तर देते समय विचार करें कि आप बचपन में कैसे थे";
+"Start assessment" = "मूल्यांकन शुरू करें";
+"Begin your Ayurvedic journey today in just\n2 easy steps! 🔥" = "आज ही अपनी आयुर्वेदिक स्वास्थ्य यात्रा शुरू करें\n2 आसान चरण! 🔥";
+"You are 1 step away from unlocking\npersonalized results 🔥" = "आप अनलॉक करने से 1 कदम दूर हैं\nवैयक्तिकृत परिणाम 🔥";
+"You are 1 step away from unlocking personalized results 🔥" = "आप अनलॉक करने से 1 कदम दूर हैं वैयक्तिकृत परिणाम 🔥";
+"Measure current balance" = "वर्तमान संतुलन मापें";
+"Find your ideal balance" = "अपना आदर्श संतुलन मापें";
+"Unlock wellness schedule" = "स्वस्थता अनुसूची अनलॉक करें";
+"Detailed Result" = "विस्तृत परिणाम";
+"Your Mind, Body, and Metabolism ratios are as unique as you are!" = "आपका दिमाग, शरीर और मेटाबोलिज्म का अनुपात उतना ही अनूठा है जितना आप हैं!";
+"Your current balance" = "आपका वर्तमान संतुलन";
+"Your ideal balance" = "आपका आदर्श संतुलन";
+"View detailed result" = "विस्तृत परिणाम देखें";
+"Explore" = "अन्वेषण करें";
+"Yogasana" = "योगासना";
+"Pranayam" = "प्राणायाम";
+"2 easy steps!" = "2 आसान चरण!";
+"1 step away" = "1 कदम दूर हैं";
+"Body" = "शरीर";
+"Metabolism" = "मेटाबोलिज्म";
+"Mind" = "दिमाग";
+"Rewards" = "पुरस्कार";
+"Track Progress" = "ट्रैक प्रगति";
+"Calories" = "कैलोरी";
+"Distance" = "दूरी";
+"Daily Diet Plan" = "दैनिक आहार योजना";
+"Daily Planner" = "दैनिक योजना";
+"Personalized Home Remedies" = "वैयक्तिकृत घरेलू उपचार";
+"Hello" = "नमस्ते";
+"Hey" = "नमस्ते";
+"Let's be healthy this week!" = "आइए इस सप्ताह स्वस्थ रहें!";
+"I'm AyuMonk your personal wellness assistant" = "मैं आयुमोंक हूं, आपका पर्सनल वेलनेस असिस्टेंट";
+"You have reached the balance" = "बधाई! आपका स्वास्थ्य संतुलन में है।";
+"Your %@ is aggravated\nby %@" = "आपका %@ %@ बढ़ा हुआ है!";
+"Your %@ is aggravated\nby %@" = "आपका %@ %@ बढ़ा हुआ है!";
+"Your %@ is aggravated\nby %@" = "आपका %@ %@ बढ़ा हुआ है!";
+"Solution for aggravated %@" = "बिगड़े हुए %@ का समाधान";
+"Personalized home remedies for %@" = "%@ के लिए वैयक्तिकृत घरेलू उपचा";
+
+
+
+//Retest Screen
+//"PRAKRITI | THE IDEAL YOU" = "प्रकृति | आप की वास्तविकता";
+//"VIKRITI | THE CURRENT YOU" = "विकृति | वर्तमान में आप";
+
+"Vouchers" = "वाउचर";
+"App settings" = "ऍप सेटिंग्";
+"General" = "सामान्य";
+
+
+//PRAKRITI
+"Prakriti_chat_text_1" = "आइए मिलकर आपका आदर्श संतुलन खोजें।";
+"Prakriti_chat_text_2" = "आइए शुरू करें।";
+"Prakriti_chat_text_3" = "मैं आपका आदर्श संतुलन जानने के लिए कुछ प्रश्न पूछूंगा।";
+"Prakriti_chat_text_4" = "कृपया इन प्रश्नों का उत्तर देते समय अपने बचपन या प्रारंभिक स्मृति पर विचार करें।";
+"Calm\nThoughtful\nLoving\nEnjoys life\nComfortable\nwith routine" = "शांत \nविचारशील \n स्नेही \nजीवन का आनंद लेता है \n आरामदायक \nनियमित अनुयायी";
+"Intellectual\nFocused\nPrecise\nDirect\nPassionate" = "बौद्धिक\nकेंद्रित\nसटीक\nप्रत्यक्ष\nजुनूनी";
+
+"tridoshic_paragraph1" = "हालांकि काफी दुर्लभ है, किन्तु कुछ व्यक्तियों में, लगभग समान मात्रा में सभी 3 दोष होते हैं। उन्हें त्रिदोषिक या वात-पित्त-कफ प्रकार के व्यक्तियों के रूप में वर्गीकृत किया गया है। इस स्वाभाविक रूप से संतुलित प्रकृति या दोष प्रकार के साथ, वे जीवन में एक सामंजस्यपूर्ण संतुलन पाने की अधिक संभावना रखते हैं और ध्यान, शारीरिक योग्यता, स्वस्थता और भावनात्मक रूप से स्थिर हो सकते हैं।";
+
+"tridoshic_paragraph2" = "यह संतुलन जीवन के लगभग हर पहलू की विशेषता है। त्रिदोशिक व्यक्ति एक मध्यम निर्माण और ढांचे के होते हैं, एक सुखद स्वभाव और तेज दिमाग के साथ जो अभी भी मानसिक शांति पा सकते हैं।एकमात्र परिदृश्य, जिसमें समस्याएं उत्पन्न होती हैं जब व्यक्ति अपनी बुनियादी प्रकृति के खिलाफ जाता हैं, अत: दोषिक संतुलन खो देते हैं। अव्यवस्थित दोष के साथ जुड़े विकार तब सतह पर आने लगते हैं। उदाहरण के लिए, वात का बढ़ना, पाचन और नींद की गड़बड़ी जैसी समस्याओं को जन्म दे सकता है, जबकि कफ की वृद्धि शरीर के अतिरिक्त वजन और अवसाद के साथ समस्याएं पैदा कर सकती है।";
+
+"kapha_vata_paragraph1" = "दोषों के विरोधी स्वभाव के कारण कफ-वात संयोजन प्रकार शायद सबसे दिलचस्प है जो मुख्य रूप से हैं - कफ और वात। जबकि कफ दोश स्थिरता, आदेश और दिनचर्या की इच्छा को जन्म देता है, वात अधिक रचनात्मक गतिविधियों और जीवन के लिए एक अधिक उत्साही और अराजक दृष्टिकोण को सक्रीय करता है। यह अजीब संयोजन गंभीर आंतरिक संघर्षों को जन्म दे सकता है, जो कई बार हताशा का कारण बनता है";
+
+"kapha_vata_paragraph2" = "शारीरिक रूप से, कफ-वात श्रेणी के व्यक्ति काफ़ी भिन्नता दिखा सकते हैं, ये या तो छोटे या नाजुक रूप से निर्मित, या लंबे और पतले, या अधिक पुष्ट और बड़े ढांचे वाले हो सकते हैं। कफ-वात व्यक्तियों में कई स्वास्थ्य संबंधी समस्याओं का भी अधिक खतरा होता हैं, जिनमें सूजन और कब्ज जैसी समस्याएं होती हैं। कफ-वात व्यक्तियों में परस्पर विरोधी भावनाएँ भी होती हैं, जो अलौकिक और चिंतित होने के साथ-साथ अत्यधिक या खराब नींद का कारण भी होती हैं। उन्हें पथरी, एकाग्रता की हानि, अवसाद और अन्य विकारों का खतरा भी अधिक होता है। यह दोष स्तर को संतुलित रखना और महत्वपूर्ण बना देता है, क्योंकि यह खराब स्वास्थ्य के जोखिम को कम करने के लिए आवश्यक है";
+
+"pitta_kapha_paragraph1" = "पित्त-कफ प्रकार के व्यक्तियों में पित्त और कफ दोष समान शक्ति में होते हैं। इन व्यक्तियों में दृढ़ इच्छाशक्ति होती है और यह स्पष्ट लक्ष्य-केंद्रित प्रकृति के साथ अधिक केंद्रित होते हैं। साथ ही साथ, वे कुछ हद तक शांत स्वभाव के साथ संतुलित होते हैं";
+
+"pitta_kapha_paragraph2" = "शारीरिक रूप से, पित्त-कफ प्रकार के व्यक्तियों में एक बहुत ही आकर्षक या मजबूत ढांचा होता है और अगर ये अपनी खुराक संतुलन में रखते हैं तो अपेक्षाकृत अच्छे स्वास्थ्य का आनंद लेते हैं। संतुलित व्यक्तियों में, पित्त की उग्र ऊर्जा को कफ द्वारा जमीन से जोड़ कर और संतुलित किया जाता है। इसका मतलब यह है कि इस दोष प्रकार के व्यक्तियों को जीवन में पाचन स्वास्थ्य समस्याओं का अनुभव होने की संभावना कम होती है, क्योंकि उनके पास अग्नि या पाचन अग्नि की पूर्ण शक्ति होती है। दुर्भाग्य से, कई लोग इसे महत्व नही देते हैं और अपने अच्छे भाग्य का दुरुपयोग करते हैं, अस्वास्थ्यकर जीवनशैली की ओर झुकाव करते हैं, अधिक भोजन और कम व्यायाम करते हैं। नतीजतन, मोटापे और सम्बंधित स्वास्थ्य की समस्याएं हो सकती";
+
+"pitta_kapha_paragraph3" = "पित्त-कफ प्रकार हालांकि आम तौर पर स्वस्थ होते हैं, पर भारी पसीने के परिणामस्वरूप होने वाले त्वचा रोग और शरीर की गंध की समस्याओं का ख़तरा हो सकता हैं";
+
+
+"kapha_pitta_paragraph1" = "कफ-पित्त प्रकार के व्यक्तियों में कफ और पित्त दोष समान शक्ति में होते हैं। इन व्यक्तियों में दृढ़ इच्छाशक्ति होती है और यह स्पष्ट लक्ष्य-केंद्रित प्रकृति के साथ अधिक केंद्रित होते हैं। साथ ही साथ, वे कुछ हद तक शांत स्वभाव के साथ संतुलित होते हैं";
+
+"kapha_pitta_paragraph2" = "शारीरिक रूप से, कफ-पित्त प्रकार के व्यक्तियों में एक बहुत ही आकर्षक या मजबूत ढांचा होता है और अगर ये अपनी खुराक संतुलन में रखते हैं तो अपेक्षाकृत अच्छे स्वास्थ्य का आनंद लेते हैं। संतुलित व्यक्तियों में, कफ की उग्र ऊर्जा को पित्त द्वारा जमीन से जोड़ कर और संतुलित किया जाता है। इसका मतलब यह है कि इस दोष प्रकार के व्यक्तियों को जीवन में पाचन स्वास्थ्य समस्याओं का अनुभव होने की संभावना कम होती है, क्योंकि उनके पास अग्नि या पाचन अग्नि की पूर्ण शक्ति होती है। दुर्भाग्य से, कई लोग इसे महत्व नही देते हैं और अपने अच्छे भाग्य का दुरुपयोग करते हैं, अस्वास्थ्यकर जीवनशैली की ओर झुकाव करते हैं, अधिक भोजन और कम व्यायाम करते हैं। नतीजतन, मोटापे और सम्बंधित स्वास्थ्य की समस्याएं हो सकती";
+
+"kapha_pitta_paragraph3" = "कफ-पित्त प्रकार हालांकि आम तौर पर स्वस्थ होते हैं, पर भारी पसीने के परिणामस्वरूप होने वाले त्वचा रोग और शरीर की गंध की समस्याओं का ख़तरा हो सकता हैं";
+
+
+"pitta_vata_paragraph1" = "पित्त-वात संयोजन प्रकार के व्यक्तियों में पित्त और वात दोष दोनों एक निकटता से मेल खाते हैं। इस दोष प्रकार के व्यक्तियों को अपने स्वास्थ्य के प्रबंधन के लिए एक संयोजन दृष्टिकोण की आवश्यकता होती है। वे आम तौर पर रचनात्मक होते हैं, लेकिन भीतर आवेगी और परस्पर विरोधी भी हो सकते हैं। नतीजतन, वे अक्सर खुद को अत्यधिक दबाव में रखते हैं, जिससे निराशा और जलन हो सकती है";
+
+"pitta_vata_paragraph2" = "शारीरिक रूप से, पित्त-वात प्रकार के व्यक्तियों का मध्यम कद होता है और आमतौर पर काफी फुर्तीले होते हैं। उनका दोष संयोजन कुछ विशिष्ट स्वास्थ्य चिंताओं को पैदा कर सकता है क्योंकि गति के लिए पित्त की गुणवत्ता वात के गुणों को बढ़ा सकती है। यह व्यक्तियों को कब्ज से लेकर दस्त, अपच और नाराज़गी से लेकर सूजन संबंधी विकारों और पेप्टिक अल्सर तक पाचन संबंधी विकारों के लिए अधिक संवेदनशील बनाता है। वात-पित्त्त व्यक्ति दर्द, नींद विकार, भावनात्मक बहिर्वाह, त्वचा की जलन, आदि से पीड़ित होने की भी अधिक संभावना रखते हैं। इसलिए एक पित्त-वात के लिए एक अच्छा स्वास्थ्य और मनोदशा बनाए रखने के लिए संतुलित दिनचर्या महत्वपूर्ण है";
+
+
+"vata_kapha_paragraph1" = "दोषों के विरोधी स्वभाव के कारण वात-कफ संयोजन प्रकार शायद सबसे दिलचस्प है जो मुख्य रूप से हैं - वात और कफ। जबकि वात दोश स्थिरता, आदेश और दिनचर्या की इच्छा को जन्म देता है, कफ अधिक रचनात्मक गतिविधियों और जीवन के लिए एक अधिक उत्साही और अराजक दृष्टिकोण को सक्रीय करता है। यह अजीब संयोजन गंभीर आंतरिक संघर्षों को जन्म दे सकता है, जो कई बार हताशा का कारण बनता है";
+
+"vata_kapha_paragraph2" = "शारीरिक रूप से, वात-कफ श्रेणी के व्यक्ति काफ़ी भिन्नता दिखा सकते हैं, ये या तो छोटे या नाजुक रूप से निर्मित, या लंबे और पतले, या अधिक पुष्ट और बड़े ढांचे वाले हो सकते हैं। वात-कफ व्यक्तियों में कई स्वास्थ्य संबंधी समस्याओं का भी अधिक खतरा होता हैं, जिनमें सूजन और कब्ज जैसी समस्याएं होती हैं। कफ-वात व्यक्तियों में परस्पर विरोधी भावनाएँ भी होती हैं, जो अलौकिक और चिंतित होने के साथ-साथ अत्यधिक या खराब नींद का कारण भी होती हैं। उन्हें पथरी, एकाग्रता की हानि, अवसाद और अन्य विकारों का खतरा भी अधिक होता है। यह दोष स्तर को संतुलित रखना और महत्वपूर्ण बना देता है, क्योंकि यह खराब स्वास्थ्य के जोखिम को कम करने के लिए आवश्यक है";
+
+
+
+"vata_pitta_paragraph1" = "वात-पित्त संयोजन प्रकार के व्यक्तियों में वात और पित्त दोष दोनों एक निकटता से मेल खाते हैं। इस दोष प्रकार के व्यक्तियों को अपने स्वास्थ्य के प्रबंधन के लिए एक संयोजन दृष्टिकोण की आवश्यकता होती है। वे आम तौर पर रचनात्मक होते हैं, लेकिन भीतर आवेगी और परस्पर विरोधी भी हो सकते हैं। नतीजतन, वे अक्सर खुद को अत्यधिक दबाव में रखते हैं, जिससे निराशा और जलन हो सकती है";
+
+"vata_pitta_paragraph2" = "शारीरिक रूप से, वात-पित्त प्रकार के व्यक्तियों का मध्यम कद होता है और आमतौर पर काफी फुर्तीले होते हैं। उनका दोष संयोजन कुछ विशिष्ट स्वास्थ्य चिंताओं को पैदा कर सकता है क्योंकि गति के लिए वात की गुणवत्ता पित्त के गुणों को बढ़ा सकती है। यह व्यक्तियों को कब्ज से लेकर दस्त, अपच और नाराज़गी से लेकर सूजन संबंधी विकारों और पेप्टिक अल्सर तक पाचन संबंधी विकारों के लिए अधिक संवेदनशील बनाता है। वात-पित्त्त व्यक्ति दर्द, नींद विकार, भावनात्मक बहिर्वाह, त्वचा की जलन, आदि से पीड़ित होने की भी अधिक संभावना रखते हैं। इसलिए एक वात-पित्त के लिए एक अच्छा स्वास्थ्य और मनोदशा बनाए रखने के लिए संतुलित दिनचर्या महत्वपूर्ण है";
+
+
+"vata_paragraph1" = "वात व्यक्तियों का आम तौर पर एक हल्का और रचनात्मक स्वभाव होता है, जिसमें उच्च स्तर का उत्साह होता है। ऐसे व्यक्ति अधिक सक्रिय होने की भी संभावना रखते हैं, लेकिन आसानी से विचलित या भुलक्कड़ हो सकते हैं";
+
+"vata_paragraph2" = "ये लोग कुछ भौतिक लक्षणों जो की वर्ण-पट के अंतिम सिरों पे होता है, जैसे की या तो यह बहुत छोटे और बहुत लम्बे होते हैं। वे छोटी, लेकिन तेज आंखों के साथ अधिक पतले होते हैं। गर्म जलवायु वात व्यक्तियों के लिए अधिक आकर्षक हैं क्योंकि वे संचार विकारों के लिए अधिक प्रवण हैं";
+
+"vata_paragraph3" = "वात संविधान के व्यक्ति में दोष असंतुलन चिंता, नींद विकार, गठिया और संयुक्त रोग जैसे विशिष्ट प्रकार की स्वास्थ्य स्थितियों के लिए भेद्यता बढ़ाता है";
+
+"pitta_paragraph1" = "पित्त व्यक्तियों में अधिक मानसिक स्पष्टता, ध्यान और प्रतिधारण होता है। पित्त प्रकार के व्यक्ति अत्यधिक प्रतिस्पर्धी होते हैं और बाहरी गतिविधियों का आनंद लेते हैं। शारीरिक रूप से, पित्त प्रकार के व्यक्ति औसत कद के होते हैं, लेकिन अधिक स्टिकी या मजबूत मांसपेशियों के लिए जाने जाते हैं। वे अधिक मर्मस्पर्शी टकटकी के साथ मध्यम आकार की आँखें रखते हैं";
+
+"pitta_paragraph2" = "पित्त संतुलन का स्तर उनके भलाई के लिए महत्वपूर्ण है क्योंकि पित्त व्यक्ति क्रोध के तीव्र वेग के प्रति संवेदनशील होते हैं, खासकर उन्हें जब भूख लगती है, और उन्हें किसी भी बात का बुरा लग जाने की अधिक संभावना होती है तनाव और नींद की बीमारी से पीड़ित होते हैं।दोष के स्तर में असंतुलन पित्त प्रकार के लोगों को जठरशोथ, पेप्टिक या आंतों के अल्सर, साथ ही साथ एक्जिमा जैसी भड़काऊ त्वचा की स्थिति के लिए अतिसंवेदनशील बनाता है";
+
+"kapha_paragraph1" = "कफ प्रकार के व्यक्ति आमतौर पर शांत और रचित होते हैं, और बहु-प्रतिभा के धनी होते हैं। वे आमतौर पर अधिक अनुशासित होते हैं और अक्सर सहानुभूति और धैर्य में उच्च स्तर के होते हैं। उनके पास दिनचर्या और व्यवस्था के लिए एक स्वाभाविक समीपता है";
+
+"kapha_paragraph2" = "शारीरिक रूप से, कफ संविधान वाले व्यक्तियों को बड़ी आकर्षक आंखों के साथ,अच्छी तरह से गधित शरीर वाले होते है। वे चिकनी त्वचा, एक स्पष्ट रंग और सुंदर होंठ के साथ संपन्न होने की अधिक संभावना रखते हैं। दुर्भाग्य से, कफ प्रकार के व्यक्ति को अधिक खाने और निष्क्रिय जीवनशैली के साथ, अधिक निद्रा की समस्या हो सकती हैं। यह एक स्वस्थ शरीर के वजन को बनाए रखने और आकार में बने रहने के लिए काफी संघर्ष कर सकते हैं";
+
+"kapha_paragraph3" = "कफ के स्तरों को संतुलित करने में असफल होने से अस्वास्थ्यकर व्यवहार बढ़ सकता है, जिससे अवसाद और चयापचय विकारों के लक्षणों, जैसे की मोटापा, हृदय रोग और मधुमेह, का जोखिम बढ़ सकता है";
+
+"I Understood" = "मै समझा";
+"Your predominant dosha is Kapha-Vata" = "आपका प्रमुख दोष कफ-वात है";
+"Your predominant dosha is Pitta-Kapha" = "आपका प्रमुख दोष पित्त-कफ है";
+"Your predominant dosha is Vata-Pitta" = "आपका प्रमुख दोष वात-पित्त है";
+"Your predominant dosha is Vata" = "आपका प्रमुख दोष वात है";
+"Your predominant dosha is Pitta" = "आपका प्रमुख दोष पित्त है";
+"Your predominant dosha is Kapha" = "आपका प्रमुख दोष कफ है";
+
+"tridoshic" = "त्रिदोषी";
+"Kapha-Vata" = "कफ-वात";
+"Kapha-Pitta" = "कफ-पित्त";
+"Pitta-Kapha" = "पित्त-कफ";
+"Pitta-Vata" = "पित्त-वात";
+"Vata-Kapha" = "वात-कफ";
+"Vata-Pitta" = "वात-पित्त";
+"predominant_dosha_Kapha-Vata" = "आपका प्रमुख दोष %@ है";
+"predominant_dosha_Pitta-Kapha" = "आपका प्रमुख दोष %@ है";
+"predominant_dosha_Kapha-Pitta" = "आपका प्रमुख दोष %@ है";
+"predominant_dosha_Pitta-Vata" = "आपका प्रमुख दोष %@ है";
+"predominant_dosha_Vata-Kapha" = "आपका प्रमुख दोष %@ है";
+"predominant_dosha_Vata-Pitta" = "आपका प्रमुख दोष %@ है";
+"predominant_dosha_Vata" = "आपका प्रमुख दोष %@ है";
+"predominant_dosha_Pitta" = "आपका प्रमुख दोष %@ है";
+"predominant_dosha_Kapha" = "आपका प्रमुख दोष %@ है";
+"predominant_tridoshic" = "आप %@ हैं ";
+
+
+//VIKRATI
+"Vikrati_chat_text_1" = "आइए मिलकर आपका वर्तमान संतुलन खोजें।";
+"Vikrati_chat_text_2" = "आइए शुरू करें।";
+"Vikrati_chat_text_3" = "मैं आपका वर्तमान संतुलन जानने के लिए कुछ प्रश्न पूछूंगा।";
+"Vikrati_chat_text_4" = "कृपया इन प्रश्नों का उत्तर देते समय अपनी वर्तमान स्थिति पर विचार करें।";
+
+
+"View all home remedies" = "सभी घरेलू उपचार देखें";
+"Task done" = "कार्य संपन्न";
+"Current streak" = "मौजूदा स्ट्रीक";
+"☀ Morning" = "☀ सुबह";
+"🌞 Afternoon" = "🌞 दोपहर";
+"🌕 Evening" = "🌕 शाम";
+"🌙 Night" = "🌙 रात";
+"No Bookings found" = "कोई बुकिंग नहीं मिली";
+"Refer & Earn" = "संदर्भ लें और कमाएं";
+"Earn %@ AyuSeeds" = "%@ AyuSeeds कमाएं";
+"Invite your friends to AyuRythm and earn %@ AyuSeeds each, when they sign up using your code!" = "अपने दोस्तों को AyuRythm पर आमंत्रित करें और जब वे आपके कोड का उपयोग करके साइन अप करें तो प्रत्येक को %@ AyuSeeds अर्जित करें!";
+"Tap to copy the code" = "कोड कॉपी करने के लिए टैप करें";
+
+
+"Please consider your childhood while answering these questions" = "कृपया इन प्रश्नों का उत्तर देते समय अपने बचपन पर विचार करें";
+"DISCLAIMER: These results are only for Ayurvedic wellness and should not be interpreted or used for diagnosis or treatment." = "DISCLAIMER: ये परिणाम केवल आयुर्वेदिक स्वास्थ्य समृद्धि के लिए हैं और इसका निदान या उपचार के लिए उपयोग नहीं किया जाना चाहिए।";
+
+
+
+"Chat with AyuMonk, your AI companion for tailored diet plans, recipe and holistic life advice." = "अनुरूप आहार योजना, रेसिपी और समग्र स्वास्थ्य सलाह के लिए AyuMonk के साथ चैट करें।";
+"Personalized home remedies, aligned with your doshas." = "आपकी आयुर्वेदिक दोष स्थिति के अनुरूप वैयक्तिकृत घरेलू उपचार।";
+"Unveil your unique dosha balance effortlessly with our quick 30-second pulse assessment, by simple touch of your finger on your smartphone camera." = "अपने स्मार्टफ़ोन कैमरे पर अपनी उंगली रखकर, हमारे त्वरित 30-सेकंड पल्स मूल्यांकन के साथ अपने अद्वितीय दोष संतुलन को सहजता से उजागर करें।";
+"Uncover your current dosha harmony effortlessly with our exclusive 30-second selfie video pulse assessment." = "हमारे विशेष 30-सेकंड के सेल्फी वीडियो पल्स मूल्यांकन के साथ सहजता से अपने वर्तमान दोष सामंजस्य को जानें।";
+"Unlock unlimited access to AyuMonk by joining our Prime Club, or subscribe to AyuMonk." = "हमारे प्राइम क्लब में शामिल होकर AyuMonk का असीमित उपयोग अनलॉक करें, या AyuMonk की सदस्यता लें।";
+"Unlock unlimited access to personalized home remedies by joining our Prime Club, or subscribe to personalized home remedies." = "हमारे प्राइम क्लब में शामिल होकर वैयक्तिकृत घरेलू उपचारों के असीमित उपयोग को अनलॉक करें, या वैयक्तिकृत घरेलू उपचारों की सदस्यता लें।";
+"Congratulations! Your subscription unlocks the empowering world of FaceNaadi assessment. Welcome to a healthier, happier you!" = "बधाई हो! आपकी FaceNaadi सदस्यता अब सक्रिय है। आप अधिक स्वस्थ, प्रसन्न रहकर आनंद लें!";
+"Congratulations! Get ready to elevate your well-being journey with our Pulse Assessment feature. Thank you for choosing a healthier and happier you!" = "बधाई हो! हमारी पल्स असेसमेंट सुविधा के साथ अपने स्वास्थ्य को उन्नत बनाने के लिए तैयार हो जाइए। एक स्वस्थ और खुशहाल जीवनशैली चुनने के लिए धन्यवाद!";
+"Congratulations! Welcome to a healthier and more balanced lifestyle with AyuMonk, your wellness companion." = "बधाई हो! आपके स्वास्थ्य साथी, AyuMonk के साथ एक स्वस्थ और अधिक संतुलित जीवनशैली में आपका स्वागत है।";
+"Congratulations! Your subscription unlocks a world of personalized Home Remedies. Enjoy a healthier, happier lifestyle!" = "बधाई हो! आपकी सदस्यता वैयक्तिकृत घरेलू उपचारों को अनलॉक करती है। एक स्वस्थ, खुशहाल जीवन शैली का आनंद लें!";
+"Join us today" = "आज ही शामिल हों";
+"Buy Now" = "अभी खरीदें";
+"Select any one of the option" = "किसी भी एक विकल्प का चयन करें";
+"Unlock FaceNaadi" = "FaceNaadi को अनलॉक करें";
+"Free Trial" = "मुफ्त परीक्षण";
+"Prime Club" = "प्राइम क्लब";
+"Join Prime Club" = "प्राइम क्लब में शामिल हों";
+"Unlock Sparshna" = "Sparshna अनलॉक करें";
+"Enter coupon code" = "कूपन कोड दर्ज करें";
+"Welcome to AyuMonk - Your wellness companion" = "AyuMonk में आपका स्वागत है - आपका स्वस्थता साथी";
+"An AI-based guide on exercise, diet plans & advice for a balanced life" = "संतुलित जीवनशैली के लिए व्यायाम, आहार योजना और सलाह पर AI-आधारित मार्गदर्शक";
+"Unlock AyuMonk" = "AyuMonk अनलॉक करें";
+"Clear history" = "इतिहास मिटा दें";
+"Are you sure you want to clear your chat histoty?" = "क्या आप वाकई अपना चैट इतिहास साफ़ करना चाहते हैं?";
+"Access to Premium dosha assessment" = "प्रीमियम आयुर्वेदिक दोष आंकलन";
+"Access to personalized Home Remedies" = "वैयक्तिकृत घरेलू उपचार";
+"Access to asking personalized wellness questions" = "AyuMonk का असीमित उपयोग";
+"personalized results" = "वैयक्तिकृत परिणाम";
+
+"1 month plan avail at" = "1 माह की योजना का लाभ उठाएं";
+"3 month plan avail at" = "3 माह की योजना का लाभ उठाएं";
+"6 month plan avail at" = "6 माह की योजना का लाभ उठाएं";
+"12 month plan avail at" = "12 माह की योजना का लाभ उठाएं";
+
+"Unlimited tests upto 1 month" = "1 महीने तक असीमित परीक्षण";
+"Unlimited tests upto 3 months" = "3 महीने तक असीमित परीक्षण";
+"Unlimited tests upto 6 months" = "6 महीने तक असीमित परीक्षण";
+"Unlimited tests upto 12 months" = "12 महीने तक असीमित परीक्षण";
+
+"Unlimited access upto 1 month" = "1 महीने तक असीमित उपयोग";
+"Unlimited access upto 3 months" = "3 महीने तक असीमित उपयोग";
+"Unlimited access upto 6 months" = "6 महीने तक असीमित उपयोग";
+"Unlimited access upto 12 months" = "12 महीने तक असीमित उपयोग";
+
+"Unlimited personalized Home Remedies access upto 1 month" = "1 महीने तक वैयक्तिकृत घरेलू उपचारों का असीमित उपयोग";
+"Unlimited personalized Home Remedies access upto 3 months" = "3 महीने तक वैयक्तिकृत घरेलू उपचारों का असीमित उपयोग";
+"Unlimited personalized Home Remedies access upto 6 months" = "6 महीने तक वैयक्तिकृत घरेलू उपचारों का असीमित उपयोग";
+"Unlimited personalized Home Remedies access upto 12 months" = "12 महीने तक वैयक्तिकृत घरेलू उपचारों का असीमित उपयोग";
+
+"Payment cancelled" = "भुगतान रद्द";
+"Subscribe Now" = "अभी सदस्यता लें";
+"Your free trial has ended!" = "आपका निःशुल्क परीक्षण समाप्त हो गया है!";
+"Unlock Home Remedies" = "घरेलू उपचार अनलॉक करें";
+
+
+
+
+
+
+
+
+"Pulse assessment by placing finger on camera" = "कैमरे पर उंगली रखकर नाड़ी परीक्षण";
+"30 second pulse assessment via selfie video" = "सेल्फी वीडियो के माध्यम से 30 सेकंड में नाड़ी परीक्षण";
+
+
+"30 second pulse assessment via selfie video. Enjoy your free trial." = "सेल्फी वीडियो के माध्यम से 30 सेकंड में नाड़ी परीक्षण। अपने आरंभिक निःशुल्क परीक्षण का आनंद लें।";
+"Enjoy your free trial." = "अपने आरंभिक निःशुल्क परीक्षण का आनंद लें।";
+
+"30 second pulse assessment via placing your finger on camera" = "कैमरे पर उंगली रखकर 30 सेकंड में नाड़ी परीक्षण";
+"30 second pulse assessment via placing your finger on camera. Enjoy your free trial." = "कैमरे पर उंगली रखकर 30 सेकंड में नाड़ी परीक्षण। अपने आरंभिक निःशुल्क परीक्षण का आनंद लें।";
+"30 second pulse assessment via selfie video. Enjoy your free trial." = "सेल्फी वीडियो के माध्यम से 30 सेकंड में नाड़ी परीक्षण। अपने आरंभिक निःशुल्क परीक्षण का आनंद लें।";
+
+
+"Pulse assessment by selfie video" = "सेल्फी वीडियो द्वारा नाड़ी परीक्षण";
+
+"Apply" = "Apply";
+
+
+"Starts from %@" = "%@ से प्रारंभ होता है";
+"More Plans" = "अधिक योजनाएँ";
+"Available Subscriptions" = "उपलब्ध सदस्यताएँ";
+"Active Subscriptions" = "सक्रिय सदस्यता";
+"We could not locate an active subscription at this time" = "हम इस समय कोई सक्रिय सदस्यता नहीं ढूंढ सके";
+
+
+"Ingredients" = "सामग्री";
+"Instructions" = "निर्देश";
+"Tips" = "सुझाव";
+"View Recipe" = "व्यंजन विधि देखें";
+"To discover daily diet plans" = "दैनिक आहार योजनाएँ जानने के लिए";
+"Your personalized diet schedule for a healthier and happier life." = "स्वस्थ जीवन के लिए आपकी व्यक्तिगत दैनिक आहार योजना";
+"Unlock curated diet plans with benefits, nutritional info, and detailed recipes with optimal meal times." = "निजीकृत आहार योजनाओं को अनलॉक करें। लाभ, पोषण संबंधी जानकारी और इष्टतम भोजन समय के साथ विस्तृत व्यंजनों के साथ।";
+"Congratulations! Your subscription unlocks the curated diet plan. Welcome to a healthier, happier you!" = "बधाई हो! आपकी सदस्यता निजीकृत आहार योजना को अनलॉक करती है। एक स्वस्थ और खुशहाल जीवनशैली चुनने के लिए धन्यवाद!";
+
+"subscription_info_upi_text" = "इन-ऐप सब्सक्रिप्शन के लिए, यदि आपकी चुनी गई भुगतान विधि UPI है, तो कृपया खरीदारी करने से पहले अपने Apple वॉलेट में धनराशि जोड़ें। इससे निर्बाध लेनदेन की सुविधा मिलेगी। किसी भी असुविधा के लिए खेद है ।";
+
+"Current Weight" = "वर्तमान वजन";
+
+"Blink Eyes to Begin Test!" = "परीक्षण शुरू करने के लिए आँखें झपकाएँ!";
+"To start the test, just blink your eyes. The assessment begins automatically upon detecting your blink." = "परीक्षण शुरू करने के लिए, बस अपनी आँखें झपकाएँ। आपकी पलक का पता चलने पर मूल्यांकन स्वचालित रूप से शुरू हो जाता है।";

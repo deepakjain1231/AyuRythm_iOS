@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrivacyNewUserVC" customModule="AyuRythm" customModuleProvider="target">
+            <connections>
+                <outlet property="constraint_view_mainBG_TOP" destination="4Im-Tk-BTe" id="DT2-DT-Z9F"/>
+                <outlet property="lblAccContinue" destination="KEx-pb-sXb" id="BUF-7y-yjl"/>
+                <outlet property="lblTitle" destination="4d8-Za-22t" id="ghK-ft-igZ"/>
+                <outlet property="lblsub_Title" destination="MO3-qX-d9P" id="PAx-3B-h1n"/>
+                <outlet property="view" destination="ndk-tR-BdX" id="T0N-2H-afL"/>
+                <outlet property="view_mainBG" destination="wRb-1d-bYI" id="Pqs-5S-lyb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ndk-tR-BdX">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wRb-1d-bYI">
+                    <rect key="frame" x="0.0" y="117" width="375" height="570"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_lock_privacy" translatesAutoresizingMaskIntoConstraints="NO" id="lLN-oE-Wkb">
+                            <rect key="frame" x="96.5" y="25" width="182" height="100"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We value your privacy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d8-Za-22t">
+                            <rect key="frame" x="22" y="155" width="331" height="29.5"/>
+                            <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="24"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MO3-qX-d9P">
+                            <rect key="frame" x="22" y="214.5" width="331" height="232.5"/>
+                            <string key="text">AyuRythm collects your personal data which includes name, mobile number, email Id, gender, age and height during registration to create your account and generate your health profile.
+
+For pulse analysis, we need your correct age, height, weight and gender for our algorithms to work and give you a better assessment of your health basis the principles of Ayurveda. Hence this data is captured and stored.</string>
+                            <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OY0-vI-ckk" customClass="UIControl">
+                            <rect key="frame" x="22" y="472" width="331" height="48"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accept and Continue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEx-pb-sXb">
+                                    <rect key="frame" x="73.5" y="13" width="184" height="22"/>
+                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="buttonColor_darkGreen"/>
+                            <constraints>
+                                <constraint firstItem="KEx-pb-sXb" firstAttribute="centerY" secondItem="OY0-vI-ckk" secondAttribute="centerY" id="2tY-Fd-eUR"/>
+                                <constraint firstAttribute="height" constant="48" id="IeJ-CL-XKW"/>
+                                <constraint firstItem="KEx-pb-sXb" firstAttribute="centerX" secondItem="OY0-vI-ckk" secondAttribute="centerX" id="zyn-5U-t1q"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                    <real key="value" value="12"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnBack_Action:" destination="-1" eventType="touchUpInside" id="6Vf-8i-SGD"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="4d8-Za-22t" firstAttribute="top" secondItem="lLN-oE-Wkb" secondAttribute="bottom" constant="30" id="0ZO-du-RFv"/>
+                        <constraint firstAttribute="trailing" secondItem="OY0-vI-ckk" secondAttribute="trailing" constant="22" id="1mb-7b-dq0"/>
+                        <constraint firstItem="4d8-Za-22t" firstAttribute="leading" secondItem="wRb-1d-bYI" secondAttribute="leading" constant="22" id="43v-M8-pZK"/>
+                        <constraint firstItem="OY0-vI-ckk" firstAttribute="leading" secondItem="wRb-1d-bYI" secondAttribute="leading" constant="22" id="4x6-Ia-LYU"/>
+                        <constraint firstItem="MO3-qX-d9P" firstAttribute="leading" secondItem="wRb-1d-bYI" secondAttribute="leading" constant="22" id="5vA-A0-G78"/>
+                        <constraint firstAttribute="bottom" secondItem="OY0-vI-ckk" secondAttribute="bottom" constant="50" id="96b-T7-38p"/>
+                        <constraint firstItem="MO3-qX-d9P" firstAttribute="top" secondItem="4d8-Za-22t" secondAttribute="bottom" constant="30" id="Hcl-9B-hiP"/>
+                        <constraint firstAttribute="trailing" secondItem="4d8-Za-22t" secondAttribute="trailing" constant="22" id="Qeb-VA-Vem"/>
+                        <constraint firstAttribute="trailing" secondItem="MO3-qX-d9P" secondAttribute="trailing" constant="22" id="RrN-Zx-iaY"/>
+                        <constraint firstItem="lLN-oE-Wkb" firstAttribute="top" secondItem="wRb-1d-bYI" secondAttribute="top" constant="25" id="bPP-vF-MxQ"/>
+                        <constraint firstItem="OY0-vI-ckk" firstAttribute="top" secondItem="MO3-qX-d9P" secondAttribute="bottom" constant="25" id="dlw-BQ-eUS"/>
+                        <constraint firstItem="lLN-oE-Wkb" firstAttribute="centerX" secondItem="wRb-1d-bYI" secondAttribute="centerX" id="uWA-7J-xCc"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                            <real key="value" value="34"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="edP-al-mhu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wRb-1d-bYI" secondAttribute="bottom" constant="-20" id="4Im-Tk-BTe"/>
+                <constraint firstItem="wRb-1d-bYI" firstAttribute="leading" secondItem="edP-al-mhu" secondAttribute="leading" id="Pxz-MG-WTi"/>
+                <constraint firstItem="edP-al-mhu" firstAttribute="trailing" secondItem="wRb-1d-bYI" secondAttribute="trailing" id="RhH-C4-3hU"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="66.11694152923539"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_lock_privacy" width="182" height="99.5"/>
+        <namedColor name="buttonColor_darkGreen">
+            <color red="0.15294117647058825" green="0.24705882352941178" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

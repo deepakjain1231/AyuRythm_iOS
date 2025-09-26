@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="177" id="KGk-i7-Jjw" customClass="MPProductDeliveryTableCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="177"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="392" height="177"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKd-Ha-Zkl">
+                        <rect key="frame" x="8" y="176" width="376" height="1"/>
+                        <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="apC-zU-OXg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pje-Ci-cZm">
+                        <rect key="frame" x="0.0" y="0.0" width="392" height="122"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deliver to: Home 560000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuT-g6-fMe">
+                                <rect key="frame" x="20" y="18" width="188" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xks-ew-cx1">
+                                <rect key="frame" x="20" y="53.5" width="352" height="50.5"/>
+                                <string key="text">Free delivery in 3 days 
+No returns/exchange
+Pay on delivery available</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUd-vr-APt">
+                                <rect key="frame" x="289" y="12.5" width="83" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="CHANGE">
+                                    <color key="baseForegroundColor" name="AccentColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uUd-vr-APt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="JuT-g6-fMe" secondAttribute="trailing" constant="12" id="ILb-6T-CSQ"/>
+                            <constraint firstItem="uUd-vr-APt" firstAttribute="centerY" secondItem="JuT-g6-fMe" secondAttribute="centerY" id="QVD-Q1-YGX"/>
+                            <constraint firstItem="JuT-g6-fMe" firstAttribute="leading" secondItem="pje-Ci-cZm" secondAttribute="leading" constant="20" id="Rhn-ns-gxr"/>
+                            <constraint firstAttribute="trailing" secondItem="Xks-ew-cx1" secondAttribute="trailing" constant="20" id="S6W-D9-jmR"/>
+                            <constraint firstItem="Xks-ew-cx1" firstAttribute="top" secondItem="JuT-g6-fMe" secondAttribute="bottom" constant="16" id="foD-oO-3W3"/>
+                            <constraint firstAttribute="bottom" secondItem="Xks-ew-cx1" secondAttribute="bottom" constant="18" id="n7x-LL-qYc"/>
+                            <constraint firstItem="JuT-g6-fMe" firstAttribute="top" secondItem="pje-Ci-cZm" secondAttribute="top" constant="18" id="p6D-P9-01a"/>
+                            <constraint firstAttribute="trailing" secondItem="uUd-vr-APt" secondAttribute="trailing" constant="20" id="wbu-eq-EgU"/>
+                            <constraint firstItem="Xks-ew-cx1" firstAttribute="leading" secondItem="pje-Ci-cZm" secondAttribute="leading" constant="20" id="xHk-fL-gg2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EKd-Ha-Zkl" firstAttribute="top" relation="greaterThanOrEqual" secondItem="pje-Ci-cZm" secondAttribute="bottom" id="A6a-mX-Bxj"/>
+                    <constraint firstItem="pje-Ci-cZm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Aaf-oT-9DK"/>
+                    <constraint firstAttribute="trailing" secondItem="EKd-Ha-Zkl" secondAttribute="trailing" constant="8" id="XKQ-Q1-MEA"/>
+                    <constraint firstItem="EKd-Ha-Zkl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="mw1-nP-ZH2"/>
+                    <constraint firstItem="pje-Ci-cZm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="p2A-BE-CKQ"/>
+                    <constraint firstAttribute="bottom" secondItem="EKd-Ha-Zkl" secondAttribute="bottom" id="q0Q-dY-JNE"/>
+                    <constraint firstAttribute="trailing" secondItem="pje-Ci-cZm" secondAttribute="trailing" id="wgi-Yn-ZwR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="189.85507246376812" y="120.20089285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

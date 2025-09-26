@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PrakritiQuestionCell" rowHeight="363" id="KGk-i7-Jjw" customClass="PrakritiQuestionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="363"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="412" height="363"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RqQ-0C-jpE">
+                        <rect key="frame" x="0.0" y="0.0" width="412" height="363"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sw2-A7-VwG" customClass="BorderedView" customModule="AyuRythm" customModuleProvider="target">
+                                <rect key="frame" x="8" y="8" width="396" height="51.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEc-k8-bBZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="396" height="51.5"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="254" verticalCompressionResistancePriority="754" text="Dosha" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cC-gZ-tg4">
+                                        <rect key="frame" x="12" y="16" width="372" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="0cC-gZ-tg4" secondAttribute="bottom" constant="16" id="4Dm-EX-kZq"/>
+                                    <constraint firstItem="LEc-k8-bBZ" firstAttribute="top" secondItem="Sw2-A7-VwG" secondAttribute="top" id="OM6-DD-Fb7"/>
+                                    <constraint firstItem="0cC-gZ-tg4" firstAttribute="leading" secondItem="Sw2-A7-VwG" secondAttribute="leading" constant="12" id="PVR-BP-Jza"/>
+                                    <constraint firstItem="0cC-gZ-tg4" firstAttribute="top" secondItem="Sw2-A7-VwG" secondAttribute="top" constant="16" id="XcZ-cv-WYx"/>
+                                    <constraint firstAttribute="bottom" secondItem="LEc-k8-bBZ" secondAttribute="bottom" id="aUR-jN-9ac"/>
+                                    <constraint firstAttribute="trailing" secondItem="0cC-gZ-tg4" secondAttribute="trailing" constant="12" id="cPj-zw-yQV"/>
+                                    <constraint firstAttribute="trailing" secondItem="LEc-k8-bBZ" secondAttribute="trailing" id="m95-DV-Gxb"/>
+                                    <constraint firstItem="LEc-k8-bBZ" firstAttribute="leading" secondItem="Sw2-A7-VwG" secondAttribute="leading" id="nGK-Bb-DO3"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IFm-8n-gmc" customClass="BorderedView" customModule="AyuRythm" customModuleProvider="target">
+                                <rect key="frame" x="8" y="75.5" width="396" height="87.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVl-fo-06R">
+                                        <rect key="frame" x="0.0" y="0.0" width="396" height="87.5"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="253" verticalCompressionResistancePriority="753" text="Dosha" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZm-1B-EG5">
+                                        <rect key="frame" x="12" y="16" width="372" height="55.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="aZm-1B-EG5" secondAttribute="trailing" constant="12" id="2bJ-dG-hi3"/>
+                                    <constraint firstItem="iVl-fo-06R" firstAttribute="leading" secondItem="IFm-8n-gmc" secondAttribute="leading" id="ErL-PH-Std"/>
+                                    <constraint firstItem="aZm-1B-EG5" firstAttribute="top" secondItem="IFm-8n-gmc" secondAttribute="top" constant="16" id="Gr3-3w-nKd"/>
+                                    <constraint firstAttribute="bottom" secondItem="iVl-fo-06R" secondAttribute="bottom" id="P7J-nV-QRZ"/>
+                                    <constraint firstItem="aZm-1B-EG5" firstAttribute="leading" secondItem="IFm-8n-gmc" secondAttribute="leading" constant="12" id="TaZ-Qa-0bW"/>
+                                    <constraint firstAttribute="trailing" secondItem="iVl-fo-06R" secondAttribute="trailing" id="bXA-IP-8so"/>
+                                    <constraint firstAttribute="bottom" secondItem="aZm-1B-EG5" secondAttribute="bottom" constant="16" id="c8U-Z7-oUZ"/>
+                                    <constraint firstItem="iVl-fo-06R" firstAttribute="top" secondItem="IFm-8n-gmc" secondAttribute="top" id="tq4-S4-Qks"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y2q-rK-s6S" customClass="BorderedView" customModule="AyuRythm" customModuleProvider="target">
+                                <rect key="frame" x="8" y="179" width="396" height="88"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NW2-mh-oeB">
+                                        <rect key="frame" x="0.0" y="0.0" width="396" height="88"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Dosha" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RrS-8N-wGY">
+                                        <rect key="frame" x="12" y="16" width="372" height="56"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="RrS-8N-wGY" secondAttribute="bottom" constant="16" id="3Ny-bq-nhZ"/>
+                                    <constraint firstItem="RrS-8N-wGY" firstAttribute="top" secondItem="y2q-rK-s6S" secondAttribute="top" constant="16" id="Ldv-5C-FMA"/>
+                                    <constraint firstItem="NW2-mh-oeB" firstAttribute="top" secondItem="y2q-rK-s6S" secondAttribute="top" id="OQQ-vk-cGM"/>
+                                    <constraint firstAttribute="trailing" secondItem="RrS-8N-wGY" secondAttribute="trailing" constant="12" id="WNy-OU-JXZ"/>
+                                    <constraint firstItem="NW2-mh-oeB" firstAttribute="leading" secondItem="y2q-rK-s6S" secondAttribute="leading" id="pQn-0G-VTc"/>
+                                    <constraint firstAttribute="bottom" secondItem="NW2-mh-oeB" secondAttribute="bottom" id="rtE-WO-4zj"/>
+                                    <constraint firstAttribute="trailing" secondItem="NW2-mh-oeB" secondAttribute="trailing" id="tch-cb-1JO"/>
+                                    <constraint firstItem="RrS-8N-wGY" firstAttribute="leading" secondItem="y2q-rK-s6S" secondAttribute="leading" constant="12" id="zsx-VE-ZpX"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wbf-cz-fsn" customClass="BorderedView" customModule="AyuRythm" customModuleProvider="target">
+                                <rect key="frame" x="8" y="283" width="396" height="72"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4A-K8-hwy">
+                                        <rect key="frame" x="0.0" y="0.0" width="396" height="72"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Dosha" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UlV-jW-6jA">
+                                        <rect key="frame" x="12" y="16" width="372" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="V4A-K8-hwy" firstAttribute="top" secondItem="wbf-cz-fsn" secondAttribute="top" id="C3j-ab-ADo"/>
+                                    <constraint firstAttribute="bottom" secondItem="UlV-jW-6jA" secondAttribute="bottom" constant="16" id="CiL-YM-Y6o"/>
+                                    <constraint firstItem="V4A-K8-hwy" firstAttribute="leading" secondItem="wbf-cz-fsn" secondAttribute="leading" id="EJf-sz-H5d"/>
+                                    <constraint firstItem="UlV-jW-6jA" firstAttribute="leading" secondItem="wbf-cz-fsn" secondAttribute="leading" constant="12" id="GzL-H1-66v"/>
+                                    <constraint firstAttribute="trailing" secondItem="V4A-K8-hwy" secondAttribute="trailing" id="bf1-ix-Wmv"/>
+                                    <constraint firstItem="UlV-jW-6jA" firstAttribute="top" secondItem="wbf-cz-fsn" secondAttribute="top" constant="16" id="deJ-3e-YkI"/>
+                                    <constraint firstAttribute="trailing" secondItem="UlV-jW-6jA" secondAttribute="trailing" constant="12" id="lmP-ky-t96"/>
+                                    <constraint firstAttribute="bottom" secondItem="V4A-K8-hwy" secondAttribute="bottom" id="pqC-TL-KxE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="RqQ-0C-jpE" secondAttribute="trailing" id="3nQ-71-eMV"/>
+                    <constraint firstItem="RqQ-0C-jpE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7oP-Zc-K3R"/>
+                    <constraint firstItem="RqQ-0C-jpE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ux6-6g-f4K"/>
+                    <constraint firstAttribute="bottom" secondItem="RqQ-0C-jpE" secondAttribute="bottom" id="h8s-JF-iOZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnAnswer1" destination="LEc-k8-bBZ" id="Y9O-Sa-Eox"/>
+                <outlet property="btnAnswer2" destination="iVl-fo-06R" id="c8c-VP-Ikj"/>
+                <outlet property="btnAnswer3" destination="NW2-mh-oeB" id="aXK-NB-h2E"/>
+                <outlet property="btnAnswer4" destination="V4A-K8-hwy" id="O0c-F0-4Di"/>
+                <outlet property="lblAnswer1" destination="0cC-gZ-tg4" id="l3T-aI-3Kc"/>
+                <outlet property="lblAnswer2" destination="aZm-1B-EG5" id="Q3P-lj-HZU"/>
+                <outlet property="lblAnswer3" destination="RrS-8N-wGY" id="OEs-Z9-B0k"/>
+                <outlet property="lblAnswer4" destination="UlV-jW-6jA" id="Kz3-sM-35I"/>
+                <outlet property="viewAnswer4" destination="wbf-cz-fsn" id="pnu-Ap-zha"/>
+            </connections>
+            <point key="canvasLocation" x="204.34782608695653" y="216.62946428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

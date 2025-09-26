@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="345" id="SbL-ii-v9m" customClass="DietPlan_HeaderTableCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="562" height="375"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SbL-ii-v9m" id="XkA-mn-E49">
+                <rect key="frame" x="0.0" y="0.0" width="562" height="375"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jn0-rH-c1D">
+                        <rect key="frame" x="0.0" y="0.0" width="562" height="375"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VuC-kH-irl">
+                                <rect key="frame" x="22" y="8" width="518" height="118"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Q32-qS-Xpa">
+                                        <rect key="frame" x="0.0" y="0.0" width="518" height="118"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A3c-9s-iRa">
+                                                <rect key="frame" x="0.0" y="0.0" width="518" height="27.333333333333332"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="751" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="753" text="Your personalized diet schedule for a healthier and happier life." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qh-qD-LyP">
+                                                        <rect key="frame" x="30" y="0.0" width="476" height="19.333333333333332"/>
+                                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ly1-Hl-8Q6">
+                                                        <rect key="frame" x="0.0" y="11" width="22" height="22"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="22" id="EB7-Vc-6Ut"/>
+                                                            <constraint firstAttribute="width" secondItem="Ly1-Hl-8Q6" secondAttribute="height" id="TN6-ze-Jmm"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="Ly1-Hl-8Q6" firstAttribute="leading" secondItem="A3c-9s-iRa" secondAttribute="leading" id="GDt-eH-QNO"/>
+                                                    <constraint firstItem="Ly1-Hl-8Q6" firstAttribute="top" secondItem="A3c-9s-iRa" secondAttribute="top" constant="11" id="Hs4-bt-B6G"/>
+                                                    <constraint firstAttribute="trailing" secondItem="1qh-qD-LyP" secondAttribute="trailing" constant="12" id="QUH-o8-R0F"/>
+                                                    <constraint firstItem="1qh-qD-LyP" firstAttribute="leading" secondItem="Ly1-Hl-8Q6" secondAttribute="trailing" constant="8" id="i2L-Wz-cxE"/>
+                                                    <constraint firstItem="1qh-qD-LyP" firstAttribute="top" secondItem="A3c-9s-iRa" secondAttribute="top" id="nEH-WY-d53"/>
+                                                    <constraint firstAttribute="bottom" secondItem="1qh-qD-LyP" secondAttribute="bottom" constant="8" id="vit-tP-JJh"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3q-7d-4wD">
+                                                <rect key="frame" x="0.0" y="35.333333333333336" width="518" height="36.000000000000007"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mLg-ko-S1M">
+                                                        <rect key="frame" x="0.0" y="8" width="518" height="28"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="28" id="IT9-vE-uif"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="mLg-ko-S1M" firstAttribute="leading" secondItem="k3q-7d-4wD" secondAttribute="leading" id="8hr-v3-dwt"/>
+                                                    <constraint firstItem="mLg-ko-S1M" firstAttribute="top" secondItem="k3q-7d-4wD" secondAttribute="top" constant="8" id="lEQ-g1-YQ2"/>
+                                                    <constraint firstAttribute="bottom" secondItem="mLg-ko-S1M" secondAttribute="bottom" id="lzi-Js-Ffa"/>
+                                                    <constraint firstAttribute="trailing" secondItem="mLg-ko-S1M" secondAttribute="trailing" id="z9G-fj-pxN"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lFa-DR-B97">
+                                                <rect key="frame" x="0.0" y="79.333333333333329" width="518" height="38.666666666666671"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="751" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="753" text="Personalized Daily Diet Blueprint for a Healthier You" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pud-T7-0TR">
+                                                        <rect key="frame" x="0.0" y="0.0" width="518" height="22"/>
+                                                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.14509803921568626" green="0.16470588235294117" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="751" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="753" text="Personalized Daily Diet Blueprint for a Healthier You" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXr-bO-j2m">
+                                                        <rect key="frame" x="0.0" y="22" width="518" height="16.666666666666671"/>
+                                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                                                        <color key="textColor" red="0.14509803921568626" green="0.16470588235294117" blue="0.19215686274509802" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="tXr-bO-j2m" secondAttribute="bottom" id="5hD-6f-MFP"/>
+                                                    <constraint firstItem="Pud-T7-0TR" firstAttribute="leading" secondItem="lFa-DR-B97" secondAttribute="leading" id="9fs-0I-R0o"/>
+                                                    <constraint firstItem="Pud-T7-0TR" firstAttribute="top" secondItem="lFa-DR-B97" secondAttribute="top" id="KxN-jL-tUf"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Pud-T7-0TR" secondAttribute="trailing" id="ODu-0j-x7A"/>
+                                                    <constraint firstAttribute="trailing" secondItem="tXr-bO-j2m" secondAttribute="trailing" id="QbV-zD-TSz"/>
+                                                    <constraint firstItem="tXr-bO-j2m" firstAttribute="top" secondItem="Pud-T7-0TR" secondAttribute="bottom" id="Zpe-Sh-hI4"/>
+                                                    <constraint firstItem="tXr-bO-j2m" firstAttribute="leading" secondItem="lFa-DR-B97" secondAttribute="leading" id="cQO-AR-NBm"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Q32-qS-Xpa" secondAttribute="trailing" id="0Xc-6Y-fK0"/>
+                                    <constraint firstItem="Q32-qS-Xpa" firstAttribute="top" secondItem="VuC-kH-irl" secondAttribute="top" id="MBg-a3-s0v"/>
+                                    <constraint firstItem="Q32-qS-Xpa" firstAttribute="leading" secondItem="VuC-kH-irl" secondAttribute="leading" id="MS1-XA-vM0"/>
+                                    <constraint firstAttribute="bottom" secondItem="Q32-qS-Xpa" secondAttribute="bottom" id="XBL-HM-ua6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="VuC-kH-irl" secondAttribute="bottom" constant="4" id="48e-9T-aFC"/>
+                            <constraint firstAttribute="trailing" secondItem="VuC-kH-irl" secondAttribute="trailing" constant="22" id="GLP-wK-ILO"/>
+                            <constraint firstItem="VuC-kH-irl" firstAttribute="top" secondItem="jn0-rH-c1D" secondAttribute="top" constant="8" id="Opb-K6-WYX"/>
+                            <constraint firstItem="VuC-kH-irl" firstAttribute="leading" secondItem="jn0-rH-c1D" secondAttribute="leading" constant="22" id="aEa-Lo-p6b"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="jn0-rH-c1D" firstAttribute="top" secondItem="XkA-mn-E49" secondAttribute="top" id="ax9-m0-eIO"/>
+                    <constraint firstAttribute="trailing" secondItem="jn0-rH-c1D" secondAttribute="trailing" id="fA7-Hr-xMW"/>
+                    <constraint firstAttribute="bottom" secondItem="jn0-rH-c1D" secondAttribute="bottom" id="fdf-9X-98Y"/>
+                    <constraint firstItem="jn0-rH-c1D" firstAttribute="leading" secondItem="XkA-mn-E49" secondAttribute="leading" id="njx-3k-Qzj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="img_header" destination="mLg-ko-S1M" id="Cco-jk-vb7"/>
+                <outlet property="infoBtn" destination="Ly1-Hl-8Q6" id="3g5-LO-13o"/>
+                <outlet property="lbl_Name" destination="Pud-T7-0TR" id="1Gl-fS-Hsc"/>
+                <outlet property="lbl_infoText" destination="tXr-bO-j2m" id="TjY-0c-VN6"/>
+                <outlet property="lbl_subTitle" destination="1qh-qD-LyP" id="QQS-PH-7Hv"/>
+                <outlet property="stack_view" destination="Q32-qS-Xpa" id="AqU-Dp-9un"/>
+                <outlet property="view_DietHeader" destination="A3c-9s-iRa" id="gpK-C6-BaX"/>
+            </connections>
+            <point key="canvasLocation" x="244.27480916030532" y="85.563380281690144"/>
+        </tableViewCell>
+    </objects>
+</document>

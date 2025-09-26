@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MPMainCategory_CollectionCell" id="3ra-cF-0jn" customClass="MPMainCategory_CollectionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="525" height="252"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="525" height="252"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tsF-3w-U86">
+                        <rect key="frame" x="0.0" y="0.0" width="525" height="244"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="unm-4P-HXv">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="3ra-cF-0jn" id="Vga-03-4fe"/>
+                            <outlet property="delegate" destination="3ra-cF-0jn" id="vAi-ZC-n4O"/>
+                        </connections>
+                    </collectionView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vvs-2o-YLE">
+                        <rect key="frame" x="5" y="0.0" width="515" height="244"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vub-o2-m68">
+                                <rect key="frame" x="0.0" y="0.0" width="515" height="244"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="icon_lockk"/>
+                                <connections>
+                                    <action selector="btnLockAction:" destination="3ra-cF-0jn" eventType="touchUpInside" id="pCU-mb-Ww6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.79769658720000003" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Vub-o2-m68" secondAttribute="trailing" id="0Rd-Vc-uYY"/>
+                            <constraint firstItem="Vub-o2-m68" firstAttribute="top" secondItem="Vvs-2o-YLE" secondAttribute="top" id="JZv-35-7Zn"/>
+                            <constraint firstAttribute="bottom" secondItem="Vub-o2-m68" secondAttribute="bottom" id="OBw-Lx-4d4"/>
+                            <constraint firstItem="Vub-o2-m68" firstAttribute="leading" secondItem="Vvs-2o-YLE" secondAttribute="leading" id="rb1-y0-oJo"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="vaw-mJ-RUu"/>
+            <constraints>
+                <constraint firstItem="Vvs-2o-YLE" firstAttribute="top" secondItem="3ra-cF-0jn" secondAttribute="top" id="Km4-ri-qXD"/>
+                <constraint firstAttribute="bottom" secondItem="Vvs-2o-YLE" secondAttribute="bottom" constant="8" id="Mbo-Hf-s1A"/>
+                <constraint firstItem="tsF-3w-U86" firstAttribute="leading" secondItem="3ra-cF-0jn" secondAttribute="leading" id="Mg6-RB-Kgi"/>
+                <constraint firstAttribute="bottom" secondItem="tsF-3w-U86" secondAttribute="bottom" constant="8" id="Pmh-Mx-YC3"/>
+                <constraint firstItem="tsF-3w-U86" firstAttribute="top" secondItem="3ra-cF-0jn" secondAttribute="top" id="WKH-Ui-KVL"/>
+                <constraint firstAttribute="trailing" secondItem="Vvs-2o-YLE" secondAttribute="trailing" constant="5" id="qhC-0i-vH9"/>
+                <constraint firstAttribute="trailing" secondItem="tsF-3w-U86" secondAttribute="trailing" id="sJp-58-Gnc"/>
+                <constraint firstItem="Vvs-2o-YLE" firstAttribute="leading" secondItem="3ra-cF-0jn" secondAttribute="leading" constant="5" id="wDr-eN-Sxf"/>
+            </constraints>
+            <size key="customSize" width="525" height="252"/>
+            <connections>
+                <outlet property="collectionList" destination="tsF-3w-U86" id="wgY-IO-Fws"/>
+                <outlet property="viewDisable" destination="Vvs-2o-YLE" id="1Z9-Fy-T6Q"/>
+            </connections>
+            <point key="canvasLocation" x="476.08695652173918" y="150.66964285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_lockk" width="44" height="62.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

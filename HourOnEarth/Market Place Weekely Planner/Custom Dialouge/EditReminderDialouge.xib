@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditReminderDialouge" customModule="AyuRythm" customModuleProvider="target">
+            <connections>
+                <outlet property="btn_bg_close" destination="EfY-aO-RQ6" id="CMC-7R-qox"/>
+                <outlet property="btn_close" destination="Ot8-F5-qwu" id="vDY-k3-URp"/>
+                <outlet property="constrainit_view_Main_Height" destination="V8t-J6-ANW" id="SSO-AU-6GU"/>
+                <outlet property="lbl_title" destination="ZAk-gG-IjM" id="hSn-pw-c8p"/>
+                <outlet property="tblView" destination="lgB-dV-exL" id="tQd-Nj-dWK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view_Bg" destination="cuv-rP-QYb" id="wRO-EZ-qeo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfY-aO-RQ6">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="btn_Close_Action:" destination="-1" eventType="touchUpInside" id="OZd-wD-fKF"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cuv-rP-QYb">
+                    <rect key="frame" x="0.0" y="596" width="414" height="300"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit reminder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAk-gG-IjM">
+                            <rect key="frame" x="152" y="33" width="110.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ot8-F5-qwu">
+                            <rect key="frame" x="360" y="22" width="32" height="32"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="icon_close"/>
+                            <connections>
+                                <action selector="btn_Close_Action:" destination="-1" eventType="touchUpInside" id="z73-9b-PVT"/>
+                            </connections>
+                        </button>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lgB-dV-exL">
+                            <rect key="frame" x="0.0" y="72" width="414" height="206"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="uNp-VG-AsZ"/>
+                                <outlet property="delegate" destination="-1" id="1Qb-Wr-69i"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="lgB-dV-exL" secondAttribute="bottom" constant="22" id="8Sx-Z8-jE8"/>
+                        <constraint firstItem="ZAk-gG-IjM" firstAttribute="centerX" secondItem="cuv-rP-QYb" secondAttribute="centerX" id="Hxc-n5-GBe"/>
+                        <constraint firstAttribute="height" constant="300" id="V8t-J6-ANW"/>
+                        <constraint firstItem="lgB-dV-exL" firstAttribute="top" secondItem="Ot8-F5-qwu" secondAttribute="bottom" constant="18" id="aIy-TX-r1b"/>
+                        <constraint firstItem="lgB-dV-exL" firstAttribute="leading" secondItem="cuv-rP-QYb" secondAttribute="leading" id="fVW-kf-mWN"/>
+                        <constraint firstAttribute="trailing" secondItem="Ot8-F5-qwu" secondAttribute="trailing" constant="22" id="oP4-cA-kKG"/>
+                        <constraint firstItem="Ot8-F5-qwu" firstAttribute="top" secondItem="cuv-rP-QYb" secondAttribute="top" constant="22" id="tSJ-B7-jff"/>
+                        <constraint firstItem="lgB-dV-exL" firstAttribute="top" secondItem="ZAk-gG-IjM" secondAttribute="bottom" constant="18" id="uV3-9N-yJT"/>
+                        <constraint firstAttribute="trailing" secondItem="lgB-dV-exL" secondAttribute="trailing" id="zno-zV-TrS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="cuv-rP-QYb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="8J0-tc-sA9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EfY-aO-RQ6" secondAttribute="trailing" id="PKA-Op-tuc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cuv-rP-QYb" secondAttribute="trailing" id="W6b-CL-pKI"/>
+                <constraint firstItem="cuv-rP-QYb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="75" id="ePW-na-zmv"/>
+                <constraint firstItem="EfY-aO-RQ6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fVy-ld-fvZ"/>
+                <constraint firstItem="EfY-aO-RQ6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hp8-fP-OPa"/>
+                <constraint firstAttribute="bottom" secondItem="EfY-aO-RQ6" secondAttribute="bottom" id="thi-96-cHf"/>
+                <constraint firstAttribute="bottom" secondItem="cuv-rP-QYb" secondAttribute="bottom" id="ygR-8A-5ny"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="106"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_close" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

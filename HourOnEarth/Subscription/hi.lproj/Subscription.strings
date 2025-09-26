@@ -1,0 +1,231 @@
+
+/* Class = "UILabel"; text = "Oops!"; ObjectID = "14G-pe-hro"; */
+"14G-pe-hro.text" = "Oops!";
+
+/* Class = "UILabel"; text = "Payment Details"; ObjectID = "1VS-EB-Da9"; */
+"1VS-EB-Da9.text" = "Payment Details";
+
+/* Class = "UILabel"; text = "₹50"; ObjectID = "2hs-dU-GrS"; */
+"2hs-dU-GrS.text" = "₹50";
+
+/* Class = "UILabel"; text = "•"; ObjectID = "6I3-Yg-t8Z"; */
+"6I3-Yg-t8Z.text" = "•";
+
+/* Class = "UILabel"; text = "Your ACTIVE subscription will be paused."; ObjectID = "9GM-wq-6to"; */
+"9GM-wq-6to.text" = "आपकी सक्रिय सदस्यता रोक दी जाएगी।";
+
+/* Class = "UILabel"; text = "•"; ObjectID = "An3-t5-kgS"; */
+"An3-t5-kgS.text" = "•";
+
+/* Class = "UILabel"; text = "Pause Subscription"; ObjectID = "BVc-No-f5m"; */
+"BVc-No-f5m.text" = "सदस्यता रोकें";
+
+/* Class = "UILabel"; text = "UNLOCK \neverything!"; ObjectID = "CGs-pK-Sv0"; */
+"CGs-pK-Sv0.text" = "UNLOCK \neverything!";
+
+/* Class = "UILabel"; text = "₹299"; ObjectID = "CZW-Hr-bFD"; */
+"CZW-Hr-bFD.text" = "₹299";
+
+/* Class = "UILabel"; text = "Days"; ObjectID = "D6w-NS-65S"; */
+"D6w-NS-65S.text" = "Days";
+
+/* Class = "UILabel"; text = "Unlock all content and features"; ObjectID = "ECC-xg-AMw"; */
+"ECC-xg-AMw.text" = "Unlock all content and features";
+
+/* Class = "UILabel"; text = "Subscription renewals will not go through if your subscription is paused."; ObjectID = "F44-cf-Uox"; */
+"F44-cf-Uox.text" = "यदि आपने अपनी सदस्यता रोक दी है तो सदस्यता नवीनीकरण नहीं होगा।";
+
+/* Class = "UILabel"; text = "Payment Date"; ObjectID = "FKA-7K-Y76"; */
+"FKA-7K-Y76.text" = "भुगतान तिथि";
+
+/* Class = "UILabel"; text = "Start Date"; ObjectID = "Fm7-bV-S0v"; */
+"Fm7-bV-S0v.text" = "प्रारंभ तिथि";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "HWU-LM-uRy"; */
+"HWU-LM-uRy.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Welcome aboard Username!"; ObjectID = "HiX-jv-08b"; */
+"HiX-jv-08b.text" = "Welcome aboard Username!";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "JHQ-bt-E7v"; */
+"JHQ-bt-E7v.text" = "20";
+
+/* Class = "UITextField"; placeholder = "Select Date"; ObjectID = "JIJ-ec-UYb"; */
+"JIJ-ec-UYb.placeholder" = "कृपया तिथि चुनें";
+
+/* Class = "UILabel"; text = "Order ID"; ObjectID = "Lya-Jk-ewp"; */
+"Lya-Jk-ewp.text" = "ऑर्डर ID";
+
+/* Class = "UILabel"; text = "Your subscription\nhas been PAUSED"; ObjectID = "Mor-gY-Tgp"; */
+"Mor-gY-Tgp.text" = "आपकी सदस्यता\nरोक दी गई है";
+
+/* Class = "UILabel"; text = "Pause :"; ObjectID = "NjR-1O-d8k"; */
+"NjR-1O-d8k.text" = "विराम तिथि :";
+
+/* Class = "UILabel"; text = "28 Oct, 2021"; ObjectID = "OVB-fP-n8v"; */
+"OVB-fP-n8v.text" = "28 Oct, 2021";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "PHc-PA-94F"; */
+"PHc-PA-94F.normalTitle" = "निरस्त करें";
+
+/* Class = "UILabel"; text = "Quarterly Plan"; ObjectID = "PZ5-sX-qYx"; */
+"PZ5-sX-qYx.text" = "Quarterly Plan";
+
+/* Class = "UILabel"; text = "Subtotal"; ObjectID = "QlI-gC-uiG"; */
+"QlI-gC-uiG.text" = "उप कुल";
+
+/* Class = "UILabel"; text = "Here’s what you should know:"; ObjectID = "S6D-Sr-3eB"; */
+"S6D-Sr-3eB.text" = "आपको क्या पता होना चाहिए:";
+
+/* Class = "UILabel"; text = "40% OFF!"; ObjectID = "TK6-Ab-Xbb"; */
+"TK6-Ab-Xbb.text" = "40% OFF!";
+
+/* Class = "UIButton"; normalTitle = "Download Receipt"; ObjectID = "UMC-Lq-uhh"; */
+"UMC-Lq-uhh.normalTitle" = "रसीद डाउनलोड करें";
+
+/* Class = "UILabel"; text = "EXP DATE"; ObjectID = "UMf-ID-EFL"; */
+"UMf-ID-EFL.text" = "समाप्ति तिथि";
+
+/* Class = "UIButton"; normalTitle = "Renew Now"; ObjectID = "Ua6-Gd-PFH"; */
+"Ua6-Gd-PFH.normalTitle" = "Renew Now";
+
+/* Class = "UIButton"; normalTitle = "Subscribe Now"; ObjectID = "Ukt-bD-WkU"; */
+"Ukt-bD-WkU.normalTitle" = "अभी सदस्यता लें";
+
+/* Class = "UILabel"; text = "4th Dec, 2021 (Sat)"; ObjectID = "WAC-jQ-KAf"; */
+"WAC-jQ-KAf.text" = "4th Dec, 2021 (Sat)";
+
+/* Class = "UILabel"; text = "More Plans"; ObjectID = "Wt8-Vy-obu"; */
+"Wt8-Vy-obu.text" = "अन्य प्लान";
+
+/* Class = "UITextField"; placeholder = "Select Date"; ObjectID = "XOZ-Rb-MGz"; */
+"XOZ-Rb-MGz.placeholder" = "कृपया तिथि चुनें";
+
+/* Class = "UILabel"; text = "All the content and features will return to their LOCKED state."; ObjectID = "YFd-T3-HaW"; */
+"YFd-T3-HaW.text" = "सभी कॉन्टेंट और फ़ीचर्स अपनी अवरोधित स्थिति में वापस आ जाएंगे।";
+
+/* Class = "UIButton"; normalTitle = "Pause"; ObjectID = "YrY-GE-S4v"; */
+"YrY-GE-S4v.normalTitle" = "रोकें";
+
+/* Class = "UILabel"; text = "Exclusive rewards\nExciting offers\n1 MONTH EXTRA!"; ObjectID = "Zz3-iU-FH9"; */
+"Zz3-iU-FH9.text" = "Exclusive rewards\nExciting offers\n1 MONTH EXTRA!";
+
+/* Class = "UILabel"; text = "Start with a 1 week FREE trial now."; ObjectID = "ad6-Mf-0YT"; */
+"ad6-Mf-0YT.text" = "Start with a 1 week FREE trial now.";
+
+/* Class = "UILabel"; text = "NAME"; ObjectID = "atk-89-MiV"; */
+"atk-89-MiV.text" = "नाम";
+
+/* Class = "UILabel"; text = "Pack Type"; ObjectID = "bTF-uS-BCf"; */
+"bTF-uS-BCf.text" = "प्लान का प्रकार";
+
+/* Class = "UILabel"; text = "Resume Date"; ObjectID = "bTa-nc-YHJ"; */
+"bTa-nc-YHJ.text" = "पुनः आरंभ तिथि";
+
+/* Class = "UILabel"; text = "AYU54321"; ObjectID = "c2b-in-4Ba"; */
+"c2b-in-4Ba.text" = "AYU54321";
+
+/* Class = "UILabel"; text = "Can’t wait to see you again!"; ObjectID = "cLF-R3-ZN3"; */
+"cLF-R3-ZN3.text" = "आशा है कि आप जल्द ही फिर मिलेंगे!";
+
+/* Class = "UILabel"; text = "Don’t worry Aish! \nIt’s okay to take a break."; ObjectID = "cNW-Cn-giB"; */
+"cNW-Cn-giB.text" = "चिंता ना करें\nब्रेक लेना ठीक है।";
+
+/* Class = "UILabel"; text = "Paresh D"; ObjectID = "cft-Po-Qfe"; */
+"cft-Po-Qfe.text" = "Paresh D";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "cuM-xp-TrN"; */
+"cuM-xp-TrN.normalTitle" = "निरस्त करें";
+
+/* Class = "UILabel"; text = "Monthly Plan"; ObjectID = "d5Y-oy-ifB"; */
+"d5Y-oy-ifB.text" = "Monthly Plan";
+
+/* Class = "UILabel"; text = "Relax.\nRefresh.\nReconnect."; ObjectID = "dVJ-4e-iaY"; */
+"dVJ-4e-iaY.text" = "शांत।\nतरो ताज़ा।\nपुनर्जीवित।";
+
+/* Class = "UILabel"; text = "07"; ObjectID = "dl6-jL-o5M"; */
+"dl6-jL-o5M.text" = "07";
+
+/* Class = "UILabel"; text = "Amount Paid"; ObjectID = "dqT-IP-wzw"; */
+"dqT-IP-wzw.text" = "भुगतान राशि";
+
+/* Class = "UILabel"; text = "You can now pause your subscription \nanytime you want and resume from \nwhere you left off!"; ObjectID = "eqd-Rc-Vwl"; */
+"eqd-Rc-Vwl.text" = "अब आप अपनी सदस्यता को कभी भी रोक सकते हैं और\nजहां से आपने छोड़ा था वहां से फिर से शुरू कर सकते हैं!";
+
+/* Class = "UILabel"; text = "₹299"; ObjectID = "gq1-35-JpT"; */
+"gq1-35-JpT.text" = "₹299";
+
+/* Class = "UILabel"; text = "₹349"; ObjectID = "hWU-S4-cBG"; */
+"hWU-S4-cBG.text" = "₹349";
+
+/* Class = "UILabel"; text = "Hours"; ObjectID = "hkd-O1-ikg"; */
+"hkd-O1-ikg.text" = "Hours";
+
+/* Class = "UILabel"; text = "Monthly Plan"; ObjectID = "i5Y-6G-mRa"; */
+"i5Y-6G-mRa.text" = "Monthly Plan";
+
+/* Class = "UILabel"; text = "Hi Username. Need a break?"; ObjectID = "iJ8-h7-Djt"; */
+"iJ8-h7-Djt.text" = "Hi Username. Need a break?";
+
+/* Class = "UILabel"; text = "•"; ObjectID = "jrN-9V-NhN"; */
+"jrN-9V-NhN.text" = "•";
+
+/* Class = "UILabel"; text = "Let us know for how long will you be gone!"; ObjectID = "kG5-hA-i7I"; */
+"kG5-hA-i7I.text" = "हमें बताएं कि आप कब तक ब्रेक लेना चाहते है!";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "l0Z-uf-yNM"; */
+"l0Z-uf-yNM.normalTitle" = "जारी रखें";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "m8B-ge-RIe"; */
+"m8B-ge-RIe.normalTitle" = "शुरू करें";
+
+/* Class = "UILabel"; text = "Taxes"; ObjectID = "mJK-dT-tGV"; */
+"mJK-dT-tGV.text" = "कर";
+
+/* Class = "UILabel"; text = "Pause Date"; ObjectID = "n6w-cm-ocd"; */
+"n6w-cm-ocd.text" = "विराम तिथि";
+
+/* Class = "UILabel"; text = " 28 Nov, 2021"; ObjectID = "qPq-NI-nHM"; */
+"qPq-NI-nHM.text" = " 28 Nov, 2021";
+
+/* Class = "UILabel"; text = "Order Details"; ObjectID = "qbY-Y0-VH6"; */
+"qbY-Y0-VH6.text" = "ऑर्डर की जानकारी";
+
+/* Class = "UILabel"; text = "Something went wrong"; ObjectID = "rDj-CF-HFu"; */
+"rDj-CF-HFu.text" = "कुछ गलत हो गया है";
+
+/* Class = "UILabel"; text = "Expiry Date"; ObjectID = "rUe-5m-YpU"; */
+"rUe-5m-YpU.text" = "समाप्ति तिथि";
+
+/* Class = "UILabel"; text = "28 Oct, 2021"; ObjectID = "sTn-C6-dbD"; */
+"sTn-C6-dbD.text" = "28 Oct, 2021";
+
+/* Class = "UILabel"; text = "Resume :"; ObjectID = "sw3-vs-Ewk"; */
+"sw3-vs-Ewk.text" = "पुनः आरंभ तिथि :";
+
+/* Class = "UILabel"; text = "₹499"; ObjectID = "tmM-3N-ZFr"; */
+"tmM-3N-ZFr.text" = "₹499";
+
+/* Class = "UILabel"; text = "28/11/21"; ObjectID = "vZd-0U-wKO"; */
+"vZd-0U-wKO.text" = "28/11/21";
+
+/* Class = "UILabel"; text = "Monthly Pack"; ObjectID = "x4K-iI-RXc"; */
+"x4K-iI-RXc.text" = "Monthly Pack";
+
+/* Class = "UILabel"; text = "About this plan:"; ObjectID = "xNd-O6-ivD"; */
+"xNd-O6-ivD.text" = "About this plan:";
+
+/* Class = "UIButton"; normalTitle = "Buy Now"; ObjectID = "xlr-kr-urh"; */
+"xlr-kr-urh.normalTitle" = "अभी खरीदें";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "xsg-8G-RI6"; */
+"xsg-8G-RI6.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Retry"; ObjectID = "yHv-j6-wqd"; */
+"yHv-j6-wqd.normalTitle" = "Retry";
+
+/* Class = "UILabel"; text = "Thank you for subscribing. Enjoy your wellness journey! You can access plan details from profile section."; ObjectID = "yPc-dr-1Xa"; */
+"yPc-dr-1Xa.text" = "सदस्यता लेने के लिए धन्यवाद। अपनी स्वस्थता यात्रा का आनंद लें! आप प्रोफ़ाइल अनुभाग से प्लान का विवरण प्राप्त कर सकते हैं।";
+
+/* Class = "UILabel"; text = "4th Dec, 2021 (Sat)"; ObjectID = "z3W-a6-V9a"; */
+"z3W-a6-V9a.text" = "4th Dec, 2021 (Sat)";

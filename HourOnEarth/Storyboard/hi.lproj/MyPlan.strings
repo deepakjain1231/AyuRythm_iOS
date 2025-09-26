@@ -1,0 +1,15 @@
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "2Ve-zK-NdY"; */
+"2Ve-zK-NdY.title" = "Done";
+
+/* Class = "UILabel"; text = "Ideal time for you to do yoga is in the evening"; ObjectID = "GmD-EO-Zz0"; */
+"GmD-EO-Zz0.text" = "आपके लिए योगासन करने का आदर्श समय शाम का है";
+
+/* Class = "UILabel"; text = "Set yoga alarm"; ObjectID = "JyE-HX-6Gy"; */
+"JyE-HX-6Gy.text" = "योगासन अलार्म सेट करें";
+
+/* Class = "UIButton"; normalTitle = "dd/mm/yy hh:mm pm"; ObjectID = "sKM-bm-dJJ"; */
+"sKM-bm-dJJ.normalTitle" = "dd/mm/yy hh:mm pm";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "xkL-gQ-PQL"; */
+"xkL-gQ-PQL.normalTitle" = "सहेजें";
+

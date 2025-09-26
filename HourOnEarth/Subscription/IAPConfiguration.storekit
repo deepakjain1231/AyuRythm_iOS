@@ -1,0 +1,140 @@
+{
+  "identifier" : "962E662A",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "0868F417",
+      "localizations" : [
+        {
+          "description" : "Get 1 Month Subscription",
+          "displayName" : "1 Month Subscription IND",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hoe.houronearth.1_month_subs_in_disc_40",
+      "referenceName" : "1 Month Subscription IND",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "7.99",
+      "familyShareable" : false,
+      "internalID" : "8982A8AF",
+      "localizations" : [
+        {
+          "description" : "3 Month Subscription IND",
+          "displayName" : "3 Month Subscription IND",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hoe.houronearth.3_month_subs_in_disc_50",
+      "referenceName" : "3 Month Subscription IND",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "6.99",
+      "familyShareable" : false,
+      "internalID" : "FEAAFAFE",
+      "localizations" : [
+        {
+          "description" : "1 Month Subscription",
+          "displayName" : "1 Month Subscription",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hoe.houronearth.1_month_subs_disc_33",
+      "referenceName" : "1 Month Subscription",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "15.99",
+      "familyShareable" : false,
+      "internalID" : "04AFB9F7",
+      "localizations" : [
+        {
+          "description" : "3 Month Subscription",
+          "displayName" : "3 Month Subscription",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hoe.houronearth.3_month_subs_disc_36",
+      "referenceName" : "3 Month Subscription",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.59",
+      "familyShareable" : false,
+      "internalID" : "105CCA66",
+      "localizations" : [
+        {
+          "description" : "3 Month Subscription IND SBI",
+          "displayName" : "3 Month Subscription IND SBI",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hoe.houronearth.3_month_ind_sbi_dis",
+      "referenceName" : "3 Month Subscription IND SBI",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

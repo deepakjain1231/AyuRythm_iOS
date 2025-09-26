@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G83" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Benefits" representedClassName="Benefits" syncable="YES">
+        <attribute name="benefitsimage" optional="YES" attributeType="String"/>
+        <attribute name="benefitsname" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Favourite" representedClassName="Favourite" syncable="YES">
+        <attribute name="count" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="favourite_type" optional="YES" attributeType="String"/>
+        <relationship name="favFood" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FavouriteFood"/>
+        <relationship name="favHerb" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FavouriteHerb"/>
+        <relationship name="favKriya" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FavouriteKriya"/>
+        <relationship name="favMeditation" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FavouriteMeditation"/>
+        <relationship name="favMudra" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FavouriteMudra"/>
+        <relationship name="favPranayama" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FavouritePranayama"/>
+        <relationship name="favRemedies" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FavouriteHomeRemedies"/>
+        <relationship name="favYoga" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FavouriteYoga"/>
+    </entity>
+    <entity name="FavouriteFood" representedClassName="FavouriteFood" syncable="YES">
+        <attribute name="ayurvedic_parameters" optional="YES" attributeType="String"/>
+        <attribute name="benefits" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="categoryimage" optional="YES" attributeType="String"/>
+        <attribute name="food_name" optional="YES" attributeType="String"/>
+        <attribute name="food_properties" optional="YES" attributeType="String"/>
+        <attribute name="food_status" optional="YES" attributeType="String"/>
+        <attribute name="food_type_id" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="item_type" optional="YES" attributeType="String"/>
+        <attribute name="season" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="vertical_image" optional="YES" attributeType="String"/>
+        <relationship name="seasons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Seasons"/>
+        <relationship name="when_to_eat" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="When_to_eat"/>
+    </entity>
+    <entity name="FavouriteHerb" representedClassName="FavouriteHerb" syncable="YES">
+        <attribute name="benefits" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="categoryimage" optional="YES" attributeType="String"/>
+        <attribute name="herbs_name" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="item_type" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="vertical_image" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FavouriteHomeRemedies" representedClassName="FavouriteHomeRemedies" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="categoryimage" optional="YES" attributeType="String"/>
+        <attribute name="colour" optional="YES" attributeType="String"/>
+        <attribute name="createdate" optional="YES" attributeType="String"/>
+        <attribute name="desc_id" optional="YES" attributeType="String"/>
+        <attribute name="descriptionDetail" optional="YES" attributeType="String"/>
+        <attribute name="option_name" optional="YES" attributeType="String"/>
+        <attribute name="remedies_id" optional="YES" attributeType="String"/>
+        <attribute name="subcategory" optional="YES" attributeType="String"/>
+        <attribute name="updatedate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FavouriteKriya" representedClassName="FavouriteKriya" syncable="YES">
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="benefits_ids" optional="YES" attributeType="String"/>
+        <attribute name="descriptionKriya" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevelimage" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="preparation" optional="YES" attributeType="String"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FavouriteMeditation" representedClassName="FavouriteMeditation" syncable="YES">
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="benefits_ids" optional="YES" attributeType="String"/>
+        <attribute name="descriptionMeditation" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevelimage" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="preparation" optional="YES" attributeType="String"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FavouriteMudra" representedClassName="FavouriteMudra" syncable="YES">
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="benefits_ids" optional="YES" attributeType="String"/>
+        <attribute name="descriptionMudra" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevelimage" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="preparation" optional="YES" attributeType="String"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FavouritePranayama" representedClassName="FavouritePranayama" syncable="YES">
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="benefits_ids" optional="YES" attributeType="String"/>
+        <attribute name="descriptionPranayama" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevelimage" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="preparation" optional="YES" attributeType="String"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FavouriteYoga" representedClassName="FavouriteYoga" syncable="YES">
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="descriptionYoga" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Food" representedClassName="Food" syncable="YES">
+        <attribute name="ayurvedic_parameters" optional="YES" attributeType="String"/>
+        <attribute name="benefits" optional="YES" attributeType="String"/>
+        <attribute name="food_name" optional="YES" attributeType="String"/>
+        <attribute name="food_properties" optional="YES" attributeType="String"/>
+        <attribute name="food_status" optional="YES" attributeType="String"/>
+        <attribute name="food_type_id" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="item_type" optional="YES" attributeType="String"/>
+        <attribute name="season" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="vertical_image" optional="YES" attributeType="String"/>
+        <relationship name="seasons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Seasons"/>
+        <relationship name="when_to_eat" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="When_to_eat"/>
+    </entity>
+    <entity name="FoodDemo" representedClassName="FoodDemo" syncable="YES">
+        <attribute name="foodType" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FoodFav" representedClassName="FoodFav" syncable="YES">
+        <attribute name="ayurvedic_parameters" optional="YES" attributeType="String"/>
+        <attribute name="benefits" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="categoryimage" optional="YES" attributeType="String"/>
+        <attribute name="food_name" optional="YES" attributeType="String"/>
+        <attribute name="food_status" optional="YES" attributeType="String"/>
+        <attribute name="food_type_id" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="item_type" optional="YES" attributeType="String"/>
+        <attribute name="season" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="vertical_image" optional="YES" attributeType="String"/>
+        <relationship name="seasons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Seasons"/>
+        <relationship name="when_to_eat" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="When_to_eat"/>
+    </entity>
+    <entity name="Gemstones" representedClassName="Gemstones" syncable="YES">
+        <attribute name="action" optional="YES" attributeType="String"/>
+        <attribute name="gem" optional="YES" attributeType="String"/>
+        <attribute name="gem_hindi" optional="YES" attributeType="String"/>
+        <attribute name="gem_image" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="kapha" optional="YES" attributeType="String"/>
+        <attribute name="pitta" optional="YES" attributeType="String"/>
+        <attribute name="planet" optional="YES" attributeType="String"/>
+        <attribute name="remedies" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="vata" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Herb" representedClassName="Herb" syncable="YES">
+        <attribute name="benefits" optional="YES" attributeType="String"/>
+        <attribute name="herbs_name" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="item_type" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vertical_image" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HerbType" representedClassName="HerbType" syncable="YES">
+        <attribute name="herbs_types" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HomeRemedies" representedClassName="HomeRemedies" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="item" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <relationship name="subcategory" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HomeRemediesDetail"/>
+    </entity>
+    <entity name="HomeRemediesDescription" representedClassName="HomeRemediesDescription" syncable="YES">
+        <attribute name="colour" optional="YES" attributeType="String"/>
+        <attribute name="createdate" optional="YES" attributeType="String"/>
+        <attribute name="desc_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="discription" optional="YES" attributeType="String"/>
+        <attribute name="option_name" optional="YES" attributeType="String"/>
+        <attribute name="remedies_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="updatedate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HomeRemediesDetail" representedClassName="HomeRemediesDetail" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="item" optional="YES" attributeType="String"/>
+        <attribute name="parent_id" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Kriya" representedClassName="Kriya" syncable="YES">
+        <attribute name="access_point" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="benefits_ids" optional="YES" attributeType="String"/>
+        <attribute name="descriptionKriya" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevelimage" optional="YES" attributeType="String"/>
+        <attribute name="favorite_id" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="listids" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="preparation" optional="YES" attributeType="String"/>
+        <attribute name="redeemed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+        <relationship name="benefits" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Benefits"/>
+    </entity>
+    <entity name="Meditation" representedClassName="Meditation" syncable="YES">
+        <attribute name="access_point" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="benefits_ids" optional="YES" attributeType="String"/>
+        <attribute name="descriptionMeditation" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevelimage" optional="YES" attributeType="String"/>
+        <attribute name="favorite_id" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="listids" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="preparation" optional="YES" attributeType="String"/>
+        <attribute name="redeemed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+        <relationship name="benefits" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Benefits"/>
+    </entity>
+    <entity name="MeditationSteps" representedClassName="MeditationSteps" syncable="YES">
+        <attribute name="createdate" optional="YES" attributeType="String"/>
+        <attribute name="discription" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="updatedate" optional="YES" attributeType="String"/>
+        <attribute name="wellness_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Mudra" representedClassName="Mudra" syncable="YES">
+        <attribute name="access_point" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="benefits_ids" optional="YES" attributeType="String"/>
+        <attribute name="descriptionMudra" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevelimage" optional="YES" attributeType="String"/>
+        <attribute name="favorite_id" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="listids" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="preparation" optional="YES" attributeType="String"/>
+        <attribute name="redeemed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+        <relationship name="benefits" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Benefits"/>
+    </entity>
+    <entity name="MyList" representedClassName="MyList" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="list_name" optional="YES" attributeType="String"/>
+        <attribute name="userid" optional="YES" attributeType="String"/>
+        <relationship name="kriyas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Kriya"/>
+        <relationship name="meditation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meditation"/>
+        <relationship name="mudras" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Mudra"/>
+        <relationship name="pranayama" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pranayama"/>
+        <relationship name="yoga" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Yoga"/>
+    </entity>
+    <entity name="MyListDetails" representedClassName="MyListDetails" syncable="YES">
+        <attribute name="favourite_id" optional="YES" attributeType="String"/>
+        <attribute name="favourite_type" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="listid" optional="YES" attributeType="String"/>
+        <relationship name="kriyas" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kriya"/>
+        <relationship name="meditation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meditation"/>
+        <relationship name="mudras" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Mudra"/>
+        <relationship name="pranayama" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pranayama"/>
+        <relationship name="yoga" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Yoga"/>
+    </entity>
+    <entity name="MyProgress" representedClassName="MyProgress" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="duid" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="percentage" optional="YES" attributeType="String"/>
+        <attribute name="result" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PackageTimeSlot" representedClassName="PackageTimeSlot" syncable="YES">
+        <attribute name="end_time" optional="YES" attributeType="String"/>
+        <attribute name="start_time" optional="YES" attributeType="String"/>
+        <attribute name="week_days" optional="YES" attributeType="String"/>
+        <relationship name="package" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TrainerPackage" inverseName="timeslot" inverseEntity="TrainerPackage"/>
+    </entity>
+    <entity name="PlayList" representedClassName="PlayList" syncable="YES">
+        <attribute name="access_point" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ayurid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="count" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="favorite_id" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="item" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="redeemed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlayListDetails" representedClassName="PlayListDetails" syncable="YES">
+        <attribute name="count" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="kriyas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Kriya"/>
+        <relationship name="meditation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meditation"/>
+        <relationship name="mudras" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Mudra"/>
+        <relationship name="pranayama" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pranayama"/>
+        <relationship name="yoga" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Yoga"/>
+    </entity>
+    <entity name="Pranayama" representedClassName="Pranayama" syncable="YES">
+        <attribute name="access_point" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="benefits_ids" optional="YES" attributeType="String"/>
+        <attribute name="descriptionPranayama" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevelimage" optional="YES" attributeType="String"/>
+        <attribute name="favorite_id" optional="YES" attributeType="String"/>
+        <attribute name="file_type" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="listids" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="preparation" optional="YES" attributeType="String"/>
+        <attribute name="redeemed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="types_flag" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+        <relationship name="benefits" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Benefits"/>
+    </entity>
+    <entity name="PranayamaSteps" representedClassName="PranayamaSteps" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pranayam_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="step_image" optional="YES" attributeType="String"/>
+        <attribute name="step_no" optional="YES" attributeType="String"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Seasons" representedClassName="Seasons" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="season_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TodayRecommendationMyPlan" representedClassName="TodayRecommendationMyPlan" syncable="YES">
+        <attribute name="descriptionYoga" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="food_name" optional="YES" attributeType="String"/>
+        <attribute name="food_status" optional="YES" attributeType="String"/>
+        <attribute name="food_type_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="foodId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="item_type" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="recommendationType" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+        <attribute name="yogaId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Trainer" representedClassName="Trainer" syncable="YES">
+        <attribute name="about" optional="YES" attributeType="String"/>
+        <attribute name="access_point" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="redeemed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="package" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TrainerPackage" inverseName="trainer" inverseEntity="TrainerPackage"/>
+    </entity>
+    <entity name="TrainerPackage" representedClassName="TrainerPackage" syncable="YES">
+        <attribute name="available_week_days" optional="YES" attributeType="String"/>
+        <attribute name="descriptions" optional="YES" attributeType="String"/>
+        <attribute name="dis_per_session_price" optional="YES" attributeType="String"/>
+        <attribute name="dis_per_session_price_usd" optional="YES" attributeType="String"/>
+        <attribute name="discount_per" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="discount_per_usd" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="favorite_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="max_session_week" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="max_week" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price_per_session" optional="YES" attributeType="String"/>
+        <attribute name="price_per_session_usd" optional="YES" attributeType="String"/>
+        <attribute name="seed_discount_price" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="seed_discount_price_usd" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="seeds_used" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="seeds_used_usd" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="session_type" optional="YES" attributeType="String"/>
+        <attribute name="time_per_session" optional="YES" attributeType="String"/>
+        <attribute name="total_cost" optional="YES" attributeType="String"/>
+        <attribute name="total_cost_usd" optional="YES" attributeType="String"/>
+        <attribute name="total_session" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="timeslot" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PackageTimeSlot" inverseName="package" inverseEntity="PackageTimeSlot"/>
+        <relationship name="trainer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trainer" inverseName="package" inverseEntity="Trainer"/>
+    </entity>
+    <entity name="When_to_eat" representedClassName="When_to_eat" syncable="YES">
+        <attribute name="besttime" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Yoga" representedClassName="Yoga" syncable="YES">
+        <attribute name="access_point" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="benefit_description" optional="YES" attributeType="String"/>
+        <attribute name="descriptionYoga" optional="YES" attributeType="String"/>
+        <attribute name="english_name" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevel" optional="YES" attributeType="String"/>
+        <attribute name="experiencelevelimage" optional="YES" attributeType="String"/>
+        <attribute name="favorite_id" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="image_grey" optional="YES" attributeType="String"/>
+        <attribute name="listids" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="precautions" optional="YES" attributeType="String"/>
+        <attribute name="redeemed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="shortdescription" optional="YES" attributeType="String"/>
+        <attribute name="star" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="types_flag" optional="YES" attributeType="String"/>
+        <attribute name="verticleimage" optional="YES" attributeType="String"/>
+        <attribute name="video_duration" optional="YES" attributeType="String"/>
+        <attribute name="video_link" optional="YES" attributeType="String"/>
+        <relationship name="benefits" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Benefits"/>
+    </entity>
+    <entity name="YogaSteps" representedClassName="YogaSteps" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="step_image" optional="YES" attributeType="String"/>
+        <attribute name="step_no" optional="YES" attributeType="String"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="yoga_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Benefits" positionX="-27" positionY="135" width="128" height="73"/>
+        <element name="Favourite" positionX="-18" positionY="144" width="128" height="193"/>
+        <element name="FavouriteFood" positionX="0" positionY="162" width="128" height="313"/>
+        <element name="FavouriteHerb" positionX="63" positionY="153" width="128" height="208"/>
+        <element name="FavouriteHomeRemedies" positionX="-9" positionY="153" width="128" height="193"/>
+        <element name="FavouriteKriya" positionX="0" positionY="162" width="128" height="328"/>
+        <element name="FavouriteMeditation" positionX="-18" positionY="144" width="128" height="328"/>
+        <element name="FavouriteMudra" positionX="-9" positionY="153" width="128" height="328"/>
+        <element name="FavouritePranayama" positionX="-27" positionY="135" width="128" height="328"/>
+        <element name="FavouriteYoga" positionX="-27" positionY="135" width="128" height="283"/>
+        <element name="Food" positionX="-54" positionY="72" width="128" height="283"/>
+        <element name="FoodDemo" positionX="-27" positionY="117" width="128" height="88"/>
+        <element name="FoodFav" positionX="54" positionY="144" width="128" height="298"/>
+        <element name="Gemstones" positionX="-45" positionY="81" width="128" height="194"/>
+        <element name="Herb" positionX="45" positionY="135" width="128" height="163"/>
+        <element name="HerbType" positionX="54" positionY="144" width="128" height="88"/>
+        <element name="HomeRemedies" positionX="-27" positionY="117" width="128" height="119"/>
+        <element name="HomeRemediesDescription" positionX="-9" positionY="135" width="128" height="163"/>
+        <element name="HomeRemediesDetail" positionX="-18" positionY="126" width="128" height="119"/>
+        <element name="Kriya" positionX="-18" positionY="144" width="128" height="403"/>
+        <element name="Meditation" positionX="-54" positionY="63" width="128" height="403"/>
+        <element name="MeditationSteps" positionX="0" positionY="153" width="128" height="120"/>
+        <element name="Mudra" positionX="-27" positionY="135" width="128" height="403"/>
+        <element name="MyList" positionX="45" positionY="135" width="128" height="178"/>
+        <element name="MyListDetails" positionX="54" positionY="144" width="128" height="178"/>
+        <element name="MyProgress" positionX="-54" positionY="63" width="128" height="120"/>
+        <element name="PackageTimeSlot" positionX="54" positionY="144" width="128" height="103"/>
+        <element name="PlayList" positionX="-27" positionY="135" width="128" height="193"/>
+        <element name="PlayListDetails" positionX="160" positionY="192" width="128" height="148"/>
+        <element name="Pranayama" positionX="-63" positionY="36" width="128" height="433"/>
+        <element name="PranayamaSteps" positionX="-36" positionY="135" width="128" height="120"/>
+        <element name="Seasons" positionX="-27" positionY="135" width="128" height="88"/>
+        <element name="TodayRecommendationMyPlan" positionX="-27" positionY="117" width="128" height="283"/>
+        <element name="Trainer" positionX="45" positionY="135" width="128" height="163"/>
+        <element name="TrainerPackage" positionX="45" positionY="135" width="128" height="374"/>
+        <element name="When_to_eat" positionX="-18" positionY="144" width="128" height="88"/>
+        <element name="Yoga" positionX="-63" positionY="-18" width="128" height="403"/>
+        <element name="YogaSteps" positionX="-18" positionY="144" width="128" height="120"/>
+    </elements>
+</model>

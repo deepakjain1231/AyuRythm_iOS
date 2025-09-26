@@ -1,0 +1,126 @@
+
+/* Class = "UITextField"; placeholder = "Enter code here"; ObjectID = "1KC-fa-zWd"; */
+"1KC-fa-zWd.placeholder" = "Enter code here";
+
+/* Class = "UIButton"; normalTitle = "SCAN"; ObjectID = "4a6-Fn-7aQ"; */
+"4a6-Fn-7aQ.normalTitle" = "SCAN";
+
+/* Class = "UILabel"; text = "BPL Device Type"; ObjectID = "4aR-Nn-lrn"; */
+"4aR-Nn-lrn.text" = "BPL Device Type";
+
+/* Class = "UILabel"; text = "SN : NETA9F0266"; ObjectID = "4ey-rQ-PqT"; */
+"4ey-rQ-PqT.text" = "SN : NETA9F0266";
+
+/* Class = "UILabel"; text = "Message comes"; ObjectID = "71T-LX-1yh"; */
+"71T-LX-1yh.text" = "Message comes";
+
+/* Class = "UILabel"; text = "DIA/SYS"; ObjectID = "8tp-iL-kbf"; */
+"8tp-iL-kbf.text" = "DIA/SYS";
+
+/* Class = "UILabel"; text = "Enter BPL Device Result"; ObjectID = "9xO-jK-4zA"; */
+"9xO-jK-4zA.text" = "Enter BPL Device Result";
+
+/* Class = "UILabel"; text = "INSTRUCTIONS"; ObjectID = "C1Q-7I-Sdp"; */
+"C1Q-7I-Sdp.text" = "INSTRUCTIONS";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "Gd8-iN-Z3V"; */
+"Gd8-iN-Z3V.text" = "0%";
+
+/* Class = "UILabel"; text = "Name : Device Name"; ObjectID = "Ixl-DQ-zfu"; */
+"Ixl-DQ-zfu.text" = "Name : Device Name";
+
+/* Class = "UITextField"; placeholder = "Enter here"; ObjectID = "Lxy-wM-MPc"; */
+"Lxy-wM-MPc.placeholder" = "Enter here";
+
+/* Class = "UITextField"; placeholder = "Enter here"; ObjectID = "Myp-Ks-STM"; */
+"Myp-Ks-STM.placeholder" = "Enter here";
+
+/* Class = "UILabel"; text = "BPL Device Serial No."; ObjectID = "Qic-Q5-150"; */
+"Qic-Q5-150.text" = "BPL Device Serial No.";
+
+/* Class = "UILabel"; text = "Status : "; ObjectID = "Ra0-1f-i9b"; */
+"Ra0-1f-i9b.text" = "Status : ";
+
+/* Class = "UILabel"; text = "0.0 Kg"; ObjectID = "Rob-rE-ROb"; */
+"Rob-rE-ROb.text" = "0.0 Kg";
+
+/* Class = "UILabel"; text = "Message comes"; ObjectID = "SKR-tX-NSz"; */
+"SKR-tX-NSz.text" = "Message comes";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Spn-JQ-SmG"; */
+"Spn-JQ-SmG.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "   --"; ObjectID = "Xvr-f3-fGz"; */
+"Xvr-f3-fGz.text" = "   --";
+
+/* Class = "UITextField"; placeholder = "Enter here"; ObjectID = "ZIV-jh-wTI"; */
+"ZIV-jh-wTI.placeholder" = "Enter here";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "aSA-5x-1Du"; */
+"aSA-5x-1Du.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "   --"; ObjectID = "civ-XN-8bu"; */
+"civ-XN-8bu.text" = "   --";
+
+/* Class = "UILabel"; text = "PULSE"; ObjectID = "dL4-gv-5JN"; */
+"dL4-gv-5JN.text" = "PULSE";
+
+/* Class = "UILabel"; text = "   --"; ObjectID = "emr-jF-Sz1"; */
+"emr-jF-Sz1.text" = "   --";
+
+/* Class = "UINavigationItem"; title = "Weight Machine"; ObjectID = "gju-Nr-F2N"; */
+"gju-Nr-F2N.title" = "Weight Machine";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "hkY-u3-yzs"; */
+"hkY-u3-yzs.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Blood pressure"; ObjectID = "k07-jt-GWo"; */
+"k07-jt-GWo.text" = "Blood pressure";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "kUG-S3-Y2W"; */
+"kUG-S3-Y2W.normalTitle" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "khV-OA-lEJ"; */
+"khV-OA-lEJ.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "SpO2"; ObjectID = "m3d-ct-GbS"; */
+"m3d-ct-GbS.text" = "SpO2";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "mn7-4e-5fY"; */
+"mn7-4e-5fY.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "nzs-gq-99C"; */
+"nzs-gq-99C.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Enter BPL Device Serial No."; ObjectID = "oj0-5X-k3V"; */
+"oj0-5X-k3V.text" = "Enter BPL Device Serial No.";
+
+/* Class = "UILabel"; text = "Pl"; ObjectID = "p8M-E0-H0Z"; */
+"p8M-E0-H0Z.text" = "Pl";
+
+/* Class = "UILabel"; text = "BPL Device Model"; ObjectID = "rAO-QM-6DQ"; */
+"rAO-QM-6DQ.text" = "BPL Device Model";
+
+/* Class = "UILabel"; text = "Pulse"; ObjectID = "uWF-Ns-6Ce"; */
+"uWF-Ns-6Ce.text" = "Pulse";
+
+/* Class = "UIButton"; normalTitle = "Search device"; ObjectID = "uav-65-6nr"; */
+"uav-65-6nr.normalTitle" = "Search device";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "vPA-nI-xj1"; */
+"vPA-nI-xj1.text" = "0";
+
+/* Class = "UITextField"; placeholder = "Enter here"; ObjectID = "vaJ-wX-mti"; */
+"vaJ-wX-mti.placeholder" = "Enter here";
+
+/* Class = "UITextField"; text = "0"; ObjectID = "vaJ-wX-mti"; */
+"vaJ-wX-mti.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "w9s-VS-mls"; */
+"w9s-VS-mls.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "wEH-1h-D0m"; */
+"wEH-1h-D0m.text" = "0";
+
+/* Class = "UILabel"; text = "Congratulations"; ObjectID = "yOo-yd-gTt"; */
+"yOo-yd-gTt.text" = "Congratulations";

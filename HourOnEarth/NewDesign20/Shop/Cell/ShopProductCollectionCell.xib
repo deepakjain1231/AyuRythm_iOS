@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ShopProductCollectionCell" id="gTV-IL-0wX" customClass="ShopProductCollectionCell" customModule="AyuRythmBeta" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="123" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="123" height="220"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tbb-PV-Ds9">
+                        <rect key="frame" x="0.0" y="0.0" width="123" height="220"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product1" translatesAutoresizingMaskIntoConstraints="NO" id="mzM-ao-cGI" customClass="DesignableImageView" customModule="AyuRythmBeta" customModuleProvider="target">
+                                <rect key="frame" x="5" y="14" width="113" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Wdy-Oy-cSk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Vaidyas" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jo7-tu-mel">
+                                <rect key="frame" x="5" y="135" width="113" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="Jsp-Jx-E4a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="LIVitup! dndkadk mdakd" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afb-C6-IXI">
+                                <rect key="frame" x="5" y="152" width="113" height="26.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="IuW-3p-nUC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Sz0-lG-vIa">
+                                <rect key="frame" x="5" y="180.5" width="98" height="24.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹320.00" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vk0-h2-PJV">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="24.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="New" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHh-so-ic1">
+                                        <rect key="frame" x="49" y="0.0" width="49" height="24.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Afb-C6-IXI" firstAttribute="leading" secondItem="Tbb-PV-Ds9" secondAttribute="leading" constant="5" id="0N7-nD-rwm"/>
+                            <constraint firstItem="jo7-tu-mel" firstAttribute="leading" secondItem="Tbb-PV-Ds9" secondAttribute="leading" constant="5" id="4Ar-0I-O9X"/>
+                            <constraint firstAttribute="trailing" secondItem="Afb-C6-IXI" secondAttribute="trailing" constant="5" id="HnS-hC-YDf"/>
+                            <constraint firstItem="mzM-ao-cGI" firstAttribute="top" secondItem="Tbb-PV-Ds9" secondAttribute="top" constant="14" id="JXA-aT-vi7"/>
+                            <constraint firstAttribute="trailing" secondItem="jo7-tu-mel" secondAttribute="trailing" constant="5" id="MS3-l5-V1v"/>
+                            <constraint firstItem="mzM-ao-cGI" firstAttribute="leading" secondItem="Tbb-PV-Ds9" secondAttribute="leading" constant="5" id="PuU-0h-iFM"/>
+                            <constraint firstItem="Afb-C6-IXI" firstAttribute="top" secondItem="jo7-tu-mel" secondAttribute="bottom" constant="2" id="RkW-nK-BLr"/>
+                            <constraint firstItem="Sz0-lG-vIa" firstAttribute="leading" secondItem="Tbb-PV-Ds9" secondAttribute="leading" constant="5" id="SzN-Y4-ESP"/>
+                            <constraint firstAttribute="trailing" secondItem="mzM-ao-cGI" secondAttribute="trailing" constant="5" id="fGM-3E-8OE"/>
+                            <constraint firstItem="Sz0-lG-vIa" firstAttribute="top" secondItem="Afb-C6-IXI" secondAttribute="bottom" constant="2" id="igH-9Q-XLa"/>
+                            <constraint firstAttribute="trailing" secondItem="Sz0-lG-vIa" secondAttribute="trailing" constant="20" symbolic="YES" id="isK-gH-08I"/>
+                            <constraint firstAttribute="bottom" secondItem="Sz0-lG-vIa" secondAttribute="bottom" constant="15" id="lhx-wp-aRM"/>
+                            <constraint firstItem="jo7-tu-mel" firstAttribute="top" secondItem="mzM-ao-cGI" secondAttribute="bottom" constant="1" id="nmf-75-GWe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Tbb-PV-Ds9" secondAttribute="trailing" id="93t-hj-ThI"/>
+                <constraint firstAttribute="bottom" secondItem="Tbb-PV-Ds9" secondAttribute="bottom" id="La1-qg-QVG"/>
+                <constraint firstItem="Tbb-PV-Ds9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="r9P-kY-cIp"/>
+                <constraint firstItem="Tbb-PV-Ds9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="woU-bQ-3Ec"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="123" height="182"/>
+            <connections>
+                <outlet property="imageProduct" destination="mzM-ao-cGI" id="DGG-BN-3sT"/>
+                <outlet property="lblPrice" destination="vk0-h2-PJV" id="5Cg-Pb-pdE"/>
+                <outlet property="lblProduct" destination="jo7-tu-mel" id="iU7-bC-3YG"/>
+                <outlet property="lblProductDesc" destination="Afb-C6-IXI" id="FrN-5L-Ltf"/>
+            </connections>
+            <point key="canvasLocation" x="190.57971014492756" y="168.75"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="product1" width="90" height="84"/>
+    </resources>
+</document>

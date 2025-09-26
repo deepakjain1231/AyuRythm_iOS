@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="178" id="KGk-i7-Jjw" customClass="BookNowTrainerInfoTableCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="178"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="458" height="178"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhc-tK-vaI">
+                        <rect key="frame" x="0.0" y="0.0" width="458" height="178"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Information for trainer*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WC5-ly-rfr">
+                                <rect key="frame" x="18" y="12" width="422" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="z4z-mS-LCC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tf8-Ha-VEx">
+                                <rect key="frame" x="18" y="41" width="422" height="125"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YLs-P2-A6a">
+                                        <rect key="frame" x="12" y="5" width="398" height="115"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="YLs-P2-A6a" secondAttribute="bottom" constant="5" id="3YM-7A-PsX"/>
+                                    <constraint firstItem="YLs-P2-A6a" firstAttribute="top" secondItem="tf8-Ha-VEx" secondAttribute="top" constant="5" id="WOa-ib-YX1"/>
+                                    <constraint firstItem="YLs-P2-A6a" firstAttribute="leading" secondItem="tf8-Ha-VEx" secondAttribute="leading" constant="12" id="Wbh-35-paU"/>
+                                    <constraint firstAttribute="trailing" secondItem="YLs-P2-A6a" secondAttribute="trailing" constant="12" id="Wcd-MA-Ke6"/>
+                                    <constraint firstAttribute="height" constant="125" id="wyt-Oh-0c5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth1">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor1">
+                                        <color key="value" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tf8-Ha-VEx" firstAttribute="top" secondItem="WC5-ly-rfr" secondAttribute="bottom" constant="8" id="F25-SG-gwd"/>
+                            <constraint firstAttribute="trailing" secondItem="WC5-ly-rfr" secondAttribute="trailing" constant="18" id="K9I-hV-pTy"/>
+                            <constraint firstItem="tf8-Ha-VEx" firstAttribute="leading" secondItem="nhc-tK-vaI" secondAttribute="leading" constant="18" id="R0C-cI-TR4"/>
+                            <constraint firstAttribute="bottom" secondItem="tf8-Ha-VEx" secondAttribute="bottom" constant="12" id="TmX-RK-GMo"/>
+                            <constraint firstItem="WC5-ly-rfr" firstAttribute="leading" secondItem="nhc-tK-vaI" secondAttribute="leading" constant="18" id="fdJ-3T-yU0"/>
+                            <constraint firstItem="WC5-ly-rfr" firstAttribute="top" secondItem="nhc-tK-vaI" secondAttribute="top" constant="12" id="oT4-dC-tDl"/>
+                            <constraint firstAttribute="trailing" secondItem="tf8-Ha-VEx" secondAttribute="trailing" constant="18" id="uw5-AE-ZZm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nhc-tK-vaI" secondAttribute="bottom" id="6Ku-ID-5ns"/>
+                    <constraint firstItem="nhc-tK-vaI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="XAX-Td-mRX"/>
+                    <constraint firstAttribute="trailing" secondItem="nhc-tK-vaI" secondAttribute="trailing" id="akk-mD-A0f"/>
+                    <constraint firstItem="nhc-tK-vaI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="qcK-Y9-nCk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lbl_Title" destination="WC5-ly-rfr" id="7kY-jE-gs6"/>
+                <outlet property="txt_info" destination="YLs-P2-A6a" id="l2E-4D-TFj"/>
+                <outlet property="view_Base" destination="nhc-tK-vaI" id="lWl-bR-YmC"/>
+            </connections>
+            <point key="canvasLocation" x="244.27480916030532" y="66.901408450704224"/>
+        </tableViewCell>
+    </objects>
+</document>

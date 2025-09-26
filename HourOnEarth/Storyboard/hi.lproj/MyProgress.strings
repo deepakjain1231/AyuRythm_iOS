@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Pitta"; ObjectID = "15a-v8-cdR"; */
+"15a-v8-cdR.text" = "पित्त";
+
+/* Class = "UISegmentedControl"; 1iV-NS-qf7.segmentTitles[0] = "D"; ObjectID = "1iV-NS-qf7"; */
+"1iV-NS-qf7.segmentTitles[0]" = "D";
+
+/* Class = "UISegmentedControl"; 1iV-NS-qf7.segmentTitles[1] = "W"; ObjectID = "1iV-NS-qf7"; */
+"1iV-NS-qf7.segmentTitles[1]" = "W";
+
+/* Class = "UISegmentedControl"; 1iV-NS-qf7.segmentTitles[2] = "M"; ObjectID = "1iV-NS-qf7"; */
+"1iV-NS-qf7.segmentTitles[2]" = "M";
+
+/* Class = "UISegmentedControl"; 1iV-NS-qf7.segmentTitles[3] = "Y"; ObjectID = "1iV-NS-qf7"; */
+"1iV-NS-qf7.segmentTitles[3]" = "Y";
+
+/* Class = "UILabel"; text = "Raj"; ObjectID = "OON-9R-DeD"; */
+"OON-9R-DeD.text" = "Raj";
+
+/* Class = "UILabel"; text = "Vega"; ObjectID = "QWf-Sz-ude"; */
+"QWf-Sz-ude.text" = "वेग";
+
+/* Class = "UILabel"; text = "Results"; ObjectID = "RCk-tu-ihZ"; */
+"RCk-tu-ihZ.text" = "परिणाम";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "W94-kx-qqd"; */
+"W94-kx-qqd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "No Data Available"; ObjectID = "dyE-1f-yVh"; */
+"dyE-1f-yVh.text" = "कोई डेटा उपलब्ध नहीं है";
+
+/* Class = "UILabel"; text = "Pitta"; ObjectID = "hrl-RB-VtG"; */
+"hrl-RB-VtG.text" = "पित्त";
+
+/* Class = "UILabel"; text = "21"; ObjectID = "kDQ-tO-NGw"; */
+"kDQ-tO-NGw.text" = "21";
+
+/* Class = "UILabel"; text = "Vega"; ObjectID = "rjg-nr-WI4"; */
+"rjg-nr-WI4.text" = "वेग";
+
+/* Class = "UILabel"; text = "My Progress"; ObjectID = "v3c-cI-OPW"; */
+"v3c-cI-OPW.text" = "मेरी प्रगति";

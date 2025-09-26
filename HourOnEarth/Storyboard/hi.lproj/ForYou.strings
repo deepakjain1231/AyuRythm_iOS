@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "60 min each"; ObjectID = "7Js-hx-NeU"; */
+"7Js-hx-NeU.text" = "60 min each";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "9zF-fk-9gg"; */
+"9zF-fk-9gg.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Book Now"; ObjectID = "AsP-ve-Z0i"; */
+"AsP-ve-Z0i.normalTitle" = "बुक करें";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CA4-zn-sA5"; */
+"CA4-zn-sA5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Need custom package?"; ObjectID = "CnM-hm-ewi"; */
+"CnM-hm-ewi.text" = "क्या आप व्यक्तिकृत पैकेज चाहते हैं?";
+
+/* Class = "UINavigationItem"; title = "For You"; ObjectID = "DzY-pM-aEn"; */
+"DzY-pM-aEn.title" = "आपके लिए";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "F2T-Di-YVU"; */
+"F2T-Di-YVU.title" = "Done";
+
+/* Class = "UIBarButtonItem"; title = "Reset"; ObjectID = "JX7-yh-Nit"; */
+"JX7-yh-Nit.title" = "Reset";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc velit, maximus eget nisi a, dapibus venenatis quam. Ut nec augue neque."; ObjectID = "LCB-dM-P9Q"; */
+"LCB-dM-P9Q.text" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc velit, maximus eget nisi a, dapibus venenatis quam. Ut nec augue neque.";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "MZ8-CB-hLb"; */
+"MZ8-CB-hLb.text" = "विषय में";
+
+/* Class = "UILabel"; text = "₹2000/Session"; ObjectID = "NyF-ZX-TGt"; */
+"NyF-ZX-TGt.text" = "₹2000/Session";
+
+/* Class = "UISegmentedControl"; QE2-Jb-pCN.segmentTitles[0] = "Eat"; ObjectID = "QE2-Jb-pCN"; */
+"QE2-Jb-pCN.segmentTitles[0]" = "उपयोग करें";
+
+/* Class = "UISegmentedControl"; QE2-Jb-pCN.segmentTitles[1] = "Avoid"; ObjectID = "QE2-Jb-pCN"; */
+"QE2-Jb-pCN.segmentTitles[1]" = "उपयोग ना करें";
+
+/* Class = "UILabel"; text = "12 Sessions"; ObjectID = "R52-a7-Qdf"; */
+"R52-a7-Qdf.text" = "12 Sessions";
+
+/* Class = "UILabel"; text = "1:1 Coaching"; ObjectID = "SAo-qG-zIV"; */
+"SAo-qG-zIV.text" = "1:1 Coaching";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Us3-V9-hNz"; */
+"Us3-V9-hNz.text" = "Label";
+
+/* Class = "UILabel"; text = "Adhomukh Swanasana"; ObjectID = "dj6-ML-AAk"; */
+"dj6-ML-AAk.text" = "Adhomukh Swanasana";
+
+/* Class = "UINavigationItem"; title = "Filters"; ObjectID = "lk6-tT-7Kd"; */
+"lk6-tT-7Kd.title" = "फ़िल्टर";
+
+/* Class = "UIButton"; normalTitle = "Read More"; ObjectID = "o8d-yA-9qV"; */
+"o8d-yA-9qV.normalTitle" = "और पढ़ें";
+
+/* Class = "UIButton"; selectedTitle = "Read Less"; ObjectID = "o8d-yA-9qV"; */
+"o8d-yA-9qV.selectedTitle" = "कम पढ़ें";
+
+/* Class = "UILabel"; text = "Goats Cheese (soft, unsalted)"; ObjectID = "qEc-KU-8OC"; */
+"qEc-KU-8OC.text" = "बकरी के दूध का पनीर (बिना नमक)";

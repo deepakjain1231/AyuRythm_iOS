@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MPCategoryCollectionCell" rowHeight="160" id="J5k-sI-Hqb" customClass="MPCategoryCollectionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="J5k-sI-Hqb" id="Uim-E2-khR">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="K3q-2i-gdv">
+                        <rect key="frame" x="16" y="8" width="382" height="144"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mLT-oK-iR8">
+                                <rect key="frame" x="0.0" y="0.0" width="382" height="18"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olR-qV-9yp">
+                                        <rect key="frame" x="0.0" y="0.0" width="310" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="W8f-OD-21U"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xR-cG-LaK">
+                                        <rect key="frame" x="318" y="0.0" width="64" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="AWk-gZ-7ii"/>
+                                            <constraint firstAttribute="width" constant="64" id="Efa-TY-Hh3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="VIEW ALL">
+                                            <color key="titleColor" name="mp-bg-blue"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btn_viewAll_Action:" destination="J5k-sI-Hqb" eventType="touchUpInside" id="4Ke-T2-8pY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wPv-As-55H">
+                                <rect key="frame" x="0.0" y="24" width="382" height="120"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QHR-Ts-gGS">
+                                    <size key="itemSize" width="160" height="219"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="J5k-sI-Hqb" id="h0w-go-0e9"/>
+                                    <outlet property="delegate" destination="J5k-sI-Hqb" id="Oot-wb-xlR"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="K3q-2i-gdv" firstAttribute="top" secondItem="Uim-E2-khR" secondAttribute="top" constant="8" id="VIs-h9-Bh2"/>
+                    <constraint firstItem="K3q-2i-gdv" firstAttribute="leading" secondItem="Uim-E2-khR" secondAttribute="leading" constant="16" id="YwX-cW-GYW"/>
+                    <constraint firstAttribute="trailing" secondItem="K3q-2i-gdv" secondAttribute="trailing" constant="16" id="gi1-3o-He4"/>
+                    <constraint firstAttribute="bottom" secondItem="K3q-2i-gdv" secondAttribute="bottom" constant="8" id="i8g-sl-sMk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnViewAll" destination="6xR-cG-LaK" id="YHy-5J-bED"/>
+                <outlet property="collectionView" destination="wPv-As-55H" id="gh7-1a-SOl"/>
+                <outlet property="titleL" destination="olR-qV-9yp" id="qEe-KQ-0SI"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="-38"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="mp-bg-blue">
+            <color red="0.23529411764705882" green="0.56862745098039214" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

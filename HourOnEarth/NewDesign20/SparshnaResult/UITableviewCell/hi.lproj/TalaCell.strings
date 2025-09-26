@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "Tala"; ObjectID = "4K9-nq-BEk"; */
+"4K9-nq-BEk.text" = "ताल";
+
+/* Class = "UILabel"; text = "Correlates to HRV"; ObjectID = "EPf-Rf-rf6"; */
+"EPf-Rf-rf6.text" = "HRV से संबद्ध";
+
+/* Class = "UILabel"; text = "Regular"; ObjectID = "mqg-mG-g7w"; */
+"mqg-mG-g7w.text" = "नियमित";
+
+/* Class = "UILabel"; text = "Irregular"; ObjectID = "w4K-fr-YhB"; */
+"w4K-fr-YhB.text" = "अनियमित";
+

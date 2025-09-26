@@ -1,0 +1,20 @@
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "atn-qS-zsv"; */
+"atn-qS-zsv.placeholder" = "विषय";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "i8o-Qy-yPu"; */
+"i8o-Qy-yPu.normalTitle" = "सब्मिट करें";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kNr-oi-t1Q"; */
+"kNr-oi-t1Q.text" = "Label";
+
+/* Class = "UITextView"; text = "AyuRythm is the world's first completely digital solution for personalized holistic wellness based on Ayurvedic principles. Our solution works on any smartphone.\n\nAyuRythm's patent-pending technology and approval from leading Ayurvedic doctors makes our solution a one-stop for all wellness needs. It assesses the user's ideal and current body type based on a one-time response to 30 questions followed by daily 30-second pulse diagnostic test using your mobile phone camera. Based on the tests, the application makes personalized recommendations on ideal yoga, pranayama, food, spa and herbal.\n\nThe solution comes integrated with a market place where users have a choice to purchase product and services to further their wellness goals."; ObjectID = "YSe-fe-7WI"; */
+"YSe-fe-7WI.text" = "आयुर्वेदिक सिद्धांतों के आधार पर वैयक्तिक समग्र स्वस्थता के लिए AyuRythm विश्व का पहला पूरी तरह से डिजिटल समाधान है। हमारा समाधान किसी भी स्मार्टफोन पर काम करता है। \n \nAyuRythm की पेटेंट-लंबित तकनीक और प्रमुख आयुर्वेदिक डॉक्टरों से अनुमोदन हमारे समाधान को सभी कल्याण आवश्यकताओं के लिए एकमात्र विकल्प बनाता है। यह आपके मोबाइल फोन कैमरे का उपयोग करके दैनिक 30-सेकंड नाड़ी परीक्षण के बाद 30 सवालों के जवाब के आधार पर उपयोगकर्ता के आदर्श और वर्तमान शरीर के प्रकार का आकलन करता है। परीक्षणों के आधार पर, ऍप आदर्श योग, प्राणायाम, आहार, स्पा और हर्बल पर व्यक्तिगत सुझाव देता है। \n \nसमाधान एक मार्केट प्लेस के साथ एकीकृत होता है जहां उपयोगकर्ताओं के पास अपने कल्याण लक्ष्यों को आगे बढ़ाने के लिए उत्पाद और सेवाएं खरीदने का विकल्प दिया जाता है।";
+
+/* Class = "UILabel"; text = "Link with Google"; ObjectID = "tgS-S2-Miy"; */
+"tgS-S2-Miy.text" = "Google से लिंक करें";
+
+/* Class = "UILabel"; text = "Link with Facebook"; ObjectID = "vgj-Ki-Wvp"; */
+"vgj-Ki-Wvp.text" = "Facebook से लिंक करें";
+
+/* Class = "UILabel"; text = "Link with Apple"; ObjectID = "RwK-NJ-bWo"; */
+"RwK-NJ-bWo.text" = "Apple से लिंक करें";

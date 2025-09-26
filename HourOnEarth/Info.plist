@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.779909624193-mk6gm8qork801ih8ib9daplhfke1hdug</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb309543907810697</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>ayurythm</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>otpless</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>358be2e37e903e9db79b41a95bc9700ece909f88</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>FacebookAppID</key>
+	<string>309543907810697</string>
+	<key>FacebookClientToken</key>
+	<string>309543907810697</string>
+	<key>FacebookDisplayName</key>
+	<string>AyuRythm</string>
+	<key>LSApplicationCategoryType</key>
+	<string>Privacy - Microphone Usage Description</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fbapi20130214</string>
+		<string>fbapi20130410</string>
+		<string>fbapi20130702</string>
+		<string>fbapi20131010</string>
+		<string>fbapi20131219</string>
+		<string>fbapi20140410</string>
+		<string>fbapi20140116</string>
+		<string>fbapi20150313</string>
+		<string>fbapi20150629</string>
+		<string>fbapi20160328</string>
+		<string>fbauth</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>tez</string>
+		<string>phonepe</string>
+		<string>paytmmp</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Need bluetooth access to get health params from bluetooth device</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Need bluetooth access to get health params from bluetooth device</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>AyuRythm requires calendar to save date and time of your camera based assessment and in-app scheduling and purchases</string>
+	<key>NSCameraUsageDescription</key>
+	<string>AyuRythm requires camera to takes series of images from the finger placed on the camera. From the colour components of reflection, SpO2 and photoplethysmogram (PPG) is derived</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Our Ayurvedic health parameters do take age, height, weight and gender in calculations of Kapha pitta and Vata. Without age, height,weight and gender we cannot arrive at good enough approximation of Ayurvedic primitives like Akrithi, Kathinya as well as arrive at Kapha, Pitta and Vata. Pedometer data is required to make exercise recommendations.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Our Ayurvedic health parameters do take age, height, weight and gender in calculations of Kapha pitta and Vata. Without age, height,weight and gender we cannot arrive at good enough approximation of Ayurvedic primitives like Akrithi, Kathinya as well as arrive at Kapha, Pitta and Vata. Pedometer data is required to make exercise recommendations.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>AyuRythm Allow to access location for get your current location and delivered product or not</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>AyuRythm Allow to access location for get your current location and delivered product or not</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>AyuRythm Allow to access microphone will be used to record your speech and search relevant products.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>AyuRythm requires photo library to set your user profile picture</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>AyuRythm Allow to access speech recognition will be used to determine which words you speak into this device's microphone.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Inter-Black.ttf</string>
+		<string>Inter-Bold.ttf</string>
+		<string>Inter-ExtraBold.ttf</string>
+		<string>Inter-ExtraLight.ttf</string>
+		<string>Inter-Light.ttf</string>
+		<string>Inter-Medium.ttf</string>
+		<string>Inter-Regular.ttf</string>
+		<string>Inter-SemiBold.ttf</string>
+		<string>Inter-Thin.ttf</string>
+		<string>OpenSans-Bold.ttf</string>
+		<string>OpenSans-Light.ttf</string>
+		<string>OpenSans-Regular.ttf</string>
+		<string>OpenSans-Semibold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDarkContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

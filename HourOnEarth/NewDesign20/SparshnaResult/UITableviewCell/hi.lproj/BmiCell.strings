@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "Low"; ObjectID = "0v2-dT-aca"; */
+"0v2-dT-aca.text" = "कम";
+
+/* Class = "UILabel"; text = "BMI"; ObjectID = "bZ0-Hz-CpN"; */
+"bZ0-Hz-CpN.text" = "BMI";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "fWb-TH-9WL"; */
+"fWb-TH-9WL.text" = "100";
+
+/* Class = "UILabel"; text = "Body mass index"; ObjectID = "PjM-v1-YUu"; */
+"PjM-v1-YUu.text" = "शारीरिक द्रव्यमान सूचक (BMI)";
+

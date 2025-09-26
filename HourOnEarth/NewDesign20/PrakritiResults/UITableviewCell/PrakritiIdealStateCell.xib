@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PrakritiIdealStateCell" id="KGk-i7-Jjw" userLabel="PrakritiIdealStateCell" customClass="PrakritiIdealStateCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="360"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="360"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kym-ou-Cyw" customClass="RoundView" customModule="AyuRythm" customModuleProvider="target">
+                        <rect key="frame" x="16" y="16" width="343" height="167"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xem-lp-7Rb" customClass="RoundView" customModule="AyuRythm" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="112" width="343" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your predominant dosha is Vata" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weM-BW-Wkw">
+                                        <rect key="frame" x="55.5" y="18.5" width="232" height="18"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.87450980392156863" green="0.92941176470588238" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="weM-BW-Wkw" firstAttribute="centerX" secondItem="xem-lp-7Rb" secondAttribute="centerX" id="aEM-3E-g3F"/>
+                                    <constraint firstItem="weM-BW-Wkw" firstAttribute="centerY" secondItem="xem-lp-7Rb" secondAttribute="centerY" id="crW-jK-wKq"/>
+                                    <constraint firstAttribute="height" constant="55" id="jpT-kH-CXd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="boaderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1K-u3-2XE">
+                                <rect key="frame" x="145.5" y="15" width="52" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PittaDetail" translatesAutoresizingMaskIntoConstraints="NO" id="qrb-VY-DzV">
+                                <rect key="frame" x="160.5" y="54" width="22" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="7xx-lL-0Wg"/>
+                                    <constraint firstAttribute="width" constant="22" id="EiA-tT-iiL"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pitta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgF-8B-mwq">
+                                <rect key="frame" x="158" y="84" width="27" height="14"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUz-lQ-gEh">
+                                <rect key="frame" x="223.5" y="15" width="53" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VataDetail" translatesAutoresizingMaskIntoConstraints="NO" id="ORf-Bw-dCb">
+                                <rect key="frame" x="239" y="54" width="22" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="2FI-G2-j49"/>
+                                    <constraint firstAttribute="width" constant="22" id="QDe-xY-GED"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vata" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8EH-Xv-KLV">
+                                <rect key="frame" x="237" y="84" width="26" height="14"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvW-38-ARO">
+                                <rect key="frame" x="68.5" y="15" width="51" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KaphaDetail" translatesAutoresizingMaskIntoConstraints="NO" id="bS3-xs-DNW">
+                                <rect key="frame" x="83" y="54" width="22" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="TZ4-WT-c7L"/>
+                                    <constraint firstAttribute="width" constant="22" id="j4B-0t-gQT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kapha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBF-gW-OSA">
+                                <rect key="frame" x="76.5" y="84" width="35" height="14"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="M1K-u3-2XE" firstAttribute="top" secondItem="kym-ou-Cyw" secondAttribute="top" constant="15" id="48Q-0u-hFi"/>
+                            <constraint firstItem="GBF-gW-OSA" firstAttribute="top" secondItem="YgF-8B-mwq" secondAttribute="top" id="7ia-Uc-mAJ"/>
+                            <constraint firstItem="8EH-Xv-KLV" firstAttribute="centerY" secondItem="YgF-8B-mwq" secondAttribute="centerY" id="Fk3-Pv-1Jm"/>
+                            <constraint firstItem="qrb-VY-DzV" firstAttribute="centerX" secondItem="M1K-u3-2XE" secondAttribute="centerX" id="Fuy-qi-QLi"/>
+                            <constraint firstItem="M1K-u3-2XE" firstAttribute="centerX" secondItem="kym-ou-Cyw" secondAttribute="centerX" id="GYU-PZ-CRD"/>
+                            <constraint firstAttribute="bottom" secondItem="xem-lp-7Rb" secondAttribute="bottom" id="HC8-bL-VPr"/>
+                            <constraint firstItem="M1K-u3-2XE" firstAttribute="leading" secondItem="JvW-38-ARO" secondAttribute="trailing" constant="26" id="IQe-GU-EQq"/>
+                            <constraint firstItem="qrb-VY-DzV" firstAttribute="top" secondItem="M1K-u3-2XE" secondAttribute="bottom" constant="10" id="KBQ-qI-Mkg"/>
+                            <constraint firstItem="GBF-gW-OSA" firstAttribute="centerX" secondItem="bS3-xs-DNW" secondAttribute="centerX" id="PFG-sD-9PC"/>
+                            <constraint firstItem="ORf-Bw-dCb" firstAttribute="centerX" secondItem="eUz-lQ-gEh" secondAttribute="centerX" id="W8Q-ne-4EF"/>
+                            <constraint firstItem="xem-lp-7Rb" firstAttribute="leading" secondItem="kym-ou-Cyw" secondAttribute="leading" id="Y0P-DB-Mjn"/>
+                            <constraint firstItem="eUz-lQ-gEh" firstAttribute="centerY" secondItem="M1K-u3-2XE" secondAttribute="centerY" id="ZYz-AN-xdE"/>
+                            <constraint firstItem="8EH-Xv-KLV" firstAttribute="top" secondItem="YgF-8B-mwq" secondAttribute="top" id="brO-ih-pHm"/>
+                            <constraint firstItem="eUz-lQ-gEh" firstAttribute="leading" secondItem="M1K-u3-2XE" secondAttribute="trailing" constant="26" id="cBk-zJ-nAl"/>
+                            <constraint firstItem="8EH-Xv-KLV" firstAttribute="centerX" secondItem="ORf-Bw-dCb" secondAttribute="centerX" id="euJ-b0-ZYu"/>
+                            <constraint firstAttribute="trailing" secondItem="xem-lp-7Rb" secondAttribute="trailing" id="gU3-lY-G3I"/>
+                            <constraint firstItem="ORf-Bw-dCb" firstAttribute="top" secondItem="qrb-VY-DzV" secondAttribute="top" id="kdm-cI-R4F"/>
+                            <constraint firstItem="YgF-8B-mwq" firstAttribute="centerX" secondItem="qrb-VY-DzV" secondAttribute="centerX" id="obx-I5-suB"/>
+                            <constraint firstAttribute="height" constant="167" id="pM0-nx-4V3"/>
+                            <constraint firstItem="YgF-8B-mwq" firstAttribute="top" secondItem="qrb-VY-DzV" secondAttribute="bottom" constant="2" id="pqa-Zc-wc5"/>
+                            <constraint firstItem="JvW-38-ARO" firstAttribute="centerY" secondItem="M1K-u3-2XE" secondAttribute="centerY" id="qyu-aq-QSx"/>
+                            <constraint firstItem="bS3-xs-DNW" firstAttribute="top" secondItem="qrb-VY-DzV" secondAttribute="top" id="rRB-ne-haC"/>
+                            <constraint firstItem="bS3-xs-DNW" firstAttribute="centerX" secondItem="JvW-38-ARO" secondAttribute="centerX" id="yxB-DF-T0x"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="boaderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M3s-oX-vOV">
+                        <rect key="frame" x="38" y="200" width="164" height="142"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vataInfoCombined" translatesAutoresizingMaskIntoConstraints="NO" id="74H-US-W1n">
+                                <rect key="frame" x="0.0" y="0.0" width="164" height="142"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="74H-US-W1n" secondAttribute="trailing" id="7Q5-QK-LEl"/>
+                            <constraint firstAttribute="bottom" secondItem="74H-US-W1n" secondAttribute="bottom" id="HF1-lg-Tmh"/>
+                            <constraint firstItem="74H-US-W1n" firstAttribute="leading" secondItem="M3s-oX-vOV" secondAttribute="leading" id="HSZ-c5-sKN"/>
+                            <constraint firstAttribute="width" constant="164" id="Jdg-Yy-It8"/>
+                            <constraint firstItem="74H-US-W1n" firstAttribute="top" secondItem="M3s-oX-vOV" secondAttribute="top" id="m4d-6f-ROC"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1x6-Ru-v1z">
+                        <rect key="frame" x="258" y="218" width="101" height="106"/>
+                        <string key="text">Spontaneous
+Enthusiastic
+Creative
+Flexible
+Energetic</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kym-ou-Cyw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="6Ge-m9-bfR"/>
+                    <constraint firstAttribute="trailing" secondItem="kym-ou-Cyw" secondAttribute="trailing" constant="16" id="6M8-Sl-MwB"/>
+                    <constraint firstItem="M3s-oX-vOV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="38" id="7hL-nB-gVO"/>
+                    <constraint firstItem="M3s-oX-vOV" firstAttribute="top" secondItem="kym-ou-Cyw" secondAttribute="bottom" constant="17" id="9z3-tv-NvN"/>
+                    <constraint firstItem="kym-ou-Cyw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="CXT-PJ-5D6"/>
+                    <constraint firstAttribute="bottom" secondItem="M3s-oX-vOV" secondAttribute="bottom" constant="18" id="aAq-Hz-J6S"/>
+                    <constraint firstAttribute="bottom" secondItem="1x6-Ru-v1z" secondAttribute="bottom" constant="36" id="b9X-cJ-Ddd"/>
+                    <constraint firstItem="1x6-Ru-v1z" firstAttribute="top" secondItem="kym-ou-Cyw" secondAttribute="bottom" constant="35" id="d1W-dz-e6R"/>
+                    <constraint firstAttribute="trailing" secondItem="1x6-Ru-v1z" secondAttribute="trailing" constant="16" id="eZp-Tn-c3R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="50" y="19"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="KaphaDetail" width="17" height="18"/>
+        <image name="PittaDetail" width="17.5" height="21"/>
+        <image name="VataDetail" width="16" height="16"/>
+        <image name="vataInfoCombined" width="164" height="135"/>
+    </resources>
+</document>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ARFeedHashtagCollectionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="504" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="504" height="56"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QkA-qa-Ami">
+                        <rect key="frame" x="0.0" y="0.0" width="504" height="56"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2E-m9-eJ3">
+                                <rect key="frame" x="8" y="5" width="468" height="46"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drY-xg-eQ4">
+                                <rect key="frame" x="481" y="20.5" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="drY-xg-eQ4" secondAttribute="height" multiplier="1:1" id="3qG-Z0-u0d"/>
+                                    <constraint firstAttribute="height" constant="15" id="9N8-BW-FPY"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="cancelFilled"/>
+                                <connections>
+                                    <action selector="btn_Close_Action:" destination="gTV-IL-0wX" eventType="touchUpInside" id="0w1-0w-7hH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="drY-xg-eQ4" firstAttribute="centerY" secondItem="QkA-qa-Ami" secondAttribute="centerY" id="IpJ-rw-jVH"/>
+                            <constraint firstItem="drY-xg-eQ4" firstAttribute="leading" secondItem="v2E-m9-eJ3" secondAttribute="trailing" constant="5" id="JRM-DL-amZ"/>
+                            <constraint firstItem="v2E-m9-eJ3" firstAttribute="top" secondItem="QkA-qa-Ami" secondAttribute="top" constant="5" id="PuL-0l-kWI"/>
+                            <constraint firstAttribute="bottom" secondItem="v2E-m9-eJ3" secondAttribute="bottom" constant="5" id="RjC-DO-ixk"/>
+                            <constraint firstItem="v2E-m9-eJ3" firstAttribute="leading" secondItem="QkA-qa-Ami" secondAttribute="leading" constant="8" id="Xow-YU-2d2"/>
+                            <constraint firstAttribute="trailing" secondItem="drY-xg-eQ4" secondAttribute="trailing" constant="8" id="Yf6-bB-Q5G"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="QkA-qa-Ami" secondAttribute="bottom" id="9Cr-bF-abY"/>
+                <constraint firstItem="QkA-qa-Ami" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bzz-5V-UJ6"/>
+                <constraint firstItem="QkA-qa-Ami" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="nrK-kl-Jt3"/>
+                <constraint firstAttribute="trailing" secondItem="QkA-qa-Ami" secondAttribute="trailing" id="oh9-df-bRb"/>
+            </constraints>
+            <size key="customSize" width="504" height="56"/>
+            <connections>
+                <outlet property="btn_Close" destination="drY-xg-eQ4" id="935-KS-Aii"/>
+                <outlet property="lbl_Title" destination="v2E-m9-eJ3" id="16N-sj-Dcd"/>
+                <outlet property="view_Base" destination="QkA-qa-Ami" id="F0D-6z-gq2"/>
+            </connections>
+            <point key="canvasLocation" x="120.28985507246378" y="58.928571428571423"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cancelFilled" width="32" height="31"/>
+    </resources>
+</document>

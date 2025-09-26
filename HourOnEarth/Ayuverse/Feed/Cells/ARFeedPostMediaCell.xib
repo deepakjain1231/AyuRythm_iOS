@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ARFeedPostMediaCell" id="o4n-Tx-JB7" customClass="ARFeedPostMediaCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="g2C-tK-6Zf">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="place_feed" translatesAutoresizingMaskIntoConstraints="NO" id="XZx-DA-h2k">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="637-I8-3QI">
+                        <rect key="frame" x="75" y="3" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="mjo-hP-8Ld"/>
+                        </constraints>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal">
+                            <imageReference key="image" image="delete-image" symbolScale="large"/>
+                        </state>
+                        <connections>
+                            <action selector="deleteBtnPressedWithSender:" destination="o4n-Tx-JB7" eventType="touchUpInside" id="L7u-rR-BZj"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play-button" translatesAutoresizingMaskIntoConstraints="NO" id="uYA-gB-zZs">
+                        <rect key="frame" x="35" y="35" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="0XB-NZ-Dbh"/>
+                            <constraint firstAttribute="width" secondItem="uYA-gB-zZs" secondAttribute="height" multiplier="1:1" id="R6E-19-gMJ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uYA-gB-zZs" firstAttribute="centerY" secondItem="g2C-tK-6Zf" secondAttribute="centerY" id="3J6-Wh-odw"/>
+                    <constraint firstItem="uYA-gB-zZs" firstAttribute="centerX" secondItem="g2C-tK-6Zf" secondAttribute="centerX" id="4us-1m-htL"/>
+                    <constraint firstAttribute="trailing" secondItem="637-I8-3QI" secondAttribute="trailing" constant="3" id="5tE-F2-K21"/>
+                    <constraint firstItem="XZx-DA-h2k" firstAttribute="leading" secondItem="g2C-tK-6Zf" secondAttribute="leading" id="DQf-1O-l4D"/>
+                    <constraint firstAttribute="trailing" secondItem="XZx-DA-h2k" secondAttribute="trailing" id="KX3-5e-o3G"/>
+                    <constraint firstItem="XZx-DA-h2k" firstAttribute="top" secondItem="g2C-tK-6Zf" secondAttribute="top" id="QHI-ZY-PfH"/>
+                    <constraint firstAttribute="bottom" secondItem="XZx-DA-h2k" secondAttribute="bottom" id="ahd-Sx-Zgb"/>
+                    <constraint firstItem="637-I8-3QI" firstAttribute="width" secondItem="637-I8-3QI" secondAttribute="height" id="tUb-lm-kvF"/>
+                    <constraint firstItem="637-I8-3QI" firstAttribute="top" secondItem="g2C-tK-6Zf" secondAttribute="top" constant="3" id="xMo-fB-ucA"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="10"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </collectionViewCellContentView>
+            <size key="customSize" width="100" height="100"/>
+            <connections>
+                <outlet property="deleteBtn" destination="637-I8-3QI" id="Ekf-hx-q5d"/>
+                <outlet property="img_videoIcon" destination="uYA-gB-zZs" id="aQ0-fg-tcC"/>
+                <outlet property="thumbIV" destination="XZx-DA-h2k" id="e5e-Fw-2vw"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="delete-image" width="24" height="24"/>
+        <image name="place_feed" width="256" height="256"/>
+        <image name="play-button" width="256" height="256"/>
+    </resources>
+</document>

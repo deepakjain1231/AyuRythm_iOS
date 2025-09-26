@@ -1,0 +1,20 @@
+/* Class = "UILabel"; text = "Prakriti"; ObjectID = "jQg-E1-Fqq"; */
+"jQg-E1-Fqq.text" = "प्रकृति";
+
+/* Class = "UILabel"; text = "Seasons"; ObjectID = "Mit-gB-61q"; */
+"Mit-gB-61q.text" = "मौसम के";
+
+/* Class = "UILabel"; text = "Best time to eat"; ObjectID = "Ng8-gF-PuV"; */
+"Ng8-gF-PuV.text" = "खाने का सबसे अच्छा समय";
+
+/* Class = "UILabel"; text = "Apples (cooked)"; ObjectID = "tD2-fu-rSs"; */
+"tD2-fu-rSs.text" = "Apples (cooked)";
+
+/* Class = "UILabel"; text = "- Vitamin A\n- Vitamin C \n- Vitamin K\n- Folate\n- Nutrients\n- Fiber\n- Helps in digestion\n- weight loss\n- Lowers BP and healthy pregnancy outcomes"; ObjectID = "Z3I-xV-hHa"; */
+"Z3I-xV-hHa.text" = "- विटामिन A\\n- विटामिन C \\n- विटामिन K\\n- फोलेट\\n- पोषक तत्व\\n- रेशा\\n- पाचन में मदद करता है\\n- वजन घटाने में मदद करता है\\n- रक्तचाप कम करता है और गर्भावस्था में स्वस्थ रखता है";
+
+/* Class = "UILabel"; text = "Benefits"; ObjectID = "ZVY-Rf-aEM"; */
+"ZVY-Rf-aEM.text" = "लाभ";
+
+/* Class = "UILabel"; text = "Properties"; ObjectID = "DeL-A9-mEF"; */
+"DeL-A9-mEF.text" = "गुण";

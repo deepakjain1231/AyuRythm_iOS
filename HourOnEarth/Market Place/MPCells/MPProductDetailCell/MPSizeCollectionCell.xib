@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MPSizeCollectionCell" id="gTV-IL-0wX" customClass="MPSizeCollectionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="115" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="115" height="65"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PhP-7s-zBV">
+                        <rect key="frame" x="0.0" y="0.0" width="115" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKs-IJ-Jaj">
+                                <rect key="frame" x="16" y="24" width="83" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XKs-IJ-Jaj" firstAttribute="leading" secondItem="PhP-7s-zBV" secondAttribute="leading" constant="16" id="8be-bO-okc"/>
+                            <constraint firstItem="XKs-IJ-Jaj" firstAttribute="centerX" secondItem="PhP-7s-zBV" secondAttribute="centerX" id="Vxs-Ak-gp6"/>
+                            <constraint firstItem="XKs-IJ-Jaj" firstAttribute="centerY" secondItem="PhP-7s-zBV" secondAttribute="centerY" id="eQi-Se-kop"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PhP-7s-zBV" secondAttribute="bottom" id="98G-mm-loy"/>
+                <constraint firstItem="PhP-7s-zBV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Mzr-8K-xXb"/>
+                <constraint firstItem="PhP-7s-zBV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PCf-3o-78B"/>
+                <constraint firstAttribute="trailing" secondItem="PhP-7s-zBV" secondAttribute="trailing" id="RXG-nz-uPL"/>
+            </constraints>
+            <size key="customSize" width="115" height="65"/>
+            <connections>
+                <outlet property="lbl_title" destination="XKs-IJ-Jaj" id="WNK-T8-NJO"/>
+                <outlet property="viewBG" destination="PhP-7s-zBV" id="9aq-bh-GCD"/>
+            </connections>
+            <point key="canvasLocation" x="184.78260869565219" y="80.691964285714278"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

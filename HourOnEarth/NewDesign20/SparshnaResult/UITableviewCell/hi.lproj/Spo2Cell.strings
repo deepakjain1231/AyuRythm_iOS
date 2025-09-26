@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "Oxygen saturation"; ObjectID = "EXp-ma-jZs"; */
+"EXp-ma-jZs.text" = "ऑक्सीजन संतृप्ति";
+
+/* Class = "UILabel"; text = "Low"; ObjectID = "sYV-mg-pt1"; */
+"sYV-mg-pt1.text" = "कम";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "VKt-XO-A3I"; */
+"VKt-XO-A3I.text" = "100";
+
+/* Class = "UILabel"; text = "SpO2"; ObjectID = "Vsn-KD-Wbw"; */
+"Vsn-KD-Wbw.text" = "SpO2";
+

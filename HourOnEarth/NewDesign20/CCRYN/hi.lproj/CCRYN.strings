@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "I understand that AyuRythm disclaims any responsibility or liability in connection to my participation in this study and I accept the same."; ObjectID = "DfX-Kw-cqc"; */
+"DfX-Kw-cqc.text" = "मैं समझता हूं कि AyuRythm इस अध्ययन में मेरी भागीदारी के संबंध में किसी भी जिम्मेदारी या दायित्व को नकारता है और मैं इसे स्वीकार करता हूं।";
+
+/* Class = "UIButton"; normalTitle = "Unlock Suryathon"; ObjectID = "Nim-Db-ffb"; */
+"Nim-Db-ffb.normalTitle" = "Unlock सुर्याथन";
+
+/* Class = "UILabel"; text = "Suryathon by CCRYN"; ObjectID = "PRv-E2-gyF"; */
+"PRv-E2-gyF.text" = "सुर्याथन - CCRYN द्वारा";
+
+/* Class = "UILabel"; text = "INSTRUCTIONS\n    1. Complete Sparshna before doing Surya Namaskar.\n    2. Do Surya Namaskars\n    3. Enter number of Surya Namaskars completed.\n    4. Complete Sparshna again."; ObjectID = "QeC-wO-ZIY"; */
+"QeC-wO-ZIY.text" = "अनुदेश\n1. सूर्य नमस्कार शुरू करने से पहले स्पर्शना पूर्ण करें।\n2. सूर्य नमस्कार करें।\n3. पूरे किए गए सूर्य नमस्कार की संख्या दर्ज करें।\n4. पुनः स्पर्शना पूर्ण करें।";
+
+/* Class = "UILabel"; text = "I understand that it is not correct to do Suryathon without expert guidance especially if one is suffering from pre-existing conditions (for example heart disease, high BP, epilepsy, pregnancy or stroke etc.). I am aware of the risk and I am participating in this study voluntarily."; ObjectID = "SiA-KV-oBH"; */
+"SiA-KV-oBH.text" = "मैं समझता हूं कि विशेषज्ञ के मार्गदर्शन के बिना सूर्याथन करना सही नहीं है, खासकर यदि कोई पहले से मौजूद स्वास्थ्य स्थितियों (उदाहरण के लिए हृदय रोग, उच्च रक्तचाप, मिर्गी, गर्भावस्था या स्ट्रोक etc.) से पीड़ित है। मैं जोखिम से अवगत हूं और मैं स्वेच्छा से इस अध्ययन में भाग ले रहा हूं।";
+
+/* Class = "UILabel"; text = "I consent to share my de-identified data to CCRYN for research purpose."; ObjectID = "Ubo-yv-cI5"; */
+"Ubo-yv-cI5.text" = "मैं शोध के उद्देश्य से अपने डेटा को CCRYN को साझा करने के लिए सहमत हूं।";
+
+/* Class = "UITextField"; placeholder = "Enter the Suryathon code"; ObjectID = "csz-Qg-Oxt"; */
+"csz-Qg-Oxt.placeholder" = "सुर्याथन कोड दर्ज करें";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "pZf-Fc-HKA"; */
+"pZf-Fc-HKA.normalTitle" = "निरस्त करें";

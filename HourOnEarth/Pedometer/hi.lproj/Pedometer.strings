@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Total distance"; ObjectID = "0J4-JK-KJZ"; */
+"0J4-JK-KJZ.text" = "कुल दूरी";
+
+/* Class = "UILabel"; text = "Total steps"; ObjectID = "1iC-vK-jXe"; */
+"1iC-vK-jXe.text" = "कुल कदम";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "4QH-Al-HgS"; */
+"4QH-Al-HgS.text" = "0";
+
+/* Class = "UISegmentedControl"; 63G-Zd-TJo.segmentTitles[0] = "Week"; ObjectID = "63G-Zd-TJo"; */
+"63G-Zd-TJo.segmentTitles[0]" = "सप्ताह";
+
+/* Class = "UISegmentedControl"; 63G-Zd-TJo.segmentTitles[1] = "Month"; ObjectID = "63G-Zd-TJo"; */
+"63G-Zd-TJo.segmentTitles[1]" = "महीना";
+
+/* Class = "UISegmentedControl"; 63G-Zd-TJo.segmentTitles[2] = "Year"; ObjectID = "63G-Zd-TJo"; */
+"63G-Zd-TJo.segmentTitles[2]" = "साल";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "843-wj-Ssb"; */
+"843-wj-Ssb.text" = "0";
+
+/* Class = "UILabel"; text = "0/4000\nsteps"; ObjectID = "Aro-1p-gkN"; */
+"Aro-1p-gkN.text" = "0/4000\nsteps";
+
+/* Class = "UILabel"; text = "This Week"; ObjectID = "HdF-A4-ehj"; */
+"HdF-A4-ehj.text" = "इस सप्ताह";
+
+/* Class = "UILabel"; text = "Average"; ObjectID = "SBg-m1-mIy"; */
+"SBg-m1-mIy.text" = "औसत";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "dT2-uZ-8ha"; */
+"dT2-uZ-8ha.text" = "0";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "h95-RK-ShX"; */
+"h95-RK-ShX.text" = "आज";
+
+/* Class = "UILabel"; text = "Calories"; ObjectID = "i0T-KF-VM4"; */
+"i0T-KF-VM4.text" = "कैलोरी";
+
+/* Class = "UILabel"; text = "0 kcal"; ObjectID = "jDU-ba-zej"; */
+"jDU-ba-zej.text" = "0 kcal";
+
+/* Class = "UIButton"; normalTitle = "Set Goal"; ObjectID = "qIP-Q2-NGz"; */
+"qIP-Q2-NGz.normalTitle" = "लक्ष्य सेट करें";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "xEq-4A-QVy"; */
+"xEq-4A-QVy.text" = "0";
+
+/* Class = "UILabel"; text = "0 km"; ObjectID = "xMy-NA-W68"; */
+"xMy-NA-W68.text" = "0 km";

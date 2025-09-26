@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MPSaveAddressCollectionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="198" height="107"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="198" height="107"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DQd-Mq-NWn">
+                        <rect key="frame" x="0.0" y="0.0" width="198" height="107"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Santosh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ox-4k-fhH">
+                                <rect key="frame" x="10" y="40" width="178" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consecteelit ut 9999999999" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNK-0b-eX9">
+                                <rect key="frame" x="10" y="63" width="178" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_radio_button_unchecked" translatesAutoresizingMaskIntoConstraints="NO" id="R9q-EV-qK5">
+                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="R9q-EV-qK5" secondAttribute="height" multiplier="1:1" id="ZbL-tx-vwB"/>
+                                    <constraint firstAttribute="height" constant="20" id="lAp-7p-bBj"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GJy-nB-y2H">
+                                <rect key="frame" x="38" y="8.5" width="54.5" height="23"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eec-13-fcc">
+                                        <rect key="frame" x="8" y="3" width="38.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="eec-13-fcc" firstAttribute="top" secondItem="GJy-nB-y2H" secondAttribute="top" constant="3" id="4YJ-8h-RhK"/>
+                                    <constraint firstItem="eec-13-fcc" firstAttribute="leading" secondItem="GJy-nB-y2H" secondAttribute="leading" constant="8" id="7D1-6m-2f5"/>
+                                    <constraint firstAttribute="bottom" secondItem="eec-13-fcc" secondAttribute="bottom" constant="3" id="V1J-tA-wxE"/>
+                                    <constraint firstAttribute="trailing" secondItem="eec-13-fcc" secondAttribute="trailing" constant="8" id="bfv-cf-BLd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2Ox-4k-fhH" firstAttribute="top" secondItem="R9q-EV-qK5" secondAttribute="bottom" constant="10" id="1G7-41-sTH"/>
+                            <constraint firstItem="R9q-EV-qK5" firstAttribute="top" secondItem="DQd-Mq-NWn" secondAttribute="top" constant="10" id="4Jm-UC-YEd"/>
+                            <constraint firstItem="GJy-nB-y2H" firstAttribute="centerY" secondItem="R9q-EV-qK5" secondAttribute="centerY" id="6O2-tN-hxF"/>
+                            <constraint firstItem="hNK-0b-eX9" firstAttribute="leading" secondItem="2Ox-4k-fhH" secondAttribute="leading" id="AkC-kG-Ry6"/>
+                            <constraint firstAttribute="trailing" secondItem="2Ox-4k-fhH" secondAttribute="trailing" constant="10" id="COG-ap-aPe"/>
+                            <constraint firstItem="GJy-nB-y2H" firstAttribute="leading" secondItem="R9q-EV-qK5" secondAttribute="trailing" constant="8" id="Heb-yd-3f9"/>
+                            <constraint firstItem="2Ox-4k-fhH" firstAttribute="leading" secondItem="DQd-Mq-NWn" secondAttribute="leading" constant="10" id="MAV-ZB-Akh"/>
+                            <constraint firstAttribute="trailing" secondItem="hNK-0b-eX9" secondAttribute="trailing" constant="10" id="aM9-kf-eqD"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hNK-0b-eX9" secondAttribute="bottom" constant="8" id="jCn-6W-GPH"/>
+                            <constraint firstItem="R9q-EV-qK5" firstAttribute="leading" secondItem="DQd-Mq-NWn" secondAttribute="leading" constant="10" id="rsW-rF-ZZa"/>
+                            <constraint firstItem="hNK-0b-eX9" firstAttribute="top" secondItem="2Ox-4k-fhH" secondAttribute="bottom" constant="5" id="yCf-eV-sUV"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DQd-Mq-NWn" secondAttribute="trailing" id="5Iq-Rq-2UV"/>
+                <constraint firstItem="DQd-Mq-NWn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IPq-W4-ytC"/>
+                <constraint firstItem="DQd-Mq-NWn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gVh-MH-dfT"/>
+                <constraint firstAttribute="bottom" secondItem="DQd-Mq-NWn" secondAttribute="bottom" id="mz1-HQ-xXo"/>
+            </constraints>
+            <size key="customSize" width="198" height="213"/>
+            <connections>
+                <outlet property="img_selection" destination="R9q-EV-qK5" id="Vr4-Zm-c20"/>
+                <outlet property="lbl_SubTitle" destination="hNK-0b-eX9" id="Z4I-4o-tbP"/>
+                <outlet property="lbl_Title" destination="2Ox-4k-fhH" id="Kar-pn-Me4"/>
+                <outlet property="lbl_Type" destination="eec-13-fcc" id="Q7U-4B-f6h"/>
+                <outlet property="view_Base" destination="DQd-Mq-NWn" id="apr-6u-qtB"/>
+            </connections>
+            <point key="canvasLocation" x="244.92753623188409" y="122.20982142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_radio_button_unchecked" width="20" height="20"/>
+    </resources>
+</document>

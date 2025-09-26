@@ -1,0 +1,790 @@
+/* 
+  Localise.strings
+  HourOnEarth
+
+  Created by Ayu on 15/07/20.
+  Copyright © 2020 AyuRythm. All rights reserved.
+*/
+
+// Common
+"Done" = "Done";
+"Ok" = "Ok";
+"Complete Now" = "Complete Now";
+"No" = "No";
+"Yes" = "Yes";
+"Cancel" = "Cancel";
+"Error" = "Error";
+"NEXT" = "NEXT";
+
+// Registration
+"OTP timed out! Please try again!" = "OTP timed out! Please try again!";
+"User Already Exists" = "User Already Exists";
+"Verifying OTP..." = "Verifying OTP...";
+"OTP will be send to your mobile through SMS..." = "OTP will be send to your mobile through SMS...";
+"Please enter username." = "Please enter username.";
+"Please enter password." = "Please enter password.";
+"Please enter mobile number." = "Please enter mobile number.";
+"Please enter email." = "Please enter email.";
+"Verify OTP" = "Verify OTP";
+"Forgot Password?" = "Forgot Password?";
+"Please verify if the mobile number is correct" = "Please verify if the mobile number is correct";
+"Failed to validate OTP, please try again." = "Failed to validate OTP, please try again.";
+"Failed to send OTP, Please try again" = "Failed to send OTP, Please try again";
+"Failed to register user" = "Failed to register user";
+"Please enter confirm password."= "Please enter confirm password.";
+"Please enter same password and confirm password."= "Please enter same password and confirm password.";
+"Please enter date of birth." = "Please enter date of birth.";
+"Please select gender." = "Please select gender.";
+"Please enter valid mobile number." = "Please enter valid mobile number.";
+"Please enter valid email." = "Please enter valid email.";
+"Ft" = "Ft";
+"ft" = "ft";
+"Cm" = "Cm";
+"cm" = "cm";
+"Weight" = "Weight";
+"Lbs" = "Lbs";
+"lbs" = "lbs";
+"Kgs" = "Kgs";
+"kg" = "kg";
+
+//Sparshna
+"your data updated succesfully" = "your data updated succesfully";
+
+//Generic Pranayam
+"Step" = "Step";
+
+//Sparshna Result
+"Value" = "Value";
+"What does this mean?" = "What does this mean?";
+"Your Vata is aggravated" = "Your Vata is aggravated";
+"Your Pitta is aggravated" = "Your Pitta is aggravated";
+"Your Kapha is aggravated" = "Your Kapha is aggravated";
+"You are in balance" = "You are in balance";
+"Congratulations! You have achieved the dosha balance as per your Prakriti.\nPlease follow the  recommendations to maintain the healthy lifestyle and balance." = "Congratulations! You have achieved the dosha balance as per your Prakriti.\nPlease follow the  recommendations to maintain the healthy lifestyle and balance.";
+"Your Current State" = "Your Current State";
+"How fast your pulse beats, measured as high/medium/low." = "How fast your pulse beats, measured as high/medium/low.";
+"Subjective pressure felt on physician’s fingers when blood vessel is full.\nClassified as high/medium/low." = "Subjective pressure felt on physician’s fingers when blood vessel is full.\nClassified as high/medium/low.";
+"Subjective pressure felt on physician’s fingers when blood vessel is empty.\nClassified as high/medium/low." = "Subjective pressure felt on physician’s fingers when blood vessel is empty.\nClassified as high/medium/low.";
+"Subjective pressure felt on physician’s finger.\nClassified as weak/moderate/strong." = "Subjective pressure felt on physician’s finger.\nClassified as weak/moderate/strong.";
+"Subjective hardness of radial artery felt by physician.\nClassified as soft/moderately hard/hard/brittle." = "Subjective hardness of radial artery felt by physician.\nClassified as soft/moderately hard/hard/brittle.";
+"Hamsa: Gentle and gracefully moving pulse\nSubjective feeling of how the pulse is moving.\nClassified as slow and shallow/smooth and moderate/fast and strong." = "Hamsa: Gentle and gracefully moving pulse\nSubjective feeling of how the pulse is moving.\nClassified as slow and shallow/smooth and moderate/fast and strong.";
+"Rhythm or stability of pulse." = "Rhythm or stability of pulse.";
+"Measure of the amount of oxygen-carrying hemoglobin in the blood relative to the amount of hemoglobin not carrying oxygen." = "Measure of the amount of oxygen-carrying hemoglobin in the blood relative to the amount of hemoglobin not carrying oxygen.";
+"Measure of body fat based on height and weight (kgs/sqm) that applies to adult men and women." = "Measure of body fat based on height and weight (kgs/sqm) that applies to adult men and women.";
+"Calories burnt by an individual’s body at rest." = "Calories burnt by an individual’s body at rest.";
+"Correlates to heart rate" =  "Correlates to heart rate";
+"Vega" = "Vega";
+"Above 120" = "Above 120";
+"Below 90" = "Below 90";
+"Akruti Matra" = "Akruti Matra";
+"Correlates to systolic BP" = "Correlates to systolic BP";
+"Above 80" = "Above 80";
+"Below 60" = "Below 60";
+"Akruti Tanaav" = "Akruti Tanaav";
+"Correlates to diastolic BP" = "Correlates to diastolic BP";
+"Above 40" = "Above 40";
+"Below 30" = "Below 30";
+"Bala" = "Bala";
+"Correlates to pulse pressure" = "Correlates to pulse pressure";
+"Below 210" = "Below 210";
+"Above 310" = "Above 310";
+"Correlates to stiffness index" = "Correlates to stiffness index";
+"Kathinya" = "Kathinya";
+"Correlates to pulse morphology" = "Correlates to pulse morphology";
+"Gati" = "Gati";
+"Hamsa" = "Hamsa";
+"Manduka" = "Manduka";
+"Sarpa" = "Sarpa";
+"Low" = "Low";
+"Medium" = "Medium";
+"Normal" = "Normal";
+"Underweight" = "Underweight";
+"Overweight" = "Overweight";
+"Obese" = "Obese";
+
+//Generic Kriya
+"Read Less" = "Read Less";
+"Read More" = "Read More";
+
+//Guest Login
+"Google sign in failed" = "Google sign in failed";
+"Please provide other information and continue" = "Please provide other information and continue";
+"Authentication failed." = "Authentication failed.";
+
+//Meditation Favourable
+"Getting meditation recommendations..." = "Getting meditation recommendations...";
+
+//More
+"Are you sure, you want to Logout?" = "Are you sure, you want to Logout?";
+"Kapha" = "Kapha";
+"KAPHA" = "KAPHA";
+"Kapha governs all structure and lubrication in the mind and body. It controls weight, growth, lubrication for the joints and lungs, and formation of all the 7 tissues - nutritive fluids, blood, fat, muscles, bones, marrow and reproductive tissues." = "Kapha governs all structure and lubrication in the mind and body. It controls weight, growth, lubrication for the joints and lungs, and formation of all the 7 tissues - nutritive fluids, blood, fat, muscles, bones, marrow and reproductive tissues.";
+"Pitta" = "Pitta";
+"PITTA" = "PITTA";
+"Pitta governs all heat, metabolism and transformation in the mind and body. It controls how we digest foods, how we metabolize our sensory perceptions, and how we discriminate between right and wrong. Pitta governs the important digestive \"agnis\" or fires of the body." = "Pitta governs all heat, metabolism and transformation in the mind and body. It controls how we digest foods, how we metabolize our sensory perceptions, and how we discriminate between right and wrong. Pitta governs the important digestive \"agnis\" or fires of the body.";
+"Vata" = "Vata";
+"VATA" = "VATA";
+"Vata governs all movement in the mind and body. It controls blood flow, elimination of wastes, breathing and the movement of thoughts across the mind. Since Pitta and Kapha cannot move without it, Vata is considered the leader of the three Ayurvedic Principles in the body. It's very important to keep Vata in good balance." = "Vata governs all movement in the mind and body. It controls blood flow, elimination of wastes, breathing and the movement of thoughts across the mind. Since Pitta and Kapha cannot move without it, Vata is considered the leader of the three Ayurvedic Principles in the body. It's very important to keep Vata in good balance.";
+
+//My PlanV2
+"Search Yoga..." = "Search Yoga...";
+
+//Prakriti
+"No questions found" = "No questions found";
+"Your Ideal State" = "Your Ideal State";
+"You are tridoshic" = "You are tridoshic";
+"Although quite rare, some individuals have all 3 doshas in more or less equal strengths. They are categorized as tridoshic or Vata-Pitta-Kapha type individuals. With this naturally balanced Prakriti or dosha type, they are more likely to find a harmonious balance in life and can be meditative, fit, healthy, and emotionally stable.\n\nThis balance characterizes almost every aspect of life. Tridoshic individuals tend to be of a medium build and frame, with a pleasant disposition and sharp minds that can still find mental peace. The only scenario in which problems arise is when such individuals go against their basic nature throwing their doshas out of balance. Disorders that are associated with the aggravated dosha then begin to surface. For example, aggravation of Vata can give rise to problems like digestive and sleep disorders, while aggravation of Kapha could cause problems with excess body weight and depression." = "Although quite rare, some individuals have all 3 doshas in more or less equal strengths. They are categorized as tridoshic or Vata-Pitta-Kapha type individuals. With this naturally balanced Prakriti or dosha type, they are more likely to find a harmonious balance in life and can be meditative, fit, healthy, and emotionally stable.\n\nThis balance characterizes almost every aspect of life. Tridoshic individuals tend to be of a medium build and frame, with a pleasant disposition and sharp minds that can still find mental peace. The only scenario in which problems arise is when such individuals go against their basic nature throwing their doshas out of balance. Disorders that are associated with the aggravated dosha then begin to surface. For example, aggravation of Vata can give rise to problems like digestive and sleep disorders, while aggravation of Kapha could cause problems with excess body weight and depression.";
+
+"The Kapha-Vata combination type is perhaps the most interesting because of the opposing nature of the 2 doshas that are in predominance – Kapha and Vata. While Kapha dosha gives rise to a desire for stability, order, and routine, Vata triggers more creative pursuits and a more enthusiastic and chaotic approach to life. This strange combination can give rise to serious internal conflicts, leading to plenty of frustration at times.\n\nPhysically, individuals in the Kapha-Vata category can show significant variation being either small or delicately built, tall and slender, or more athletic and with a bigger frame. Kapha-Vata individuals also have greater vulnerability to a number of health conditions, including poor digestion with problems like bloating and constipation. Kapha-Vata individuals also have conflicting emotions, alternating between being laidback and anxious, as well as sleeping excessively or poorly. They also have a higher risk of stone formation, loss of focus, depression, and other disorders. This makes balancing dosha levels critical, as this is essential to mitigate the risk of poor health." = "The Kapha-Vata combination type is perhaps the most interesting because of the opposing nature of the 2 doshas that are in predominance – Kapha and Vata. While Kapha dosha gives rise to a desire for stability, order, and routine, Vata triggers more creative pursuits and a more enthusiastic and chaotic approach to life. This strange combination can give rise to serious internal conflicts, leading to plenty of frustration at times.\n\nPhysically, individuals in the Kapha-Vata category can show significant variation being either small or delicately built, tall and slender, or more athletic and with a bigger frame. Kapha-Vata individuals also have greater vulnerability to a number of health conditions, including poor digestion with problems like bloating and constipation. Kapha-Vata individuals also have conflicting emotions, alternating between being laidback and anxious, as well as sleeping excessively or poorly. They also have a higher risk of stone formation, loss of focus, depression, and other disorders. This makes balancing dosha levels critical, as this is essential to mitigate the risk of poor health.";
+
+
+"Vata-Kapha Precription Text" = "The Vata-Kapha combination type is perhaps the most interesting because of the opposing nature of the 2 doshas that are in predominance – Vata and Kapha. While Vata dosha gives rise to a desire for stability, order, and routine, Kapha triggers more creative pursuits and a more enthusiastic and chaotic approach to life. This strange combination can give rise to serious internal conflicts, leading to plenty of frustration at times.\n\nPhysically, individuals in the Vata-Kapha category can show significant variation being either small or delicately built, tall and slender, or more athletic and with a bigger frame. Vata-Kapha individuals also have greater vulnerability to a number of health conditions, including poor digestion with problems like bloating and constipation. Vata-Kapha individuals also have conflicting emotions, alternating between being laidback and anxious, as well as sleeping excessively or poorly. They also have a higher risk of stone formation, loss of focus, depression, and other disorders. This makes balancing dosha levels critical, as this is essential to mitigate the risk of poor health.";
+
+"Kapha-Pitta prescription_Text" = "Kapha-Pitta type individuals have both Kapha and Pitta doshas in close to equal strength. These individuals have strong willpower and are more focused, with a clear goal-oriented nature. At the same time, they tend to be balanced with a somewhat relaxed nature.\nPhysically, Kapha-Pitta type individuals have a rather stocky or robust frame and they also enjoy relatively good health if they keep their doshas in balance. In balanced individuals, the fiery energy of kapha is kept grounded and balanced by pitta. This means that individuals in this dosha type are less likely to experience digestive health problems early in life, as they have the perfect strength of Agni or digestive fire. Unfortunately, many tend to take this for granted and abuse their good fortune, leaning towards unhealthy lifestyles, overeating and under-exercising. As a result, problems with obesity and associated health risks may surface.\nKapha-Pitta types although generally healthy, may also be vulnerable to skin diseases and body odour problems that result from heavy perspiration.";
+
+"Pitta-Kapha type individuals have both Pitta and Kapha doshas in close to equal strength. These individuals have strong willpower and are more focused, with a clear goal-oriented nature. At the same time, they tend to be balanced with a somewhat relaxed nature.\nPhysically, Pitta-Kapha type individuals have a rather stocky or robust frame and they also enjoy relatively good health if they keep their doshas in balance. In balanced individuals, the fiery energy of pitta is kept grounded and balanced by Kapha. This means that individuals in this dosha type are less likely to experience digestive health problems early in life, as they have the perfect strength of Agni or digestive fire. Unfortunately, many tend to take this for granted and abuse their good fortune, leaning towards unhealthy lifestyles, overeating and under-exercising. As a result, problems with obesity and associated health risks may surface.\nPitta-Kapha types although generally healthy, may also be vulnerable to skin diseases and body odour problems that result from heavy perspiration." = "Pitta-Kapha type individuals have both Pitta and Kapha doshas in close to equal strength. These individuals have strong willpower and are more focused, with a clear goal-oriented nature. At the same time, they tend to be balanced with a somewhat relaxed nature.\nPhysically, Pitta-Kapha type individuals have a rather stocky or robust frame and they also enjoy relatively good health if they keep their doshas in balance. In balanced individuals, the fiery energy of pitta is kept grounded and balanced by Kapha. This means that individuals in this dosha type are less likely to experience digestive health problems early in life, as they have the perfect strength of Agni or digestive fire. Unfortunately, many tend to take this for granted and abuse their good fortune, leaning towards unhealthy lifestyles, overeating and under-exercising. As a result, problems with obesity and associated health risks may surface.\nPitta-Kapha types although generally healthy, may also be vulnerable to skin diseases and body odour problems that result from heavy perspiration.";
+
+"Pitta-Vata precription_Text" = "Pitta-Vata combination type individuals have both Pitta and Vata dosha in a closely matching strength. Individuals of this dosha type require a combination approach to managing their health. They are generally creative, but can also be impulsive and conflicted within. As a result, they often put themselves under excessive pressure, which can lead to disappointment and burnout.\n\nPhysically, Pitta-Vata type individuals have a medium stature and are usually quite agile. Their dosha combination can create some specific health concerns as the quality of Pitta for movement can exacerbate or accentuate the qualities of Vata. This makes individuals more vulnerable to digestive disorders at varying ends of the spectrum, from constipation to diarrhoea, indigestion and heartburn to inflammatory disorders and peptic ulcers. They are also more likely to be afflicted with aches and pains, sleep disorders, emotional outbursts, skin irritation, and so on. A Pitta-Vata balancing routine is therefore vital to maintaining good health and wellbeing.";
+
+"Vata-Pitta combination type individuals have both Vata and Pitta dosha in a closely matching strength. Individuals of this dosha type require a combination approach to managing their health. They are generally creative, but can also be impulsive and conflicted within. As a result, they often put themselves under excessive pressure, which can lead to disappointment and burnout.\n\nPhysically, Vata-Pitta type individuals have a medium stature and are usually quite agile. Their dosha combination can create some specific health concerns as the quality of Vata for movement can exacerbate or accentuate the qualities of Pitta. This makes individuals more vulnerable to digestive disorders at varying ends of the spectrum, from constipation to diarrhoea, indigestion and heartburn to inflammatory disorders and peptic ulcers. They are also more likely to be afflicted with aches and pains, sleep disorders, emotional outbursts, skin irritation, and so on. A Vata-Pitta balancing routine is therefore vital to maintaining good health and wellbeing." = "Vata-Pitta combination type individuals have both Vata and Pitta dosha in a closely matching strength. Individuals of this dosha type require a combination approach to managing their health. They are generally creative, but can also be impulsive and conflicted within. As a result, they often put themselves under excessive pressure, which can lead to disappointment and burnout.\n\nPhysically, Vata-Pitta type individuals have a medium stature and are usually quite agile. Their dosha combination can create some specific health concerns as the quality of Vata for movement can exacerbate or accentuate the qualities of Pitta. This makes individuals more vulnerable to digestive disorders at varying ends of the spectrum, from constipation to diarrhoea, indigestion and heartburn to inflammatory disorders and peptic ulcers. They are also more likely to be afflicted with aches and pains, sleep disorders, emotional outbursts, skin irritation, and so on. A Vata-Pitta balancing routine is therefore vital to maintaining good health and wellbeing.";
+
+"Spontaneous\nEnthusiastic\nCreative\nFlexible\nEnergetic" = "Spontaneous\nEnthusiastic\nCreative\nFlexible\nEnergetic";
+"Vata individuals generally have a light and creative disposition, with high levels of enthusiasm. Such individuals are also likely to be more active but may be easily distracted or forgetful.\n\nVata individuals also tend to share certain physical traits, usually falling into ends of the spectrum, being either small statured or large. They are also likely to be of a more slender build, with small, but sharp eyes. Warmer and sunnier climates are more attractive to Vata individuals as they are more prone to circulatory disorders.\n\nDosha imbalances in someone with a Vata constitution will increase vulnerability to specific types of health conditions like anxiety, sleep disorders, arthritis, and joint disease." = "Vata individuals generally have a light and creative disposition, with high levels of enthusiasm. Such individuals are also likely to be more active but may be easily distracted or forgetful.\n\nVata individuals also tend to share certain physical traits, usually falling into ends of the spectrum, being either small statured or large. They are also likely to be of a more slender build, with small, but sharp eyes. Warmer and sunnier climates are more attractive to Vata individuals as they are more prone to circulatory disorders.\n\nDosha imbalances in someone with a Vata constitution will increase vulnerability to specific types of health conditions like anxiety, sleep disorders, arthritis, and joint disease.";
+
+"Intellectual\nFocused\nPrecise\nDirect\nPassionate" = "Intellectual\nFocused\nPrecise\nDirect\nPassionate";
+"Pitta individuals tend to have greater mental clarity, focus, and retention. Pitta type individuals are highly competitive and enjoy outdoor activities. Physically, pitta type individuals tend to be of average stature, but of a more stocky or muscular build. They are also likely to have medium-sized eyes with a more penetrating gaze.\n\nBalancing pitta levels is vital for their wellbeing as pitta individuals are vulnerable to intense bouts of anger, especially when hungry, and they are also more likely to feel stressed and suffer from sleep disorders. Imbalances in dosha levels will make pitta type people more susceptible to inflammatory conditions like gastritis, peptic or intestinal ulcers, as well as inflammatory skin conditions like eczema." = "Pitta individuals tend to have greater mental clarity, focus, and retention. Pitta type individuals are highly competitive and enjoy outdoor activities. Physically, pitta type individuals tend to be of average stature, but of a more stocky or muscular build. They are also likely to have medium-sized eyes with a more penetrating gaze.\n\nBalancing pitta levels is vital for their wellbeing as pitta individuals are vulnerable to intense bouts of anger, especially when hungry, and they are also more likely to feel stressed and suffer from sleep disorders. Imbalances in dosha levels will make pitta type people more susceptible to inflammatory conditions like gastritis, peptic or intestinal ulcers, as well as inflammatory skin conditions like eczema.";
+
+"Calm\nThoughtful\nLoving\nEnjoys life\nComfortable\nwith routine" = "Calm\nThoughtful\nLoving\nEnjoys life\nComfortable\nwith routine";
+"Kapha type individuals are usually calm and composed, with great potential for multi-tasking. They are usually more disciplined and often have higher levels of empathy and patience. They have a natural proclivity for routine and order.\n\nPhysically, individuals with a Kapha constitution are more likely to be well built, with large attractive eyes. They are more likely to be endowed with smooth skin, a clear complexion, and beautiful lips. Unfortunately, Kapha types are vulnerable to overeating and sedentary patterns, as well as oversleeping. This can make it quite a struggle to maintain a healthy body weight and stay in shape.\n\nFailing to balance Kapha levels can exacerbate unhealthy behaviours, increasing the risk for depression and metabolic syndrome disorders like obesity, heart disease, and diabetes." = "Kapha type individuals are usually calm and composed, with great potential for multi-tasking. They are usually more disciplined and often have higher levels of empathy and patience. They have a natural proclivity for routine and order.\n\nPhysically, individuals with a Kapha constitution are more likely to be well built, with large attractive eyes. They are more likely to be endowed with smooth skin, a clear complexion, and beautiful lips. Unfortunately, Kapha types are vulnerable to overeating and sedentary patterns, as well as oversleeping. This can make it quite a struggle to maintain a healthy body weight and stay in shape.\n\nFailing to balance Kapha levels can exacerbate unhealthy behaviours, increasing the risk for depression and metabolic syndrome disorders like obesity, heart disease, and diabetes.";
+
+//Sparshna Test
+"1. Determination of SpO2 and heart-rate using smartphone camera. READ MORE\n" = "1. Determination of SpO2 and heart-rate using smartphone camera. READ MORE\n";
+"2. A novel application for the detection of an irregular pulse using an iPhone 4S in patients with atrial fibrillation. READ MORE\n" = "2. A novel application for the detection of an irregular pulse using an iPhone 4S in patients with atrial fibrillation. READ MORE\n";
+"3. Blood Pressure estimation using Photoplethysmography with telemedicine application. READ MORE\n" = "3. Blood Pressure estimation using Photoplethysmography with telemedicine application. READ MORE\n";
+"4. An exploratory clinical study to determine the utility of Heart Rate variability analysis in the assessment of dosha imbalance. READ MORE\n" = "4. An exploratory clinical study to determine the utility of Heart Rate variability analysis in the assessment of dosha imbalance. READ MORE\n";
+
+// Profile
+"Notifications" = "Notifications";
+"Change Password" = "Change Password";
+"Please enter same password" = "Please enter same password";
+"Password changed successfully" = "Password changed successfully";
+
+// Certificates
+"Certificates" = "Certificates";
+"SVYASA and HealthCare Global Hospitals" = "SVYASA and HealthCare Global Hospitals";
+"NIRAAMAYA" = "NIRAAMAYA";
+
+// Play List
+"Lists" = "Lists";
+"List" = "List";
+
+// Filter
+"RECOMMENDATIONS BASED ON:" = "RECOMMENDATIONS BASED ON:";
+"Prakriti" = "Prakriti";
+"Vikriti" = "Vikriti";
+
+// Yoga
+"Yogasanas" = "Yogasanas";
+"Yoga" = "Yoga";
+"Meditation" = "Meditation";
+"Pranayama" = "Pranayama";
+"Mudras" = "Mudras";
+"Kriyas" = "Kriyas";
+"Prakriti/Vikriti" = "Prakriti/Vikriti";
+"Mudra" = "Mudra";
+"Kriya" = "Kriya";
+"Precautions" = "Precautions";
+"Benefits" = "Benefits";
+"Steps" = "Steps";
+"Preparation" = "Preparation";
+"Successfully added to your favourite list." = "Successfully added to your favourite list.";
+"Added" = "Added";
+"Removed" = "Removed";
+"Successfully removed from your favourite list." = "Successfully removed from your favourite list.";
+
+// For You
+"Food" = "Food";
+
+// Side Menu
+"My Profile" = "My Profile";
+"How it Works" = "How it Works";
+"Apple Health" = "Apple Health";
+"Terms of Usage" = "Terms of Usage";
+"Privacy Policy" = "Privacy Policy";
+"Rate the App" = "Rate the App";
+"About Us" = "About Us";
+"Contact Us" = "Contact Us";
+"Change Language" = "Change Language";
+"Logout" = "Logout";
+"Please register first to view your profile." = "Please register first to view your profile.";
+"Please register first to view your Notification." = "Please register first to view your Notification.";
+"Please register first to sync Apple Health." = "Please register first to sync Apple Health.";
+"Healthkit date update successfully!." = "Healthkit date update successfully!.";
+"Please register first to view your Change Password." = "Please register first to view your Change Password.";
+"Are you sure you want to logout?" = "Are you sure you want to logout?";
+"Failed to update details." = "Failed to update details.";
+"Terms & Conditions" = "Terms & Conditions";
+"Message" = "Message";
+
+// Contact Us
+"Please enter subject." = "Please enter subject.";
+"Please enter description." = "Please enter description.";
+"Please register first to contact us." = "Please register first to contact us.";
+"Thank you for contacting us." = "Thank you for contacting us.";
+
+// ReTest
+"Take a deep breath and be patient. We hate to take you through these many questions but we would like to ascertain that we have every detail of your body’s dosha assessed, so that better lifestyle suggestion for wellness, disease prevention, long life and recovery from any ailment, can be presented to you, tailored! We would like to be precise, when it comes to your health assessment!" = "Take a deep breath and be patient. We hate to take you through these many questions but we would like to ascertain that we have every detail of your body’s dosha assessed, so that better lifestyle suggestion for wellness, disease prevention, long life and recovery from any ailment, can be presented to you, tailored! We would like to be precise, when it comes to your health assessment!";
+
+// Shop
+"Featured Products" = "Featured Products";
+"Recommended for You" = "Recommended for You";
+
+// Home Remedies
+"Home Remedies" = "Home Remedies";
+"Search" = "Search";
+"Search Remedy" = "Search Remedy";
+"Please complete Vikriti Prashna also to help us assess your current state better" = "Please complete Vikriti Prashna also to help us assess your current state better";
+"Please complete Vikriti Sparshna also to help us give you better recommendations" = "Please complete Vikriti Sparshna also to help us give you better recommendations";
+"Balanced Kapha means good energy, strength and stamina." = "Balanced Kapha means good energy, strength and stamina.";
+"Balanced Pitta means good appetite, digestion and absorption." = "Balanced Pitta means good appetite, digestion and absorption.";
+"Balanced Vata means enthusiastic, calm, happy and imaginative." = "Balanced Vata means enthusiastic, calm, happy and imaginative.";
+"Your Vata and Pitta are aggravated. We will help calm your Vata first before managing your Pitta." = "Your Vata and Pitta are aggravated. We will help calm your Vata first before managing your Pitta.";
+"Your Vata and Kapha are aggravated. We will help calm your Vata first before pacifying your Kapha." = "Your Vata and Kapha are aggravated. We will help calm your Vata first before pacifying your Kapha.";
+"Your Pitta and Kapha are aggravated. We will pacify your Pitta first before managing your Kapha." = "Your Pitta and Kapha are aggravated. We will pacify your Pitta first before managing your Kapha.";
+"Your Vata is aggravated. Use our personalised recommendations to calm yourself" = "Your Vata is aggravated. Use our personalised recommendations to calm yourself";
+"Your Pitta is aggravated. Use our personalised recommendations to balance your metabolism." = "Your Pitta is aggravated. Use our personalised recommendations to balance your metabolism.";
+"Your Kapha is aggravated. Use our personalised recommendations to improve your energy, strength and vitality." = "Your Kapha is aggravated. Use our personalised recommendations to improve your energy, strength and vitality.";
+"Congratulations! You have reached the balance. Here are some recommendations to stay in balance." = "Congratulations! You have reached the balance. Here are some recommendations to stay in balance.";
+"Congratulations! You have reached the balance." = "Congratulations! You have reached the balance.";
+"INSTRUCTIONS" = "INSTRUCTIONS";
+"Increased" = "Increased";
+"Decreased" = "Decreased";
+"Please complete your assessment or Register now to view recommendations" = "Please complete your assessment or Register now to view recommendations";
+"Please complete your Prakriti and Vikriti assessment to view recommendations" = "Please complete your Prakriti and Vikriti assessment to view recommendations";
+"Please complete your Prakriti assessment to view recommendations" = "Please complete your Prakriti assessment to view recommendations";
+"Please complete your Vikriti assessment to view recommendations" = "Please complete your Vikriti assessment to view recommendations";
+"Please Register now to view Favourites section" = "Please Register now to view Favourites section";
+"1. All questions must be answered\n\n2. It can be fun to do the questionnaire alongside someone who knows you well\n\n3. Important: We are establishing your core nature so please consider how you were as a child, as well as now\n\n4. If you have difficulty deciding, choose the answer that best represents how you have been for the majority of your life\n\n5. The choices given are relative with the characteristics of the places you have lived\n\n6. You can pause and come back anytime" = "1. All questions must be answered\n\n2. It can be fun to do the questionnaire alongside someone who knows you well\n\n3. Important: We are establishing your core nature so please consider how you were as a child, as well as now\n\n4. If you have difficulty deciding, choose the answer that best represents how you have been for the majority of your life\n\n5. The choices given are relative with the characteristics of the places you have lived\n\n6. You can pause and come back anytime";
+"We start with the Naadi Pariksha \nor Pulse Diagnosis to discover your Kapha, Pitta and Vata imbalances or your Vikriti (Current You)" = "We start with the Naadi Pariksha \nor Pulse Diagnosis to discover your Kapha, Pitta and Vata imbalances or your Vikriti (Current You)";
+"By proceeding with registration, login and using our app, you agree to our Terms and Conditions and Privacy Policy." = "By proceeding with registration, login and using our app, you agree to our Terms and Conditions and Privacy Policy.";
+
+// Measurement
+"Please enter height" = "Please enter height";
+"Please enter weight" = "Please enter weight";
+"Please enter your Date of Birth" = "Please enter your Date of Birth";
+"You didn't answer current question." = "You didn't answer current question.";
+"Please retake the test and answer as accurately as possible." = "Please retake the test and answer as accurately as possible.";
+
+// Slide Show
+"Let's Start!" = "Let's Start!";
+"The Ideal You (Prakriti)" = "The Ideal You (Prakriti)";
+"When you are born, your body and mind is uniquely configured to be at peace with the environment. It is the most ideal state for you to live in." = "When you are born, your body and mind is uniquely configured to be at peace with the environment. It is the most ideal state for you to live in.";
+"The Current You (Vikriti)" = "The Current You (Vikriti)";
+"But, with age, climate and lifestyle choices, this balance gets disturbed and you will not be in the ideal state anymore." = "But, with age, climate and lifestyle choices, this balance gets disturbed and you will not be in the ideal state anymore.";
+"The Rejuvenated You" = "The Rejuvenated You";
+"Using principles of ayurveda and state of the art research, we accurately assess your imbalance and provide a highly personalised plan to help you reach your ideal state." = "Using principles of ayurveda and state of the art research, we accurately assess your imbalance and provide a highly personalised plan to help you reach your ideal state.";
+
+// Lets Start
+"Hi!" = "Hi!";
+"We need some information to personalise this app for you" = "We need some information to personalise this app for you";
+"Already have an account?" = "Already have an account?";
+"Login" = "Login";
+"in" = "in";//(Inches short form)
+"m" = "m"; //(meter)
+
+// Registration
+"Welcome" = "Welcome";
+"Enter your name here" = "Enter your name here";
+"Continue" = "Continue";
+"Female" = "Female";
+"Male" = "Male";
+"Height" = "Height";
+"Weight" = "Weight";
+"Date of Birth" = "Date of Birth";
+"Autofill with Apple Health" = "Autofill with Apple Health";
+"Failed to login." = "Failed to login.";
+"Welcome Back!" = "Welcome Back!";
+"Don’t have an account?" = "Don’t have an account?";
+"Sign Up" = "Sign Up";
+"Please register first to view your result history." = "Please register first to view your result history.";
+"You can turn on healthkit permissions from setting => Health => Data Access & Devices => AyuRythm App and Turn All Categories On" = "You can turn on healthkit permissions from setting => Health => Data Access & Devices => AyuRythm App and Turn All Categories On";
+"Go To" = "Go To";
+
+"sparshna_subTitle" = "We use the following method to arrive at your current imbalance";
+"sparshna_step1" = "Step 1\nYour mobile phone camera takes series of images from the finger placed on the camera. From the colour components of reflection, SpO2 and photoplethysmogram (PPG) is derived. (ref. 1)";
+"sparshna_step2" = "Step 2\nFrom PPG, Heart Rate (ref. 1), Rhythm (ref. 2), Systolic BP (ref. 3), Diastolic BP (ref. 3), Pulse Pressure (ref. 3) , Arterial Stiffness (ref. 3) and Pulse Morphology (ref. 4) is classified in high-medium-low.\n(No absolute value of any parameter is displayed)";
+"sparshna_step3" = "Step 3\nHigh-Medium-Low values of the above said seven parameters are converted to Ayurvedic bio markers, namely: Vega (correlates to Heart Rate), Tala (correlates to Rhythm) , Akriti Matra (correlates to Systolic BP), Akriti Tanaav (correlates to Diastolic BP), Bala (correlates to Pulse Pressure), Kathinya (Arterial Stiffness) and Gati (PPG frequency spectrum).";
+"sparshna_step4" = "Step 4\nWeighted average of the Ayurvedic parameters is converted to Ayurvedic dosha imbalance (ref 4) and your overall imbalance is displayed.";
+"sparshna_disclimer" = "DISCLAIMER: This method is developed for Ayurvedic holistic wellness recommendations only. The results should not be interpreted or used for diagnostics or treatment.";
+"sparshna_reference" = "References:";
+
+"We use the following method to arrive at your current imbalance:\nStep 1. Your mobile phone camera takes series of images from the finger placed on the camera. From the colour components of reflection, SpO2 and photoplethysmogram (PPG) is derived. (ref. 1)\n\nStep 2. From PPG, Heart Rate (ref. 1), Rhythm (ref. 2), Systolic BP (ref. 3), Diastolic BP (ref. 3), Pulse Pressure (ref. 3) , Arterial Stiffness (ref. 3) and Pulse Morphology (ref. 4) is classified in high-medium-low. \nNo absolute value of any parameter is displayed.\n\nStep 3. High-Medium-Low values of the above said seven parameters are converted to Ayurvedic bio markers, namely: Vega (correlates to Heart Rate), Tala (correlates to Rhythm) , Akriti Matra (correlates to Systolic BP), Akriti Tanaav (correlates to Diastolic BP), Bala (correlates to Pulse Pressure), Kathinya (Arterial Stiffness) and Gati (PPG frequency spectrum).\n\nStep 4. Weighted average of the Ayurvedic parameters is converted to Ayurvedic dosha imbalance (ref 4) and your overall imbalance is displayed. \n\nDISCLAIMER: This method is developed for Ayurvedic holistic wellness recommendations only. The results should not be interpreted or used for diagnostics or treatment. \n\nReferences:" = "We use the following method to arrive at your current imbalance:\nStep 1. Your mobile phone camera takes series of images from the finger placed on the camera. From the colour components of reflection, SpO2 and photoplethysmogram (PPG) is derived. (ref. 1)\n\nStep 2. From PPG, Heart Rate (ref. 1), Rhythm (ref. 2), Systolic BP (ref. 3), Diastolic BP (ref. 3), Pulse Pressure (ref. 3) , Arterial Stiffness (ref. 3) and Pulse Morphology (ref. 4) is classified in high-medium-low. \nNo absolute value of any parameter is displayed.\n\nStep 3. High-Medium-Low values of the above said seven parameters are converted to Ayurvedic bio markers, namely: Vega (correlates to Heart Rate), Tala (correlates to Rhythm) , Akriti Matra (correlates to Systolic BP), Akriti Tanaav (correlates to Diastolic BP), Bala (correlates to Pulse Pressure), Kathinya (Arterial Stiffness) and Gati (PPG frequency spectrum).\n\nStep 4. Weighted average of the Ayurvedic parameters is converted to Ayurvedic dosha imbalance (ref 4) and your overall imbalance is displayed. \n\nDISCLAIMER: This method is developed for Ayurvedic holistic wellness recommendations only. The results should not be interpreted or used for diagnostics or treatment. \n\nReferences:";
+
+// Shop
+"Coming Soon" = "Coming Soon";
+"To Checkout the Demo, Click on the Below Button" = "To Checkout the Demo, Click on the Below Button";
+"CLICK HERE" = "CLICK HERE";
+"Shop" = "Shop";
+
+// My Home
+"Your Wellness Index" = "Your Wellness Index";
+"Retest" = "Retest";
+"Your Pita and Kapha are out of imbalance. We will pacify your metabolism( Pita ) first before building energy ( Kapha)" = "Your Pita and Kapha are out of imbalance. We will pacify your metabolism( Pita ) first before building energy ( Kapha)";
+"PRASHNA" = "PRASHNA";
+"Differential Diagnosis" = "Differential Diagnosis";
+//"PRAKRITI | THE IDEAL ME" = "PRAKRITI | THE IDEAL ME";
+//"VIKRITI | THE CURRENT ME" = "VIKRITI | THE CURRENT ME";
+"SPARSHNA" = "SPARSHNA";
+"Naadi Pariksha / Pulse Diagnosis" = "Naadi Pariksha / Pulse Diagnosis";
+"YOUR RESULTS" = "YOUR RESULTS";
+"Today" = "Today";
+"Welcome!" = "Welcome!";
+"Please complete the remaining test to view your wellness index and recommendations" = "Please complete the remaining test to view your wellness index and recommendations";
+"Register to save your results" = "Register to save your results";
+"Register Now" = "Register Now";
+"VIEW DETAILS" = "VIEW DETAILS";
+"Your Wellness Summary" = "Your Wellness Summary";
+"Register to save your results and view personalised plans" = "Register to save your results and view personalised plans";
+"PAUSE" = "PAUSE";
+"Question -" = "Question -";
+"PREVIOUS" = "PREVIOUS";
+
+// My Progress
+"My Progress" = "My Progress";
+"Results" = "Results";
+"Sparshna" = "Sparshna";
+"Naadi Pariksha/Pulse Diagnosis" = "Naadi Pariksha/Pulse Diagnosis";
+"I have read and understood that this method is only for Ayurvedic wellness and should not be interpreted or used for diagnosis or treatment." = "I have read and understood that this method is only for Ayurvedic wellness and should not be interpreted or used for diagnosis or treatment.";
+"Don’t show this again" = "Don’t show this again";
+"Let’s Start" = "Let’s Start";
+
+// Profile
+"Submit" = "Submit";
+"Subject" = "Subject";
+"AyuRythm is the world's first completely digital solution for personalized holistic wellness based on Ayurvedic principles. Our solution works on any smartphone.\n\nAyuRythm's patent-pending technology and approval from leading Ayurvedic doctors makes our solution a one-stop for all wellness needs. It assesses the user's ideal and current body type based on a one-time response to 30 questions followed by daily 30-second pulse diagnostic test using your mobile phone camera. Based on the tests, the application makes personalized recommendations on ideal yoga, pranayama, food, spa and herbal.\n\nThe solution comes integrated with a market place where users have a choice to purchase product and services to further their wellness goals." = "AyuRythm is the world's first completely digital solution for personalized holistic wellness based on Ayurvedic principles. Our solution works on any smartphone.\n\nAyuRythm's patent-pending technology and approval from leading Ayurvedic doctors makes our solution a one-stop for all wellness needs. It assesses the user's ideal and current body type based on a one-time response to 30 questions followed by daily 30-second pulse diagnostic test using your mobile phone camera. Based on the tests, the application makes personalized recommendations on ideal yoga, pranayama, food, spa and herbal.\n\nThe solution comes integrated with a market place where users have a choice to purchase product and services to further their wellness goals.";
+
+// Favourites
+"Favourites" = "Favourites";
+"English" = "English";
+"Hindi" = "Hindi";
+
+// My Plan
+"Set yoga alarm" = "Set yoga alarm";
+"Ideal time for you to do yoga is in the evening" = "Ideal time for you to do yoga is in the evening";
+"Save" = "Save";
+"SKIP" = "SKIP";
+"SUBMIT" = "SUBMIT";
+"Questions Skipped" = "Questions Skipped";
+"Oops!" = "Oops!";
+"Email ID" = "Email ID";
+"Phone Number" = "Phone Number";
+
+"Either finger wasn't placed accurately or you are not well rested before taking results." = "Either finger wasn't placed accurately or you are not well rested before taking results.";
+"Success" = "Success";
+"Updated successfully" = "Updated successfully";
+"Failed to update user details." = "Failed to update user details.";
+"For You" = "For You";
+"Result History" = "Result History";
+"Edit Profile" = "Edit Profile";
+"Mark all as Read" = "Mark all as Read";
+"DR. VAIDYA's" = "DR. VAIDYA's";
+"Back" = "Back";
+"Sparshna Instructions" = "Sparshna Instructions";
+"We will be measuring your blood flow.\n\n- Please place your finger palm on the front camera of your phone pointing away from your face \n\n- The screen will turn red when the camera is covered properly \n\n- Ensure that you are in a brightly lit area/room" = "We will be measuring your blood flow.\n\n- Please place your finger palm on the front camera of your phone pointing away from your face \n\n- The screen will turn red when the camera is covered properly \n\n- Ensure that you are in a brightly lit area/room";
+"Pulse Diagnosis" = "Pulse Diagnosis";
+"We will be measuring your blood flow.\n\nPlace your finger/palm on the back camera of your phone, covering the flash,\nand then press continue.\n\nEnsure you are in a brightly lit area\nbefore starting the test\n\nThe screen will turn red when finger/palm is placed correctly" = "We will be measuring your blood flow.\n\nPlace your finger/palm on the back camera of your phone, covering the flash,\nand then press continue.\n\nEnsure you are in a brightly lit area\nbefore starting the test\n\nThe screen will turn red when finger/palm is placed correctly";
+"Nadi Pariksha" = "Nadi Pariksha";
+"Please enter the verification code " = "Please enter the verification code ";
+"Please enter the verification code \nsent to %@%@" = "Please enter the verification code \nsent to %@%@";
+"Didn’t receive a code?" = "Didn’t receive a code?";
+"Sign in" = "Sign in";
+"attempts left" = "attempts left";
+"Verify" = "Verify";
+
+"Your Vata and Pitta are aggravated." = "Your Vata and Pitta are aggravated.";
+"We will help calm your Vata first before managing your Pitta." = "We will help calm your Vata first before managing your Pitta.";
+"Your Vata and Kapha are aggravated." = "Your Vata and Kapha are aggravated.";
+"We will help calm your Vata first before pacifying your Kapha." = "We will help calm your Vata first before pacifying your Kapha.";
+"Your Pitta and Kapha are aggravated." = "Your Pitta and Kapha are aggravated.";
+"We will pacify your Pitta first before managing your Kapha." = "We will pacify your Pitta first before managing your Kapha.";
+"Your Vata is aggravated." = "Your Vata is aggravated.";
+"Use our personalised recommendations to calm yourself." = "Use our personalised recommendations to calm yourself.";
+"Your Pitta is aggravated." = "Your Pitta is aggravated.";
+"Use our personalised recommendations to balance your metabolism." = "Use our personalised recommendations to balance your metabolism.";
+"Your Kapha is aggravated." = "Your Kapha is aggravated.";
+"Use our personalised recommendations to improve your energy, strength and vitality." = "Use our personalised recommendations to improve your energy, strength and vitality.";
+"Congratulations!" = "Congratulations!";
+"You have reached the balance. Here are some recommendations to stay in balance." = "You have reached the balance. Here are some recommendations to stay in balance.";
+"You have reached the balance." = "You have reached the balance.";
+"Last Assessment: " = "Last Assessment: ";
+"Test Now" = "Test Now";
+"Oxygen Saturation" = "Oxygen Saturation";
+"Variation History" = "Variation History";
+"SpO2 or Oxygen Saturation History" = "SpO2 or Oxygen Saturation History";
+"See More" = "See More";
+"Day" = "Day";
+"Week" = "Week";
+"Month" = "Month";
+"Year" = "Year";
+"Difference between Prakriti and Vikriti " = "Difference between Prakriti and Vikriti ";
+"Oxygen Saturation History" = "Oxygen Saturation History";
+"Food" = "Food";
+"Ideal You" = "Ideal You";
+"Current You" = "Current You";
+"Tips for Balancing" = "Tips for Balancing";
+"TIPS FOR BALANCING" = "TIPS FOR BALANCING";
+"• Vigorous regular exercise, a little each day \n• Warm temperatures \n• Fresh fruits, vegetables and legumes \n• Favour pungent, bitter, astringent tastes and light, dry and warm foods \n• Reduce heavy, oily, cold foods and sweet, sour and salty tastes \n• Seek out variety and new experiences \n• Stay warm in cold, damp weather \n• Early to bed, early to rise" = "• Vigorous regular exercise, a little each day \n• Warm temperatures \n• Fresh fruits, vegetables and legumes \n• Favour pungent, bitter, astringent tastes and light, dry and warm foods \n• Reduce heavy, oily, cold foods and sweet, sour and salty tastes \n• Seek out variety and new experiences \n• Stay warm in cold, damp weather \n• Early to bed, early to rise";
+"Kapha Governs" = "Kapha Governs";
+"KAPHA GOVERNS" = "KAPHA GOVERNS";
+"Pitta Governs" = "Pitta Governs";
+"PITTA GOVERNS" = "PITTA GOVERNS";
+"Vata Governs" = "Vata Governs";
+"VATA GOVERNS" = "VATA GOVERNS";
+"• Moisture for nose, mouth, eyes and brain \n• Sense of taste, which is essential for good digestion \n• Moisture of the stomach lining for good digestion \n• Protects the heart, strong muscles, healthy lungs \n• Lubrication of the joints, soft and supple skin" = "• Moisture for nose, mouth, eyes and brain \n• Sense of taste, which is essential for good digestion \n• Moisture of the stomach lining for good digestion \n• Protects the heart, strong muscles, healthy lungs \n• Lubrication of the joints, soft and supple skin";
+"Out of Balance" = "Out of Balance";
+"OUT OF BALANCE" = "OUT OF BALANCE";
+"• Sinus congestion, poor sense of smell \n• Poor sense of taste, food cravings due to lack of fulfillment \n• Impaired digestion, poor absorption \n• Lethargy, respiratory problems, lower back pain \n• Weight gain, oily skin, loose or painful joints" = "• Sinus congestion, poor sense of smell \n• Poor sense of taste, food cravings due to lack of fulfillment \n• Impaired digestion, poor absorption \n• Lethargy, respiratory problems, lower back pain \n• Weight gain, oily skin, loose or painful joints";
+"• Keep cool. Avoid hot temperatures and food. \n• Favor cool, heavy, dry foods and sweet, bitter and astringent tastes. \n• Reduce pungent, sour, salty tastes and warm, oily and light foods. \n• Moderation; don't overwork. \n• Allow for leisure time. \n• Regular mealtimes, especially lunch at noon. \n• Abhyanga (ayurvedic oil massage) with a cooling oil such as coconut." = "• Keep cool. Avoid hot temperatures and food. \n• Favor cool, heavy, dry foods and sweet, bitter and astringent tastes. \n• Reduce pungent, sour, salty tastes and warm, oily and light foods. \n• Moderation; don't overwork. \n• Allow for leisure time. \n• Regular mealtimes, especially lunch at noon. \n• Abhyanga (ayurvedic oil massage) with a cooling oil such as coconut.";
+"• Functioning of the eyes \n• Healthy glow of the skin \n• Desire, drive, decisiveness, spirituality \n• Digestion, assimilation, metabolism for healthy nutrients and tissues \n• Healthy, toxin-free blood." = "• Functioning of the eyes \n• Healthy glow of the skin \n• Desire, drive, decisiveness, spirituality \n• Digestion, assimilation, metabolism for healthy nutrients and tissues \n• Healthy, toxin-free blood.";
+"• Bloodshot eyes, poor vision \n• Skin rashes, acne \n• Demanding, perfectionist, workaholic \n• Acid stomach \n• Early graying, anger, toxins in blood" = "• Bloodshot eyes, poor vision \n• Skin rashes, acne \n• Demanding, perfectionist, workaholic \n• Acid stomach \n• Early graying, anger, toxins in blood";
+"• Abhyanga (daily ayurvedic massage with sesame oil) \n• Warm temperatures. \n• Warm, cooked foods (less raw foods) \n• Early bedtimes, lots of rest \n• Favor warm, oily, heavy foods and sweet, sour, and salty tastes. \n• Reduce light, dry, cold foods and pungent, bitter and astringent tastes. \n• Avoid stimulants \n• Regular, daily elimination \n• Stay warm in cold, windy weather" = "• Abhyanga (daily ayurvedic massage with sesame oil) \n• Warm temperatures. \n• Warm, cooked foods (less raw foods) \n• Early bedtimes, lots of rest \n• Favor warm, oily, heavy foods and sweet, sour, and salty tastes. \n• Reduce light, dry, cold foods and pungent, bitter and astringent tastes. \n• Avoid stimulants \n• Regular, daily elimination \n• Stay warm in cold, windy weather";
+"• The senses, creative thinking, reasoning, enthusiasm \n• Quality of voice, memory, movements of thought \n• Movement of food through digestive tract \n• Elimination of wastes, sexual function, menstrual cycle \n• Blood flow, heart rhythm, perspiration, sense of touch" = "• The senses, creative thinking, reasoning, enthusiasm \n• Quality of voice, memory, movements of thought \n• Movement of food through digestive tract \n• Elimination of wastes, sexual function, menstrual cycle \n• Blood flow, heart rhythm, perspiration, sense of touch";
+"• Worries, overactive mind, sleep problems, difficulty breathing \n• Dry cough, sore throats, earaches, general fatigue. \n• Slow or rapid digestion, gas, intestinal cramps, poor assimilation, weak tissues. \n• Intestinal cramps, menstrual problems, lower back pain, irregularity, diarrhea, constipation, gas \n• Dry or rough skin, nervousness, shakiness, poor blood flow, stress-related problems" = "• Worries, overactive mind, sleep problems, difficulty breathing \n• Dry cough, sore throats, earaches, general fatigue. \n• Slow or rapid digestion, gas, intestinal cramps, poor assimilation, weak tissues. \n• Intestinal cramps, menstrual problems, lower back pain, irregularity, diarrhea, constipation, gas \n• Dry or rough skin, nervousness, shakiness, poor blood flow, stress-related problems";
+"Tala" = "Tala";
+"Correlates to HRV" = "Correlates to HRV";
+"Regular" = "Regular";
+"Irregular" = "Irregular";
+"Basal metabolic rate" = "Basal metabolic rate";
+"BMR" = "BMR";
+"Body mass index" = "Body mass index";
+"BMI" = "BMI";
+"DISCLAIMER: These results are only for Ayurvedic wellness and should not be interpreted or used for diagnosis or treatment." = "DISCLAIMER: These results are only for Ayurvedic wellness and should not be interpreted or used for diagnosis or treatment.";
+"days ago" = "days ago";
+"Eat" = "Eat";
+"Avoid" = "Avoid";
+"Filters" = "Filters";
+"Seasons" = "Seasons";
+"Best time to eat" = "Best time to eat";
+"Play Video" = "Play Video";
+"Beginner" = "Beginner";
+"Intermediate" = "Intermediate";
+"Advanced" = "Advanced";
+"items" = "items";
+"Reset" = "Reset";
+"Form incomplete" = "Form incomplete";
+"Why do we need your Date of Birth?" = "Why do we need your Date of Birth?";
+"We use your age to calculate Kapha, Pitta and Vata based on Ayurvedic health parameters" = "We use your age to calculate Kapha, Pitta and Vata based on Ayurvedic health parameters";
+"Please check your network connectivity" = "Please check your network connectivity";
+
+
+"Choose Option" = "Choose Option";
+"Take Photo" = "Take Photo";
+"Choose From Library" = "Choose From Library";
+"No Data Available" =  "No Data Available";
+"Sorry! No Data! \n Please complete the assessments to view data!" = "Sorry! No Data! \n Please complete the assessments to view data!";
+
+
+//MARK: - AYUVERSE
+"Welcome to\nAyuVerse" = "Welcome to\nAyuVerse";
+"rules" = "rules";
+"I agree to the rules stated" = "I agree to the rules stated";
+"Create" = "Create";
+"Share your wellness\nexperiences with like\nminded people." = "Share your wellness\nexperiences with like\nminded people.";
+"Connect" = "Connect";
+"Engage with people\ninterested in ayurvedic\nwellness" = "Engage with people\ninterested in ayurvedic\nwellness";
+"Discover" = "Discover";
+"Explore ayurvedic wellness\ncontent by experts and\nwellness enthusiasts." = "Explore ayurvedic wellness\ncontent by experts and\nwellness enthusiasts.";
+"So what are you waiting for? Come join us in our Ayurveda community!" = "So what are you waiting for? Come join us in our Ayurveda community!";
+"Let’s Go!" = "Let’s Go!";
+"Rules" = "Rules";
+"Accept & Continue" = "Accept & Continue";
+"1. Please refrain from sharing private or confidential information\n\n2. Please be considerate to others and tolerant to alternate or opposing point of views\n\n3. When choosing users name or avatars do not choose anything that may be deemed inappropriate\n\n4. Be transparent especially if you are talking about brands or products. You should be open about who you work for and what you represent\n\n5. Be fair and respectful\n\n6. Do not give an impression of trolling. Even if you oppose a point of view, behave sensitively. Kindness and respect go a long way to create a robust and helpful community.\n\n7. AyuVerse is a community to discuss Ayurveda. Please do not post irrelevant messages.\n" = "1. Please refrain from sharing private or confidential information\n\n2. Please be considerate to others and tolerant to alternate or opposing point of views\n\n3. When choosing users name or avatars do not choose anything that may be deemed inappropriate\n\n4. Be transparent especially if you are talking about brands or products. You should be open about who you work for and what you represent\n\n5. Be fair and respectful\n\n6. Do not give an impression of trolling. Even if you oppose a point of view, behave sensitively. Kindness and respect go a long way to create a robust and helpful community.\n\n7. AyuVerse is a community to discuss Ayurveda. Please do not post irrelevant messages.\n";
+
+"(Edited)" = "(Edited)";
+"Post" = "Post";
+"Report" = "Report";
+"Feed" = "Feed";
+"Groups" = "Groups";
+"Q&A" = "Q&A";
+"Write something to post!" = "Write something to post!";
+"Add media" = "Add media";
+"Content library" = "Content library";
+"Write a comment" = "Write a comment";
+"Report Post" = "Report Post";
+"Report User" = "Report User";
+"Create a Post" = "Create a Post";
+"Update a Post" = "Update a Post";
+"What's on your mind? Write here..." = "What's on your mind? Write here...";
+"Choose category" = "Choose category";
+"(Optional)" = "(Optional)";
+"Upload media" = "Upload media";
+"Choose image from" = "Choose image from";
+"Camera" = "Camera";
+"Photo library" = "Photo library";
+"Video library" = "Video library";
+"Add your reply..." = "Add your reply...";
+"Delete Comment" = "Delete Comment";
+"Are you sure you want to delete this comment?" = "Are you sure you want to delete this comment?";
+"Delete Post" = "Delete Post";
+"Are you sure you want to delete this post?" = "Are you sure you want to delete this post?";
+"Reply" = "Reply";
+"View_reply" = "View %@ reply";
+
+
+//See More See Less
+"\\sSee More\\b" = "\\sSee More\\b";
+"\\sSee Less\\b" = "\\sSee Less\\b";
+
+"See More   " = "See More   ";
+"See Less   " = "See Less   ";
+
+"Public" = "Public";
+"Private" = "Private";
+"Update Group" = "Update Group";
+"Create your group" = "Create your group";
+"Popular groups" = "Popular groups";
+"My groups" = "My groups";
+"View All" = "View All";
+"Request to join" = "Request to join";
+"Requested to join" = "Requested to join";
+"Join" = "Join";
+"Update" = "Update";
+"Create a Group" = "Create a Group";
+"What would you like to call your group?" = "What would you like to call your group?";
+"Add title for your group..." = "Add title for your group...";
+"Add a breif description about your group..." = "Add a breif description about your group...";
+"Group privacy" = "Group privacy";
+"Add your group icon here" = "Add your group icon here";
+"New posts" = "New posts";
+"Member" = "Member";
+"Members" = "Members";
+"Requested" = "Requested";
+"Please enter group name." = "Please enter group name.";
+"Please enter description." = "Please enter description.";
+"Type how many users you want to join..." = "Type how many users you want to join...";
+"Privacy" = "Privacy";
+"Cancel request" = "Cancel request";
+"Accept all" = "Accept all";
+"You have %@ spot left" = "You have %@ spot left";
+"No groups found!" = "No groups found!";
+"Leave Group" = "Leave Group";
+"Do you really want to leave?" = "Do you really want to leave?";
+"If you leave now, you’ll lose this post" = "If you leave now, you’ll lose this post";
+"Are you sure you want to leave this group?" = "Are you sure you want to leave this group?";
+"About" = "About";
+"Admin" = "Admin";
+"Remove" = "Remove";
+"Request" = "Request";
+"Join requests" = "Join requests";
+
+
+//Q&A
+"Ask your question" = "Ask your question";
+"Popular questions" = "Popular questions";
+"Latest questions" = "Latest questions";
+"My answers" = "My answers";
+"My questions" = "My questions";
+"Type your question here..." = "Type your question here...";
+"Type your answer here..." = "Type your answer here...";
+"Recommended categories" = "Recommended categories";
+"Answers received - " = "Answers received - ";
+"Upvotes - " = "Upvotes - ";
+"Answers" = "Answers";
+"Report Answer" = "Report Answer";
+"Report Question" = "Report Question";
+"Asked by " = "Asked by ";
+"Delete Question" = "Delete Question";
+"Delete Answer" = "Delete Answer";
+"Are you sure you want to delete this question?" = "Are you sure you want to delete this question?";
+"Are you sure you want to delete this answer?" = "Are you sure you want to delete this answer?";
+"start asking your questions." = "start asking your questions.";
+
+
+//No Comment
+"No posts found!" = "No posts found!";
+"All the post will appear here." = "All the post will appear here.";
+
+"No comments found!" = "No comments found!";
+"No comment text" = "All the people’s comments will\nappear here.";
+
+"No results found!" = "No results found!";
+"We couldn’t find what you searched for.\nTry searching again." = "We couldn’t find what you searched for.\nTry searching again.";
+
+"No Questions found!" = "No Questions found!";
+"No answer found!" = "No answer found!";
+
+
+"Delete Group" = "Delete Group";
+"Do you really want to delete?" = "Do you really want to delete?";
+"Are you sure you want to delete this group?" = "Are you sure you want to delete this group?";
+
+"Do you really want to remove this member?" = "Do you really want to remove this member?";
+"Are you sure you want to remove this member from your group?" = "Are you sure you want to remove this member from your group?";
+
+
+
+//INTRO SCREEN
+"intro_title_1" = "Measure your current balance";
+"intro_title_2" = "Find your ideal balance";
+"intro_title_3" = "Daily wellness schedule";
+"intro_title_4" = "AyuVerse";
+"intro_title_5" = "Daily diet plans";
+
+"intro_description_1" = "Measure ayurvedic indices for physical, mental and emotional state.";
+"intro_description_2" = "Answer simple MCQs to know more about your mind-body balance.";
+"intro_description_3" = "Personalized Wellness Schedule based on your mind-body balance.";
+"intro_description_4" = "Explore and Connect with people around the world of ayurveda.";
+"intro_description_5" = "Explore ayurvedic diet plans with wholesome recipes & variety food choices";
+
+"verify_OTP" = "Verify OTP";
+"didnt_receive_code" = "Didn't receive OTP?";
+"resend_code" = "Resend";
+"second_short" = "Sec";
+
+
+//
+"we_value_your_privacy" = "We value your privacy";
+"accept_and_continue" = "Accept and Continue";
+
+//Sign UP
+"privacy_value" = "For pulse analysis, we need your correct age (from your birth date), height, weight and gender for our algorithms to work and give you better assessment of your health basis the principles of Ayurveda.\n\nAnd to create your health profile, AyuRythm needs your name and phone number or email ID, Hence your personal data is captured and stored.\n\nHowever, you may choose to delete your profile anytime in the app by going to My Profile -> Account settings.";
+"enter_your_details" = "Enter your details";
+"get_stated_enter_your_details" = "To get started, please enter your details below";
+"have_a_referral_code" = "Have a Referral Code?";
+"let_s_begin" = "Let’s begin";
+"or" = "Or";
+"your_name" = "Your Name";
+"your_email" = "Your Email";
+"your_height" = "Your Height";
+"your_weight" = "Your Weight";
+"your_birthday" = "Your Birthday";
+
+"ayurythm_helps_you_find_your_unique_body_balance_and_stay_healthy" = "AyuRythm helps you find your unique body balance and stay healthy.🍀";
+
+
+//Referral
+"enter_referral_code" = "Enter referral code";
+"referral_code_msg" = "Enter if you have referral code and earn 500 Ayuseeds";
+"referral_code_applied_successfully" = "Referral code applied successfully";
+"earn_ayuseed" = "Earn 500 Ayuseeds";
+
+//Language
+"continue_with_hindi" = "हिंदी में जारी रखें";
+"continue_with_english" = "Continue with English";
+
+
+//HOME
+"30_second_pulse_assessment_to_get_personalized_results" = "30 second pulse assessment to get personalized results";
+"see_how_it_works" = "See how it works";
+"start_the_assessment" = "Start the assessment";
+
+
+
+"If you're new to Ayurveda ,we recommend starting with beginner" = "If you're new to Ayurveda ,we recommend starting with beginner";
+
+"ideal_balance_text_1" = "It can be fun to do the questionnaire alongside someone who knows you well";
+"ideal_balance_text_2" = "If you have difficulty deciding, choose the answer that best represents you for the majority of your life";
+"ideal_balance_text_3" = "Consider how you were as a  child while answering these questions.";
+
+
+//PRAKRITI
+"Prakriti_chat_text_1" = "Let's find out your ideal balance together";
+"Prakriti_chat_text_2" = "Let's get started shall we?";
+"Prakriti_chat_text_3" = "I'll ask few questions to find out your ideal balance...";
+"Prakriti_chat_text_4" = "Also please consider your childhood or earliest memory possible while answering these questions";
+
+"tridoshic_paragraph1" = "Although quite rare, some individuals have all 3 doshas in more or less equal strengths. They are categorized as tridoshic or Vata-Pitta-Kapha type individuals. With this naturally balanced Prakriti or dosha type, they are more likely to find a harmonious balance in life and can be meditative, fit, healthy, and emotionally stable.";
+
+"tridoshic_paragraph2" = "This balance characterizes almost every aspect of life. Tridoshic individuals tend to be of a medium build and frame, with a pleasant disposition and sharp minds that can still find mental peace. The only scenario in which problems arise is when such individuals go against their basic nature throwing their doshas out of balance. Disorders that are associated with the aggravated dosha then begin to surface. For example, aggravation of Vata can give rise to problems like digestive and sleep disorders, while aggravation of Kapha could cause problems with excess body weight and depression.";
+
+"kapha_vata_paragraph1" = "The Kapha-Vata combination type is perhaps the most interesting because of the opposing nature of the 2 doshas that are in predominance – Kapha and Vata. While Kapha dosha gives rise to a desire for stability, order, and routine, Vata triggers more creative pursuits and a more enthusiastic and chaotic approach to life. This strange combination can give rise to serious internal conflicts, leading to plenty of frustration at times.";
+
+"kapha_vata_paragraph2" = "Physically, individuals in the Kapha-Vata category can show significant variation being either small or delicately built, tall and slender, or more athletic and with a bigger frame. Kapha-Vata individuals also have greater vulnerability to a number of health conditions, including poor digestion with problems like bloating and constipation. Kapha-Vata individuals also have conflicting emotions, alternating between being laidback and anxious, as well as sleeping excessively or poorly. They also have a higher risk of stone formation, loss of focus, depression, and other disorders. This makes balancing dosha levels critical, as this is essential to mitigate the risk of poor health.";
+
+"pitta_kapha_paragraph1" = "Pitta-Kapha type individuals have both Pitta and Kapha doshas in close to equal strength. These individuals have strong willpower and are more focused, with a clear goal-oriented nature. At the same time, they tend to be balanced with a somewhat relaxed nature.";
+
+"pitta_kapha_paragraph2" = "Physically, Pitta-Kapha type individuals have a rather stocky or robust frame and they also enjoy relatively good health if they keep their doshas in balance. In balanced individuals, the fiery energy of pitta is kept grounded and balanced by Kapha. This means that individuals in this dosha type are less likely to experience digestive health problems early in life, as they have the perfect strength of Agni or digestive fire. Unfortunately, many tend to take this for granted and abuse their good fortune, leaning towards unhealthy lifestyles, overeating and under-exercising. As a result, problems with obesity and associated health risks may surface.";
+
+"pitta_kapha_paragraph3" = "Pitta-Kapha types although generally healthy, may also be vulnerable to skin diseases and body odour problems that result from heavy perspiration.";
+
+
+"kapha_pitta_paragraph1" = "Kapha-Pitta type individuals have both Kapha and Pitta doshas in close to equal strength. These individuals have strong willpower and are more focused, with a clear goal-oriented nature. At the same time, they tend to be balanced with a somewhat relaxed nature.";
+
+"kapha_pitta_paragraph2" = "Physically, Kapha-Pitta type individuals have a rather stocky or robust frame and they also enjoy relatively good health if they keep their doshas in balance. In balanced individuals, the fiery energy of kapha is kept grounded and balanced by pitta. This means that individuals in this dosha type are less likely to experience digestive health problems early in life, as they have the perfect strength of Agni or digestive fire. Unfortunately, many tend to take this for granted and abuse their good fortune, leaning towards unhealthy lifestyles, overeating and under-exercising. As a result, problems with obesity and associated health risks may surface.";
+
+"kapha_pitta_paragraph3" = "Kapha-Pitta types although generally healthy, may also be vulnerable to skin diseases and body odour problems that result from heavy perspiration.";
+
+
+
+"pitta_vata_paragraph1" = "Pitta-Vata combination type individuals have both Pitta and Vata dosha in a closely matching strength. Individuals of this dosha type require a combination approach to managing their health. They are generally creative, but can also be impulsive and conflicted within. As a result, they often put themselves under excessive pressure, which can lead to disappointment and burnout.";
+
+"pitta_vata_paragraph2" = "Physically, Pitta-Vata type individuals have a medium stature and are usually quite agile. Their dosha combination can create some specific health concerns as the quality of Pitta for movement can exacerbate or accentuate the qualities of Vata. This makes individuals more vulnerable to digestive disorders at varying ends of the spectrum, from constipation to diarrhoea, indigestion and heartburn to inflammatory disorders and peptic ulcers. They are also more likely to be afflicted with aches and pains, sleep disorders, emotional outbursts, skin irritation, and so on. A Pitta-Vata balancing routine is therefore vital to maintaining good health and wellbeing.";
+
+
+"vata_kapha_paragraph1" = "The Vata-Kapha combination type is perhaps the most interesting because of the opposing nature of the 2 doshas that are in predominance – Vata and Kapha. While Vata dosha gives rise to a desire for stability, order, and routine, Kapha triggers more creative pursuits and a more enthusiastic and chaotic approach to life. This strange combination can give rise to serious internal conflicts, leading to plenty of frustration at times.";
+
+"vata_kapha_paragraph2" = "Physically, individuals in the Vata-Kapha category can show significant variation being either small or delicately built, tall and slender, or more athletic and with a bigger frame. Vata-Kapha individuals also have greater vulnerability to a number of health conditions, including poor digestion with problems like bloating and constipation. Vata-Kapha individuals also have conflicting emotions, alternating between being laidback and anxious, as well as sleeping excessively or poorly. They also have a higher risk of stone formation, loss of focus, depression, and other disorders. This makes balancing dosha levels critical, as this is essential to mitigate the risk of poor health.";
+
+
+
+"vata_pitta_paragraph1" = "Vata-Pitta combination type individuals have both Vata and Pitta dosha in a closely matching strength. Individuals of this dosha type require a combination approach to managing their health. They are generally creative, but can also be impulsive and conflicted within. As a result, they often put themselves under excessive pressure, which can lead to disappointment and burnout.";
+
+"vata_pitta_paragraph2" = "Physically, Vata-Pitta type individuals have a medium stature and are usually quite agile. Their dosha combination can create some specific health concerns as the quality of Vata for movement can exacerbate or accentuate the qualities of Pitta. This makes individuals more vulnerable to digestive disorders at varying ends of the spectrum, from constipation to diarrhoea, indigestion and heartburn to inflammatory disorders and peptic ulcers. They are also more likely to be afflicted with aches and pains, sleep disorders, emotional outbursts, skin irritation, and so on. A Vata-Pitta balancing routine is therefore vital to maintaining good health and wellbeing.";
+
+"vata_paragraph1" = "Vata individuals generally have a light and creative disposition, with high levels of enthusiasm. Such individuals are also likely to be more active but may be easily distracted or forgetful.";
+
+"vata_paragraph2" = "Vata individuals also tend to share certain physical traits, usually falling into ends of the spectrum, being either small statured or large. They are also likely to be of a more slender build, with small, but sharp eyes. Warmer and sunnier climates are more attractive to Vata individuals as they are more prone to circulatory disorders.";
+
+"vata_paragraph3" = "Dosha imbalances in someone with a Vata constitution will increase vulnerability to specific types of health conditions like anxiety, sleep disorders, arthritis, and joint disease.";
+
+"pitta_paragraph1" = "Pitta individuals tend to have greater mental clarity, focus, and retention. Pitta type individuals are highly competitive and enjoy outdoor activities. Physically, pitta type individuals tend to be of average stature, but of a more stocky or muscular build. They are also likely to have medium-sized eyes with a more penetrating gaze.";
+
+"pitta_paragraph2" = "Balancing pitta levels is vital for their wellbeing as pitta individuals are vulnerable to intense bouts of anger, especially when hungry, and they are also more likely to feel stressed and suffer from sleep disorders. Imbalances in dosha levels will make pitta type people more susceptible to inflammatory conditions like gastritis, peptic or intestinal ulcers, as well as inflammatory skin conditions like eczema.";
+
+"kapha_paragraph1" = "Kapha type individuals are usually calm and composed, with great potential for multi-tasking. They are usually more disciplined and often have higher levels of empathy and patience. They have a natural proclivity for routine and order.";
+
+"kapha_paragraph2" = "Physically, individuals with a Kapha constitution are more likely to be well built, with large attractive eyes. They are more likely to be endowed with smooth skin, a clear complexion, and beautiful lips. Unfortunately, Kapha types are vulnerable to overeating and sedentary patterns, as well as oversleeping. This can make it quite a struggle to maintain a healthy body weight and stay in shape.";
+
+"kapha_paragraph3" = "Failing to balance Kapha levels can exacerbate unhealthy behaviours, increasing the risk for depression and metabolic syndrome disorders like obesity, heart disease, and diabetes.";
+
+"Your predominant dosha is Kapha-Vata" = "Your predominant dosha is Kapha-Vata";
+"Your predominant dosha is Pitta-Kapha" = "Your predominant dosha is Pitta-Kapha";
+"Your predominant dosha is Vata-Pitta" = "Your predominant dosha is Vata-Pitta";
+"Your predominant dosha is Vata" = "Your predominant dosha is Vata";
+"Your predominant dosha is Pitta" = "Your predominant dosha is Pitta";
+"Your predominant dosha is Kapha" = "Your predominant dosha is Kapha";
+
+"Kapha-Vata" = "Kapha-Vata";
+"Kapha-Pitta" = "Kapha-Pitta";
+"Pitta-Kapha" = "Pitta-Kapha";
+"Pitta-Vata" = "Pitta-Vata";
+"Vata-Kapha" = "Vata-Kapha";
+"Vata-Pitta" = "Vata-Pitta";
+"predominant_tridoshic" = "You are %@";
+"predominant_dosha_Kapha-Vata" = "Your predominant dosha is %@";
+"predominant_dosha_Pitta-Kapha" = "Your predominant dosha is %@";
+"predominant_dosha_Kapha-Pitta" = "Your predominant dosha is %@";
+"predominant_dosha_Pitta-Vata" = "Your predominant dosha is %@";
+"predominant_dosha_Vata-Kapha" = "Your predominant dosha is %@";
+"predominant_dosha_Vata-Pitta" = "Your predominant dosha is %@";
+"predominant_dosha_Vata" = "Your predominant dosha is %@";
+"predominant_dosha_Pitta" = "Your predominant dosha is %@";
+"predominant_dosha_Kapha" = "Your predominant dosha is %@";
+
+
+//VIKRATI
+"Vikrati_chat_text_1" = "Let's find out your current balance together";
+"Vikrati_chat_text_2" = "Let's get started, shall we?";
+"Vikrati_chat_text_3" = "I'll ask few questions to find out your current balance.";
+"Vikrati_chat_text_4" = "Please consider your current state while answering these questions";
+
+
+"Starts from %@" = "Starts from %@";
+
+"Ingredients" = "Ingredients";
+"Instructions" = "Instructions";
+"Tips" = "Tips";
+
+"subscription_info_upi_text" = "For in-app subscriptions, if your chosen payment method is UPI, please add funds in your Apple Wallet first before making the purchase. This will help facilitate a seamless transaction. Apologies for any inconvenience.";
+
+

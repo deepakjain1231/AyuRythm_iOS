@@ -1,0 +1,29 @@
+/* Class = "UILabel"; text = "Your Pitta is aggravated"; ObjectID = "J5n-e5-Nsy"; */
+"J5n-e5-Nsy.text" = "आपका पित्त बढ़ा हुआ है।";
+
+/* Class = "UILabel"; text = "What does this mean?"; ObjectID = "jle-3k-zR5"; */
+"jle-3k-zR5.text" = "इसका क्या मतलब है?";
+
+/* Class = "UILabel"; text = "Pitta"; ObjectID = "nIp-Em-fom"; */
+"nIp-Em-fom.text" = "पित्त";
+
+/* Class = "UILabel"; text = "- Increased hunger and/or thirst\n- Greying and/or loss of hair\n- Giddiness and/or migraines\n- Impatience, frustration, resentment"; ObjectID = "rfo-Qa-aHo"; */
+"rfo-Qa-aHo.text" = "- भूख और / या प्यास में वृद्धि\\n- बाल सफेद होना और / या बालों का झड़ना\\n- चक्कर आना और / या माइग्रेन\\n- अधीरता, निराशा, आक्रोश";
+
+/* Class = "UILabel"; text = "Vata"; ObjectID = "sbw-LZ-nrF"; */
+"sbw-LZ-nrF.text" = "वात";
+
+/* Class = "UILabel"; text = "Your Current State"; ObjectID = "YOt-Id-LQS"; */
+"YOt-Id-LQS.text" = "आपकी वर्तमान स्थिति";
+
+/* Class = "UILabel"; text = "Kapha"; ObjectID = "zi2-wC-8wO"; */
+"zi2-wC-8wO.text" = "कफ";
+
+/* Class = "UIButton"; normalTitle = "View Suggestions"; ObjectID = "6Or-Yc-cZd"; */
+"6Or-Yc-cZd.normalTitle" = "सुझाव देखें";
+
+/* Class = "UILabel"; text = "If you are feeling (any or all)"; ObjectID = "jle-3k-zR5"; */
+"jle-3k-zR5.text" = "यदि आप महसूस कर रहे हैं (कोई या सभी)";
+
+/* Class = "UILabel"; text = "You can consider"; ObjectID = "sFd-UM-DCj"; */
+"sFd-UM-DCj.text" = "आप अनुसरण कर सकते हैं";

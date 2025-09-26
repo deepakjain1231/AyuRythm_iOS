@@ -1,0 +1,171 @@
+/* Class = "UIButton"; normalTitle = "PREVIOUS"; ObjectID = "1eg-b9-xNk"; */
+"1eg-b9-xNk.normalTitle" = "पिछला";
+
+/* Class = "UILabel"; text = "/-"; ObjectID = "1Jg-Gl-dk4"; */
+"1Jg-Gl-dk4.text" = "/-";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "2Wg-Lu-kd1"; */
+"2Wg-Lu-kd1.placeholder" = "जन्मतिथि";
+
+/* Class = "UIButton"; normalTitle = "Redeem"; ObjectID = "4zu-az-BEF"; */
+"4zu-az-BEF.normalTitle" = "रीडीम";
+
+/* Class = "UIButton"; normalTitle = "PREVIOUS"; ObjectID = "8Nd-Hn-n6X"; */
+"8Nd-Hn-n6X.normalTitle" = "पिछला";
+
+/* Class = "UITextField"; placeholder = "Height"; ObjectID = "9wh-0H-XTo"; */
+"9wh-0H-XTo.placeholder" = "लम्बाई";
+
+/* Class = "UIButton"; normalTitle = "Other"; ObjectID = "35L-G7-mFE"; */
+"35L-G7-mFE.normalTitle" = "अन्य";
+
+/* Class = "UITabBarItem"; title = "Home Remedies"; ObjectID = "66m-n5-Xa8"; */
+"66m-n5-Xa8.title" = "घरेलू उपचार";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "76w-My-zeF"; */
+"76w-My-zeF.title" = "Done";
+
+/* Class = "UITabBarItem"; title = "Shop"; ObjectID = "85H-nF-G8j"; */
+"85H-nF-G8j.title" = "खरीदें";
+
+/* Class = "UITextField"; placeholder = "Weight"; ObjectID = "Ab2-mA-WLk"; */
+"Ab2-mA-WLk.placeholder" = "वजन";
+
+/* Class = "UIButton"; normalTitle = "PAUSE"; ObjectID = "o2c-pY-0eK"; */
+"o2c-pY-0eK.normalTitle" = "रोकें";
+
+/* Class = "UIButton"; normalTitle = "PAUSE"; ObjectID = "aDI-RY-nxF"; */
+"aDI-RY-nxF.normalTitle" = "रोकें";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "bA6-73-uEr"; */
+"bA6-73-uEr.normalTitle" = "अगला";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "dCn-Vx-9zO"; */
+"dCn-Vx-9zO.normalTitle" = "जारी रखें";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "Dg7-yV-2t1"; */
+"Dg7-yV-2t1.placeholder" = "जन्मतिथि";
+
+/* Class = "UILabel"; text = "Have a Referral Code?"; ObjectID = "eQx-zX-iGR"; */
+"eQx-zX-iGR.text" = "क्या आपके पास रेफरल कोड है?";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "EUn-dd-fHk"; */
+"EUn-dd-fHk.text" = "स्वागत है";
+
+/* Class = "UILabel"; text = "SIGN UP"; ObjectID = "Ewh-yv-gpE"; */
+"Ewh-yv-gpE.text" = "साइन अप करें";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "FAE-LD-Zi8"; */
+"FAE-LD-Zi8.title" = "Done";
+
+/* Class = "UIButton"; normalTitle = "PAUSE"; ObjectID = "fX9-Mc-oOh"; */
+"fX9-Mc-oOh.normalTitle" = "रोकें";
+
+/* Class = "UILabel"; text = "Food - Kapha"; ObjectID = "gLr-mE-OtS"; */
+"gLr-mE-OtS.text" = "Food - Kapha";
+
+/* Class = "UILabel"; text = "Question -"; ObjectID = "Htn-UV-Bsd"; */
+"Htn-UV-Bsd.text" = "प्रश्न -";
+
+/* Class = "UITabBarItem"; title = "Today"; ObjectID = "K3G-AQ-SHo"; */
+"K3G-AQ-SHo.title" = "आज";
+
+/* Class = "UILabel"; text = "/-"; ObjectID = "l7P-70-Qtq"; */
+"l7P-70-Qtq.text" = "/-";
+
+/* Class = "UISegmentedControl"; lMQ-ze-Shc.segmentTitles[0] = "Favour"; ObjectID = "lMQ-ze-Shc"; */
+"lMQ-ze-Shc.segmentTitles[0]" = "अनुकूल";
+
+/* Class = "UISegmentedControl"; lMQ-ze-Shc.segmentTitles[1] = "Avoid"; ObjectID = "lMQ-ze-Shc"; */
+"lMQ-ze-Shc.segmentTitles[1]" = "से बचें";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "OaY-Km-sVA"; */
+"OaY-Km-sVA.title" = "Done";
+
+/* Class = "UITextField"; placeholder = "Height"; ObjectID = "PTW-97-awz"; */
+"PTW-97-awz.placeholder" = "लम्बाई";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "PZq-bh-Xwv"; */
+"PZq-bh-Xwv.normalTitle" = "लॉग इन करें";
+
+/* Class = "UILabel"; text = "Question -"; ObjectID = "QHZ-jV-uNi"; */
+"QHZ-jV-uNi.text" = "प्रश्न -";
+
+/* Class = "UITabBarItem"; title = "My Lists"; ObjectID = "RCN-F3-A9k"; */
+"RCN-F3-A9k.title" = "मेरी सूचियाँ";
+
+/* Class = "UITabBarItem"; title = "AyuSeeds"; ObjectID = "pST-vY-EE9"; */
+"pST-vY-EE9.title" = "AyuSeeds";
+
+/* Class = "UITabBarItem"; title = "For You"; ObjectID = "rtL-cS-XM7"; */
+"rtL-cS-XM7.title" = "आपके लिए";
+
+/* Class = "UITextView"; text = "By proceeding with registration, login and using our app, you agree to our Terms and Conditions and Privacy Policy."; ObjectID = "S9j-Uk-3wg"; */
+"S9j-Uk-3wg.text" = "रजिस्ट्रेशन के साथ आगे बढ़ कर, लॉगिन और हमारे ऍप का उपयोग करके, आप हमारे नियमों और शर्तों, और गोपनीयता नीति से सहमत हैं।";
+
+/* Class = "UITextField"; placeholder = "Enter your name here"; ObjectID = "snh-SL-OST"; */
+"snh-SL-OST.placeholder" = "यहाँ अपना नाम लिखें";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "TDZ-dA-flk"; */
+"TDZ-dA-flk.placeholder" = "फ़ोन नंबर";
+
+/* Class = "UILabel"; text = "Female"; ObjectID = "tH9-eA-Esg"; */
+"tH9-eA-Esg.text" = "महिला";
+
+/* Class = "UIButton"; highlightedTitle = "Back"; ObjectID = "TRP-BC-oHb"; */
+"TRP-BC-oHb.highlightedTitle" = "पीछे";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "TRP-BC-oHb"; */
+"TRP-BC-oHb.normalTitle" = "पीछे";
+
+/* Class = "UIButton"; selectedTitle = "Back"; ObjectID = "TRP-BC-oHb"; */
+"TRP-BC-oHb.selectedTitle" = "पीछे";
+
+/* Class = "UILabel"; text = "Male"; ObjectID = "Tta-9Z-zKi"; */
+"Tta-9Z-zKi.text" = "पुरुष";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Udr-Jn-VhM"; */
+"Udr-Jn-VhM.title" = "Done";
+
+/* Class = "UILabel"; text = "Female"; ObjectID = "uyN-Ff-nyA"; */
+"uyN-Ff-nyA.text" = "महिला";
+
+/* Class = "UIButton"; normalTitle = "+91"; ObjectID = "vc3-fP-Fvh"; */
+"vc3-fP-Fvh.normalTitle" = "+91";
+
+/* Class = "UITextField"; placeholder = "Email ID"; ObjectID = "Vtc-cY-jB6"; */
+"Vtc-cY-jB6.placeholder" = "ईमेल ID";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Vy1-nJ-ivN"; */
+"Vy1-nJ-ivN.title" = "Done";
+
+/* Class = "UIButton"; normalTitle = "0 Questions Skipped"; ObjectID = "vZt-ID-GVe"; */
+"vZt-ID-GVe.normalTitle" = "0 सवाल छोड़े हैं";
+
+/* Class = "UILabel"; text = "Male"; ObjectID = "W8X-T0-7Z1"; */
+"W8X-T0-7Z1.text" = "पुरुष";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "web-92-j5x"; */
+"web-92-j5x.normalTitle" = "अगला";
+
+/* Class = "UITextField"; placeholder = "Enter Code"; ObjectID = "wfF-fT-wTd"; */
+"wfF-fT-wTd.placeholder" = "कोड दर्ज करें";
+
+/* Class = "UITextField"; placeholder = "Enter your name here"; ObjectID = "WLk-hU-GUo"; */
+"WLk-hU-GUo.placeholder" = "यहाँ अपना नाम लिखें";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "x6A-FN-xdy"; */
+"x6A-FN-xdy.normalTitle" = "छोड़ें";
+
+/* Class = "UITextField"; placeholder = "Weight"; ObjectID = "XhH-Jl-JWb"; */
+"XhH-Jl-JWb.placeholder" = "वजन";
+
+/* Class = "UIButton"; normalTitle = "Autofill with Apple Health"; ObjectID = "xkR-aN-aHa"; */
+"xkR-aN-aHa.normalTitle" = "एप्पल हेल्थ से स्वतः लें";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "zHE-lj-mgl"; */
+"zHE-lj-mgl.normalTitle" = "छोड़ें";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "Zqz-U1-LmY"; */
+"Zqz-U1-LmY.text" = "क्या आपका अकाउंट पहले से है?";
+

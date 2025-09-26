@@ -1,0 +1,84 @@
+/* Class = "UILabel"; text = "Welcome!"; ObjectID = "00f-BG-8jI"; */
+"00f-BG-8jI.text" = "स्वागत है!";
+
+/* Class = "UILabel"; text = "PRAKRITI | THE IDEAL YOU"; ObjectID = "1rs-Px-Qdw"; */
+"1rs-Px-Qdw.text" = "प्रकृति | आप की वास्तविकता";
+
+/* Class = "UILabel"; text = "SPARSHNA"; ObjectID = "3Vq-1o-uUk"; */
+"3Vq-1o-uUk.text" = "स्पर्शन";
+
+/* Class = "UILabel"; text = "Your Pita and Kapha are out of imbalance. We will pacify your metabolism( Pita ) first before building energy ( Kapha)"; ObjectID = "4Ye-du-pwp"; */
+"4Ye-du-pwp.text" = "आपका पित्त और कफ संतुलन से बाहर हैं। ऊर्जा (कफ) बढ़ाने से पहले हम आपके चयापचय (पित्त) को शांत करेंगे";
+
+/* Class = "UILabel"; text = "PRASHNA"; ObjectID = "9Vb-Ck-LcQ"; */
+"9Vb-Ck-LcQ.text" = "प्रश्न";
+
+/* Class = "UILabel"; text = "Pitta"; ObjectID = "C5N-gH-5Ry"; */
+"C5N-gH-5Ry.text" = "पित्त";
+
+/* Class = "UILabel"; text = "Kapha"; ObjectID = "cC6-jc-wBP"; */
+"cC6-jc-wBP.text" = "कफ";
+
+/* Class = "UILabel"; text = "VIKRITI | THE CURRENT YOU"; ObjectID = "ebj-2f-tJM"; */
+"ebj-2f-tJM.text" = "विकृति | वर्तमान में आप";
+
+/* Class = "UILabel"; text = "Register to save your results\nand view personalised plans"; ObjectID = "eIY-TC-gMa"; */
+"eIY-TC-gMa.text" = "अपने परिणामों को सहेजने और \nव्यक्तिगत उपायों को देखने के लिए रजिस्टर करें";
+
+/* Class = "UINavigationItem"; title = "Today"; ObjectID = "fjc-IB-laK"; */
+"fjc-IB-laK.title" = "आज";
+
+/* Class = "UILabel"; text = "Register to save your results"; ObjectID = "gEC-fm-4ia"; */
+"gEC-fm-4ia.text" = "अपने परिणाम सहेजने के लिए रजिस्टर करें";
+
+/* Class = "UILabel"; text = "Your Wellness Summary"; ObjectID = "HM9-wa-myy"; */
+"HM9-wa-myy.text" = "स्वस्थता का सारांश";
+
+/* Class = "UILabel"; text = "Differential Diagnosis"; ObjectID = "hVT-4n-8Dv"; */
+"hVT-4n-8Dv.text" = "विभेदक निदान";
+
+/* Class = "UILabel"; text = "Naadi Pariksha / Pulse Diagnosis"; ObjectID = "OS4-3L-Btn"; */
+"OS4-3L-Btn.text" = "नाड़ी परीक्षा / पल्स डायग्नोसिस";
+
+/* Class = "UIButton"; normalTitle = "Complete Now"; ObjectID = "qbB-Xb-JwJ"; */
+"qbB-Xb-JwJ.normalTitle" = "अभी पूरा करें";
+
+/* Class = "UIButton"; normalTitle = "VIEW DETAILS"; ObjectID = "qLX-CF-ZGF"; */
+"qLX-CF-ZGF.normalTitle" = "विवरण देखें";
+
+/* Class = "UILabel"; text = "PRASHNA"; ObjectID = "Rb4-at-Gon"; */
+"Rb4-at-Gon.text" = "प्रश्न";
+
+/* Class = "UILabel"; text = "Differential Diagnosis"; ObjectID = "rO1-ps-mjw"; */
+"rO1-ps-mjw.text" = "विभेदक निदान";
+
+/* Class = "UIBarButtonItem"; title = "Retest"; ObjectID = "SPR-Ml-thQ"; */
+"SPR-Ml-thQ.title" = "पुनः परिक्षण";
+
+/* Class = "UILabel"; text = "Please complete the remaining test \nto view your wellness index and recommendations"; ObjectID = "sy3-rp-HPx"; */
+"sy3-rp-HPx.text" = "अपने स्वस्थता सूचकांक और सुझावों को देखने के लिए शेष परीक्षण पूरा करें";
+
+/* Class = "UILabel"; text = "YOUR RESULTS"; ObjectID = "V6O-71-kOn"; */
+"V6O-71-kOn.text" = "आपका परिणाम";
+
+/* Class = "UINavigationItem"; title = "Retest"; ObjectID = "wCu-5g-u28"; */
+"wCu-5g-u28.title" = "पुनः परिक्षण";
+
+/* Class = "UINavigationItem"; title = "Your Wellness Index"; ObjectID = "Xiq-hs-qgk"; */
+"Xiq-hs-qgk.title" = "स्वस्थता सूचकांक";
+
+/* Class = "UILabel"; text = "Vata"; ObjectID = "yQB-JK-9pj"; */
+"yQB-JK-9pj.text" = "वात";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Zec-tl-cKf"; */
+"Zec-tl-cKf.title" = "वस्तु";
+
+/* Class = "UIButton"; normalTitle = "REGISTER NOW"; ObjectID = "zkP-xk-tT4"; */
+"zkP-xk-tT4.normalTitle" = "अभी रजिस्टर करें";
+
+/* Class = "UIButton"; normalTitle = "Register Now"; ObjectID = "Zre-3A-RG8"; */
+"Zre-3A-RG8.normalTitle" = "अभी रजिस्टर करें";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "ZxD-D3-xzf"; */
+"ZxD-D3-xzf.normalTitle" = "अगला";
+

@@ -1,0 +1,11 @@
+//
+//  Use this file to import your target's public headers that you would like to expose to Swift.
+//
+
+#import "HeartRateDetectionModel.h"
+#import "TagCollectionView.h"
+#import "TextTagCollectionView.h"
+
+
+
+//#import "CustomPlaceHolderTextView.h"

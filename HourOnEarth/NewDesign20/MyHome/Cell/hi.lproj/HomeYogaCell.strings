@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Use your seeds to unlock this section"; ObjectID = "19T-gu-mIO"; */
+"19T-gu-mIO.text" = "इस अनुभाग को अनलॉक करने के लिए अपने AyuSeeds का उपयोग करें";
+
+/* Class = "UIButton"; normalTitle = "SEE MORE"; ObjectID = "Zvr-8J-Cii"; */
+"Zvr-8J-Cii.normalTitle" = "और देखें";
+
+/* Class = "UILabel"; text = "Content locked!"; ObjectID = "hME-Qf-jQ8"; */
+"hME-Qf-jQ8.text" = "कंटेंट अवरोधित!";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qwe-1P-tN7"; */
+"qwe-1P-tN7.text" = "Label";

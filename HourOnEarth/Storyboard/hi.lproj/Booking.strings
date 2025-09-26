@@ -1,0 +1,171 @@
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "1HO-4n-9eh"; */
+"1HO-4n-9eh.normalTitle" = "X";
+
+/* Class = "UILabel"; text = "₹4,320"; ObjectID = "1nX-bp-iqD"; */
+"1nX-bp-iqD.text" = "₹4,320";
+
+/* Class = "UILabel"; text = "to"; ObjectID = "20q-no-k6f"; */
+"20q-no-k6f.text" = "to";
+
+/* Class = "UILabel"; text = "Information for the Trainer"; ObjectID = "3vh-47-6dP"; */
+"3vh-47-6dP.text" = "कृपया प्रशिक्षक के लिए जानकारी का उल्लेख करें";
+
+/* Class = "UILabel"; text = "Choose Your Time Slot"; ObjectID = "4f2-D8-yER"; */
+"4f2-D8-yER.text" = "उपयुक्त समय चुनें";
+
+/* Class = "UILabel"; text = "Payment Summary"; ObjectID = "5eJ-CI-ML5"; */
+"5eJ-CI-ML5.text" = "भुगतान संक्षेप";
+
+/* Class = "UIButton"; normalTitle = "Edit Order"; ObjectID = "6zm-ck-hMo"; */
+"6zm-ck-hMo.normalTitle" = "ऑर्डर संपादित करें";
+
+/* Class = "UIButton"; normalTitle = "Su"; ObjectID = "9Ie-4a-cFj"; */
+"9Ie-4a-cFj.normalTitle" = "Su";
+
+/* Class = "UILabel"; text = "Taxes:"; ObjectID = "9cb-tD-wn0"; */
+"9cb-tD-wn0.text" = "टैक्स :";
+
+/* Class = "UILabel"; text = "with Ronak Gajjar"; ObjectID = "AlY-t8-wKB"; */
+"AlY-t8-wKB.text" = "with Ronak Gajjar";
+
+/* Class = "UILabel"; text = "Ronak Gajjar"; ObjectID = "CVh-do-LCF"; */
+"CVh-do-LCF.text" = "Ronak Gajjar";
+
+/* Class = "UILabel"; text = "Subtotal:"; ObjectID = "Ct3-pJ-Vys"; */
+"Ct3-pJ-Vys.text" = "उप-कुल :";
+
+/* Class = "UILabel"; text = "7:00AM - 8:00AM"; ObjectID = "Di4-2y-kgH"; */
+"Di4-2y-kgH.text" = "7:00AM - 8:00AM";
+
+/* Class = "UINavigationItem"; title = "My Bookings"; ObjectID = "F2h-FJ-FtU"; */
+"F2h-FJ-FtU.title" = "मेरी बुकिंग";
+
+/* Class = "UILabel"; text = "12 Sessions"; ObjectID = "FnD-8T-K7W"; */
+"FnD-8T-K7W.text" = "12 Sessions";
+
+/* Class = "UIButton"; normalTitle = "W"; ObjectID = "HlN-vk-LrC"; */
+"HlN-vk-LrC.normalTitle" = "W";
+
+/* Class = "UILabel"; text = "10/08/2020 - 10/09/2020"; ObjectID = "I2H-bt-N4g"; */
+"I2H-bt-N4g.text" = "10/08/2020 - 10/09/2020";
+
+/* Class = "UILabel"; text = "Every Mondays, Wednesdays"; ObjectID = "Mak-tF-aqX"; */
+"Mak-tF-aqX.text" = "Every Mondays, Wednesdays";
+
+/* Class = "UILabel"; text = "Thank you for your order!"; ObjectID = "Mji-ka-9bo"; */
+"Mji-ka-9bo.text" = "आपके ऑर्डर के लिए धन्यवाद!";
+
+/* Class = "UILabel"; text = "Price Per Session:"; ObjectID = "PGY-83-J8X"; */
+"PGY-83-J8X.text" = "मूल्य प्रति सत्र :";
+
+/* Class = "UILabel"; text = "60 min each"; ObjectID = "PZ1-4i-Kbt"; */
+"PZ1-4i-Kbt.text" = "60 min each";
+
+/* Class = "UILabel"; text = "Order Summary"; ObjectID = "SOB-AM-XvP"; */
+"SOB-AM-XvP.text" = "ऑर्डर संक्षेप";
+
+/* Class = "UIButton"; normalTitle = "Th"; ObjectID = "TZb-uL-35v"; */
+"TZb-uL-35v.normalTitle" = "Th";
+
+/* Class = "UILabel"; text = "Monday, Wednesday"; ObjectID = "U6R-OF-CQH"; */
+"U6R-OF-CQH.text" = "Monday, Wednesday";
+
+/* Class = "UIButton"; normalTitle = "M"; ObjectID = "U9e-IO-AA3"; */
+"U9e-IO-AA3.normalTitle" = "M";
+
+/* Class = "UIButton"; normalTitle = "Sa"; ObjectID = "UFB-2a-wZS"; */
+"UFB-2a-wZS.normalTitle" = "Sa";
+
+/* Class = "UILabel"; text = "10 August 2020"; ObjectID = "Vmj-xr-haa"; */
+"Vmj-xr-haa.text" = "10 August 2020";
+
+/* Class = "UILabel"; text = "Total Due: ₹24,000"; ObjectID = "XYA-Bi-V1a"; */
+"XYA-Bi-V1a.text" = "Total Due: ₹24,000";
+
+/* Class = "UILabel"; text = "Please choose 2 days of the week for your sessions"; ObjectID = "YGh-Fz-91p"; */
+"YGh-Fz-91p.text" = "Please choose 2 days of the week for your sessions";
+
+/* Class = "UILabel"; text = "₹24,000"; ObjectID = "ZF8-wb-dnA"; */
+"ZF8-wb-dnA.text" = "₹24,000";
+
+/* Class = "UILabel"; text = "10 August 2020"; ObjectID = "Zxf-PL-cAt"; */
+"Zxf-PL-cAt.text" = "10 August 2020";
+
+/* Class = "UILabel"; text = "And never miss a booking!"; ObjectID = "bBv-J2-6w6"; */
+"bBv-J2-6w6.text" = "और कभी भी सत्र ना भूलें!";
+
+/* Class = "UIButton"; normalTitle = "VIEW INVOICE"; ObjectID = "ctk-dv-iNC"; */
+"ctk-dv-iNC.normalTitle" = "चालान देखें";
+
+/* Class = "UILabel"; text = "AyuRythm wishes you good luck on your journey to holistic wellness!"; ObjectID = "dzf-Ya-0fe"; */
+"dzf-Ya-0fe.text" = "AyuRythm आपको समग्र कल्याण की यात्रा के लिए शुभकामनाएँ देता है!";
+
+/* Class = "UILabel"; text = "Sync with your Calendar?"; ObjectID = "e8Q-ga-0qp"; */
+"e8Q-ga-0qp.text" = "अपने कैलेंडर के साथ समकालीन करें?";
+
+/* Class = "UILabel"; text = "Please pick only one time slot (all times are in Local Time Zone)\nAll your sessions will be at this time"; ObjectID = "eIC-6a-DEY"; */
+"eIC-6a-DEY.text" = "कृपया अपने पसंदीदा समय का चयन करें। \nआपके सभी अभ्यास इसी समय होंगे।";
+
+/* Class = "UILabel"; text = "₹2,000"; ObjectID = "fw2-QU-U3p"; */
+"fw2-QU-U3p.text" = "₹2,000";
+
+/* Class = "UIButton"; normalTitle = "Confirm & Pay"; ObjectID = "gl1-ZC-Lls"; */
+"gl1-ZC-Lls.normalTitle" = "पुष्टि और भुगतान करें";
+
+/* Class = "UITextField"; placeholder = "Select your Start Date"; ObjectID = "gso-qH-mdd"; */
+"gso-qH-mdd.placeholder" = "आरंभ तिथि चुनें";
+
+/* Class = "UILabel"; text = "1:1 Coaching"; ObjectID = "h13-8b-Y7p"; */
+"h13-8b-Y7p.text" = "1:1 Coaching";
+
+/* Class = "UIButton"; normalTitle = "F"; ObjectID = "hHT-df-jQs"; */
+"hHT-df-jQs.normalTitle" = "F";
+
+/* Class = "UILabel"; text = "Your Location"; ObjectID = "jl4-I0-IRD"; */
+"jl4-I0-IRD.text" = "आपकी लोकेशन";
+
+/* Class = "UIButton"; normalTitle = "iCal"; ObjectID = "k01-af-p3L"; */
+"k01-af-p3L.normalTitle" = "iCal";
+
+/* Class = "UILabel"; text = "7:00AM-8:00AM"; ObjectID = "k0q-VY-wci"; */
+"k0q-VY-wci.text" = "7:00AM-8:00AM";
+
+/* Class = "UILabel"; text = "₹2000/Session"; ObjectID = "m2D-h5-O2v"; */
+"m2D-h5-O2v.text" = "₹2000/Session";
+
+/* Class = "UILabel"; text = "1:1 Coaching"; ObjectID = "muF-qM-xld"; */
+"muF-qM-xld.text" = "1:1 Coaching";
+
+/* Class = "UILabel"; text = "No. of Sessions:"; ObjectID = "nPo-oo-XhY"; */
+"nPo-oo-XhY.text" = "सत्रों की संख्या :";
+
+/* Class = "UINavigationItem"; title = "Book Now"; ObjectID = "oDa-tY-Wp5"; */
+"oDa-tY-Wp5.title" = "बुक करें";
+
+/* Class = "UILabel"; text = "Choose Days"; ObjectID = "omX-Ni-3tp"; */
+"omX-Ni-3tp.text" = "दिन चुनें";
+
+/* Class = "UINavigationItem"; title = "Review Order"; ObjectID = "qoe-r9-X1M"; */
+"qoe-r9-X1M.title" = "ऑर्डर की समीक्षा करें";
+
+/* Class = "UIButton"; normalTitle = "T"; ObjectID = "tIb-WD-Xn6"; */
+"tIb-WD-Xn6.normalTitle" = "T";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "uvd-5X-wDo"; */
+"uvd-5X-wDo.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "xZo-Xt-S02"; */
+"xZo-Xt-S02.normalTitle" = "पुष्टि करें";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "xlh-cd-6o5"; */
+"xlh-cd-6o5.text" = "12";
+
+/* Class = "UISegmentedControl"; yb0-72-PCe.segmentTitles[0] = "Upcoming"; ObjectID = "yb0-72-PCe"; */
+"yb0-72-PCe.segmentTitles[0]" = "आगामी";
+
+/* Class = "UISegmentedControl"; yb0-72-PCe.segmentTitles[1] = "Past"; ObjectID = "yb0-72-PCe"; */
+"yb0-72-PCe.segmentTitles[1]" = "विगत";
+
+/* Class = "UILabel"; text = " 1:1 Coaching"; ObjectID = "zqj-kd-Blo"; */
+"zqj-kd-Blo.text" = " 1:1 Coaching";

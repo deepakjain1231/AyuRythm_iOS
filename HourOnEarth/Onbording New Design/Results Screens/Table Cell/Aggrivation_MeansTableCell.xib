@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="166" id="KGk-i7-Jjw" customClass="Aggrivation_MeansTableCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="469" height="166"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="469" height="166"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hgd-DA-eDS">
+                        <rect key="frame" x="0.0" y="0.0" width="469" height="73.333333333333329"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgl-PS-Kec">
+                                <rect key="frame" x="25" y="55.000000000000007" width="419" height="18.333333333333336"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kapha aggravation may lead to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vye-yh-kcZ">
+                                <rect key="frame" x="18" y="18" width="433" height="22"/>
+                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vye-yh-kcZ" firstAttribute="leading" secondItem="Hgd-DA-eDS" secondAttribute="leading" constant="18" id="7vO-yG-Hyl"/>
+                            <constraint firstItem="Vye-yh-kcZ" firstAttribute="top" secondItem="Hgd-DA-eDS" secondAttribute="top" constant="18" id="C0u-Qh-8nJ"/>
+                            <constraint firstItem="Xgl-PS-Kec" firstAttribute="leading" secondItem="Hgd-DA-eDS" secondAttribute="leading" constant="25" id="Z6I-J2-zUx"/>
+                            <constraint firstAttribute="trailing" secondItem="Vye-yh-kcZ" secondAttribute="trailing" constant="18" id="Zk8-9w-1SD"/>
+                            <constraint firstAttribute="bottom" secondItem="Xgl-PS-Kec" secondAttribute="bottom" id="hJ0-0e-Ti3"/>
+                            <constraint firstItem="Xgl-PS-Kec" firstAttribute="top" secondItem="Vye-yh-kcZ" secondAttribute="bottom" constant="15" id="pKJ-dP-IS6"/>
+                            <constraint firstAttribute="trailing" secondItem="Xgl-PS-Kec" secondAttribute="trailing" constant="25" id="zKL-jV-Mr8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Hgd-DA-eDS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7VI-Pg-lh9"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Hgd-DA-eDS" secondAttribute="bottom" id="L8j-98-4re"/>
+                    <constraint firstAttribute="trailing" secondItem="Hgd-DA-eDS" secondAttribute="trailing" id="QEs-6K-8B6"/>
+                    <constraint firstItem="Hgd-DA-eDS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Tdn-OA-ZUQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lbl_desc" destination="Xgl-PS-Kec" id="R64-Ce-2bH"/>
+                <outlet property="lbl_title" destination="Vye-yh-kcZ" id="ncu-59-f4I"/>
+                <outlet property="view_Base" destination="Hgd-DA-eDS" id="Uue-4U-ha9"/>
+            </connections>
+            <point key="canvasLocation" x="223.66412213740458" y="62.676056338028175"/>
+        </tableViewCell>
+    </objects>
+</document>

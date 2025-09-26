@@ -1,0 +1,75 @@
+
+/* Class = "UISearchBar"; placeholder = "Yogasanas, Pranayama"; ObjectID = "33H-Wi-UlJ"; */
+"33H-Wi-UlJ.placeholder" = "योगासन, प्राणायाम";
+
+/* Class = "UIBarButtonItem"; title = " ••• "; ObjectID = "5XJ-ba-fTY"; */
+"5XJ-ba-fTY.title" = " ••• ";
+
+/* Class = "UINavigationItem"; title = "My Lists"; ObjectID = "7du-IN-d4H"; */
+"7du-IN-d4H.title" = "मेरी सूचियाँ";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "DJN-rb-VST"; */
+"DJN-rb-VST.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Add to List"; ObjectID = "Grc-Eh-0Vv"; */
+"Grc-Eh-0Vv.text" = "सूची में जोड़ें";
+
+/* Class = "UIButton"; normalTitle = "Add to List"; ObjectID = "HIP-rN-79o"; */
+"HIP-rN-79o.normalTitle" = "सूची में जोड़ें";
+
+/* Class = "UILabel"; text = "0 Item Added"; ObjectID = "KuK-A5-Tun"; */
+"KuK-A5-Tun.text" = "0 आइटम जोड़ा गया";
+
+/* Class = "UIButton"; normalTitle = "Create New List"; ObjectID = "Lop-mX-sLj"; */
+"Lop-mX-sLj.normalTitle" = "नई सूची बनायें";
+
+/* Class = "UILabel"; text = "Your list is empty!\n\nLet’s add something here!"; ObjectID = "T3A-WI-Bye"; */
+"T3A-WI-Bye.text" = "आपकी सूची रिक्त है!\n\nचलो यहाँ कुछ जोड़ें।";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Z7U-ZA-SYD"; */
+"Z7U-ZA-SYD.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zju-j2-NE8"; */
+"Zju-j2-NE8.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "aoV-U3-2fl"; */
+"aoV-U3-2fl.title" = "Done";
+
+/* Class = "UISearchBar"; placeholder = "Yogasanas, Pranayama"; ObjectID = "bbe-en-sY2"; */
+"bbe-en-sY2.placeholder" = "योगासन, प्राणायाम";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fQN-WI-aOl"; */
+"fQN-WI-aOl.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "gL5-SA-rQU"; */
+"gL5-SA-rQU.normalTitle" = "हटाएं";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gOc-8S-MGT"; */
+"gOc-8S-MGT.text" = "Label";
+
+/* Class = "UISearchBar"; placeholder = "Yogasanas, Pranayama"; ObjectID = "h91-q8-PTn"; */
+"h91-q8-PTn.placeholder" = "योगासन, प्राणायाम";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "hKT-hD-qrm"; */
+"hKT-hD-qrm.title" = "पीछे";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "jsU-ho-bhO"; */
+"jsU-ho-bhO.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Create New List"; ObjectID = "n1y-xt-Cal"; */
+"n1y-xt-Cal.normalTitle" = "नई सूची बनायें";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "q7q-8E-CW8"; */
+"q7q-8E-CW8.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rui-vo-1st"; */
+"rui-vo-1st.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "trg-D6-jqo"; */
+"trg-D6-jqo.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wKV-Fw-xT6"; */
+"wKV-Fw-xT6.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "zKO-hx-Ay0"; */
+"zKO-hx-Ay0.title" = "पीछे";

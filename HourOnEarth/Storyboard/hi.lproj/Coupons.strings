@@ -1,0 +1,90 @@
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "0Zx-DC-Xxb"; */
+"0Zx-DC-Xxb.text" = "विवरण";
+
+/* Class = "UILabel"; text = "Here's your coupon!"; ObjectID = "3dl-Xu-oEp"; */
+"3dl-Xu-oEp.text" = "आपका कूपन!";
+
+/* Class = "UILabel"; text = "*On a minimum purchase of ₹250"; ObjectID = "43X-t7-bHM"; */
+"43X-t7-bHM.text" = "*On a minimum purchase of ₹250";
+
+/* Class = "UILabel"; text = "Details text"; ObjectID = "4jj-1S-MrK"; */
+"4jj-1S-MrK.text" = "Details text";
+
+/* Class = "UILabel"; text = "HERBAL HILLS"; ObjectID = "6CC-ab-9CM"; */
+"6CC-ab-9CM.text" = "HERBAL HILLS";
+
+/* Class = "UILabel"; text = "*On a minimum purchase of ₹250"; ObjectID = "7bY-XQ-M71"; */
+"7bY-XQ-M71.text" = "*On a minimum purchase of ₹250";
+
+/* Class = "UILabel"; text = "Rs 25 Off*"; ObjectID = "7gS-S0-2fa"; */
+"7gS-S0-2fa.text" = "Rs 25 Off*";
+
+/* Class = "UILabel"; text = "Available Seeds"; ObjectID = "AyX-9N-iey"; */
+"AyX-9N-iey.text" = "उपलब्ध AyuSeeds";
+
+/* Class = "UILabel"; text = "25 Off*"; ObjectID = "Cqp-4z-2qR"; */
+"Cqp-4z-2qR.text" = "25 Off*";
+
+/* Class = "UILabel"; text = "Required Seeds: 3,000"; ObjectID = "H2y-ZI-3nl"; */
+"H2y-ZI-3nl.text" = "Required Seeds: 3,000";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "IJp-r6-6tr"; */
+"IJp-r6-6tr.text" = "परिचय";
+
+/* Class = "UILabel"; text = "OFFER!"; ObjectID = "N0c-Wm-tzc"; */
+"N0c-Wm-tzc.text" = "ऑफर!";
+
+/* Class = "UILabel"; text = "HERBAL HILLS"; ObjectID = "Na7-wF-fep"; */
+"Na7-wF-fep.text" = "HERBAL HILLS";
+
+/* Class = "UILabel"; text = "Available Seeds: 1,500"; ObjectID = "QWc-2f-DKn"; */
+"QWc-2f-DKn.text" = "Available Seeds: 1,500";
+
+/* Class = "UILabel"; text = "HERBAL HILLS"; ObjectID = "bRj-bc-6hx"; */
+"bRj-bc-6hx.text" = "HERBAL HILLS";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "bTM-8F-URK"; */
+"bTM-8F-URK.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "BUY SEEDS & REDEEM"; ObjectID = "gjA-ca-JBj"; */
+"gjA-ca-JBj.normalTitle" = "BUY SEEDS & REDEEM";
+
+/* Class = "UILabel"; text = "Herbal Hills"; ObjectID = "god-jT-Oid"; */
+"god-jT-Oid.text" = "Herbal Hills";
+
+/* Class = "UIButton"; normalTitle = "Shop Now"; ObjectID = "hQF-2r-JPr"; */
+"hQF-2r-JPr.normalTitle" = "Shop Now";
+
+/* Class = "UIButton"; normalTitle = "Code"; ObjectID = "i0q-gJ-Fgn"; */
+"i0q-gJ-Fgn.normalTitle" = "Code";
+
+/* Class = "UILabel"; text = "HERBAL HILLS"; ObjectID = "kYX-pA-EPS"; */
+"kYX-pA-EPS.text" = "HERBAL HILLS";
+
+/* Class = "UILabel"; text = "REDEEM SEEDS"; ObjectID = "lku-Qi-vsZ"; */
+"lku-Qi-vsZ.text" = "AyuSeeds रिडीम करें";
+
+/* Class = "UILabel"; text = "*On a minimum purchase of ₹250"; ObjectID = "lsX-Se-Wy4"; */
+"lsX-Se-Wy4.text" = "*On a minimum purchase of ₹250";
+
+/* Class = "UILabel"; text = "Herbal Hills"; ObjectID = "ncH-5b-QI5"; */
+"ncH-5b-QI5.text" = "Herbal Hills";
+
+/* Class = "UIButton"; normalTitle = "Redeem Seeds"; ObjectID = "sQe-HG-Vjh"; */
+"sQe-HG-Vjh.normalTitle" = "Redeem Seeds";
+
+/* Class = "UILabel"; text = "1500"; ObjectID = "ueG-q2-ixZ"; */
+"ueG-q2-ixZ.text" = "1500";
+
+/* Class = "UILabel"; text = "Tap to see coupons!"; ObjectID = "uhe-KQ-Q61"; */
+"uhe-KQ-Q61.text" = "कूपन देखने के लिए यहां क्लिक करें!";
+
+/* Class = "UILabel"; text = "/3000"; ObjectID = "wtR-Q5-peK"; */
+"wtR-Q5-peK.text" = "/3000";
+
+/* Class = "UILabel"; text = "Rs 25 Off*"; ObjectID = "z2e-sA-3eM"; */
+"z2e-sA-3eM.text" = "Rs 25 Off*";
+
+/* Class = "UILabel"; text = "About text"; ObjectID = "zof-Hj-uRW"; */
+"zof-Hj-uRW.text" = "About text";

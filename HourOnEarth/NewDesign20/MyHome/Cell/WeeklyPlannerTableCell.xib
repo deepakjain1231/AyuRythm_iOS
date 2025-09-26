@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="302" id="KGk-i7-Jjw" customClass="WeeklyPlannerTableCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="241"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="241"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nxz-KN-BjM">
+                        <rect key="frame" x="25" y="8" width="346" height="90"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_weekly_planner" translatesAutoresizingMaskIntoConstraints="NO" id="7r0-l7-9ct">
+                                <rect key="frame" x="0.0" y="0.0" width="105" height="98"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowRight" translatesAutoresizingMaskIntoConstraints="NO" id="3AZ-Vd-EbK">
+                                <rect key="frame" x="323" y="41.5" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="9DQ-PQ-B0Q"/>
+                                    <constraint firstAttribute="width" secondItem="3AZ-Vd-EbK" secondAttribute="height" multiplier="1:1" id="Xkk-jQ-E0F"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cmc-29-mKO">
+                                <rect key="frame" x="110" y="15.5" width="195.5" height="61.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekly planner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dU-q9-z6I">
+                                        <rect key="frame" x="0.0" y="0.0" width="195.5" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKy-oL-3wF">
+                                        <rect key="frame" x="0.0" y="27.5" width="195.5" height="34"/>
+                                        <string key="text">Get your personalized weekly
+plans for your products</string>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                        <color key="textColor" red="0.2196078431372549" green="0.2196078431372549" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Cmc-29-mKO" firstAttribute="centerY" secondItem="7r0-l7-9ct" secondAttribute="centerY" constant="-3" id="GUO-m4-tcc"/>
+                            <constraint firstItem="7r0-l7-9ct" firstAttribute="top" secondItem="Nxz-KN-BjM" secondAttribute="top" id="KfD-Rg-War"/>
+                            <constraint firstItem="Cmc-29-mKO" firstAttribute="leading" secondItem="7r0-l7-9ct" secondAttribute="trailing" constant="5" id="KyE-R2-hyr"/>
+                            <constraint firstAttribute="trailing" secondItem="3AZ-Vd-EbK" secondAttribute="trailing" constant="8" id="XrR-uD-hnq"/>
+                            <constraint firstItem="3AZ-Vd-EbK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Cmc-29-mKO" secondAttribute="trailing" constant="12" id="abw-k4-eAq"/>
+                            <constraint firstItem="7r0-l7-9ct" firstAttribute="leading" secondItem="Nxz-KN-BjM" secondAttribute="leading" id="gXJ-nk-yAS"/>
+                            <constraint firstAttribute="height" constant="90" id="mKy-Gy-rvw"/>
+                            <constraint firstItem="3AZ-Vd-EbK" firstAttribute="centerY" secondItem="7r0-l7-9ct" secondAttribute="centerY" id="xyF-KB-pup"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius1">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity1">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffsetY1">
+                                <size key="value" width="0.0" height="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor1">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Msy-rw-eF3">
+                        <rect key="frame" x="0.0" y="0.0" width="391" height="241"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Msy-rw-eF3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="N0J-Lv-yJY"/>
+                    <constraint firstAttribute="trailing" secondItem="Msy-rw-eF3" secondAttribute="trailing" id="ar9-V2-Vc7"/>
+                    <constraint firstItem="Msy-rw-eF3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cpf-jw-Xsr"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Nxz-KN-BjM" secondAttribute="bottom" constant="8" id="gRz-o0-l12"/>
+                    <constraint firstItem="Nxz-KN-BjM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="h8O-JW-YMA"/>
+                    <constraint firstItem="Nxz-KN-BjM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="r1E-9C-anj"/>
+                    <constraint firstAttribute="trailing" secondItem="Nxz-KN-BjM" secondAttribute="trailing" constant="20" id="wXx-6v-2bU"/>
+                    <constraint firstAttribute="bottom" secondItem="Msy-rw-eF3" secondAttribute="bottom" id="wbk-vi-yLB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btn_click" destination="Msy-rw-eF3" id="hRk-ai-htD"/>
+                <outlet property="img_banner" destination="7r0-l7-9ct" id="00L-IY-uNS"/>
+                <outlet property="view_Base" destination="Nxz-KN-BjM" id="42a-7i-byY"/>
+            </connections>
+            <point key="canvasLocation" x="189.13043478260872" y="191.85267857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrowRight" width="50" height="50"/>
+        <image name="icon_weekly_planner" width="105" height="98"/>
+    </resources>
+</document>

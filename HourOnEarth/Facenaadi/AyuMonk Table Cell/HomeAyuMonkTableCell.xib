@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="342" id="KGk-i7-Jjw" customClass="HomeAyuMonkTableCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="492" height="342"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="492" height="342"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oVK-Dj-cUM">
+                        <rect key="frame" x="18" y="18" width="456" height="213"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_ayumonk_banner" translatesAutoresizingMaskIntoConstraints="NO" id="uGb-FK-kWy">
+                                <rect key="frame" x="0.0" y="0.0" width="456" height="213"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RW6-1Z-jrd">
+                                <rect key="frame" x="18" y="15" width="40" height="40"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_ayumonk_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Eml-F9-cAf">
+                                        <rect key="frame" x="8" y="8" width="24" height="24"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.62745098039215685" green="0.8784313725490196" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Blx-lp-Myj"/>
+                                    <constraint firstAttribute="width" secondItem="RW6-1Z-jrd" secondAttribute="height" id="FRl-xQ-8g9"/>
+                                    <constraint firstItem="Eml-F9-cAf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="RW6-1Z-jrd" secondAttribute="leading" constant="8" id="Lv6-1f-DaB"/>
+                                    <constraint firstItem="Eml-F9-cAf" firstAttribute="top" relation="greaterThanOrEqual" secondItem="RW6-1Z-jrd" secondAttribute="top" constant="8" id="OHS-Vz-UOa"/>
+                                    <constraint firstItem="Eml-F9-cAf" firstAttribute="centerY" secondItem="RW6-1Z-jrd" secondAttribute="centerY" id="d6N-5i-Dvp"/>
+                                    <constraint firstItem="Eml-F9-cAf" firstAttribute="centerX" secondItem="RW6-1Z-jrd" secondAttribute="centerX" id="g5d-M3-KzM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="(AyuMonk AI companion) (AyuMonk AI companion)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cvw-Cd-HVS">
+                                <rect key="frame" x="70" y="14.999999999999996" width="364" height="43.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.32549019607843138" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="An AI-based guide on exercise, diet plans &amp; advice for a balanced life" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHY-Co-CMy">
+                                <rect key="frame" x="18" y="67" width="413" height="34"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qkO-B8-ujx">
+                                <rect key="frame" x="18" y="113" width="420" height="88"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrJ-1e-zcN">
+                                        <rect key="frame" x="0.0" y="0.0" width="420" height="40"/>
+                                        <color key="backgroundColor" name="buttonColor_darkGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ifc-rV-uhi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Join Prime Club"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btn_Prime_Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="emP-Uq-K9I"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEu-KZ-NPv">
+                                        <rect key="frame" x="0.0" y="48" width="420" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="qOh-hk-9sL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Unlock Home Remedies">
+                                            <color key="titleColor" name="buttonColor_darkGreen"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth1">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor1">
+                                                <color key="value" name="buttonColor_darkGreen"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btn_Unloack_Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="y9t-aT-N9h"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57254901960000004" green="0.90196078430000004" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bHY-Co-CMy" secondAttribute="trailing" constant="25" id="12w-NR-nb6"/>
+                            <constraint firstItem="RW6-1Z-jrd" firstAttribute="leading" secondItem="oVK-Dj-cUM" secondAttribute="leading" constant="18" id="6IT-AD-MLX"/>
+                            <constraint firstItem="bHY-Co-CMy" firstAttribute="top" secondItem="RW6-1Z-jrd" secondAttribute="bottom" constant="12" id="750-ap-atP"/>
+                            <constraint firstItem="RW6-1Z-jrd" firstAttribute="top" secondItem="oVK-Dj-cUM" secondAttribute="top" constant="15" id="Boz-ue-ExS"/>
+                            <constraint firstItem="qkO-B8-ujx" firstAttribute="top" secondItem="bHY-Co-CMy" secondAttribute="bottom" constant="12" id="Hvx-XE-gRW"/>
+                            <constraint firstAttribute="trailing" secondItem="uGb-FK-kWy" secondAttribute="trailing" id="NQ2-9j-AW6"/>
+                            <constraint firstAttribute="trailing" secondItem="qkO-B8-ujx" secondAttribute="trailing" constant="18" id="YPr-sM-tH6"/>
+                            <constraint firstItem="Cvw-Cd-HVS" firstAttribute="leading" secondItem="RW6-1Z-jrd" secondAttribute="trailing" constant="12" id="frL-PK-hBG"/>
+                            <constraint firstItem="qkO-B8-ujx" firstAttribute="leading" secondItem="bHY-Co-CMy" secondAttribute="leading" id="gzO-pJ-Glu"/>
+                            <constraint firstAttribute="bottom" secondItem="qkO-B8-ujx" secondAttribute="bottom" constant="12" id="haa-ne-l0N"/>
+                            <constraint firstItem="Cvw-Cd-HVS" firstAttribute="top" secondItem="oVK-Dj-cUM" secondAttribute="top" constant="15" id="heA-JQ-Pef"/>
+                            <constraint firstItem="uGb-FK-kWy" firstAttribute="top" secondItem="oVK-Dj-cUM" secondAttribute="top" id="oCN-f3-IO7"/>
+                            <constraint firstAttribute="bottom" secondItem="uGb-FK-kWy" secondAttribute="bottom" id="rCY-C4-z3d"/>
+                            <constraint firstItem="bHY-Co-CMy" firstAttribute="leading" secondItem="RW6-1Z-jrd" secondAttribute="leading" id="sb0-Y3-af6"/>
+                            <constraint firstItem="uGb-FK-kWy" firstAttribute="leading" secondItem="oVK-Dj-cUM" secondAttribute="leading" id="uOR-cN-YLF"/>
+                            <constraint firstAttribute="trailing" secondItem="Cvw-Cd-HVS" secondAttribute="trailing" constant="22" id="zLG-Xk-tER"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="oVK-Dj-cUM" secondAttribute="trailing" constant="18" id="0oW-EH-Rr3"/>
+                    <constraint firstItem="oVK-Dj-cUM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="2F4-4y-aOd"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oVK-Dj-cUM" secondAttribute="bottom" constant="12" id="E7r-Nb-8tp"/>
+                    <constraint firstItem="oVK-Dj-cUM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="ocB-Q9-wlT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btn_prime" destination="rrJ-1e-zcN" id="dPg-6t-W2Z"/>
+                <outlet property="btn_unlock_ayumonk" destination="qEu-KZ-NPv" id="d4x-8m-uSc"/>
+                <outlet property="img_Banner_BG" destination="uGb-FK-kWy" id="Cg2-y5-uta"/>
+                <outlet property="lbl_sub_title" destination="bHY-Co-CMy" id="oXC-xz-MVW"/>
+                <outlet property="lbl_title" destination="Cvw-Cd-HVS" id="bE8-GJ-C0a"/>
+                <outlet property="view_Base" destination="oVK-Dj-cUM" id="OZU-Ji-ETF"/>
+            </connections>
+            <point key="canvasLocation" x="270.2290076335878" y="124.64788732394366"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_ayumonk_banner" width="335" height="157"/>
+        <image name="icon_ayumonk_logo" width="25.666666030883789" height="28.333333969116211"/>
+        <namedColor name="buttonColor_darkGreen">
+            <color red="0.0039215686274509803" green="0.57647058823529407" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

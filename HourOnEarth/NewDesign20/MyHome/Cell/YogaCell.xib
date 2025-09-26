@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="YogaCell" id="FQ9-pz-bVk" customClass="YogaCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="185" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ec6-Ix-Rew" customClass="DesignableView" customModule="AyuRythm" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="185" height="170"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yoga" translatesAutoresizingMaskIntoConstraints="NO" id="Lg9-yb-PRG">
+                        <rect key="frame" x="0.0" y="0.0" width="185" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="dkw-j6-srn"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marjayasana" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoc-VL-Tpy">
+                        <rect key="frame" x="5" y="95" width="175" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="prQ-BS-pgY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPY-jJ-ZRl">
+                        <rect key="frame" x="5" y="118" width="175" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="2PP-bT-haA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcg-1b-7ue">
+                        <rect key="frame" x="82.5" y="36" width="20" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" image="play.circle" catalog="system">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IkA-YP-7b7">
+                        <rect key="frame" x="116" y="145" width="56" height="12"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KaphaDetail" translatesAutoresizingMaskIntoConstraints="NO" id="uKG-iR-ZBy">
+                                <rect key="frame" x="0.0" y="0.0" width="12" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="A4Q-SZ-EkX"/>
+                                    <constraint firstAttribute="width" constant="12" id="h5N-cY-BVj"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PittaDetail" translatesAutoresizingMaskIntoConstraints="NO" id="4IA-oy-XEZ">
+                                <rect key="frame" x="22" y="0.0" width="12" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="WNt-wz-Lty"/>
+                                    <constraint firstAttribute="height" constant="12" id="zZg-vZ-OtR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VataDetail" translatesAutoresizingMaskIntoConstraints="NO" id="v32-Ni-p9r">
+                                <rect key="frame" x="44" y="0.0" width="12" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="12" id="FXt-nW-yDc"/>
+                                    <constraint firstAttribute="height" constant="12" id="sVQ-5g-1Ai"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QPY-jJ-ZRl" secondAttribute="trailing" constant="5" id="8el-Y5-ADR"/>
+                    <constraint firstItem="Lg9-yb-PRG" firstAttribute="top" secondItem="Ec6-Ix-Rew" secondAttribute="top" id="AJ6-at-4ve"/>
+                    <constraint firstAttribute="trailing" secondItem="Lg9-yb-PRG" secondAttribute="trailing" id="Aae-VS-PVV"/>
+                    <constraint firstItem="aoc-VL-Tpy" firstAttribute="leading" secondItem="Ec6-Ix-Rew" secondAttribute="leading" constant="5" id="Amv-4g-iDr"/>
+                    <constraint firstAttribute="trailing" secondItem="IkA-YP-7b7" secondAttribute="trailing" constant="13" id="BZr-DB-5iw"/>
+                    <constraint firstAttribute="trailing" secondItem="aoc-VL-Tpy" secondAttribute="trailing" constant="5" id="DSJ-9t-WC7"/>
+                    <constraint firstItem="aoc-VL-Tpy" firstAttribute="top" secondItem="Lg9-yb-PRG" secondAttribute="bottom" constant="5" id="JVm-lu-VR3"/>
+                    <constraint firstItem="QPY-jJ-ZRl" firstAttribute="top" secondItem="aoc-VL-Tpy" secondAttribute="bottom" constant="5" id="SD9-6Q-8Og"/>
+                    <constraint firstAttribute="bottom" secondItem="IkA-YP-7b7" secondAttribute="bottom" constant="13" id="X6V-Mf-m91"/>
+                    <constraint firstItem="Lg9-yb-PRG" firstAttribute="leading" secondItem="Ec6-Ix-Rew" secondAttribute="leading" id="x1h-TX-4jk"/>
+                    <constraint firstItem="QPY-jJ-ZRl" firstAttribute="leading" secondItem="Ec6-Ix-Rew" secondAttribute="leading" constant="5" id="ypV-bx-b4a"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                </userDefinedRuntimeAttributes>
+            </collectionViewCellContentView>
+            <size key="customSize" width="133" height="162"/>
+            <connections>
+                <outlet property="imgThumb" destination="Lg9-yb-PRG" id="boh-Tu-I2X"/>
+                <outlet property="lblEngName" destination="QPY-jJ-ZRl" id="hYf-2f-MkO"/>
+                <outlet property="lblHindiName" destination="aoc-VL-Tpy" id="E8E-YG-38W"/>
+            </connections>
+            <point key="canvasLocation" x="147" y="57"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="KaphaDetail" width="17" height="18"/>
+        <image name="PittaDetail" width="17.5" height="21"/>
+        <image name="VataDetail" width="16" height="16"/>
+        <image name="play.circle" catalog="system" width="128" height="121"/>
+        <image name="yoga" width="77" height="69"/>
+    </resources>
+</document>

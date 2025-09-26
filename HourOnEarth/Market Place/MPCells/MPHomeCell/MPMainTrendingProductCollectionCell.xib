@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MPMainTrendingProductCollectionCell" id="gTV-IL-0wX" customClass="MPMainTrendingProductCollectionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="525" height="252"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="525" height="252"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="3yI-Vj-tMN">
+                        <rect key="frame" x="0.0" y="0.0" width="525" height="244"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="7rS-gP-KhL">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="gTV-IL-0wX" id="RoU-yC-hVr"/>
+                            <outlet property="delegate" destination="gTV-IL-0wX" id="wIN-Tt-bHK"/>
+                        </connections>
+                    </collectionView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMb-ht-sa5">
+                        <rect key="frame" x="5" y="0.0" width="515" height="244"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tx-a9-sH7">
+                                <rect key="frame" x="0.0" y="0.0" width="515" height="244"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="icon_lockk"/>
+                                <connections>
+                                    <action selector="btnLockAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="sXE-C9-iJt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.79769658717979375" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6tx-a9-sH7" secondAttribute="bottom" id="5aN-Vt-nYh"/>
+                            <constraint firstItem="6tx-a9-sH7" firstAttribute="leading" secondItem="DMb-ht-sa5" secondAttribute="leading" id="6dR-wt-uQQ"/>
+                            <constraint firstAttribute="trailing" secondItem="6tx-a9-sH7" secondAttribute="trailing" id="EF8-NG-w3f"/>
+                            <constraint firstItem="6tx-a9-sH7" firstAttribute="top" secondItem="DMb-ht-sa5" secondAttribute="top" id="d2z-aX-CbY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DMb-ht-sa5" secondAttribute="bottom" constant="8" id="7oS-Ct-mr7"/>
+                <constraint firstItem="DMb-ht-sa5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="97D-RE-hyB"/>
+                <constraint firstItem="DMb-ht-sa5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="Mal-ZA-lxv"/>
+                <constraint firstItem="3yI-Vj-tMN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QhF-EN-dZO"/>
+                <constraint firstAttribute="trailing" secondItem="3yI-Vj-tMN" secondAttribute="trailing" id="YqB-IK-bY5"/>
+                <constraint firstAttribute="bottom" secondItem="3yI-Vj-tMN" secondAttribute="bottom" constant="8" id="iAJ-MM-xfo"/>
+                <constraint firstItem="3yI-Vj-tMN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="khL-UD-DDO"/>
+                <constraint firstAttribute="trailing" secondItem="DMb-ht-sa5" secondAttribute="trailing" constant="5" id="t7D-t4-OrH"/>
+            </constraints>
+            <size key="customSize" width="525" height="252"/>
+            <connections>
+                <outlet property="collectionList" destination="3yI-Vj-tMN" id="Vbx-0f-Tze"/>
+                <outlet property="viewDisable" destination="DMb-ht-sa5" id="c4h-77-oW9"/>
+            </connections>
+            <point key="canvasLocation" x="476.08695652173918" y="150.66964285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_lockk" width="44" height="62.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

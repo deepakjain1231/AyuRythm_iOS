@@ -1,0 +1,74 @@
+/* Class = "UINavigationItem"; title = "Result History"; ObjectID = "aBL-Fr-rW3"; */
+"aBL-Fr-rW3.title" = "परिणाम इतिहास";
+
+/* Class = "UILabel"; text = "Oxygen Saturation History"; ObjectID = "hAu-9L-cIe"; */
+"hAu-9L-cIe.text" = "ऑक्सीजन संतृप्ति इतिहास";
+
+/* Class = "UINavigationItem"; title = "Variation History"; ObjectID = "jEY-Cj-uu2"; */
+"jEY-Cj-uu2.title" = "असंतुलन इतिहास";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "jz0-ca-YZM"; */
+"jz0-ca-YZM.title" = "पीछे";
+
+/* Class = "UINavigationItem"; title = "SpO2"; ObjectID = "neH-cI-tO2"; */
+"neH-cI-tO2.title" = "SpO2";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NVP-eG-rc8"; */
+"NVP-eG-rc8.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "ppc-BW-BXD"; */
+"ppc-BW-BXD.title" = "पीछे";
+
+/* Class = "UISegmentedControl"; rHe-cS-YpT.segmentTitles[0] = "Day"; ObjectID = "rHe-cS-YpT"; */
+"rHe-cS-YpT.segmentTitles[0]" = "दिवस";
+
+/* Class = "UISegmentedControl"; rHe-cS-YpT.segmentTitles[1] = "Week"; ObjectID = "rHe-cS-YpT"; */
+"rHe-cS-YpT.segmentTitles[1]" = "सप्ताह";
+
+/* Class = "UISegmentedControl"; rHe-cS-YpT.segmentTitles[2] = "Month"; ObjectID = "rHe-cS-YpT"; */
+"rHe-cS-YpT.segmentTitles[2]" = "महीना";
+
+/* Class = "UISegmentedControl"; rHe-cS-YpT.segmentTitles[3] = "Year"; ObjectID = "rHe-cS-YpT"; */
+"rHe-cS-YpT.segmentTitles[3]" = "साल";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "TkQ-f3-XmM"; */
+"TkQ-f3-XmM.title" = "पीछे";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UyC-Oz-KBM"; */
+"UyC-Oz-KBM.text" = "Label";
+
+/* Class = "UISegmentedControl"; ZVa-Zx-QhB.segmentTitles[0] = "Day"; ObjectID = "ZVa-Zx-QhB"; */
+"ZVa-Zx-QhB.segmentTitles[0]" = "दिवस";
+
+/* Class = "UISegmentedControl"; ZVa-Zx-QhB.segmentTitles[1] = "Week"; ObjectID = "ZVa-Zx-QhB"; */
+"ZVa-Zx-QhB.segmentTitles[1]" = "सप्ताह";
+
+/* Class = "UISegmentedControl"; ZVa-Zx-QhB.segmentTitles[2] = "Month"; ObjectID = "ZVa-Zx-QhB"; */
+"ZVa-Zx-QhB.segmentTitles[2]" = "महीना";
+
+/* Class = "UISegmentedControl"; ZVa-Zx-QhB.segmentTitles[3] = "Year"; ObjectID = "ZVa-Zx-QhB"; */
+"ZVa-Zx-QhB.segmentTitles[3]" = "साल";
+
+/* Class = "UILabel"; text = "Difference between Prakriti and Vikriti "; ObjectID = "bjZ-Cy-GEQ"; */
+"bjZ-Cy-GEQ.text" = "प्रकृति एवम विकृति का दोशांतर ";
+
+/* Class = "UINavigationItem"; title = "Suryathon"; ObjectID = "r9p-ZK-mfh"; */
+"r9p-ZK-mfh.title" = "सुर्याथन";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "jAy-fY-RiB"; */
+"jAy-fY-RiB.title" = "पीछे";
+
+/* Class = "UILabel"; text = "Surya Namaskar History"; ObjectID = "eQa-MU-7PL"; */
+"eQa-MU-7PL.text" = "सूर्य नमस्कार का इतिहास";
+
+/* Class = "UISegmentedControl"; nuf-9C-UvO.segmentTitles[0] = "Day"; ObjectID = "nuf-9C-UvO"; */
+"nuf-9C-UvO.segmentTitles[0]" = "दिवस";
+
+/* Class = "UISegmentedControl"; nuf-9C-UvO.segmentTitles[1] = "Week"; ObjectID = "nuf-9C-UvO"; */
+"nuf-9C-UvO.segmentTitles[1]" = "सप्ताह";
+
+/* Class = "UISegmentedControl"; nuf-9C-UvO.segmentTitles[2] = "Month"; ObjectID = "nuf-9C-UvO"; */
+"nuf-9C-UvO.segmentTitles[2]" = "महीना";
+
+/* Class = "UISegmentedControl"; nuf-9C-UvO.segmentTitles[3] = "Year"; ObjectID = "nuf-9C-UvO"; */
+"nuf-9C-UvO.segmentTitles[3]" = "साल";

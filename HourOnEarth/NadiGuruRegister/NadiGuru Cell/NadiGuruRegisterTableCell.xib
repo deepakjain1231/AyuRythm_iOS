@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="275" id="IAZ-qI-avN" customClass="NadiGuruRegisterTableCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="455" height="263"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IAZ-qI-avN" id="xq3-Jm-qJO">
+                <rect key="frame" x="0.0" y="0.0" width="455" height="263"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kcm-DK-STI" customClass="ARHomeScreenBannerBaseView" customModule="AyuRythm" customModuleProvider="target">
+                        <rect key="frame" x="16" y="12" width="423" height="202.66666666666666"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_nadiGuru" translatesAutoresizingMaskIntoConstraints="NO" id="lNj-Td-dNC">
+                                <rect key="frame" x="15" y="35" width="85" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="5GD-QG-hCC"/>
+                                    <constraint firstAttribute="width" secondItem="lNj-Td-dNC" secondAttribute="height" multiplier="1:1" id="yfs-dx-VgK"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to learn the Science and clinical skill of Sahaj Nadi Pariksha " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaF-gm-kCN">
+                                <rect key="frame" x="112" y="14.999999999999996" width="293" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join the 160th Online Series Led by Prof. Nadi Guru Acharya Vaidya Sanjaykumar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5q-sT-bUs">
+                                <rect key="frame" x="112" y="63.666666666666671" width="293" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.27058823529411763" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ta4-JO-B0H">
+                                <rect key="frame" x="112.00000000000001" y="107.66666666666667" width="155.33333333333337" height="34.000000000000014"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon, 1 may onwards" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gjy-80-r4K">
+                                        <rect key="frame" x="8" y="8" width="139.33333333333334" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.27058823529999998" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Gjy-80-r4K" firstAttribute="top" secondItem="Ta4-JO-B0H" secondAttribute="top" constant="8" id="3Lg-zK-hFf"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gjy-80-r4K" secondAttribute="trailing" constant="8" id="Q5Y-uQ-uKG"/>
+                                    <constraint firstAttribute="bottom" secondItem="Gjy-80-r4K" secondAttribute="bottom" constant="8" id="Ret-on-DKD"/>
+                                    <constraint firstItem="Gjy-80-r4K" firstAttribute="leading" secondItem="Ta4-JO-B0H" secondAttribute="leading" constant="8" id="fql-3G-Lf1"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FuW-gm-xrm">
+                                <rect key="frame" x="18" y="153.66666666666666" width="387" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register Now" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aT-Ek-K7l">
+                                        <rect key="frame" x="8" y="8" width="371" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.15294117647058825" green="0.24705882352941178" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="8aT-Ek-K7l" firstAttribute="top" secondItem="FuW-gm-xrm" secondAttribute="top" constant="8" id="Cbl-aS-y1C"/>
+                                    <constraint firstAttribute="trailing" secondItem="8aT-Ek-K7l" secondAttribute="trailing" constant="8" id="KWM-72-0PP"/>
+                                    <constraint firstItem="8aT-Ek-K7l" firstAttribute="leading" secondItem="FuW-gm-xrm" secondAttribute="leading" constant="8" id="MwV-Lf-l7j"/>
+                                    <constraint firstAttribute="bottom" secondItem="8aT-Ek-K7l" secondAttribute="bottom" constant="8" id="NZ0-Ah-fwp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CaF-gm-kCN" firstAttribute="leading" secondItem="lNj-Td-dNC" secondAttribute="trailing" constant="12" id="3WF-cJ-IVg"/>
+                            <constraint firstItem="FuW-gm-xrm" firstAttribute="top" secondItem="Ta4-JO-B0H" secondAttribute="bottom" constant="12" id="9AZ-zY-GET"/>
+                            <constraint firstAttribute="trailing" secondItem="FuW-gm-xrm" secondAttribute="trailing" constant="18" id="Bdf-Ld-ahq"/>
+                            <constraint firstAttribute="bottom" secondItem="FuW-gm-xrm" secondAttribute="bottom" constant="15" id="O3C-sa-CO3"/>
+                            <constraint firstAttribute="trailing" secondItem="l5q-sT-bUs" secondAttribute="trailing" constant="18" id="VCW-hg-pHi"/>
+                            <constraint firstItem="Ta4-JO-B0H" firstAttribute="top" secondItem="l5q-sT-bUs" secondAttribute="bottom" constant="8" id="VU2-g6-MvC"/>
+                            <constraint firstItem="lNj-Td-dNC" firstAttribute="centerY" secondItem="Kcm-DK-STI" secondAttribute="centerY" constant="-24" id="XYa-kW-JMC"/>
+                            <constraint firstItem="FuW-gm-xrm" firstAttribute="leading" secondItem="Kcm-DK-STI" secondAttribute="leading" constant="18" id="dob-E3-ya9"/>
+                            <constraint firstAttribute="trailing" secondItem="CaF-gm-kCN" secondAttribute="trailing" constant="18" id="eM2-67-M6y"/>
+                            <constraint firstItem="Ta4-JO-B0H" firstAttribute="leading" secondItem="lNj-Td-dNC" secondAttribute="trailing" constant="12" id="jwJ-FX-5La"/>
+                            <constraint firstItem="l5q-sT-bUs" firstAttribute="leading" secondItem="lNj-Td-dNC" secondAttribute="trailing" constant="12" id="oBV-G4-eEj"/>
+                            <constraint firstItem="lNj-Td-dNC" firstAttribute="leading" secondItem="Kcm-DK-STI" secondAttribute="leading" constant="15" id="qgK-yi-165"/>
+                            <constraint firstItem="l5q-sT-bUs" firstAttribute="top" secondItem="CaF-gm-kCN" secondAttribute="bottom" constant="8" id="uD1-0g-zmj"/>
+                            <constraint firstItem="CaF-gm-kCN" firstAttribute="top" secondItem="Kcm-DK-STI" secondAttribute="top" constant="15" id="yxO-1I-43S"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Kcm-DK-STI" firstAttribute="leading" secondItem="xq3-Jm-qJO" secondAttribute="leading" constant="16" id="Els-GO-M0j"/>
+                    <constraint firstAttribute="trailing" secondItem="Kcm-DK-STI" secondAttribute="trailing" constant="16" id="XUQ-L9-jKE"/>
+                    <constraint firstItem="Kcm-DK-STI" firstAttribute="top" secondItem="xq3-Jm-qJO" secondAttribute="top" constant="12" id="dxM-C0-kbn"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Kcm-DK-STI" secondAttribute="bottom" constant="12" id="rsr-eA-5JD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="imS-zq-kAI"/>
+            <point key="canvasLocation" x="214.50381679389312" y="187.67605633802819"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_nadiGuru" width="103" height="104"/>
+    </resources>
+</document>

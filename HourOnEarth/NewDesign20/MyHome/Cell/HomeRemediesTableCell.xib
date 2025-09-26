@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="290" id="KGk-i7-Jjw" customClass="HomeRemediesTableCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="531" height="290"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="531" height="290"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ngf-ns-IcT">
+                        <rect key="frame" x="18" y="18" width="495" height="195"/>
+                        <subviews>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_remedies_rightside" translatesAutoresizingMaskIntoConstraints="NO" id="zFL-6A-6PL">
+                                <rect key="frame" x="435" y="0.0" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zFL-6A-6PL" secondAttribute="height" multiplier="1:1" id="rDF-mJ-6WK"/>
+                                    <constraint firstAttribute="height" constant="65" id="yUu-u5-qeS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DBm-u9-Z3O">
+                                <rect key="frame" x="0.0" y="0.0" width="495" height="195"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Personalized Home remedies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="vkH-d2-VWV">
+                                <rect key="frame" x="18" y="22" width="427" height="22"/>
+                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Home remedies is personalized to your doshas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5y-kj-UWU">
+                                <rect key="frame" x="18" y="52" width="427" height="17"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KXg-tv-icN">
+                                <rect key="frame" x="18" y="87" width="459" height="88"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqQ-Bq-heb">
+                                        <rect key="frame" x="0.0" y="0.0" width="459" height="40"/>
+                                        <color key="backgroundColor" name="buttonColor_darkGreen"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="M6X-qt-KQN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Join Prime Club"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btn_Prime_Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3j1-0Q-sqc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGY-6p-WIf">
+                                        <rect key="frame" x="0.0" y="48" width="459" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="hd1-EB-rDf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Unlock Home Remedies">
+                                            <color key="titleColor" name="buttonColor_darkGreen"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth1">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor1">
+                                                <color key="value" name="buttonColor_darkGreen"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btn_Unloack_Action:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="G3d-Vm-lDT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_green_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="GUS-sv-oZU">
+                                <rect key="frame" x="13" y="81" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GUS-sv-oZU" secondAttribute="height" multiplier="1:1" id="7OJ-Fk-RUo"/>
+                                    <constraint firstAttribute="height" constant="30" id="z6m-Si-3Vr"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57254901960000004" green="0.90196078430000004" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vkH-d2-VWV" secondAttribute="trailing" constant="50" id="1fo-ki-LPR"/>
+                            <constraint firstAttribute="bottom" secondItem="KXg-tv-icN" secondAttribute="bottom" constant="20" id="3Dt-Et-hoN"/>
+                            <constraint firstItem="O5y-kj-UWU" firstAttribute="top" secondItem="vkH-d2-VWV" secondAttribute="bottom" constant="8" id="5gv-UP-d49"/>
+                            <constraint firstItem="DBm-u9-Z3O" firstAttribute="top" secondItem="ngf-ns-IcT" secondAttribute="top" id="7Wx-k3-BnK"/>
+                            <constraint firstItem="GUS-sv-oZU" firstAttribute="top" secondItem="O5y-kj-UWU" secondAttribute="bottom" constant="12" id="IIy-mV-fAR"/>
+                            <constraint firstItem="KXg-tv-icN" firstAttribute="leading" secondItem="O5y-kj-UWU" secondAttribute="leading" id="KZk-7W-JkJ"/>
+                            <constraint firstItem="KXg-tv-icN" firstAttribute="top" secondItem="O5y-kj-UWU" secondAttribute="bottom" constant="18" id="OgB-uM-Yqk"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="GUS-sv-oZU" secondAttribute="bottom" constant="12" id="TBK-kx-rqs"/>
+                            <constraint firstAttribute="trailing" secondItem="zFL-6A-6PL" secondAttribute="trailing" constant="-5" id="XRA-ZC-khf"/>
+                            <constraint firstItem="O5y-kj-UWU" firstAttribute="leading" secondItem="vkH-d2-VWV" secondAttribute="leading" id="dAD-8t-U46"/>
+                            <constraint firstItem="zFL-6A-6PL" firstAttribute="top" secondItem="ngf-ns-IcT" secondAttribute="top" id="kJF-zT-Kd1"/>
+                            <constraint firstAttribute="bottom" secondItem="DBm-u9-Z3O" secondAttribute="bottom" id="mAv-rI-3KA"/>
+                            <constraint firstAttribute="trailing" secondItem="O5y-kj-UWU" secondAttribute="trailing" constant="50" id="mhl-TQ-bwr"/>
+                            <constraint firstItem="vkH-d2-VWV" firstAttribute="leading" secondItem="ngf-ns-IcT" secondAttribute="leading" constant="18" id="pBZ-7o-PLQ"/>
+                            <constraint firstItem="DBm-u9-Z3O" firstAttribute="leading" secondItem="ngf-ns-IcT" secondAttribute="leading" id="pGl-6R-eww"/>
+                            <constraint firstAttribute="trailing" secondItem="DBm-u9-Z3O" secondAttribute="trailing" id="sjm-jl-o3b"/>
+                            <constraint firstItem="GUS-sv-oZU" firstAttribute="leading" secondItem="ngf-ns-IcT" secondAttribute="leading" constant="13" id="vAN-zi-uCh"/>
+                            <constraint firstAttribute="trailing" secondItem="KXg-tv-icN" secondAttribute="trailing" constant="18" id="yCl-dA-OVg"/>
+                            <constraint firstItem="vkH-d2-VWV" firstAttribute="top" secondItem="ngf-ns-IcT" secondAttribute="top" constant="22" id="zK8-6j-UUi"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0e-hN-ybK">
+                        <rect key="frame" x="0.0" y="0.0" width="531" height="290"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ngf-ns-IcT" secondAttribute="bottom" constant="12" id="0lK-Wq-spo"/>
+                    <constraint firstItem="ngf-ns-IcT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="By8-wK-drm"/>
+                    <constraint firstItem="L0e-hN-ybK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="DKs-RR-ZQs"/>
+                    <constraint firstItem="L0e-hN-ybK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ORp-UV-gb9"/>
+                    <constraint firstAttribute="trailing" secondItem="L0e-hN-ybK" secondAttribute="trailing" id="aZe-Fs-zdA"/>
+                    <constraint firstAttribute="bottom" secondItem="L0e-hN-ybK" secondAttribute="bottom" id="dF5-W5-GbZ"/>
+                    <constraint firstItem="ngf-ns-IcT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="gMj-20-9Fh"/>
+                    <constraint firstAttribute="trailing" secondItem="ngf-ns-IcT" secondAttribute="trailing" constant="18" id="oIy-Km-s7e"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btn_click" destination="L0e-hN-ybK" id="XTO-Wr-5lE"/>
+                <outlet property="btn_prime" destination="cqQ-Bq-heb" id="TQj-uv-nYs"/>
+                <outlet property="btn_unlock_remedies" destination="HGY-6p-WIf" id="TC0-Ha-T8K"/>
+                <outlet property="img_Banner_BG" destination="DBm-u9-Z3O" id="KVg-0n-7xZ"/>
+                <outlet property="img_arrow" destination="GUS-sv-oZU" id="y92-jR-Z0v"/>
+                <outlet property="lbl_sub_title" destination="O5y-kj-UWU" id="zvd-ZE-aju"/>
+                <outlet property="lbl_title" destination="vkH-d2-VWV" id="7m5-vY-jA7"/>
+                <outlet property="view_Base" destination="ngf-ns-IcT" id="Yt8-b7-tv8"/>
+            </connections>
+            <point key="canvasLocation" x="290.57971014492756" y="162.05357142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_remedies_rightside" width="117" height="122"/>
+        <image name="icon_green_arrow" width="30" height="30"/>
+        <namedColor name="buttonColor_darkGreen">
+            <color red="0.0039215686274509803" green="0.57647058823529407" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

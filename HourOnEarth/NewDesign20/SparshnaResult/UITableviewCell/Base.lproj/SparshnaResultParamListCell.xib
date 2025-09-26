@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SparshnaResultParamListCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="328" height="128"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KUl-H5-ita">
+                        <rect key="frame" x="0.0" y="0.0" width="328" height="128"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRQ-Iz-d0r">
+                                <rect key="frame" x="0.0" y="0.0" width="328" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="CNO-J5-8pV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Hide Detailed Results"/>
+                                <connections>
+                                    <action selector="showHideDetailedResultsBtnPressedWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rAr-bF-KfT"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="gtd-wc-1FR" customClass="DynamicCollectionView" customModule="AyuRythm" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="36" width="328" height="56"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="kzs-p1-nSR">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="KGk-i7-Jjw" id="NJx-DG-pKQ"/>
+                                    <outlet property="delegate" destination="KGk-i7-Jjw" id="V2i-c7-4D9"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYS-OC-xGQ">
+                                <rect key="frame" x="0.0" y="92" width="328" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="View Detailed Results"/>
+                                <connections>
+                                    <action selector="showHideDetailedResultsBtnPressedWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="1V8-jK-VrL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="gYS-OC-xGQ" firstAttribute="height" secondItem="hRQ-Iz-d0r" secondAttribute="height" id="lvq-Tz-MWl"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KUl-H5-ita" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8aR-wZ-bu0"/>
+                    <constraint firstItem="KUl-H5-ita" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Avp-oh-zQX"/>
+                    <constraint firstAttribute="trailing" secondItem="KUl-H5-ita" secondAttribute="trailing" id="EXB-Kt-Irz"/>
+                    <constraint firstAttribute="bottom" secondItem="KUl-H5-ita" secondAttribute="bottom" id="ymR-hD-AVK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="gtd-wc-1FR" id="SMT-nN-tYs"/>
+                <outlet property="hideDetailResults" destination="hRQ-Iz-d0r" id="o7b-Zj-Z81"/>
+                <outlet property="showDetailResults" destination="gYS-OC-xGQ" id="C1e-3R-CXN"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="127.90178571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

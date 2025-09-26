@@ -1,0 +1,27 @@
+/* Class = "UILabel"; text = "INSTRUCTIONS"; ObjectID = "1Gt-EK-5tS"; */
+"1Gt-EK-5tS.text" = "निर्देश";
+
+/* Class = "UILabel"; text = "Sparshna Instructions"; ObjectID = "1tK-r6-B21"; */
+"1tK-r6-B21.text" = "स्पर्शन निर्देश";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "35x-Ty-OWv"; */
+"35x-Ty-OWv.normalTitle" = "जारी रखें";
+
+/* Class = "UILabel"; text = "We will be measuring your blood flow.\n\n- Please place your finger palm on the front camera of your phone pointing away from your face \n\n- The screen will turn red when the camera is covered properly \n\n- Ensure that you are in a brightly lit area/room"; ObjectID = "A5g-mx-wlb"; */
+"A5g-mx-wlb.text" = "हम आपके रक्त प्रवाह को मापेंगे। \n \n- कृपया अपने फ़ोन के फ्रंट कैमरे पर अपनी उंगली या हथेली रखें, जो आपके चेहरे से दूर हो \n- कैमरा ठीक से कवर होने पर स्क्रीन लाल हो जाएगी - सुनिश्चित करें कि आप एक उज्ज्वल रोशनी वाले क्षेत्र / कमरे में हैं";
+
+/* Class = "UILabel"; text = "Nadi Pariksha"; ObjectID = "c5m-iA-M5s"; */
+"c5m-iA-M5s.text" = "नाड़ी परीक्षा";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "HWc-J7-D86"; */
+"HWc-J7-D86.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Ku7-Ku-e5s"; */
+"Ku7-Ku-e5s.normalTitle" = "निरस्त करें";
+
+/* Class = "UILabel"; text = "Pulse Diagnosis"; ObjectID = "LRc-sl-wbc"; */
+"LRc-sl-wbc.text" = "नाड़ी परीक्षा";
+
+/* Class = "UITextView"; text = "We will be measuring your blood flow.\n\nPlace your finger/palm on the back camera of your phone, covering the flash,\nand then press continue.\n\nEnsure you are in a brightly lit area\nbefore starting the test\n\nThe screen will turn red when finger/palm is placed correctly"; ObjectID = "SiM-pb-x0u"; */
+"SiM-pb-x0u.text" = "हम आपके रक्त प्रवाह को मापेंगे। \n\nअपने फ़ोन के बैक कैमरे पर अपनी उंगली / हथेली को फ्लॅश को कवर करते हुए रखें, \nऔर 30 सेकंड के लिए ऐसे ही रहने दें। \nयदि आपने उंगली / हथेली को सही तरह से रखा हुआ है तो आपके फ़ोन की स्क्रीन लाल हो जाएगी।";
+

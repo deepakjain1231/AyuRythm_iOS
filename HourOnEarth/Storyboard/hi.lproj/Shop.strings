@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "Shop"; ObjectID = "0cx-et-MvB"; */
+"0cx-et-MvB.text" = "खरीदें";
+
+/* Class = "UILabel"; text = "Coming Soon"; ObjectID = "BbC-PS-YAq"; */
+"BbC-PS-YAq.text" = "शीघ्र आ रहा है";
+
+/* Class = "UIButton"; normalTitle = "CLICK HERE"; ObjectID = "QcR-ni-fpy"; */
+"QcR-ni-fpy.normalTitle" = "यहाँ क्लिक करें";
+
+/* Class = "UILabel"; text = "To Checkout the Demo, Click on the Below Button"; ObjectID = "UAT-eZ-q5G"; */
+"UAT-eZ-q5G.text" = "डेमो चेक करने के लिए, नीचे बटन पर क्लिक करें";
+

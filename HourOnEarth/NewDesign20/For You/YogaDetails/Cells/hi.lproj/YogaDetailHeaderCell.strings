@@ -1,0 +1,18 @@
+/* Class = "UIButton"; normalTitle = "Play Video"; ObjectID = "bPy-4T-0y5"; */
+"bPy-4T-0y5.normalTitle" = "वीडियो चलाएं";
+
+/* Class = "UILabel"; text = "Beginner"; ObjectID = "pLG-tm-Gza"; */
+"pLG-tm-Gza.text" = "शुरुआती";
+
+/* Class = "UILabel"; text = "Ardha Chandrasana"; ObjectID = "uk2-cs-KbO"; */
+"uk2-cs-KbO.text" = "Ardha Chandrasana";
+
+/* Class = "UILabel"; text = "Prakriti"; ObjectID = "YdT-pt-AsM"; */
+"YdT-pt-AsM.text" = "प्रकृति";
+
+/* Class = "UIButton"; normalTitle = "Read More"; ObjectID = "Zcp-e6-IlX"; */
+"Zcp-e6-IlX.normalTitle" = "और पढ़ें";
+
+/* Class = "UIButton"; selectedTitle = "Read Less"; ObjectID = "Zcp-e6-IlX"; */
+"Zcp-e6-IlX.selectedTitle" = "कम पढ़ें";
+

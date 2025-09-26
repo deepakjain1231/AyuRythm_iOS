@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "1"; ObjectID = "DQe-WJ-j2b"; */
+"DQe-WJ-j2b.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "HWv-A2-gHx"; */
+"HWv-A2-gHx.normalTitle" = "जारी रखें";
+
+/* Class = "UILabel"; text = "Day"; ObjectID = "QYy-qd-BFt"; */
+"QYy-qd-BFt.text" = "दिवस";
+
+/* Class = "UISegmentedControl"; Uii-QC-atD.segmentTitles[0] = "Activities"; ObjectID = "Uii-QC-atD"; */
+"Uii-QC-atD.segmentTitles[0]" = "Activities";
+
+/* Class = "UISegmentedControl"; Uii-QC-atD.segmentTitles[1] = "Diet"; ObjectID = "Uii-QC-atD"; */
+"Uii-QC-atD.segmentTitles[1]" = "Diet";
+
+/* Class = "UILabel"; text = "Thursday, 16 December"; ObjectID = "X1b-A5-g45"; */
+"X1b-A5-g45.text" = "Thursday, 16 December";
+
+/* Class = "UILabel"; text = "Today"; ObjectID = "edV-n2-HEr"; */
+"edV-n2-HEr.text" = "आज";

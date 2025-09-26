@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "yellow-lightbulb-hand-drawn-yellow-lightbulb-white-background-solution-idea-concept-115056227-removebg-preview 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "yellow-lightbulb-hand-drawn-yellow-lightbulb-white-background-solution-idea-concept-115056227-removebg-preview 1@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "yellow-lightbulb-hand-drawn-yellow-lightbulb-white-background-solution-idea-concept-115056227-removebg-preview 1@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

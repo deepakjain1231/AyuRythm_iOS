@@ -1,0 +1,258 @@
+
+/* Class = "UILabel"; text = "00"; ObjectID = "0aZ-Mv-3B6"; */
+"0aZ-Mv-3B6.text" = "00";
+
+/* Class = "UIButton"; normalTitle = "100 %"; ObjectID = "0yy-i5-oZe"; */
+"0yy-i5-oZe.normalTitle" = "100 %";
+
+/* Class = "UILabel"; text = "PRO"; ObjectID = "1nP-jS-51p"; */
+"1nP-jS-51p.text" = "PRO";
+
+/* Class = "UILabel"; text = "You earned a scratch card"; ObjectID = "2sF-TD-LQj"; */
+"2sF-TD-LQj.text" = "आपने स्क्रैच कार्ड अर्जित किया";
+
+/* Class = "UILabel"; text = "8pt"; ObjectID = "3dF-wa-jL1"; */
+"3dF-wa-jL1.text" = "8pt";
+
+/* Class = "UILabel"; text = "Congratulations! You’re now eligible for lucky draw"; ObjectID = "4Ma-rY-qo8"; */
+"4Ma-rY-qo8.text" = "बधाई हो! अब आप लकी ड्रा के लिए पात्र हैं";
+
+/* Class = "UILabel"; text = "Minutes"; ObjectID = "62R-6J-468"; */
+"62R-6J-468.text" = "Minutes";
+
+/* Class = "UILabel"; text = "150 Pt"; ObjectID = "6UI-FS-Rp4"; */
+"6UI-FS-Rp4.text" = "150 Pt";
+
+/* Class = "UIButton"; normalTitle = "00"; ObjectID = "6bt-xS-Qot"; */
+"6bt-xS-Qot.normalTitle" = "00";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "6wF-8b-2jE"; */
+"6wF-8b-2jE.text" = "3";
+
+/* Class = "UILabel"; text = "Levels"; ObjectID = "78A-d6-RtU"; */
+"78A-d6-RtU.text" = "स्तर";
+
+/* Class = "UILabel"; text = "Answer all questions correctly to be eligible for the lucky draw!"; ObjectID = "7En-4f-Efs"; */
+"7En-4f-Efs.text" = "लकी ड्रा के पात्र होने के लिए सभी प्रश्नों के सही उत्तर दें!";
+
+/* Class = "UIButton"; normalTitle = "05"; ObjectID = "88X-W1-QW2"; */
+"88X-W1-QW2.normalTitle" = "05";
+
+/* Class = "UILabel"; text = "My Streak"; ObjectID = "AbJ-10-29x"; */
+"AbJ-10-29x.text" = "मेरी स्ट्रीक";
+
+/* Class = "UILabel"; text = "Madara uchiha Madara uchiha Madara uchiha Madara uchiha"; ObjectID = "CQe-TM-Dze"; */
+"CQe-TM-Dze.text" = "Madara uchiha Madara uchiha Madara uchiha Madara uchiha";
+
+/* Class = "UIButton"; normalTitle = "View all"; ObjectID = "Dr5-RA-gwv"; */
+"Dr5-RA-gwv.normalTitle" = "सब देखें";
+
+/* Class = "UILabel"; text = "Total participants : 100"; ObjectID = "EOq-AS-dBx"; */
+"EOq-AS-dBx.text" = "Total participants : 100";
+
+/* Class = "UILabel"; text = "PRO"; ObjectID = "EYw-RS-hfZ"; */
+"EYw-RS-hfZ.text" = "PRO";
+
+/* Class = "UILabel"; text = "Seconds"; ObjectID = "EkJ-gk-usN"; */
+"EkJ-gk-usN.text" = "Seconds";
+
+/* Class = "UIButton"; normalTitle = "Check leaderboard"; ObjectID = "G1x-jt-nfJ"; */
+"G1x-jt-nfJ.normalTitle" = "लीडरबोर्ड देखें";
+
+/* Class = "UIButton"; normalTitle = "Check leaderboard"; ObjectID = "f1l-KX-RFY"; */
+"f1l-KX-RFY.normalTitle" = "लीडरबोर्ड देखें";
+
+/* Class = "UILabel"; text = "You begin the streak!"; ObjectID = "GDk-Db-uqq"; */
+"GDk-Db-uqq.text" = "आप स्ट्रीक शुरू करें!";
+
+/* Class = "UIButton"; normalTitle = "00"; ObjectID = "Hnw-iD-rKI"; */
+"Hnw-iD-rKI.normalTitle" = "00";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "IM2-j5-ofc"; */
+"IM2-j5-ofc.text" = ":";
+
+/* Class = "UILabel"; text = "8pt"; ObjectID = "J9s-Hc-LnJ"; */
+"J9s-Hc-LnJ.text" = "8pt";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "Jkx-BH-Hd4"; */
+"Jkx-BH-Hd4.text" = ":";
+
+/* Class = "UILabel"; text = "Total score"; ObjectID = "K85-ok-i7v"; */
+"K85-ok-i7v.text" = "कुल स्कोर";
+
+/* Class = "UILabel"; text = "Win exciting rewards"; ObjectID = "LAY-p8-YzV"; */
+"LAY-p8-YzV.text" = "आकर्षक रिवार्ड्स जीतें";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "LQt-bq-pKX"; */
+"LQt-bq-pKX.normalTitle" = "अगला";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "LpW-NP-ITC"; */
+"LpW-NP-ITC.text" = "00";
+
+/* Class = "UILabel"; text = "Days"; ObjectID = "MTc-DO-p0c"; */
+"MTc-DO-p0c.text" = "Days";
+
+/* Class = "UILabel"; text = "Current level"; ObjectID = "MkW-Gi-d2K"; */
+"MkW-Gi-d2K.text" = "वर्तमान स्तर";
+
+/* Class = "UIButton"; normalTitle = "View all"; ObjectID = "MmS-w9-mrO"; */
+"MmS-w9-mrO.normalTitle" = "सब देखें";
+
+/* Class = "UILabel"; text = "Enter and Win Prizes"; ObjectID = "NlG-WE-dWi"; */
+"NlG-WE-dWi.text" = "खेलें और रिवार्ड्स जीतें";
+
+/* Class = "UILabel"; text = "Contests"; ObjectID = "Oxa-J4-zfr"; */
+"Oxa-J4-zfr.text" = "कॉन्टेस्ट्स";
+
+/* Class = "UILabel"; text = "Questions 3/5"; ObjectID = "P2g-ik-RR8"; */
+"P2g-ik-RR8.text" = "Questions 3/5";
+
+/* Class = "UILabel"; text = "Today's plan"; ObjectID = "P6a-ys-aIt"; */
+"P6a-ys-aIt.text" = "आज का प्लान";
+
+/* Class = "UILabel"; text = "Leaderboard"; ObjectID = "PDJ-Nq-X3p"; */
+"PDJ-Nq-X3p.text" = "लीडरबोर्ड";
+
+/* Class = "UIButton"; normalTitle = "00"; ObjectID = "PHZ-ML-g1F"; */
+"PHZ-ML-g1F.normalTitle" = "00";
+
+/* Class = "UILabel"; text = "How to play"; ObjectID = "PdE-3g-ahp"; */
+"PdE-3g-ahp.text" = "कैसे खेलें?";
+
+/* Class = "UIButton"; normalTitle = "Play Now"; ObjectID = "Pee-Q2-5ph"; */
+"Pee-Q2-5ph.normalTitle" = "अब खेलें";
+
+/* Class = "UILabel"; text = "8pt"; ObjectID = "QLK-X9-tMY"; */
+"QLK-X9-tMY.text" = "8pt";
+
+/* Class = "UILabel"; text = "In ayurvedic medicine, the basic life force in the body known as:"; ObjectID = "QqZ-NU-6x4"; */
+"QqZ-NU-6x4.text" = "In ayurvedic medicine, the basic life force in the body known as:";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "R89-Vs-ADC"; */
+"R89-Vs-ADC.text" = "00";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "Tbw-it-2wj"; */
+"Tbw-it-2wj.text" = "1";
+
+/* Class = "UILabel"; text = "Share result"; ObjectID = "U56-tB-o1h"; */
+"U56-tB-o1h.text" = "परिणाम शेयर करें";
+
+/* Class = "UILabel"; text = "You scored"; ObjectID = "UVb-CC-Azz"; */
+"UVb-CC-Azz.text" = "आपका स्कोर";
+
+/* Class = "UILabel"; text = "Link your social accounts..."; ObjectID = "Ud7-GQ-InB"; */
+"Ud7-GQ-InB.text" = "अपने सोशल मीडिया एकाउंट्स लिंक करें...";
+
+/* Class = "UIButton"; normalTitle = "Check levels & benefits"; ObjectID = "VLt-Nc-Gez"; */
+"VLt-Nc-Gez.normalTitle" = "स्तर और लाभ देखें";
+
+/* Class = "UILabel"; text = "Note : You’ll be droped to previous level if you miss sparshna for straight 3 days."; ObjectID = "W7i-wN-L8L"; */
+"W7i-wN-L8L.text" = "Note : You’ll be droped to previous level if you miss sparshna for straight 3 days.";
+
+/* Class = "UIButton"; normalTitle = "00"; ObjectID = "YFp-qf-umU"; */
+"YFp-qf-umU.normalTitle" = "00";
+
+/* Class = "UILabel"; text = "Madara uchiha Madara uchiha Madara uchiha Madara uchiha"; ObjectID = "YXU-6V-GKg"; */
+"YXU-6V-GKg.text" = "Madara uchiha Madara uchiha Madara uchiha Madara uchiha";
+
+/* Class = "UILabel"; text = "PRO"; ObjectID = "ZKg-kg-Bg8"; */
+"ZKg-kg-Bg8.text" = "PRO";
+
+/* Class = "UILabel"; text = "Hours"; ObjectID = "aFS-IG-Exi"; */
+"aFS-IG-Exi.text" = "Hours";
+
+/* Class = "UILabel"; text = "Exploring Ayurveda"; ObjectID = "aJm-RU-Nqc"; */
+"aJm-RU-Nqc.text" = "Exploring Ayurveda";
+
+/* Class = "UILabel"; text = "Correct"; ObjectID = "abS-Ue-U4v"; */
+"abS-Ue-U4v.text" = "सही";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "avy-Xz-SDr"; */
+"avy-Xz-SDr.text" = ":";
+
+/* Class = "UILabel"; text = "Participate in this contest and win exciting rewards while learning Ayurveda"; ObjectID = "b2C-ro-ahB"; */
+"b2C-ro-ahB.text" = "Participate in this contest and win exciting rewards while learning Ayurveda";
+
+/* Class = "UILabel"; text = "Total questions"; ObjectID = "bsr-wU-h8C"; */
+"bsr-wU-h8C.text" = "कुल प्रश्न";
+
+/* Class = "UILabel"; text = "Madara uchiha Madara uchiha Madara uchiha Madara uchiha"; ObjectID = "efb-98-UeT"; */
+"efb-98-UeT.text" = "Madara uchiha Madara uchiha Madara uchiha Madara uchiha";
+
+/* Class = "UILabel"; text = "8pt"; ObjectID = "fSF-6l-Knk"; */
+"fSF-6l-Knk.text" = "8pt";
+
+/* Class = "UILabel"; text = "5000 AyuSeeds"; ObjectID = "g4x-eu-fpI"; */
+"g4x-eu-fpI.text" = "5000 AyuSeeds";
+
+/* Class = "UILabel"; text = "... and earn 50 AyuSeeds!"; ObjectID = "gCI-CY-Ahn"; */
+"gCI-CY-Ahn.text" = "... और 50 AyuSeeds अर्जित करें!";
+
+/* Class = "UILabel"; text = "Play again"; ObjectID = "h0P-Zh-Jah"; */
+"h0P-Zh-Jah.text" = "पुनः खेलें";
+
+/* Class = "UILabel"; text = "PRO"; ObjectID = "h5Y-iv-6UJ"; */
+"h5Y-iv-6UJ.text" = "PRO";
+
+/* Class = "UIButton"; normalTitle = "Google"; ObjectID = "hRi-ZL-4X1"; */
+"hRi-ZL-4X1.normalTitle" = "Google";
+
+/* Class = "UILabel"; text = "My Rewards"; ObjectID = "i6D-LS-cna"; */
+"i6D-LS-cna.text" = "मेरे रिवार्ड्स";
+
+/* Class = "UILabel"; text = "Complete 3 day streak to reach bronze level"; ObjectID = "i8B-4h-kow"; */
+"i8B-4h-kow.text" = "Complete 3 day streak to reach bronze level";
+
+/* Class = "UIButton"; normalTitle = "Explore other contests"; ObjectID = "iDl-VH-erA"; */
+"iDl-VH-erA.normalTitle" = "अन्य कॉन्टेस्ट्स देखें";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "jBC-vs-XZP"; */
+"jBC-vs-XZP.text" = "2";
+
+/* Class = "UIButton"; normalTitle = "Enter"; ObjectID = "jdx-OV-diM"; */
+"jdx-OV-diM.normalTitle" = "प्रवेश करें";
+
+/* Class = "UILabel"; text = "Enter the contest"; ObjectID = "kj3-bI-0cC"; */
+"kj3-bI-0cC.text" = "कॉन्टेस्ट में प्रवेश करें";
+
+/* Class = "UIButton"; normalTitle = "Facebook"; ObjectID = "l5b-sq-ePb"; */
+"l5b-sq-ePb.normalTitle" = "Facebook";
+
+/* Class = "UILabel"; text = "Earn points for each \ncorrect answer"; ObjectID = "l6N-Gs-Ua5"; */
+"l6N-Gs-Ua5.text" = "प्रत्येक सही उत्तर के लिए \nअंक अर्जित करें";
+
+/* Class = "UILabel"; text = "Exploring Ayurveda"; ObjectID = "lLP-0U-akC"; */
+"lLP-0U-akC.text" = "Exploring Ayurveda";
+
+/* Class = "UILabel"; text = "You"; ObjectID = "ltO-ZV-LTk"; */
+"ltO-ZV-LTk.text" = "आप";
+
+/* Class = "UILabel"; text = "Congratulations"; ObjectID = "nfb-qV-6ac"; */
+"nfb-qV-6ac.text" = "Congratulations";
+
+/* Class = "UILabel"; text = "Invite your friends, and you both earn 1000 AyuSeeds each."; ObjectID = "odX-Lz-K6R"; */
+"odX-Lz-K6R.text" = "Invite your friends, and you both earn 1000 AyuSeeds each.";
+
+/* Class = "UILabel"; text = "No points deducted for \nwrong answers"; ObjectID = "rHP-LA-cLD"; */
+"rHP-LA-cLD.text" = "गलत उत्तरों के लिए\nकोई अंक नहीं काटा जाएगा";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "uVr-Xh-dWN"; */
+"uVr-Xh-dWN.text" = "00";
+
+/* Class = "UILabel"; text = "Answer all the \nquestions"; ObjectID = "uhu-IL-YWz"; */
+"uhu-IL-YWz.text" = "सभी प्रश्नों \nके उत्तर दें";
+
+/* Class = "UILabel"; text = "COMING SOON"; ObjectID = "vYl-h1-Ecw"; */
+"vYl-h1-Ecw.text" = "COMING SOON";
+
+/* Class = "UILabel"; text = "Wrong"; ObjectID = "wvl-gM-gMH"; */
+"wvl-gM-gMH.text" = "गलत";
+
+/* Class = "UILabel"; text = "in"; ObjectID = "x6p-l6-Oym"; */
+"x6p-l6-Oym.text" = "in";
+
+/* Class = "UILabel"; text = "Contests"; ObjectID = "y5t-fS-uxW"; */
+"y5t-fS-uxW.text" = "कॉन्टेस्ट्स";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "yz3-gl-c0y"; */
+"yz3-gl-c0y.text" = "4";

@@ -1,0 +1,90 @@
+/* Class = "UILabel"; text = "30 questions assessment to access your ideal dosha"; ObjectID = "1bD-Qn-fWo"; */
+"1bD-Qn-fWo.text" = "30 प्रश्नों के माध्यम से आपके अंतर्निहित दोष संतुलन का आकलन।";
+
+/* Class = "UILabel"; text = "Vata"; ObjectID = "2dX-Hj-XyG"; */
+"2dX-Hj-XyG.text" = "वात";
+
+/* Class = "UIButton"; normalTitle = "Let’s Start"; ObjectID = "2lR-J8-lai"; */
+"2lR-J8-lai.normalTitle" = "प्रारंभ करें";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "5jf-3w-ikw"; */
+"5jf-3w-ikw.normalTitle" = "छोड़ें";
+
+/* Class = "UILabel"; text = "VIKRITI"; ObjectID = "7vo-bI-rqx"; */
+"7vo-bI-rqx.text" = "विकृति";
+
+/* Class = "UILabel"; text = "Ideal You"; ObjectID = "28q-FC-ToZ"; */
+"28q-FC-ToZ.text" = "आदर्श आप";
+
+/* Class = "UILabel"; text = "Current You"; ObjectID = "44S-bd-XYN"; */
+"44S-bd-XYN.text" = "वर्तमान में आप";
+
+/* Class = "UILabel"; text = "PRAKRITI"; ObjectID = "79T-Aj-s6K"; */
+"79T-Aj-s6K.text" = "प्रकृति";
+
+/* Class = "UILabel"; text = "Pitta"; ObjectID = "BQr-E8-L0u"; */
+"BQr-E8-L0u.text" = "पित्त";
+
+/* Class = "UILabel"; text = "SPARSHNA"; ObjectID = "eK2-ko-zT8"; */
+"eK2-ko-zT8.text" = "स्पर्शन";
+
+/* Class = "UILabel"; text = "We start with the Naadi Pariksha \\nor Pulse Diagnosis to discover your Kapha, Pitta and Vata imbalances or your Vikriti (Current You)"; ObjectID = "Gcx-Wa-SVx"; */
+"Gcx-Wa-SVx.text" = "हम आपके कफ, पित्त और वात असंतुलन \\\\nया आपकी विकृति (आपकी वर्तमान स्थिति) का पता लगाने के लिए नाड़ी परिक्षा या पल्स डायग्नोसिस के साथ शुरूवात करेंगे";
+
+/* Class = "UILabel"; text = "30 second camera based pulse assessment"; ObjectID = "gE5-H8-S07"; */
+"gE5-H8-S07.text" = "स्मार्टफोन कैमरे के माध्यम से 30 सेकंड में नाड़ी परीक्षा।";
+
+/* Class = "UILabel"; text = "Find your imbalance"; ObjectID = "Hb9-up-xPh"; */
+"Hb9-up-xPh.text" = "अपने असंतुलन का पता लगाएं।";
+
+/* Class = "UILabel"; text = "(Vikriti)"; ObjectID = "0QE-Qq-j3b"; */
+"0QE-Qq-j3b.text" = "(विकृति)";
+
+/* Class = "UIButton"; normalTitle = "10 mins"; ObjectID = "Hyy-L4-zGX"; */
+"Hyy-L4-zGX.normalTitle" = "10 मिनिट";
+
+/* Class = "UILabel"; text = "Choose one option"; ObjectID = "kt9-nn-C7b"; */
+"kt9-nn-C7b.text" = "एक विकल्प चुनें";
+
+/* Class = "UILabel"; text = "Prakriti test may take"; ObjectID = "mMY-cE-8dX"; */
+"mMY-cE-8dX.text" = "प्रकृति परीक्षण हो सकता है";
+
+/* Class = "UILabel"; text = "Kapha"; ObjectID = "Pk3-Qo-QRN"; */
+"Pk3-Qo-QRN.text" = "कफ";
+
+/* Class = "UILabel"; text = "Analysis of Prakriti and Vikriti helps in defining your mind-body constitution and providing personalised wellness recommendations."; ObjectID = "0bJ-gw-Bpi.text"; */
+"0bJ-gw-Bpi.text" = "*प्रकृति* और *विकृति* का विश्लेषण आपके *मानसिक-शारीरिक संविधान* को परिभाषित करने और व्यक्तिगत स्वास्थ्य सुझाव प्रदान करने में मदद करता है।";
+
+/* Class = "UILabel"; text = "Find your ideal balance"; ObjectID = "qjI-xO-qpL"; */
+"qjI-xO-qpL.text" = "अपने आदर्श दोष संतुलन का पता लगाएं।";
+
+/* Class = "UILabel"; text = "(Prakriti)"; ObjectID = "iOZ-Td-ySj"; */
+"iOZ-Td-ySj.text" = "(प्रकृति)";
+
+/* Class = "UILabel"; text = "Personalising the\napp for you"; ObjectID = "rdQ-zG-015"; */
+"rdQ-zG-015.text" = "आपके लिए ऍप \nको निजीकृत कर रहे हैं";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "RSq-32-4ke"; */
+"RSq-32-4ke.normalTitle" = "पीछे";
+
+/* Class = "UILabel"; text = "PRASHNA"; ObjectID = "utQ-0R-hF6"; */
+"utQ-0R-hF6.text" = "प्रश्न";
+
+/* Class = "UILabel"; text = "The dominant dosha in your body\ndecides your body type"; ObjectID = "UyB-gz-lY1"; */
+"UyB-gz-lY1.text" = "आपके शरीर का प्रभावी दोष \nआपके शरीर के प्रकार को तय करता हैं";
+
+/* Class = "UIButton"; normalTitle = "Let’s Start"; ObjectID = "VB3-Vu-gHM"; */
+"VB3-Vu-gHM.normalTitle" = "प्रारंभ करें";
+
+/* Class = "UILabel"; text = "The best time to complete Naadi Pariksha is early morning, on an empty stomach."; ObjectID = "vU9-0y-Hcl"; */
+"vU9-0y-Hcl.text" = "नाड़ी परिक्षा को पूरा करने का सबसे अच्छा समय सुबह-सुबह, खाली पेट हैं";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "vwF-St-7PF"; */
+"vwF-St-7PF.normalTitle" = "रजिस्टर करें";
+
+/* Class = "UITextView"; text = "1. All questions must be answered\n\n        2. It can be fun to do the questionnaire alongside someone who knows you well\n\n        3. Important: We are establishing your core nature so please consider how you were as a child, as well as now\n\n        4. If you have difficulty deciding, choose the answer that best represents how you have been for the majority of your life\n\n        5. The choices given are relative with the characteristics of the places you have lived\n\n        6. You can pause and come back anytime"; ObjectID = "yGm-t1-zyw"; */
+"yGm-t1-zyw.text" = "1. सभी प्रश्नों का उत्तर देना आवश्यक है। \n\n2. यह प्रश्नावली पूर्ण करने के लिए आपको अपने किसी जानकार व्यक्ति का सहयोग लेने के लिए प्रेरित किया जाता है, जो आपको बचपन से जानता हो। \n\n3. महत्त्वपूर्ण: हम आपकी मूल शारीरिक संरचना को स्थापित कर रहे हैं, आपसे अनुरोध है कि हर प्रश्न का उत्तर, आप अपने बचपन में कैसे थे , यह ध्यान में रख कर दें। \n\n4. यदि आपको प्रश्नों के उत्तर देने में कठिनाई होती है तो कृपया उस विकल्प को चुनें, जो आपके जीवन के अधिकांश हिस्से का सबसे अच्छा प्रतिनिधित्व करता है। \n\n5. दिए गए विकल्प उन स्थानों की विशेषताओं के सापेक्ष हैं जहाँ आप रह चुके हैं। \n\n6. आप किसी भी समय इस आंकलन को रोक सकते हैं और पुनः यहीं से प्रारम्भ कर सकते हैं।";
+
+/* Class = "UIButton"; normalTitle = "Let's Begin"; ObjectID = "yQP-y4-Z3V"; */
+"yQP-y4-Z3V.normalTitle" = "शुरू करें";
+

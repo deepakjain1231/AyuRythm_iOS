@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "How fast your pulse beats,\nmeasured as high/medium/low."; ObjectID = "1fi-iJ-DKP"; */
+"1fi-iJ-DKP.text" = "How fast your pulse beats,\nmeasured as high/medium/low.";
+
+/* Class = "UILabel"; text = "Fruits"; ObjectID = "CMb-rn-d7k"; */
+"CMb-rn-d7k.text" = "Fruits";
+
+/* Class = "UILabel"; text = "How fast your pulse beats,\nmeasured as high/medium/low."; ObjectID = "Far-PK-yTA"; */
+"Far-PK-yTA.text" = "How fast your pulse beats,\nmeasured as high/medium/low.";
+
+/* Class = "UILabel"; text = "Above 30"; ObjectID = "LyH-rR-JSQ"; */
+"LyH-rR-JSQ.text" = "Above 30";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "MAU-8M-lgZ"; */
+"MAU-8M-lgZ.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "DISCLAIMER: These results are only for Ayurvedic wellness and should not be interpreted or used for diagnosis or treatment."; ObjectID = "P9h-Us-TBI"; */
+"P9h-Us-TBI.text" = "DISCLAIMER: ये परिणाम केवल आयुर्वेदिक समग्र स्वस्थता कल्याण के लिए हैं और इसका निदान या उपचार के लिए व्याख्या या उपयोग नहीं किया जाना चाहिए।";
+
+/* Class = "UILabel"; text = "Below 210"; ObjectID = "QqF-Wr-J2f"; */
+"QqF-Wr-J2f.text" = "Below 210";
+
+/* Class = "UILabel"; text = "Below 210"; ObjectID = "RMH-LP-HQg"; */
+"RMH-LP-HQg.text" = "Below 210";
+
+/* Class = "UILabel"; text = "Fruits"; ObjectID = "S0S-D1-Jm8"; */
+"S0S-D1-Jm8.text" = "Fruits";
+
+/* Class = "UILabel"; text = "Value Ranges"; ObjectID = "UBg-7c-n9h"; */
+"UBg-7c-n9h.text" = "मान श्रेणी";
+
+/* Class = "UILabel"; text = "Overweight"; ObjectID = "V7R-aj-D2n"; */
+"V7R-aj-D2n.text" = "अधिक-भार";
+
+/* Class = "UILabel"; text = "Below 210"; ObjectID = "g3L-1h-AvG"; */
+"g3L-1h-AvG.text" = "Below 210";
+
+/* Class = "UILabel"; text = "Obese"; ObjectID = "hST-PV-hYW"; */
+"hST-PV-hYW.text" = "स्थूल";
+
+/* Class = "UILabel"; text = "Correlates to Heart Rate"; ObjectID = "j6p-Gq-8hO"; */
+"j6p-Gq-8hO.text" = "Correlates to Heart Rate";
+
+/* Class = "UILabel"; text = "25-30"; ObjectID = "kRX-Gn-5Nu"; */
+"kRX-Gn-5Nu.text" = "25-30";
+
+/* Class = "UILabel"; text = "Fruits"; ObjectID = "u9n-pJ-37I"; */
+"u9n-pJ-37I.text" = "Fruits";
+
+/* Class = "UILabel"; text = "Vega"; ObjectID = "zss-W2-YSJ"; */
+"zss-W2-YSJ.text" = "Vega";

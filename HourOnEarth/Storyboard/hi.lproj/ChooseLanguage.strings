@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Choose your Preferred Language"; ObjectID = "DSF-Uj-uw6"; */
+"DSF-Uj-uw6.text" = "Choose your Preferred Language";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "TdA-KT-rn6"; */
+"TdA-KT-rn6.normalTitle" = "English";
+
+/* Class = "UIButton"; normalTitle = "हिंदी"; ObjectID = "Vpu-rk-23P"; */
+"Vpu-rk-23P.normalTitle" = "हिंदी";
+
+/* Class = "UINavigationItem"; title = "Change Language"; ObjectID = "czh-4i-9UJ"; */
+"czh-4i-9UJ.title" = "भाषा बदलें";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "ecW-V2-GhD"; */
+"ecW-V2-GhD.normalTitle" = "जारी रखें";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "haM-MY-oMm"; */
+"haM-MY-oMm.title" = "पीछे";

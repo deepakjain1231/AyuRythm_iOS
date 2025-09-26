@@ -1,0 +1,116 @@
+/* Class = "UILabel"; text = "Complete various tasks \nin the app and earn seeds!"; ObjectID = "3fk-pv-Jae"; */
+"3fk-pv-Jae.text" = "ऍप में विभिन्न कार्यों को पूरा करें \nऔर AyuSeeds अर्जित करें!";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "4v5-Zy-XZw"; */
+"4v5-Zy-XZw.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "71k-HE-OOE"; */
+"71k-HE-OOE.text" = "0";
+
+/* Class = "UILabel"; text = "AyuSeeds"; ObjectID = "BBK-ah-8o6"; */
+"BBK-ah-8o6.text" = "AyuSeeds";
+
+/* Class = "UILabel"; text = "Get access to exclusive content\nand brand new features\nby redeeming your seeds!"; ObjectID = "G14-5l-r16"; */
+"G14-5l-r16.text" = "अपने AyuSeeds को रिडीम कर के \nअनन्य कन्टेंट एवं \nनए फीचर्स का उपयोग करें!";
+
+/* Class = "UIButton"; normalTitle = "History"; ObjectID = "Khy-Xm-iZO"; */
+"Khy-Xm-iZO.normalTitle" = "इतिहास";
+
+/* Class = "UILabel"; text = "Earn AyuSeeds"; ObjectID = "Mua-xT-vth"; */
+"Mua-xT-vth.text" = "AyuSeeds अर्जित करें";
+
+/* Class = "UINavigationItem"; title = "Search"; ObjectID = "NA7-Mk-gst"; */
+"NA7-Mk-gst.title" = "ढूंढें";
+
+/* Class = "UIButton"; normalTitle = "Connect to Google"; ObjectID = "O0e-bY-8jQ"; */
+"O0e-bY-8jQ.normalTitle" = "Google से कनेक्ट करें";
+
+/* Class = "UILabel"; text = "Discover & Collect\nHidden AyuSeeds"; ObjectID = "Ryo-pm-1Gf"; */
+"Ryo-pm-1Gf.text" = "ढूंढे और छुपे हुए AyuSeeds प्राप्त करें";
+
+/* Class = "UILabel"; text = "Refer a friend"; ObjectID = "TTC-TV-ND6"; */
+"TTC-TV-ND6.text" = "मित्र को आमंत्रित करें";
+
+/* Class = "UIButton"; normalTitle = "Earn"; ObjectID = "TWq-5x-xaX"; */
+"TWq-5x-xaX.normalTitle" = "अर्जित करें";
+
+/* Class = "UILabel"; text = "welcome to"; ObjectID = "UfN-Tb-1hF"; */
+"UfN-Tb-1hF.text" = "में आपका स्वागत है";
+
+/* Class = "UIButton"; normalTitle = "Let’s Go!"; ObjectID = "Vg8-zP-lw6"; */
+"Vg8-zP-lw6.normalTitle" = "प्रारम्भ करें!";
+
+/* Class = "UILabel"; text = "Link your account and \nearn 50 AyuSeeds!"; ObjectID = "XpZ-nG-kc6"; */
+"XpZ-nG-kc6.text" = "अपना अकाउंट लिंक करें और \n50 AyuSeeds अर्जित करें।";
+
+/* Class = "UILabel"; text = "Do not show this again."; ObjectID = "bAz-dB-6mG"; */
+"bAz-dB-6mG.text" = "पुनः न दिखाएँ";
+
+/* Class = "UILabel"; text = "Connect to Google"; ObjectID = "bU3-JL-XLu"; */
+"bU3-JL-XLu.text" = "Google से कनेक्ट करें";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "dJf-kz-s5k"; */
+"dJf-kz-s5k.text" = "0";
+
+/* Class = "UINavigationItem"; title = "AyuSeeds"; ObjectID = "ei3-1o-3Ux"; */
+"ei3-1o-3Ux.title" = "AyuSeeds";
+
+/* Class = "UILabel"; text = "Explore the app to find\nand collect all the\nhidden seeds!"; ObjectID = "f6y-Yp-iwQ"; */
+"f6y-Yp-iwQ.text" = "सभी छिपे हुए AyuSeeds को ढूंढने \nऔर इकट्ठा करने के लिए ऍप का अच्छी तरह से \nऔर पूर्णतया उपयोग करें!";
+
+/* Class = "UILabel"; text = "Earn 10 seeds for each friend\nwho registers using your code"; ObjectID = "gp2-UN-Do6"; */
+"gp2-UN-Do6.text" = "आपके द्वारा दिए गए कोड से हर एक मित्र के \nरजिस्टर करने पर 10 AyuSeeds अर्जित करे।";
+
+/* Class = "UIButton"; normalTitle = "Connect to Facebook"; ObjectID = "iYe-HR-mhR"; */
+"iYe-HR-mhR.normalTitle" = "Facebook से कनेक्ट करें";
+
+/* Class = "UILabel"; text = "Connect to Facebook"; ObjectID = "ia4-3X-9J3"; */
+"ia4-3X-9J3.text" = "Facebook से कनेक्ट करें";
+
+/* Class = "UIButton"; normalTitle = "Redeem"; ObjectID = "l2t-tX-oO9"; */
+"l2t-tX-oO9.normalTitle" = "रीडीम";
+
+/* Class = "UIButton"; normalTitle = "Let’s Go!"; ObjectID = "mQs-6M-QRq"; */
+"mQs-6M-QRq.normalTitle" = "प्रारम्भ करें!";
+
+/* Class = "UILabel"; text = "Lifetime AyuSeeds"; ObjectID = "oX6-xY-lbM"; */
+"oX6-xY-lbM.text" = "अर्जित Seeds";
+
+/* Class = "UILabel"; text = "AyuSeeds Spent"; ObjectID = "pRx-74-5SX"; */
+"pRx-74-5SX.text" = "व्ययित Seeds";
+
+/* Class = "UILabel"; text = "Total AyuSeeds"; ObjectID = "u5l-uI-IhA"; */
+"u5l-uI-IhA.text" = "कुल Seeds";
+
+/* Class = "UILabel"; text = "Available Seeds"; ObjectID = "yqk-3M-H9M"; */
+"yqk-3M-H9M.text" = "उपलब्ध Seeds";
+
+/* Class = "UILabel"; text = "Unlock Content\n& Features"; ObjectID = "zQ8-Mc-HFZ"; */
+"zQ8-Mc-HFZ.text" = "कंटेंट और फीचर्स \nअनलॉक करें";
+
+/* Class = "UILabel"; text = "Link your account and \nearn 50 AyuSeeds!"; ObjectID = "zR3-j5-5k0"; */
+"zR3-j5-5k0.text" = "अपना अकाउंट लिंक करें और \n50 AyuSeeds अर्जित करें।";
+
+/* Class = "UILabel"; text = "Note: Seeds expire in 6 months from date earned"; ObjectID = "aVE-h3-mvI"; */
+"aVE-h3-mvI.text" = "नोट: AyuSeeds अर्जित किए हुए दिन से 6 महीने तक वैध है।";
+
+/* Class = "UIButton"; normalTitle = "Coupons"; ObjectID = "JlW-YI-hVc"; */
+"JlW-YI-hVc.normalTitle" = "कूपन";
+
+/* Class = "UIButton"; normalTitle = "Earn AyuSeeds"; ObjectID = "hXZ-oi-WBe"; */
+"hXZ-oi-WBe.normalTitle" = "Ayuseeds अर्जित करें";
+
+/* Class = "UILabel"; text = "Buy AyuSeeds"; ObjectID = "MTc-7v-oJU"; */
+"MTc-7v-oJU.text" = "AyuSeeds खरीदें";
+
+/* Class = "UILabel"; text = "Get 10% more when you buy \nAyuSeeds worth ₹100 or more!"; ObjectID = "bd8-Du-yhz"; */
+"bd8-Du-yhz.text" = "₹100 या अधिक के AyuSeeds खरीदने पर \n10% अतिरिक्त AyuSeeds प्राप्त करें!";
+
+/* Class = "UILabel"; text = "BONUS!"; ObjectID = "htJ-8e-aHi"; */
+"htJ-8e-aHi.text" = "BONUS!";
+
+/* Class = "UILabel"; text = "AyuSeeds can be purchased\n in multiples of 1000\n\nPlease enter how many \nseeds you would like to buy"; ObjectID = "miZ-ho-BKu"; */
+"miZ-ho-BKu.text" = "AyuSeeds को 1000 के गुणकों \nमें खरीदा जा सकता है \n\nकृपया दर्ज करें आप कितने \nAyuSeeds खरीदना चाहते हैं";
+
+/* Class = "UIButton"; normalTitle = "Confirm and Buy"; ObjectID = "zhM-cd-jo0"; */
+"zhM-cd-jo0.normalTitle" = "पुष्टि करें और खरीदें";

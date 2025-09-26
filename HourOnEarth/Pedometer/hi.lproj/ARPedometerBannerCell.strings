@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "500/4000\nsteps"; ObjectID = "Cpn-ag-bb5"; */
+"Cpn-ag-bb5.text" = "500/4000\nsteps";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "KDR-YQ-jjv"; */
+"KDR-YQ-jjv.text" = "0";
+
+/* Class = "UILabel"; text = "2hr 30min"; ObjectID = "OIM-i7-PUf"; */
+"OIM-i7-PUf.text" = "2hr 30min";
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "PZI-ys-fpc"; */
+"PZI-ys-fpc.text" = "दूरी";
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "RuW-1n-orO"; */
+"RuW-1n-orO.text" = "दूरी";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "WMg-5v-2dU"; */
+"WMg-5v-2dU.text" = "समय";
+
+/* Class = "UILabel"; text = "Walking"; ObjectID = "Y77-m8-4hn"; */
+"Y77-m8-4hn.text" = "टहलना";
+
+/* Class = "UILabel"; text = "0.5 km"; ObjectID = "cXg-BM-8NN"; */
+"cXg-BM-8NN.text" = "0.5 km";
+
+/* Class = "UILabel"; text = "Pace"; ObjectID = "cfd-qL-7Gn"; */
+"cfd-qL-7Gn.text" = "गति";
+
+/* Class = "UILabel"; text = "Calories"; ObjectID = "keL-vf-SeW"; */
+"keL-vf-SeW.text" = "कैलोरी";
+
+/* Class = "UILabel"; text = "07:58 min/km"; ObjectID = "zns-xu-Sfq"; */
+"zns-xu-Sfq.text" = "07:58 min/km";

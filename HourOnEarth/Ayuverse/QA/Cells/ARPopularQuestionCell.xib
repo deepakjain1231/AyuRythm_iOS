@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ARPopularQuestionCell" id="gTV-IL-0wX" customClass="ARPopularQuestionCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="263"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="263"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yNq-fL-v8H" customClass="ARQuestionAnswerBGView" customModule="AyuRythm" customModuleProvider="target">
+                        <rect key="frame" x="4" y="4" width="367" height="243"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kYf-zw-IM2">
+                                <rect key="frame" x="0.0" y="0.0" width="367" height="243"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="253" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="753" text="Asked by Prajwal dev" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qrj-mJ-Kw5">
+                                        <rect key="frame" x="12" y="52" width="343" height="13.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="What are the benefits of doing meditation everyday?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="HNQ-41-O9h" customClass="ActiveLabel" customModule="ActiveLabel">
+                                        <rect key="frame" x="12" y="75.5" width="343" height="125.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="4G5-1c-0KF">
+                                        <rect key="frame" x="12" y="211" width="343" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="253" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="753" text="Answers recieved - 15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="pzI-uJ-SYm">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="22"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                                                <color key="textColor" red="0.46666666670000001" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHl-lr-exG">
+                                                <rect key="frame" x="321" y="0.0" width="22" height="22"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="LHl-lr-exG" secondAttribute="height" id="PKX-Rc-Aqx"/>
+                                                    <constraint firstAttribute="width" constant="22" id="ydY-i8-kZt"/>
+                                                </constraints>
+                                                <color key="tintColor" red="0.46666666666666667" green="0.46666666666666667" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="three-dots"/>
+                                                <connections>
+                                                    <action selector="moreActionBtnPressedWithSender:" destination="gTV-IL-0wX" eventType="touchUpInside" id="K5M-bT-Qnx"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <edgeInsets key="layoutMargins" top="12" left="12" bottom="10" right="12"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kYf-zw-IM2" firstAttribute="leading" secondItem="yNq-fL-v8H" secondAttribute="leading" id="1hH-Bh-a7X"/>
+                            <constraint firstAttribute="trailing" secondItem="kYf-zw-IM2" secondAttribute="trailing" id="Qgk-Fj-4jd"/>
+                            <constraint firstAttribute="bottom" secondItem="kYf-zw-IM2" secondAttribute="bottom" id="aCT-e8-MX8"/>
+                            <constraint firstItem="kYf-zw-IM2" firstAttribute="top" secondItem="yNq-fL-v8H" secondAttribute="top" id="pQJ-rn-Vhs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="yNq-fL-v8H" secondAttribute="trailing" constant="4" id="1bw-lF-Ftu"/>
+                <constraint firstAttribute="bottom" secondItem="yNq-fL-v8H" secondAttribute="bottom" constant="16" id="otA-uj-2Hy"/>
+                <constraint firstItem="yNq-fL-v8H" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="rsU-vb-jtA"/>
+                <constraint firstItem="yNq-fL-v8H" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="yKS-k0-24G"/>
+            </constraints>
+            <size key="customSize" width="351" height="273"/>
+            <connections>
+                <outlet property="countL" destination="pzI-uJ-SYm" id="Wty-8Q-fsB"/>
+                <outlet property="questionL" destination="HNQ-41-O9h" id="MI2-L4-b9u"/>
+                <outlet property="userNameL" destination="qrj-mJ-Kw5" id="xLk-U5-L6P"/>
+            </connections>
+            <point key="canvasLocation" x="221.01449275362322" y="127.56696428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="three-dots" width="16" height="4"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

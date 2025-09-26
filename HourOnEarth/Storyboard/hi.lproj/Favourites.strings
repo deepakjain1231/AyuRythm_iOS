@@ -1,0 +1,24 @@
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "9x7-0a-toU"; */
+"9x7-0a-toU.title" = "Title";
+
+/* Class = "UILabel"; text = "Products"; ObjectID = "alq-2T-Z9G"; */
+"alq-2T-Z9G.text" = "उत्पादों";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ekx-EN-zO0"; */
+"ekx-EN-zO0.text" = "लेबल";
+
+/* Class = "UILabel"; text = "12 items"; ObjectID = "F39-Wn-5qn"; */
+"F39-Wn-5qn.text" = "12 आइटम";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GIl-tt-8Tb"; */
+"GIl-tt-8Tb.text" = "लेबल";
+
+/* Class = "UINavigationItem"; title = "Favourites"; ObjectID = "gYC-bT-TNG"; */
+"gYC-bT-TNG.title" = "स्वरुचि";
+
+/* Class = "UINavigationItem"; title = "Yoga"; ObjectID = "khj-Yu-i3H"; */
+"khj-Yu-i3H.title" = "योग";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "QkL-D0-KaZ"; */
+"QkL-D0-KaZ.title" = "Item";
+

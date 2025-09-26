@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="97" id="KGk-i7-Jjw" customClass="ProductHeaderTableCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="511" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="511" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kSe-fm-SDL">
+                        <rect key="frame" x="202.5" y="18" width="106" height="36"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFy-jx-CCv">
+                                <rect key="frame" x="25" y="9" width="56" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84705882352941175" green="0.90980392156862744" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="vFy-jx-CCv" firstAttribute="top" secondItem="kSe-fm-SDL" secondAttribute="top" constant="9" id="6Iy-VZ-Haf"/>
+                            <constraint firstAttribute="bottom" secondItem="vFy-jx-CCv" secondAttribute="bottom" constant="9" id="Qhn-Vl-P20"/>
+                            <constraint firstAttribute="trailing" secondItem="vFy-jx-CCv" secondAttribute="trailing" constant="25" id="aoy-tj-Pa6"/>
+                            <constraint firstItem="vFy-jx-CCv" firstAttribute="leading" secondItem="kSe-fm-SDL" secondAttribute="leading" constant="25" id="d3x-ul-IhL"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsB-PQ-NtB">
+                        <rect key="frame" x="20" y="12" width="38.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DsB-PQ-NtB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="V0z-FF-W8v"/>
+                    <constraint firstItem="DsB-PQ-NtB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="VuJ-MR-CIe"/>
+                    <constraint firstItem="kSe-fm-SDL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="u7u-wz-ytV"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="kSe-fm-SDL" secondAttribute="bottom" id="vYE-hM-fOW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <constraints>
+                <constraint firstItem="kSe-fm-SDL" firstAttribute="centerX" secondItem="njF-e1-oar" secondAttribute="centerX" id="FgS-jK-qTJ"/>
+            </constraints>
+            <connections>
+                <outlet property="constraint_Text_Bottom_leading" destination="vYE-hM-fOW" id="JY2-Ms-vC3"/>
+                <outlet property="constraint_Text_Top_leading" destination="VuJ-MR-CIe" id="36c-e9-hf9"/>
+                <outlet property="constraint_lbl_TimeSlot_leading" destination="V0z-FF-W8v" id="4vQ-yP-zdK"/>
+                <outlet property="lbl_TimeSlot" destination="DsB-PQ-NtB" id="jTF-M2-2yT"/>
+                <outlet property="lbl_weekName" destination="vFy-jx-CCv" id="KfH-kL-dqK"/>
+                <outlet property="view_weekName_BG" destination="kSe-fm-SDL" id="wgX-8X-sBX"/>
+            </connections>
+            <point key="canvasLocation" x="276.08695652173913" y="117.52232142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

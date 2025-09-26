@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVCNoTestDialouge" customModule="AyuRythm" customModuleProvider="target">
+            <connections>
+                <outlet property="constraint_viewHeader_Top" destination="uUH-w4-Fpz" id="HQz-kP-Ms0"/>
+                <outlet property="tblView" destination="Whc-PE-Nsm" id="GXf-TO-kdq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NB7-Kl-gKf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="btn_Close_Action:" destination="-1" eventType="touchUpInside" id="vNa-27-l3m"/>
+                    </connections>
+                </button>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pIC-cP-LX5">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="pa6-C9-YBx"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="Whc-PE-Nsm">
+                    <rect key="frame" x="0.0" y="62" width="375" height="605"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="JLk-r3-bwx"/>
+                        <outlet property="delegate" destination="-1" id="m52-MM-WL5"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Whc-PE-Nsm" firstAttribute="top" secondItem="pIC-cP-LX5" secondAttribute="bottom" constant="12" id="F9u-SW-Rwh"/>
+                <constraint firstAttribute="trailing" secondItem="Whc-PE-Nsm" secondAttribute="trailing" id="IiD-ke-gnd"/>
+                <constraint firstItem="Whc-PE-Nsm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="KKH-E5-6cm"/>
+                <constraint firstItem="NB7-Kl-gKf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="MRr-cO-UvY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Whc-PE-Nsm" secondAttribute="bottom" id="Njr-uH-ybU"/>
+                <constraint firstItem="pIC-cP-LX5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Sge-Kt-xny"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="NB7-Kl-gKf" secondAttribute="bottom" id="W0R-SI-RRT"/>
+                <constraint firstItem="NB7-Kl-gKf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="bIT-vN-xqD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NB7-Kl-gKf" secondAttribute="trailing" id="jd3-mT-xhQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pIC-cP-LX5" secondAttribute="trailing" id="oIN-n0-SN3"/>
+                <constraint firstItem="pIC-cP-LX5" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="uUH-w4-Fpz"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="119.1904047976012"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,96 @@
+
+/* Class = "UILabel"; text = "Pranayama"; ObjectID = "4Wb-Io-b1U"; */
+"4Wb-Io-b1U.text" = "प्राणायाम";
+
+/* Class = "UILabel"; text = "Immunity"; ObjectID = "4xA-NO-www"; */
+"4xA-NO-www.text" = "Immunity";
+
+/* Class = "UILabel"; text = "Please choose the level based on \nyour lifestyle and knowledge of the field"; ObjectID = "5RI-aH-UWa"; */
+"5RI-aH-UWa.text" = "कृपया अपनी जीवनशैली एवम अनुभव के अनुसार \nस्तर का चयन करें।";
+
+/* Class = "UILabel"; text = "How long would you like \nyour sessions to be?"; ObjectID = "77y-GN-5Q5"; */
+"77y-GN-5Q5.text" = "आप कितनी देर तक अभ्यास करना चाहेंगे?";
+
+/* Class = "UILabel"; text = "Great!\nYou're almost done!"; ObjectID = "7d8-ZN-pYT"; */
+"7d8-ZN-pYT.text" = "वाह! \nआपने अपनी प्राथमिकता का चयन पूर्ण कर लिया है!";
+
+/* Class = "UILabel"; text = "Intermediate"; ObjectID = "Beb-hP-HTR"; */
+"Beb-hP-HTR.text" = "मध्यवर्ती";
+
+/* Class = "UILabel"; text = "Kriyas"; ObjectID = "Dih-IZ-HFw"; */
+"Dih-IZ-HFw.text" = "क्रिया";
+
+/* Class = "UILabel"; text = "Beginner"; ObjectID = "GHf-ud-Joq"; */
+"GHf-ud-Joq.text" = "शुरुआती";
+
+/* Class = "UILabel"; text = "Meditation"; ObjectID = "GNR-qG-CwS"; */
+"GNR-qG-CwS.text" = "ध्यान";
+
+/* Class = "UILabel"; text = "What's your \nexperience level?"; ObjectID = "Ghi-We-9cP"; */
+"Ghi-We-9cP.text" = "अपने अनुभव स्तर\nका चयन करें।";
+
+/* Class = "UIButton"; normalTitle = "Begin"; ObjectID = "MJv-SC-Gx0"; */
+"MJv-SC-Gx0.normalTitle" = "प्रारंभ करें";
+
+/* Class = "UILabel"; text = "Explore exclusive content in the \narea of your choice!"; ObjectID = "TDf-eF-iIn"; */
+"TDf-eF-iIn.text" = "अपनी पसंद के अनन्य \nकंटेंट का चयन करें।";
+
+/* Class = "UILabel"; text = "Mudras"; ObjectID = "TaE-Id-lgm"; */
+"TaE-Id-lgm.text" = "मुद्रा";
+
+/* Class = "UILabel"; text = "Set a reminder and never \nmiss your sessions!"; ObjectID = "X5c-eb-zff"; */
+"X5c-eb-zff.text" = "रिमाइंडर सेट करें ताकि \nआप अपना अभ्यास प्रतिदिन करें! ";
+
+/* Class = "UILabel"; text = "Intermediate"; ObjectID = "XR6-sf-bka"; */
+"XR6-sf-bka.text" = "मध्यवर्ती";
+
+/* Class = "UILabel"; text = "Advanced"; ObjectID = "XUU-dn-rVG"; */
+"XUU-dn-rVG.text" = "उन्नत";
+
+/* Class = "UILabel"; text = "Please choose the level based on your \nlifestyle and knowledge of the field"; ObjectID = "Xto-VJ-kBG"; */
+"Xto-VJ-kBG.text" = "कृपया अपनी जीवनशैली एवम अनुभव के अनुसार \nस्तर का चयन करें।";
+
+/* Class = "UILabel"; text = "You can select multiple options"; ObjectID = "ZPa-Xj-oNp"; */
+"ZPa-Xj-oNp.text" = "आप कई विकल्प चुन सकते हैं।";
+
+/* Class = "UILabel"; text = "What would you like \nto focus on?"; ObjectID = "bBt-0k-HZv"; */
+"bBt-0k-HZv.text" = "आप किन सुझावों\n पर ध्यान देना चाहते है ?";
+
+/* Class = "UITextField"; placeholder = "Time Slots (min)"; ObjectID = "cjN-VI-6f4"; */
+"cjN-VI-6f4.placeholder" = "Time Slots (min)";
+
+/* Class = "UIButton"; normalTitle = "Clear Reminder"; ObjectID = "ejN-fc-HJY"; */
+"ejN-fc-HJY.normalTitle" = "रिमाइंडर हटाएँ";
+
+/* Class = "UILabel"; text = "What brings you to \nAyuRythm?"; ObjectID = "heX-ZE-Jir"; */
+"heX-ZE-Jir.text" = "AyuRythm\nकिस गतिविधि में आपकी सहायता कर सकता है ?";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "n4M-cL-XZb"; */
+"n4M-cL-XZb.title" = "Cancel";
+
+/* Class = "UITextField"; placeholder = "Time"; ObjectID = "pjQ-de-hEC"; */
+"pjQ-de-hEC.placeholder" = "समय";
+
+/* Class = "UIBarButtonItem"; title = "Clear & Exit"; ObjectID = "qCh-6D-B0w"; */
+"qCh-6D-B0w.title" = "रीसेट करें और वापस जाए";
+
+/* Class = "UILabel"; text = "Let's tailor this experience for you!"; ObjectID = "qT7-8Z-YDk"; */
+"qT7-8Z-YDk.text" = "आइये आपके लिए एक सुखद अनुभव वाली अभ्यास योजना बनायें।";
+
+/* Class = "UILabel"; text = "Beginner"; ObjectID = "r0Z-mc-yew"; */
+"r0Z-mc-yew.text" = "शुरुआती";
+
+/* Class = "UILabel"; text = "Yogasana"; ObjectID = "uYC-vk-8H4"; */
+"uYC-vk-8H4.text" = "योगासन";
+
+/* Class = "UINavigationItem"; title = "Your Preferences"; ObjectID = "x2G-SU-JaI"; */
+"x2G-SU-JaI.title" = "आपकी प्राथमिकताएँ";
+
+/* Class = "UILabel"; text = "Advanced"; ObjectID = "x8A-Qq-2zC"; */
+"x8A-Qq-2zC.text" = "उन्नत";
+
+/* Class = "UILabel"; text = "Hi <User>!"; ObjectID = "xvu-Cb-tyP"; */
+"xvu-Cb-tyP.text" = "नमस्ते <User>!";
+
+/* Class = "UILabel"; text = "That's awesome!"; ObjectID = "y7X-mp-z4s"; */
+"y7X-mp-z4s.text" = "वाह!";

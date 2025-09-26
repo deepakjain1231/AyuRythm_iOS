@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MPCategoryCell" id="LM8-PO-P5m" customClass="MPCategoryCell" customModule="AyuRythm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NkP-9J-Wh4">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="u2t-Gr-7Mx">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="herbs-category" translatesAutoresizingMaskIntoConstraints="NO" id="zDw-o0-OVM">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="78"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth1">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor1">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6QW-oG-Izh">
+                                        <rect key="frame" x="0.0" y="84" width="80" height="36"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="253" text="Beginner Beginner Beginner Beginner Beginner Beginner Beginner" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ure-bY-a1T">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="h8A-au-dZB"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="wellnessplan-view-bg"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="u2t-Gr-7Mx" secondAttribute="bottom" id="JrP-kG-oyG"/>
+                            <constraint firstItem="u2t-Gr-7Mx" firstAttribute="leading" secondItem="NkP-9J-Wh4" secondAttribute="leading" id="Ux0-uo-DLG"/>
+                            <constraint firstAttribute="trailing" secondItem="u2t-Gr-7Mx" secondAttribute="trailing" id="lDt-S2-3BI"/>
+                            <constraint firstItem="u2t-Gr-7Mx" firstAttribute="top" secondItem="NkP-9J-Wh4" secondAttribute="top" id="pai-oH-Q7S"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius1">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity1">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="nkH-ec-qey"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NkP-9J-Wh4" secondAttribute="bottom" id="9XM-0k-h3n"/>
+                <constraint firstAttribute="trailing" secondItem="NkP-9J-Wh4" secondAttribute="trailing" id="Ris-Ub-qOy"/>
+                <constraint firstItem="NkP-9J-Wh4" firstAttribute="leading" secondItem="LM8-PO-P5m" secondAttribute="leading" id="uvm-Am-CT5"/>
+                <constraint firstItem="NkP-9J-Wh4" firstAttribute="top" secondItem="LM8-PO-P5m" secondAttribute="top" id="z9f-BH-Nny"/>
+            </constraints>
+            <size key="customSize" width="188" height="169"/>
+            <connections>
+                <outlet property="picIV" destination="zDw-o0-OVM" id="rpA-4T-PcU"/>
+                <outlet property="titleL" destination="Ure-bY-a1T" id="HUv-hd-8MF"/>
+            </connections>
+            <point key="canvasLocation" x="237.68115942028987" y="164.0625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="herbs-category" width="80" height="80"/>
+        <namedColor name="wellnessplan-view-bg">
+            <color red="0.99215686274509807" green="0.99215686274509807" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
